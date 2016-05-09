@@ -1,0 +1,482 @@
+\chapter{Spin-Exchange Optical Pumping}
+\label{chap2}
+
+\section{Overview}
+
+This chapter introduces experimental setups and methods, as well as related concepts and techniques, for work done in this thesis. At a glance, the experimental realization involves the following apparatuses and tools:
+
+\begin{itemize}[noitemsep,topsep=0pt]
+	
+    \item {\bf Optical system} 
+    
+    Femtosecond Ti:sapphire oscillator-amplifier; THz source; H\"{a}nsch/Littman dye lasers.
+    
+	\item {\bf High vacuum system}
+	
+	The vacuum chamber is two-stage pumped (diffusion pump $+$ mechanical pump), with a base pressure as low as $\sim (2-3) \times 10^{-7}$ Torr. Liquid nitrogen cold traps can be used to further lower the pressure to $\sim 1 \times 10^{-7}$ Torr. 
+	
+	\item {\bf Samples} 
+	
+	Thermal atomic beam of Na is produced by heating of Na oven. Tungsten nanotips are prepared via electro-chemical etching.
+	
+	\item {\bf Detector} 
+	
+	The charged particle detector is a double-chevron-stacked micro channel plate (MCP) detector that outputs a pulsed voltage signal at the collection anode. In the experiments, the MCP detector functions as electron/ion sensor, or time-of-flight electron spectrometer, or retarding potential energy analyzer.
+	
+	\item {\bf Data acquisition and analysis}
+	
+	LeCroy 9350A (500 MHz), Tektronix 2440/2430 (500/200 MHz) oscilloscopes; Computers with data collection software; Analyzing/Simulation softwares (Origin, Matlab, Mathematica, \emph{etc.\@}).
+	
+	\item {\bf Timing}
+	
+	Lasers run at a 15 Hz repetition rate. Relative Timing is controlled by several Stanford Research DG535 delay generators.
+	
+\end{itemize}
+
+\section{Femtosecond laser system}
+
+Ever since the discovery of Kerr lens self mode-locking (KLM) in Ti:sapphire laser in 1991 \cite{KLMfsLaser1991}, rapid progress has been made in the generation of ultrashort femtosecond pulses with solid state lasers. Nowadays Ti:sapphire lasers are capable of
+directly generating sub-5 fs, sub-2 optical cycle pulses \cite{5fsLaser1999,5fsLaser2001}. Typically a Ti:sapphire oscillator is pumped by a continuous-wave (CW) laser, and delivers pulses with several nanojoule pulse energy at 60$-$100 MHz repetition (rep) rate when mode-locked (the rep rate $f_{rep}$ is determined by the cavity length $L$, $f_{rep}=2L/c$). Microjoule to joule level pulses can be obtained via chirped pulse amplification \cite{CPA1985}.
+
+The femtosecond laser system used for experiments in this thesis produces 150 fs, 790 nm pulses at 15 Hz rep rate, with an average pulse power up to 350 mW, corresponds to a pulse energy up to 23 mJ. It consists of a commercial Ti:sapphire oscillator (KMLabs MTS Mini Ti:Sapphire Laser) pumped by frequency doubled (532 nm) Nd:YVO$_{4}$ CW laser (Spectra-Physics Millennia Vs.), and a self-built chirped pulse amplifier (CPA) pumped by 15 Hz, Q-switched, frequency doubled (532 nm) Nd:YAG laser (Spectra-Physics Quanta Ray GCR-100). The CPA uses a two stage design: a regenerative (regen) pre-amplifier followed by a three-pass linear amplifier.
+
+The Ti:sapphire oscillator-amplifier design uses very well developed techniques and details can be found in many places. Sketches of the system I used can be found in Appendix \ref{apdxfslaser}, as well as in the PhD theses of former lab members (for example, see \cite{Murray-KrezanThesis2007,ZhangThesis2008}).
+
+\section{THz generation and characterization}
+
+The THz radiation used in the experiments is generated via tilted-pulse-front-pumping (TPFP) optical rectification of femtosecond laser pulses in LiNbO$_{3}$. The energy and spacial profile of the THz radiation are measured with a pyroelectric detector; the temporal profile is obtained by electro-optic sampling, as well as THz-NIR photoelectron streaking. As will be described in the experimental section of Chapter \ref{chap:THzNaIonization}, another way of characterizing the THz field strength is via THz induced field ionization of Rydberg atoms.
+
+\subsection{Optical rectification}
+
+There exist many methods of generating CW or pulsed THz radiation (for example, see Ref.\@ \cite{LeeTHzbook2009,THzgenerationRev2007,THzgenerationRev2011} and references there in). Based on the generation mechanism, these methods can be classified as: a) laser emission through population inversion (figure \ref{fig:THzgeneration}A); b) frequency conversion in nonlinear materials (figure \ref{fig:THzgeneration}B); and c) radiation by charge acceleration or photocurrent variation (figure \ref{fig:THzgeneration}C). Among these methods, optical rectification in electro-optic crystals, photocarrier acceleration in photoconductive antennas and electron acceleration in laser induced gas plasmas (four wave mixing enhanced) are widely applied in laboratory-based THz research today. All three of these involve the use of ultrafast femtosecond lasers.
+
+\begin{figure}[H]
+	
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{thz generation.png}}
+	\caption[Methods of generating THz radiation.]{{\bf Methods of generating THz radiation. (from Ref.\@ \cite{LeeTHzbook2009})}}
+	\label{fig:THzgeneration}
+	
+\end{figure}
+
+\begin{figure}[t!]
+	
+	\centering
+	\hspace{-7mm}
+	\resizebox{\textwidth}{!}{\includegraphics{ORprinciple.png}}
+	\caption[Principle of THz generation via optical rectification .]{{\bf Principle of THz generation via optical rectification.}}
+	\label{fig:ORprinciple}
+	
+\end{figure}
+
+Optical rectification is a second order nonlinear process. For a CW laser field (single frequency), it can be considered as the special case of difference frequency generation (DFG) where the two frequencies are identical, and a DC polarization is induced due to this process. Whereas for an ultrafast laser pulse (broad bandwidth), optical rectification is a cascaded intrapulse DFG process \cite{ORcascade}, and the induced polarization is a product of weighted sum of DFG between frequency components contained within the pulse bandwidth. ``Cascade" here means the frequency down conversion continues as long as the phase matching is satisfied so that a pump photon at $\omega$ can be converted into multiple photons at $\Omega$.
+\begin{equation}
+    \omega \rightarrow 
+    \begin{dcases}
+        \omega - \Omega \rightarrow
+        \begin{dcases}
+            \omega - 2 \Omega \rightarrow \cdots\\
+            \Omega
+        \end{dcases}\\
+        \Omega
+    \end{dcases} 
+\end{equation}
+The frequency bandwidth of a femtosecond pulse lies in THz regime ({\it e.g.\@} for a sinusoidal pulse with Gaussian envelope, $\Delta \tau_{FWHM} = 100$ fs corresponds to $\Delta f_{FWHM} = 4.41$ THz), thus optical rectification of ultrafast femtosecond laser pulses generates THz radiation. This process can also be viewed from the time domain: Optical rectification induces a polarization that follows the intensity envelope of the pump field, and the induced polarization is a source of electromagnetic radiation. Thus a pulsed pump will induce a pulsed field with frequency determined by the bandwidth of the pump pulse. 
+
+Efficient nonlinear conversion requires phase matching. In the case of THz generation by optical rectification of femtosecond laser pulses, it requires
+\begin{equation}
+    \begin{dcases}
+        {\bf k}_{NIR+THz} - {\bf k}_{NIR} = {\bf k}_{THz}\\
+        \omega_{NIR+THz} - \omega_{NIR} = \Omega_{THz}       
+    \end{dcases}
+\end{equation}
+In the collinear case, since $\Omega_{THz} \ll \omega_{NIR}$, dividing the first equation by the second gives
+\begin{equation}
+    \pdv{k}{\omega}\bigg|_{\omega_{NIR}} = \frac{k_{THz}}{\Omega_{THz}}
+\end{equation}
+Because $v_{NIR}^{gr} \triangleq \pdv{\omega}{k}\big|_{k_{NIR}}$ and $v_{THz} \triangleq \frac{\Omega_{THz}}{k_{THz}}$, phase matching is then equivalent to velocity matching, {\it i.e.\@} the group velocity of the NIR pump pulse must equal the phase velocity of the THz radiation inside the nonlinear material \cite{ORNelsonandHebling}
+\begin{equation}
+    v_{NIR}^{gr} = v_{THz} \quad or \quad n_{NIR}^{gr} = n_{THz}    
+\end{equation}
+
+Stochiometric LiNbO$_{3}$ (sLN) is a great candidate for the generation of THz via optical rectification, mainly because of its relatively high $\chi^{(2)}$ nonlinearity and wide bandgap (wide bandgap reduces multiphoton absorption of the pump pulse which generates free carriers that causes THz absorption) \cite{ORNelsonandHebling}. But the large index difference between optical and THz frequencies in sLN ($n_{800nm}^{gr} = 2.25$, $n_{1.55\mu m}^{gr} = 2.18$, $n_{THz} = 4.96$) \cite{ORNelsonandHebling} makes collinear phase matching impossible. Therefore a non-collinear Cherenkov geometry \cite{Cherenkov1,Cherenkov2,Cherenkov3} or quasi-phase-matching in periodically poled LiNbO$_{3}$ (PPLN) \cite{PPLN,PPLNtheo,PPLNexp} were preferred methods. However, in 2002, Hebling {\it et al.\@} proposed a tilted-pulse-front-pumping scheme for phase matching \cite{ORoriginal}. This technique has being rapidly developed over the last 14 years and has proven to be a very efficient method for table-top generation of bright THz pulses \cite{ORNelsonandHebling,ORtheo1,ORtheo2,ORtheo3,ORjapan,OR4percent,OR125uJ,OR0.4mJ}. With it, the generation of THz pulses with $\mu J$ energies and near-MV/cm peak field strengths has been achieved when pumping by multi-mJ NIR pulses. Possibilities for further scaling up to tens-of-mJ and 100 MV/cm levels \cite{ORtheo2} have been discussed. To my knowledge, the highest optical rectification generated THz pulse energy reported so far exceeds 0.4 mJ \cite{OR0.4mJ}.
+
+In the TPFP scheme, the intensity front of the NIR pump pulse is tilted by a angle of $\gamma$ inside the nonlinear crystal via grating diffraction, and the crystal is cut at this angle as well for the purpose of normal exit. According to Huygens's principle, the propagation direction of the generated THz radiation is perpendicular to the intensity front of the pump (thus at an angle $\gamma$ relative to the propagation direction of the pump), if $\gamma$ satisfies \cite{ORNelsonandHebling}
+\begin{equation}
+    v_{NIR}^{gr} \cos \gamma = v_{THz}
+\end{equation}
+the THz wave propagates with a fixed phase relative to the pump intensity front, radiation produced at different times and positions along the pump front adds coherently and efficient nonlinear conversion is obtained. 
+
+\begin{figure}[H]
+	
+	\centering
+	\resizebox{\textwidth}{!}{\includegraphics{TPFPprinciple.png}}
+	\caption[Phase matching via tilted-pulse-front pumping.]{{\bf Phase matching via tilted-pulse-front-pumping. (redraw follows Ref.\@ \cite{ORNelsonandHebling})}}
+	\label{fig:TPFPprinciple}
+	
+\end{figure}
+
+The TPFP phase matching can also be understood by looking at the DFG process. Diffraction of the broad bandwidth NIR laser pulse from the grating introduces not only an intensity front tilt $\gamma$, but also angular dispersion $\dv{\Theta}{\omega}$. The relationship between $\gamma$ and $\dv{\Theta}{\omega}$ is given by \cite{ORdispersion}
+\begin{equation}\label{tiltangle1}
+    \tan \gamma = - \frac{\bar{n}_{NIR}}{n_{NIR}^{gr}} \bar{\omega}_{NIR} \dv{\Theta}{\omega}
+\end{equation}
+
+The following non-collinear phase matching conditions must be satisfied for efficient DFG between dispersed frequency components of the NIR pulse
+\begin{subnumcases}{}
+    \frac{k_{NIR+THz}}{\sin(\gamma^{\ast} + \Delta \Theta/2)} = \frac{k_{NIR}}{\sin(\gamma^{\ast} - \Delta \Theta/2)} = \frac{k_{THz}}{\sin \Delta \Theta} \label{ncPM1a}\\
+    \omega_{NIR+THz} - \omega_{NIR} = \Omega_{THz} \label{ncPM2}
+\end{subnumcases}
+Here $\gamma^{\ast}$ is the angle between propagation direction of the THz pulse and ``average" propagation direction
+of the NIR pulse. Making the small angle approximation in Eq.\@ \ref{ncPM1a} gives
+\begin{equation}\label{ncPM1b}
+    \begin{split}
+        &\quad \begin{dcases}
+            k_{NIR+THz} \cdot \Delta \Theta = k_{THz}(\sin \gamma^{\ast} + \Delta \Theta/2 \cdot \cos \gamma^{\ast})\\   
+            k_{NIR} \cdot \Delta \Theta = k_{THz}(\sin \gamma^{\ast} - \Delta \Theta/2 \cdot \cos \gamma^{\ast})
+        \end{dcases}\\
+        &{\bm \Rightarrow}
+        \begin{dcases}
+            k_{NIR+THz} - k_{NIR} = k_{THz} \cos{\gamma^{\ast}}\\
+            \bar{k}_{NIR} \cdot \Delta \Theta = k_{THz} \sin \gamma^{\ast}
+        \end{dcases}
+    \end{split}
+\end{equation}
+Dividing Eq.\@ \ref{ncPM1b} by Eq.\@ \ref{ncPM2} gives
+\begin{subnumcases}{}
+    v_{NIR}^{gr} \ast \cos \gamma^{\ast} = v_{THz} \quad or \quad n_{NIR}^{gr} = n_{THz} \ast \cos \gamma^{\ast} \label{ncVM}\\
+    \bar{n}_{NIR} \bar{\omega}_{NIR} \dv{\Theta}{\omega} = n_{THz} \sin \gamma^{\ast} \label{ncVM1}
+\end{subnumcases}
+
+Eq.\@ \ref{ncVM} is essentially the equation of non-collinear velocity matching. Finally, dividing Eq.\@ \ref{ncVM1} by \ref{ncVM} gives
+\begin{equation}\label{tiltangle2}
+\tan \gamma^{\ast} = \frac{\bar{n}_{NIR}}{n_{NIR}^{gr}} \bar{\omega}_{NIR} \dv{\Theta}{\omega}
+\end{equation}
+
+It is clear, by comparing Eq.\@ \ref{tiltangle1} and Eq.\@ \ref{tiltangle2}, that the angle $\gamma^{\ast}$ between the propagation directions of the THz and NIR pulses is the same as the NIR pulse front tilt angle $\gamma$. 
+
+In the experiments, the NIR pump pulse front tilt angle $\gamma$ is $63\degree - 65\degree$, while the angular spread of the light beam is about $2\degree - 5\degree$, therefore small angle approximation used in the preceding derivation is valid \cite{ORNelsonandHebling}.
+
+\begin{figure}[H]
+	
+	\centering
+	\resizebox{\textwidth}{!}{\includegraphics{TPFPsetup.png}}
+	\caption[Schematic of the experimental setup for THz generation via TPFP opcical rectification.]{{\bf Schematic of the experimental setup for THz generation via tilted-pulse-front-pumping optical rectification.} Optimal THz beam characteristics and pump to THz conversion efficiency are reached when the tilt angle of the grating image inside the LiNbO$_3$ coincides with that of the pump pulse front \cite{ORtheo1,ORjapan}, from which the grating angle and de-magnification can be calculated. To obtain a tilt angle $\gamma = 64 \degree$ with a 1800/mm grating, optimal de-magnification and grating angle are $\sim$0.59 and $\sim$35.3\degree, respectively. In the experiments, a de-magnification of 0.6, and a grating angle of $\sim$33.6\degree are used.}
+	\label{fig:TPFPsetup}
+	
+\end{figure}
+
+\newpage
+\subsection{Electro-optic sampling}
+
+Obtaining the THz temporal profile by electro-optic sampling (EOS) is essentially a THz-NIR cross-correlation measurement, the THz pulse modifies the index ellipsoid of the electro-optic crystal, changes the indices of refraction in proportion to its instantaneous field strength, which alters the polarization of the NIR pulse. By sampling the polarization change as a function of the delay between THz and NIR pulses, the temporal shape of the THz pulse can be obtained. EOS is based on the linear electro-optic effect (Pockels effect), which is a second order ($\chi^{(2)}$) nonlinear effect that results in a linear dependence of the  change in refractive indices on the applied electric field.
+
+\begin{figure}[H]
+	
+	\centering
+	\resizebox{\textwidth}{!}{\includegraphics{EOSprinciple.png}}
+	\caption[Principle of electro-optic sampling.]{{\bf Principle of electro-optic sampling.} The THz pulse modifies the index ellipsoid of the electro-optic crystal, which alters the polarization of the NIR pulse. (Index ellipses in blue and green colors correspond to THz field vector in the ${\bm X}$ and $-{\bm X}$ directions, respectively. ${\bm U_i}$ are the modified principle axes.)}
+	\label{fig:EOSprinciple}
+	
+\end{figure}
+
+Figure \ref{fig:EOSprinciple} illustrates the principle of EOS: A $d$=1 mm thick, (110) cut ZnTe is used as the EOS crystal. It is optically isotropic at vanishing electric fields. By applying the THz pump pulse polarizing along $\bm{X}$ axis, and propagating along $\bm{Z}$ axis, the modified index ellipse has its main axes $\pm$45\degree\ relative to $\bm{X}$, and an change of refractive indices $\Delta n_{1,2} = \pm\frac{{n_{0}}^{3}r_{41}E_{THz}}{2}$, which is proportional to the THz electric field $E_{THz}$, is induced. Here $r_{41}$ is the Pockels coefficient, for ZnTe it is about of $4 \ pm/V$ \cite{ZnTer41} at THz frequencies. The NIR pulse also oscillates along $\bm{X}$ axis, a phase shift $\Delta\varphi$ will therefore be introduced between the two polarization components (along $\bm{U}_{1}$ and $\bm{U}_{2}$) of its electric vector $\bm{E}_{NIR}$
+\begin{equation}\label{phaseshift}
+    \Delta\varphi = \frac{\omega_{\scriptscriptstyle NIR} d}{c}(n_{s}-n_{f}) = \frac{\omega_{\scriptscriptstyle NIR} d}{c}{n_{0}}^{3} r_{41} E_{THz} \propto E_{THz}
+\end{equation}
+
+The THz field can be determined by ``measuring" the phase shift. The detection setup consists of: the ZnTe crystal, a $45\degree$ (relative to $\bm{X}$) rotated quarter wave plate (QWP), a wollaston prism (WP) \big(or polarizing beam splitter (PBS)\big) and a balanced diode detector. Figure \ref{fig:EOSsetup} is schematic of the setup. Without the THz field, the NIR probe pulse is circularly polarized after the QWP and the balanced diode detector signal is zero. With the THz field, the ZnTe acts as a field dependent $\Delta \varphi (E_{THz})$ phase retarder and the NIR probe pulse becomes elliptically polarized after the QWP. The signal of the balanced diode detector in this case is calculated to be:
+\begin{equation}\label{EOSsig}
+    Sig. \propto E_{NIR}^{2}\sin(\Delta\varphi) \propto \sin(\Delta\varphi)
+\end{equation}
+
+Note it is important to keep the THz field small so that the the phase shift doesn't exceed $\pi/2$. (For a 1 kV/cm field, Eq.\@ \ref{phaseshift} gives an induced phase shift of $\sim$4\degree). If the phase shift is small, we can apply the small angle approximation to Eq.\@ \ref{EOSsig} and, recalling Eq.\@ \ref{phaseshift}, the signal is found to be propotional to the THz field,
+\begin{equation}
+    Sig. \propto E_{THz}
+\end{equation}
+
+A $\pi/2$ phase shift can be calibrated by adding one more QWP after the ZnTe and rotating it to record the balanced diode detector signal in the absence of the THz field (Maximum positive/negative signal correspond to $\pm \pi/2$ phase shift, which occurs when fast axes of the two QWPs are aligned or $\pi/2$ crossed).
+
+A detailed derivation of the electro-optic sampling can be found in appendix \ref{apdx:EOS}, as well as in Ref.\@ \cite{WinterthesisEOS}.
+
+We have performed the THz-NIR electro-optic sampling experiments to measure the waveform of THz generated via TPFP optical rectification and results are shown in figure \ref{fig:EOSresult}.
+
+\begin{figure}[H]
+	
+	\centering
+	\resizebox{\textwidth}{!}{\includegraphics{EOSsetup.png}}
+	\caption[Schematic of the electro-optic sampling detection setup.]{{\bf Schematic of the EOS detection setup.} $\lambda/2$: half wave plate; $\lambda/4$: quarter wave plate; PBS: polarizing beam splitter. Note the incident NIR pulse to the grating is horizontally polarized, whereas the incident THz and NIR pulses to ZnTe crystal are both vertically polarized. The polarization changes are shown horizontally for demonstration purpose.}
+	\label{fig:EOSsetup}
+	
+\end{figure}
+
+\begin{figure}[H]
+	
+	\vspace{-0.5\baselineskip}
+	\centering
+	\subfloat[]{\resizebox{0.5\textwidth}{!}{\includegraphics{EOSa.png}}
+		\label{fig:EOSresult1}}
+	\subfloat[]{\resizebox{0.5\textwidth}{!}{\includegraphics{EOSb.png}}
+		\label{fig:EOSresult2}} \\
+	\vspace{-0.5\baselineskip}
+	\subfloat[]{\resizebox{0.51\textwidth}{!}{\includegraphics{EOSc.png}}
+		\label{fig:EOSresult3}}
+	\subfloat[]{\resizebox{0.49\textwidth}{!}{\includegraphics{EOSd.png}}
+		\label{fig:EOSresult4}}
+	\caption[THz-NIR electro-optic sampling results.]
+	        {{\bf THz-NIR electro-optic sampling results.}\\
+            {\bf a)} 3 EOS scans show single cycle THz waveform with frequency $\omega_{\scriptscriptstyle THz} \simeq 0.25$ THz. The field maximum all scaled to one and y axis shifted for clarity. We have examined the output of THz generated by LiNbO$_{3}$ pumped with several NIR pulses: (blue) slight positive chirp, (red) shortest pulse duration (about 150 fs), (green) slight negative chirp. As is shown, the overall shape of the THz waveform doesn't change appreciably, but the max field strength obtained with the shortest pump pulse is about 3 times bigger than with chirped pulses. \\
+            {\bf b)} Longer time scans show extra THz peak, this is due to THz reflections inside the ZnTe crystal. Ideally, a thinner ZnTe crystal and lower THz field are preferred for EOS measurements to reduce unwanted nonlinearities.\\
+            {\bf c)} FFT power spectrum of data in a).\\
+            {\bf d)} THz field calculated from the measured phase shift, shown as the blue trace in a).}
+    \label{fig:EOSresult}
+    \vspace{-0.5\baselineskip}
+    
+\end{figure}
+
+
+\subsection{Streaking spectroscopy}
+A conventional streak camera records the intensity profile of a light pulse on the temporal and spacial (spectral) axis by ``streaking" it into a 2D spatial profile on the detector, in which case fast signal can therefore be captured with ``slow" detectors \cite{GuideStreakCamera}. The ``streaking" can be achieved either mechanically, by using a rotating mirror or moving slit system to deflect the light, or electronically, by triggering electron emission with the light pulse through photoelectric effect and then deflecting the photoelectrons with electronic device. Mechanical streaking provides high spatial resolution but is limited in temporal resolution, whereas electronic streaking has superb temporal resolution (state-of-the-art commercial designs allows a temporal resolution of around 200 fs \cite{fsStreakcamera}) but with limited spatial resolution. 
+
+The idea of pump-probe all optical streaking offers a way of directly accessing the electric field of a light wave: A pump pulse photo-ionizes a sample, photoelectrons then interact with the probe/streak pulse, the electric field of the streak pulse can be deduced by sampling the momentum transfer (from the streak field to the photoelectrons) as a function of time delay between the pump and streak pulses. Moreover, information about the temporal dynamics of photoemission/photoionization process are encoded in the streaked photoelectron spectra, decoding these information is the core of streaking spectroscopy and has been playing an important role in today's attosecond researches (See the review articles \cite{AttoPhysRev2009,AttoMetrologyRev2014} and references therein). Here to make it clear, the pump pulse ``probes" the electric field of the probe/streak pulse, and the probe/streak pulse ``probes" the photoemission/photoionization dynamics of the sample.
+
+
+For a pump pulse with pulse duration much shorter than the period of the streak pulse, {\it i.e.\@} $\tau_{pump} \ll T_{streak}$, the temporal variation of the streak field is ``frozen" with in the time interval $\tau_{pump}$, and the photoelectrons can be considered as instantly launched into the streak field \cite{fsFieldMeasurement2004}. The momentum transfer  from the streak field to the photoelectrons is
+\begin{equation}
+    \Delta p(\bm{r},\ t) = -e\int_{t}^{\infty}E_{streak}(\bm{r},\ t') \mathrm{d} t' = \frac{e}{c} \big( A(\bm{r},\ \infty) - A(\bm{r},\ t) \big)
+\end{equation}
+
+Here $e$ is the elementary charge (-$e$ is electron charge), $c$ is the speed of light in vacuum, $E_{streak}(\bm{r},\ t)$ and $A(\bm{r},\ t)$ are the electric field and vector potential of the streak pulse, respectively. $\Delta p$ is zero if the pump and streak pulses are very far apart, accordingly, without loss of generality, we can define $A(\bm{r},\ -\infty) = A (\bm{r},\ \infty) =0$ such that
+\begin{equation}\label{deltaP}
+    \Delta p(\bm{r},\ t) = -\frac{e}{c} A(\bm{r},\ t)
+\end{equation}
+
+Equation \ref{deltaP} is the essence of simpleman's model and can be trivially inverted to give the electric field of the streak pulse
+\begin{equation}
+    eE(\bm{r},\ t) = \dv{}{t} \big( \Delta p(\bm{r},\ t) \big)
+\end{equation}
+
+???taling about temporal resolution of optical streaking???
+
+The first demonstration of ultrafast light field measurement with (NIR-XUV) optical streaking technique was carried out in 2004 \cite{fsFieldMeasurement2004}. A $\lambda = 750$ nm, $\tau_{\scriptscriptstyle FWHM} = 4.3$ fs ultrafast few-cycle laser pulse has been characterized using a 250 attosecond XUV pulse. See figure \ref{fig:NIR-XUV field measurement principle} and figure \ref{fig:NIR-XUV streak results} for details.
+
+In this thesis, we have measured the THz waveform using THz-NIR optical streaking and examined the energy transfer in single-cycle limit. A detailed description will be included in Chap.\@ \ref{chap:THzNaIonization}.
+
+\newpage
+\begin{figure}[H]
+	
+	\centering
+	\resizebox{0.6\textwidth}{!}{\includegraphics{NIR-XUV field measurement principle.jpg}}
+	\vspace{-3mm}
+	\caption[NIR-XUV optical streaking light field measurement: Principle.]{{\bf NIR-XUV optical streaking light field measurement: Principle, from Ref.\@ \cite{fsFieldMeasurement2004}.} A few-cycle pulse of laser light, together with a synchronized subfemtosecond XUV burst, is focused into an atomic gas target. The XUV pulse knocks electrons free by photoionization. The light electric field $E_L(t)$ to be measured imparts a momentum change to the electrons (black arrows), which scales as the instantaneous value of the vector potential $A_L(t)$ at the instant of release of the probing electrons. The momentum change is measured by an electron detector, which collects the electrons ejected along the direction of the linearly polarized $E_L(\bm{r},\ t)$.}
+	\label{fig:NIR-XUV field measurement principle}
+	
+\end{figure}
+
+\begin{figure}[H]
+	
+	\vspace{-0.5\baselineskip}
+	\centering
+	\vspace{-6mm}
+	\subfloat{\resizebox{!}{50mm}{\includegraphics{NIR-XUV streak elec energy.jpg}}
+    \label{fig:NIR-XUV streak elec energy}}
+	\subfloat{\resizebox{!}{50mm}{\includegraphics{NIR-XUV streak field shape.jpg}}
+    \label{fig:NIR-XUV streak field shape}}
+	\vspace{-3mm}
+	\caption[NIR-XUV optical streaking light field measurment: Streaked electron energies and derived NIR light field.]{{\bf NIR-XUV optical streaking light field measurment: Streaked electron energies and derived NIR light field, from Ref.\@ \cite{fsFieldMeasurement2004}.} {\bf Left)} A series of kinetic energy spectra of electrons detached by a 250-as, 93-eV XUV pulse from neon atoms in the presence of an intense $<$ 5-fs, 750-nm laser field, in false-color representation. The delay of the XUV probe was varied in steps of 200 as, and each spectrum was accumulated over 100 s. The detected electrons were ejected along the laser electric field vector with a mean initial kinetic energy of $p_i^2 \approx \hbar\omega_{\scriptscriptstyle {XUV}} - W_b = 93\ eV - 21.5\ eV = 71.5\ eV$. The energy shift of the electrons versus the timing of the XUV trigger pulse that launches the probing electrons directly represents $A_L(t)$. {\bf Right)} $E_L(t)$ reconstructed (red line) from the data depicted in the left figure and calculated (gray line) from the measured pulse spectrum (inset) with the assumed absence of a frequency-dependent phase and with $E_0$ and $\varphi$ chosen so as to afford optimum matching to the measured field evolution.}
+	\label{fig:NIR-XUV streak results}
+	\vspace{-0.5\baselineskip}
+	
+\end{figure}
+
+\section{Dye Lasers}
+Dye lasers use fluorescing organic dyes, usually in the form of liquid solution, as the gain medium. Due to the advantage of broad wavelength tunablility (typically 30$-$100 nm for a specific dye, and a wide range of emission spectra, from near-ultraviolet to near-infrared (311$-$1800 nm), is accessible with over 500 different dyes \cite{LaserWavelengths}), they are widely applied in scientific research. There are several categories of dye lasers, such as CW dye lasers, ultrashort pulsed dye lasers, and narrow linewidth dye lasers, {\it etc.\@} \cite{DyelaserRev2003}.  In this thesis, narrow linewidth pulsed dye lasers have been used.
+
+\begin{figure}[H]
+	
+	\vspace{-0.5\baselineskip}
+	\centering
+	\captionsetup[subfloat]{captionskip=-2mm}
+	\subfloat[]{\resizebox{100mm}{!}{\includegraphics{HDyelaser.png}}\label{fig:HDyelaser}}\\
+	\vspace{-3mm}
+	\subfloat[]{\resizebox{105mm}{!}{\includegraphics{LDyelaser.png}}\label{fig:LDyelaser}}
+	\caption[Schematics of H\"{a}nsch and Littman dye lasers.]{{\bf Schematics of {\bf a)} H\"{a}nsch and {\bf b)} Littman dye lasers.}}
+	\label{fig:Dyelasers}
+	\vspace{-0.5\baselineskip}
+	
+\end{figure}
+
+There are two basic designs of narrow linewidth pulsed dye lasers, which are named after their designers, H\"{a}nsch \cite{HanschDyelaser1972} and Littman \cite{LittmanDyelaser1978}. Typical schematics are shown in figures \ref{fig:HDyelaser} and \ref{fig:LDyelaser}. Narrow linewidth is achieved by expanding the beam (with telescope or grazing grating incidence) and selecting the desired wavelength (using the angular dispersion of a diffraction grating) to oscillate in the cavity. Advanced designs, such as prismatic beam expansion and intra-cavity etalons, can be used to get even narrower linewidth. State-of-the-art commercial pulsed dye lasers reach linewidths below 0.03 cm$^{-1}$ (900 MHz) at 570 nm, without any intra-cavity etalons \cite{CobraDyelaser,VistaDyelaser}.
+
+Both H\"{a}nsch and Littman dye lasers, self-constructed, have been used in this thesis to drive Rydberg excitations for the THz induced Na ionization experiments in Chap.\@ \ref{chap:THzNaIonization} and Chap.\@ \ref{chap:THzNaStarkIonization}. The optical energy source, or pump, is provided by the 2nd (532 nm) or 3rd (355 nm) harmonic of $<$10 ns pulsed Nd:YAG laser. Typical linewidths for the lasers used are about 1 cm$^{-1}$ and 0.25 cm$^{-1}$ for the H\"{a}nsch and Littman designs, respectively. 
+
+\section{Photoelectron spectroscopy}
+
+Principles of measuring the energy of electrons typically involve analyzing the effects of electrostatic force $\bm{F}=-e \bm{E}$ or magnetic force $\bm{F}=-e \bm{v} \times \bm{B}$ on electrons, and/or transferring energy into other measurable variables (time, displacement, {\it etc.\@}). Two techniques have been used in this thesis: time-of-flight electron spectrometer and retarding potential analyzer.
+
+\subsection{Time-of-flight electron spectrometer}
+
+A time-of-flight (TOF) electron spectrometer determines the kinetic energy $E_{k}$ of electrons by transforming it into time $t$. After traveling a distance (namely the drift path $L$) in a field free region, electrons with different energies arrive at the detector at different times, an oscilloscope records the electron yield $\Delta N$ as a function of arrival time and the energy spectra can be obtained by performing variable transformation to the probability density function ($P_{pdf}$):
+\begin{subequations}
+\begin{gather}
+    E_k(t) = \frac{m_eL^2}{2t^2}\quad or\quad t(E_k) = \sqrt{\frac{m_{e}L^2}{2E_{k}}} \label{EvsT} \\
+    P_{pdf}(E_{k}) = P_{pdf}(t)\bigg| \dv{t}{E_{k}} \bigg| = P_{pdf}(t) \sqrt{\frac{m_{e}L^2}{8}}E_{k}^{-3/2}\\
+    \frac{\Delta N(t)}{N_0}
+               = \int\limits_{t}^{t + \Delta t} P_{pdf}(t')\mathrm{d}t'
+               = P_{cdf}(t + \Delta t) - P_{cdf}(t)\\
+    P_{pdf}(t) = \dv{P_{cdf}(t)}{t} = \lim_{\Delta t \to 0} \frac{P_{cdf}(t + \Delta t) - P_{cdf}(t)}{\Delta t} = \frac{1}{N_0} \lim_{\Delta t \to 0} \frac{\Delta N(t)}{\Delta t}
+\end{gather}
+\end{subequations}
+Here $m_e$ is the electron mass, $P_{cdf}(t) = \int_{-\infty}^{t} P_{pdf}(t')\mathrm{d}t'$ is the cumulative distribution function, and $N_0 = \sum\limits_{t} \Delta N(t)$ is the normalizing factor. In fact, we can directly perform the variable transformation on the recorded data $\Delta N(t)$ as it is essentially the histogram representation of $P_{pdf}(t)$:
+\begin{equation}
+    \Delta N(E_k) = \Delta N(t) \bigg| \dv{t}{E_{k}} \bigg| = \Delta N(t) \sqrt{\frac{m_{e}L^2}{8}}E_{k}^{-3/2}
+\end{equation}
+From equation \ref{EvsT} the energy resolution of the spectrometer is
+\begin{equation}
+    \frac{\delta_{E_k}}{E_k} = 2\sqrt{\big(\frac{\delta_{t}}{t}\big)^2 + \big(\frac{\delta_{L}}{L}\big)^2}
+\end{equation}
+
+In experimental realization, a TOF electron spectrometer needs to be calibrated prior to usage, mainly to determine the time zero $t_{0}$ (the ``birth" time of photoelectrons relative to the trigger time of the scope), and some geometric parameters of the spectrometer. 
+
+A self-bulit TOF electron spectrometer has been used in Chap.\@ \ref{chap:THzNaIonization}, to measure the energy of electrons from THz induced field ionization of Rydberg atoms. Figure \ref{fig:TOFandRPA}(left) is schematic of the spectrometer. Calibration was carried out by recording the TOF of $\sim$100 meV femtosecond photoelectron burst (two-photon ionization from Na $3p_{1/2}$ to continuum by a 150 fs, 395 nm frequency-doubled Ti:Sapphire laser pulse) under various bias potentials.
+\begin{equation}
+    \begin{aligned}
+        TOF&= t-t_0 \\
+           &= \frac{m_eD}{eV_b}\big[(v_0^2 + \frac{2d}{D}\frac{eV_b}{m_e})^{1/2} - v_0\big] + L(v_0^2 + \frac{2d}{D}\frac{eV_b}{m_e})^{-1/2} \\
+           &= \frac{d + L}{v_0}, \quad\quad\quad\quad\quad\quad\quad\quad\quad V_b = 0, \ v_0 > 0 \\
+           &= \sqrt{\frac{m_e}{e}} \sqrt{\frac{2d}{D}} (D + L) V_b^{-1/2}, \quad v_0 = 0, \ V_b > 0
+    \end{aligned}
+\end{equation}
+Here $m_e$ is the electron mass, $e$ is the elementary charge, $t_0$ is the trigger time of the oscilloscope, $v_0$ is the initial velocity of the photoelectrons, $V_b$ is the bias voltage, $L$ is the field free drift path, $d$ is the field dependent acceleration path, $D$ is the separation between the two plates of the interaction region.
+
+%The entrance aperture of the detector tube is %about 1 cm in diameter and 3 cm in height, TOF %calibration gives $L$ = 13.6 cm, $d$ = 2 cm and %$d_1$ = 1 cm, detecting acceptance angle is about %$\pm$2\degree\ in this configuration.
+
+\begin{figure}[H]
+	
+	\centering
+	\resizebox{0.8\textwidth}{!}{\includegraphics{TOFandRPA.png}}
+	\caption[Time of flight electron spectrometer and retarding potential analyzer.]{{\bf Time of flight electron spectrometer (left) and retarding potential analyzer (right).}}
+	\label{fig:TOFandRPA}
+\end{figure}
+
+\begin{figure}[H]
+	
+	\vspace{-0.5\baselineskip}
+	\centering
+	\subfloat[]{\resizebox{0.5\textwidth}{!}{\includegraphics{TOF1a.png}}
+		\label{fig:TOFresult1}}
+	\subfloat[]{\resizebox{0.5\textwidth}{!}{\includegraphics{TOF1b.png}}
+		\label{fig:TOFresult2}} \\
+	\vspace{-0.5\baselineskip}
+	\subfloat[]{\resizebox{0.51\textwidth}{!}{\includegraphics{TOF1c.png}}
+		\label{fig:TOFresult3}}
+	\subfloat[]{\resizebox{0.49\textwidth}{!}{\includegraphics{TOF2.png}}
+		\label{fig:TOFresult4}}
+	\caption[TOF electron spectrometer calibration results.]
+	{{\bf TOF electron spectrometer calibration results.} At low bias voltage, there are two delay peaks of electron signal (see figure b), propablly due to photonemission that's either pointing up (postive $v_0$) or down (negative $v_0$). The two signal merge at high bias voltage. Figure {\bf a-c} show the time of flight calibration. It was found that the late delay peak is equally well described by $v_0 = 0$ m/s or $v_0 = -2.23 \times 10^5$ m/s. So assuming $v_0 = 0$ m/s, it is straightforward to find the best fit values by plotting the TOF as a function of $V_b^{-1/2}$ (figure {\bf d}).}
+	\label{fig:TOFresult}
+	\vspace{-0.5\baselineskip}
+	
+\end{figure}
+
+The energy resolution of the spectrometer is mainly limited by the resolution of the data collection oscilloscope (LeCroy 9350A, bandwidth 500 MHz, maximum sample rate 1 GS/s, the electron signal has a $10\%-90\%$ rising time of $\sim$1.5 ns). For example, the resolution is $\Delta E_k \simeq 5$ eV at $E_k \simeq 100$ eV and $\Delta E_k \simeq 6$ meV at $E_k \simeq 1$ eV, respectively.
+
+\subsection{Retarding potential analyzer}
+
+A retarding potential analyzer (RPA) analyzes the the kinetic energy $E_{k}$ of electrons by applying a retarding voltage $V_{r}$ and filtering out electrons with energy below the cutoff potential $E_{k} < eV_r = U_r$ (a electron high energy pass filter). An oscilloscope records the electron yield $N$ as a function of the cutoff potential and the energy spectra can be obtained by doing differentiation
+\begin{equation}
+    \begin{gathered}
+        N(E_k)\big|_{U_r} = \int_{U_r}^{\infty} P_{pdf}(E_k)dE_k = 1 - \int_{-\infty}^{U_r} P_{pdf}(E_k)dE_k = 1 - P_{cdf}(E_k)\big|_{U_r}\\      
+    	\begin{aligned}
+    	P_{pdf}(E_k)\big|_{U_r} 
+      	&= \dv{P_{cdf}(E_k)}{E_k}\bigg|_{U_r} = -\dv{N(E_k)}{E_k}\bigg|_{U_r}\\
+        &= - \lim_{\Delta E_k \to 0} \frac{N(E_k + \Delta E_k) - N(E_k)}{\Delta E_k}\bigg|_{U_r} 
+      	\end{aligned}                	
+	\end{gathered}
+\end{equation}
+
+The RPA has been used for the experiments in Chap.\@ \ref{chap:THzFieldemission}, to measure the energy of electrons from THz induced field emission. The design is shown in figure \ref{TOFandRPA}: The retarding voltage $V_r$ ($V_r \leq 0$) is directly added on the entrance side of the MCPs and an external voltage divider circuit is used to keep the voltage across the MCPs ($V_{mcp}$) constant. During the measurements when changing $V_r$, If $-V_r \leq V_{mcp}$, the exit side of the MCPs is positively biased with voltage $V =V_{mcp} + V_r$, whereas if $-V_r > V_{mcp}$, it is grounded and $V_{mcp}$ is kept constant by adjusting the potentiometer so that the reading of the micro-current meter remain unchanged. 
+
+In the experiments, depending on how big the electron signal is, $V_{mcp}$ is kept at $1400-2000$ volts, and the micro-current meter has a reading of several tens $\mu A$ and a resolution of 0.1 $\mu A$, corresponding to a energy resolution of several eV ({\it e.g.\@} For $V_{mcp}$ = 1.5/1.8 kV, $I \simeq$ 66/87 $\mu A$, $\Delta I$ = 0.1 $\mu A$ corresponds to $\Delta E$ = 2.3/2.1 eV). The energy resolution also depends on the design of the detector, mainly on how well it collimates the electron beam ({\it e.g.\@} A $2\degree/10\degree$ divergence corresponds to a $0.6\permil/1.5\%$ relative error). For the specific experiment of THz induced field emission, the emission angle is very small (???deg), and the electrons have very high energies (keV) with spectra bandwidth of hundreds eV, divergence due to space charge is the main source of spectra broadening.
+
+It has to be pointed out that a typical RPA uses extra grids to apply the regarding voltage, the reason I do it in a different way here is for convenience. The detector originally doesn't have RPA grids, careful design is needed to avoid arc if add extra grids for high voltage. By adding an external circuit, I don't need to do any change to the detector to make it function as RPA, the disadvantage is that data collection time is longer. 
+
+\section{Sample preparation}
+
+\subsection{Sodium Oven}
+
+For the experiments described in Chaps.\@ \ref{chap:THzNaIonization} and \ref{chap:THzNaStarkIonization}, a thermal atomic beam of Na is produced by heating of a Na oven, which is essentially a stainless steel tube half filled with a few grams of solid Na, crimped on both ends with a small side hole drilled in the middle for beam output. Upon heating, Na atoms are vaporized and effuse from the side hole. The solid Na is usually stored in mineral oil. Before filling the oven tube, several Na pieces with a thinner oxide layer are cut into smaller pieces to expose the unoxidized portion and then rinsed with toluene. The oven tube is made of 316 steel, length/thickness/OD is 6$\,''$/0.007$\,''$/0.25$\,''$, side hole diameter is 0.04 mm. The total resistance is approximately 0.1 $\Omega$. The heating current supply consists of a set of filament transformers wired in parallel converting 120V AC to 6.3V AC. A Variac AC voltage regulator is used to control the voltage/current supplied to the oven. For Na, a typical heating current is 10$-$25 Amps. Inside the chamber, to shield thermal radiation, as well as to prevent the effusive atoms from diffusing all over the chamber, the oven is enclosed in a water-cooled cooper shield. Atoms exit through a $\sim$4 mm in diameter beam exit aperture drilled on the shield (see figure \ref{fig:InteractionRegion}). The shield aperture and the oven side hole define the axis of the atomic beam. The typical atomic density 10 cm away from the oven is estimated to be $10^7-10^8$ atoms/cm$^3$.
+ 
+\subsection{Tungsten nano-tip}
+
+The tungsten nano-tips are prepared via electrochemical etching: Tungsten wire (99.95$\%$ purity, 0.25 mm diameter), a graphite rod (99.995$\%$ purity, 0.25$\,''$ diameter) and 3 mol/L NaOH solution (NaOH dissolved in distilled water) serve as the anode, cathode and electrolyte, respectively. The W anode immersion depth is 2 mm and the etching voltage is 4 Volts. The radius of the etched tip is controllable by varying the ``post-etching" time, {\it i.e.\@} when the voltage is switched off after etching completed. 
+
+As is shown in Fig.\@ \ref{fig:etching}, when the W wire is immersed into the electrolyte, a meniscus is formed around it at the air-electrolyte interface due to surface tension, and the fastest etching occurs around the meniscus region. The etching process starts when a positive voltage is applied to the wire, and ends when the immersed portion of the wire drops off because the tensile strength cannot sustain its weight. 
+
+Typically the etching starts with a current of 20$-$25 mA, and ends at a current of 6$-$9 mA in 5$-$7 mins. There is a sudden current drop to $<$1 mA when wire ``drop-off" happens. Monitoring either the wire ``drop-off" or sudden current drop by eye and manually switching off the etching voltage in 0 (immediately), 1$-$2, 3$-$5, 6$-$10 seconds, tips with radii of 100$-$200, 200$-$300, 400$-$600, 700$-$1000 nm, respectively, are produced. A fast switch (circuit diagram can be found in Appendix \ref{apdx:ElecCurcuits}) that automatically switches off the voltage within several $\mu$s upon wire ``drop-off" has been built to produce ultra-sharp tips with 10$-$50 nm tip radius.
+
+To avoid oxidation, as soon as possible after etching, tungsten tips are imaged using a scanning electron microscope (SEM), tips with the desired radius and cone angle are selected, and then mounted in the vacuum chamber for experiments.
+
+Here are a few ``tips" about the tungsten nano-tip preparation: {\bf a)} 2 mol/L NaOH works as fine as 3 mol/L NaOH but with longer etching time (about 10$-$11 mins) to prepare one tip. {\bf b)} Everything (beakers, tweezers, graphite rod {\it etc.\@}) needs to be cleaned with distilled water prior to usage. {\bf c)} Tungsten wires to be etched need to be polished, and rinsed with first isopropanol, then distilled water in ultrasonicator. Etched wires need to be taken out from the NaOH solution as soon as possible and rinsed with first distilled water, then isopropanol in ultrasonicator for about 1 min, then stored in isopropanol. {\bf d)} Do not clean ultra-sharp tips ($r < 30$ nm) using ultrasonicator because there are found to be easily bent in ultrasonic vibrations. {\bf e)} Vibration is unwanted during etching, because it may break the meniscus and produce multi-steps shaped tips. {\bf f)} It was found that sometimes the etching rate is very unstable, which produces ``ugly" shaped tips. This is probably due to the NaOH solution not well mixed. I usually prepare the solution one day ahead, let the beaker that contains the solution vibrate in ultrasonicator for 1 hour, meanwhile stir with glass stick every now and then. {\bf g)} To obtain high magnification SEM images, the wires need to be very steadily mounted on the sample holder to avoid vibration. A easy way is to ``clamp" the wire between two layers of carbon tapes (see Fig. \ref{fig:etchingphoto}). Isopropanol is needed to take the sticky carbon tapes off.
+
+\newpage
+\begin{figure}[H]
+	
+	\centering	
+	\resizebox{145mm}{!}{\includegraphics{etching.png}}
+	\vspace{-2mm}
+	\caption[Electrochemical etching setup and principle.]{{\bf Electrochemical etching setup and principle.}}
+	\label{fig:etching}	
+	
+\end{figure}
+
+\begin{figure}[H]
+	
+	\centering
+	\vspace{-7.5mm}
+	\resizebox{60mm}{!}{\includegraphics[angle=270]{etching img.jpg}}
+	\caption[Electrochemical etching photo view.]{{\bf Electrochemical etching photo view.}}
+	\label{fig:etchingphoto}
+		
+\end{figure}
+
+\begin{figure}[H]
+	
+ 	\centering
+    \vspace{-5.5mm}
+ 	\resizebox{100mm}{!}{\includegraphics{5tipsimage.png}}
+ 	\caption[SEM images of electrochemical etched tungsten tips.]{{\bf SEM images of electrochemical etched tungsten tips.} 
+ 		%From left to right: 
+ 		%300$\times$ image shows the overall shape of a tip; 
+ 		%40k$\times$ image shows the close up view of a ultra-sharp tip, r $\simeq$ 10 nm; 
+ 		5k$\times$ images of 5 tips with various radius, r $\simeq$ (20, 100, 200, 400, 800) nm, respectively.}
+ 	\label{fig:tipSEMimage}	   
+ 	
+\end{figure}
+
+\section{Vacuum System}
+
+Laser-matter interaction experiments described in this thesis are performed in vacuum chamber. Figure \ref{fig:VacuumSystem} is schematic of the cylindrical shaped chamber made of aluminum. The main part is $\sim$45 cm in diameter and $\sim$30 cm in height,
+with 8 side flanges and 5 top flanges (on the lid) for attachments or extensions. All flanges are sealed with Buna-N O-rings. The chamber is pumped by a Varian VHS-6 diffusion pump, foreline backed by a Welch 1376 rotary mechanical pump. The chamber base pressure can be as low as $\sim (2-3) \ast 10^{-7}$ Torr, liquid nitrogen cold traps can be used to further low down the pressure to $\sim 1 \ast 10^{-7}$ Torr. Specifically, the Rydberg atom field ionization experiments (Chap.\@ \ref{chap:THzNaIonization} and Chap.\@ \ref{chap:THzNaStarkIonization}) don't require ultra-high vacuum and are done under a base pressure of $\sim 2 \ast 10^{-6}$ Torr, due to a leak that was not fixed in time; The tungsten field emission experiments (Chap.\@ \ref{chap:THzWFieldemission}) are done under a base pressure of $\sim 1 \ast 10^{-7}$ Torr. (Ideally a non-oil pumped ultra-high vacuum chamber is preferred for field emission experiments, mainly to avoid sample contamination.)
+
+Figure \ref{fig:Chamber} is a overview of setups inside the vacuum chamber. Figure \ref{fig:InteractionRegion} shows the laser-matter interaction region.
+\begin{figure}	
+    \centering
+    \resizebox{\textwidth}{!}{\includegraphics{vacuumsystem.png}}
+    \caption[Schematic of the vacuum system.]{{\bf Schematic of the vacuum system.} A water-cooled baffle between the chamber and the diffusion pump lowers the heat radiation and intercepts primary backstreaming; A ???model??? trap between the roughing pump and the foreline prevents back migration of pump oil vapor; A Varian diffusion pump thermal overload switch avoids overheating; A self-built interlock circuit turns off the diffusion pump heater and closes the backing valve upon power outage. Pressures are measured with ionization gauge and thermocouple gauges, and monitored by Varian 843 ionization gauge controller.}
+    \label{fig:VacuumSystem}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\resizebox{150mm}{!}{\includegraphics{Chamber.png}}
+	\caption[Schematic of setups inside the vacuum chamber, top view.]{{\bf Schematic of setups inside the vacuum chamber, top view.} Note that the Na atomic beam and W nano-tips are for different experiments and do NOT con-exist. The laser beams have several functions: 1) The cross of the lasers helps to mark the position of the THz focus, as THz radiation is invisible. The focal size of the lasers is about ??$\sim$100 $\mu$m??, whereas of the THz is about 2 mm, hence the laser focus also confine the interaction region; 2) In Na field ionization experiments, to drive Rydberg transitions; 3) In W nano-tip field emission experiments, only used for visualizing the alignment of the tips but not for the actually experiments, the alignment can be monitored from {\bf 11.} the observation window.}
+	\label{fig:Chamber}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\resizebox{92mm}{!}{\includegraphics{InteractionRegion.png}}
+	\caption[Schematic of the interaction region, side view.]{{\bf Schematic of the interaction region, side view.}}
+	\label{fig:InteractionRegion}	
+\end{figure}
+

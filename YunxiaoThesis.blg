@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: YunxiaoThesis.aux
+The style file: abbrv.bst
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: ack.aux
+A level-1 auxiliary file: contents.aux
+A level-1 auxiliary file: tables.aux
+A level-1 auxiliary file: figures.aux
+A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: bib.aux
+A level-1 auxiliary file: apdxa.aux
+Database file #1: ref.bib
+Name 1 in "M. V. Romalis, E. Miron, and G. D. Cates" has a comma at the end for entry Romalis1997
+while executing---line 1049 of file abbrv.bst
+Name 1 in "M. V. Romalis, E. Miron, and G. D. Cates" has a comma at the end for entry Romalis1997
+while executing---line 1090 of file abbrv.bst
+You've used 1 entry,
+            2118 wiz_defined-function locations,
+            513 strings with 3993 characters,
+and the built_in function-call counts, 269 in all, are:
+= -- 24
+> -- 13
+< -- 0
++ -- 5
+- -- 4
+* -- 18
+:= -- 55
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 10
+empty$ -- 19
+format.name$ -- 4
+if$ -- 51
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 3
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 9
+stack$ -- 0
+substring$ -- 5
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 0
+while$ -- 2
+width$ -- 2
+write$ -- 13
+(There were 2 error messages)
