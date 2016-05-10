@@ -296,7 +296,7 @@ Thus for a single chamber cell,
 frac{1}{\gamma_{se}}\approx 15.9 hrs
 \end{equation}
 
-\section{$^{3}He$ Spinup and Spindown}
+\section{$^{3}He$ Spinup and Relaxation}
 
 Similar to the optical pumping process of Rb, $^{3}He$ polarization can be described by
 
@@ -320,6 +320,42 @@ When a target cell are used in electron scattering experiments where an electron
 
 The coupling of nuclear spin to orbital angular momentum creates an intrinsic $^{3}$He relaxation rate that depends on density. At room temperature (23$^{\circ}C$), the dipolar relaxation rate is 
 
+\begin{equation}
+\frac{1}{\Gamma_{dipolar}}=\frac{[^{3}He]}{744}hr^{-1}
+\end{equation}
+
+
+where [$^{3}He$] is the $^{3}He$ density in amagats. Assuming the cell density is 8 amg, the relaxation rate is 1/93 $hr^{-1}$. In addition, there is an additional intrinsic relaxation due to the spin-rotation interaction. This mechanism dominates the relaxation for $^{129}$Xe but is small for $^{3}$He. 
+
+The relaxation rate due to field inhomogeneities is
+
+\begin{equation}
+\Gamma_{inhomogeneity} = D\frac{|\nabla B_{x}|^{2}+|\nabla B_{y}|^{2}}{B_{0}^{2}}
+\end{equation}
+
+where D is the $^{3}$He diffusion constant, $\nabla B_{x}$ and $\nabla B_{y}$ are the transverse magnetic field inhomogeneities, $B_{0}$ is the holding field along z-axis. Under operating conditions, assuming the pressure is around 12 atm and field is 12.6 G, $D\approx 0.16cm^{2}/s$ and the field inhomogeneities are ~ 10mG/cm, the relaxation rate is ~ 1/1400 hr$^{-1}$
+
+Wall relaxation is typically the dominant relaxation mechanism for cells in our lab. This mechanism depends on the property of the inner surface of glass. Most of the target cells are contructed with reblown General Electric Type 180 (GE-180) glass. This aluminosilicate glass is highly impermeable to $^{3}$He. The wall relaxation is believed to be associated to several different mechanisms, such as paramagnetic impurities in the glass and microfissures in the surface that could trap $^{3}$He atoms. It has been found reblowing the glass can help lower the wall relaxation rate because it reduces the number of microfissures. The wall relaxation is not well understood, but it is believed to scale with the surface-to-volume ratio:
+
+\begin{equation}
+\Gamma_{wall} = \rho S/V
+\end{equation}
+
+where $\rho$ is called relaxivity.
+
+\section{X Factor}
+
+In 2006, Babcok \emph{et al.} reported evidence of a previously unrecognized spin relaxation mechanism, and named it X factor. This mechanism appears to be temperature dependent and roughly proportional to alkali density. The X factor limits the maximally achievable $^{3}$He polarization even with infinite laser power. The saturation polarization is 
+
+\begin{equation}
+P_{\infty}^{^{3}He}=P_{\infty}^{Rb}\frac{\gamma_{se}}{\gamma_{se}(1+X)+\Gamma}
+\end{equation}
+
+In the presence of infinite laser power where $\gamma_{se} \gg \Gamma$, the saturation polarization becomes
+
+\begin{equation}
+P_{\infty}^{^{3}He}=P_{\infty}^{Rb}\frac{1}{1+X}
+\end{equation}
 
 
 

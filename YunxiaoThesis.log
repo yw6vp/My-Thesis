@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  8 MAY 2016 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  9 MAY 2016 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1576,19 +1576,20 @@ LaTeX Warning: Citation `WalkerHapper' on page 16 undefined on input line 257.
 
 LaTeX Warning: Citation `WalkerHapper' on page 16 undefined on input line 257.
 
-[16 <./V1.png>]) [17]
+[16 <./V1.png>] [17] [18] [19]) [20]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl)) [18
+ (./bib.tex (./YunxiaoThesis.bbl)) [21
 
 
 
 ]
 \openout2 = `apdxa.aux'.
 
- (./apdxa.tex
+
+(./apdxa.tex
 Appendix A.
-) [19
+) [22
 
 
 
@@ -1607,11 +1608,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12791 strings out of 493033
- 228087 string characters out of 6134139
+ 12810 strings out of 493033
+ 228369 string characters out of 6134139
  271671 words of memory out of 5000000
- 16115 multiletter control sequences out of 15000+600000
- 14452 words of font info for 56 fonts, out of 8000000 for 9000
+ 16133 multiletter control sequences out of 15000+600000
+ 18491 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,16n,42p,10408b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -1626,10 +1627,10 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on YunxiaoThesis.pdf (27 pages, 332641 bytes).
+Output written on YunxiaoThesis.pdf (30 pages, 342048 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 164 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
