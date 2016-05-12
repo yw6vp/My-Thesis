@@ -1,10 +1,94 @@
-\chapter{Dealing with Errors}
-\label{chap:errors}
+\chapter{$^{3}$He Polarimetry}
+\label{chap:chap3}
 
-\LaTeX{} can produce cryptic error messages at times.
-However, with some experience, it is usually not too
-difficult to determine what the problem is and how to fix it.
+\section{Overview}
 
-As mentioned earlier, appropriate search terms in Google
-may help you fix these error messages.
+Traditional pure glass target cells are studied mainly using Adiabatic Fast Passage (AFP) Nuclear Magnetic Resonance (NMR) and Electron Paramagnetic Resonance (EPR). AFP is a technique that allows us to monitor a signal that's directly proportional to the ${3}He$ polarization, which then provides a means to gain knowledge of properties of cell including pumping time and relaxation rates. The EPR technique utilizes the fact that polarized $^{3}$He produces frequency shift of the magnetic resonance lines of alkali metal to measure the $^{3}$He polarization. When AFP and EPR are combined, we can calculate the calibration constant between AFP signal and $^{3}$He polarization. 
+
+A significant focus of my studies is on exploring cells that incorporate metal. Unfortunately, AFP is not suitable for studying these cells as it requires exposing the entirety of the cell to a Radio Frequency magnetic field in an attempt to flip all spins in the cell. For these cells, Pulsed Nuclear Magnetic Resonance (PNMR) has proven to be very useful. PNMR only applies a pulsed RF field to a small selected part of the cell which makes it relatively easy to prevent metal from distorting the signal. However, the spins tipped by applying the pulse lose their transverse component (which depends on the "tip angle"), we typically allow some time for this portion of gas to diffuse out of the region before taking the next measurement on a fresh sample of the gas. The rate at which measurements are taken is limited by this requirement.
+
+This chapter introduces the three techniques mentioned above and how they're used for our studies.
+
+\section{Adiabatic Fast Passage}
+
+\subsection{Nuclear Magnetic Resonance}
+
+The energy of a magnetic moment in an external field is
+
+\begin{equation}
+E = -\vec{\mu}\cdot \vec{B_{0}} = -\mu_{z}B_{0}
+\end{equation}
+
+where $\vec{\mu}$ is the magnetic moment, for a spin-1/2 nuclei, the energy is
+
+\begin{equation}
+E = -\gamma B_{0}\hbar/2
+\end{equation}
+
+$\gamma$ is the gyromagnetic ratio, $\gamma /2\pi \approx 3.2434kHz/Gauss$. When a oscillating magnetic field with the frequency $\omega=\gamma B_{0}$ is present, transitions between the +1/2 and -1/2 states are induced. This frequency is called Larmor frequency. When a nucleus is placed in an external magnetic field that is not aligned with its magnetic moment, it will precess at the Larmor frequency.
+
+\subsection{The Rotating Coordinate System}
+
+\subsubsection{Classical Formulation}
+
+For a nucleus in an external field $\vec{B}$ with $\gamma \hbar \vec{I}$ as its nuclear angular momentum, the equation of motion in a stationary coordinate system is
+
+\begin{equation}\label{eq1}
+\hbar \frac{d\vec{I}}{dt}=\gamma \hbar \vec{I} \times \vec{B}
+\end{equation}
+
+Let $\frac{\partial}{\partial t}$ represent the derivative with respect to a coordinate system that rotates with angular velocity $\vec{\omega}$,
+
+\begin{equation}{eq2}
+\frac{d\vec{I}}{dt}=\frac{\partial \vec{I}}{\partial t}+\vec{\omega} \times \vec{I}
+\end{equation}
+
+Substitute Eq.\ref{eq2} into Eq.\ref{1}, $\vec{I}$ in the rotating frame satisfies the equation of motion 
+
+\begin{equation}
+\hbar \frac{\partial \vec{I}}{\partial t}=\gamma \hbar \vec{I} \times (\vec{B} + \vec{\omega}/\gamma)=\gamma \hbar \vec{I} \times \vec{B_{eff}}
+\end{equation}
+
+where $\vec{B_{eff}}$ is the effective field in the rotating frame
+
+\begin{equation}
+\vec{B_{eff}}=\vec{B} + \vec{\omega}/\gamma
+\end{equation}
+
+Thus, for an observer in the rotating frame, the net effect is the same as changing the field to include an additional term $\omega/\gamma$.
+
+\subsubsection{Quantum Mechanical Formulation}
+
+The Shr$\ddot{o}$dinger equation for a magnetic moment in an external field is
+
+\begin{equation}\label{eq3}
+i\hbar \dot{\psi}=\mathcal{H} \psi=-\gamma \hbar \vec{I}\cdot \vec{B} \psi
+\end{equation}
+
+Let $\psi$ and $\vec{B}$ be the wave function and magnetic field in a stationary frame and $\psi_{r}$ and $\vec{B_{r}}$ be the same quantities in a rotating frame with angular velocity $\vec{\omega}$. Using the rotation operator in quantum mechanics, 
+
+\begin{subequations}\label{eq4}
+	\begin{gather}
+	\psi=e^{-i\vec{\omega}\cdot \vec{I}t}\psi_{r} \\
+	\vec{I}\cdot \vec{B_{r}} = e^{i\vec{\omega}\cdot \vec{I}t}\vec{I}\cdot \vec{B} e^{-i\vec{\omega}\cdot \vec{I}t}
+	\end{gather}
+\end{subequations}
+
+Substituting \ref{eq3} into Eq.\ref{eq3}, the Shr$\ddot{o}$dinger equation in the rotating frame is obtained
+
+\begin{equation}
+i\hbar \dot{\psi_{r}}=-\gamma \hbar \vec{I}\cdot(\vec{B_{r}} + \vec{\omega}/\gamma)\psi_{r}=-\gamma \hbar \vec{I}\cdot\vec{B_{eff}}\psi_{r}
+\end{equation}
+
+The same effective field in the rotating frame is reached as that from the classical derivation.
+
+\subsection{Adiabatic Fast Passage}
+
+
+
+
+
+
+
+
 
