@@ -31,7 +31,7 @@ $\gamma$ is the gyromagnetic ratio, $\gamma /2\pi \approx 3.2434kHz/Gauss$. When
 
 \subsubsection{Classical Formulation}
 
-For a nucleus in an external field $\vec{B}$ with $\gamma \hbar \vec{I}$ as its nuclear angular momentum, the equation of motion in a stationary coordinate system is
+For a nucleus in an external field $\vec{B}$ with $\gamma \hbar \vec{I}$ as its nuclear angular momentum, the equation of motion in a stationary coordinate system is \cite{RevModPhys.26.167}
 
 \begin{equation}\label{eq1}
 \hbar \frac{d\vec{I}}{dt}=\gamma \hbar \vec{I} \times \vec{B}
@@ -56,6 +56,14 @@ where $\vec{B_{eff}}$ is the effective field in the rotating frame
 \end{equation}
 
 Thus, for an observer in the rotating frame, the net effect is the same as changing the field to include an additional term $\omega/\gamma$.
+
+If we apply this result to rotating magnetic fields, we will get the core idea of performing an Adiabatic Fast Passage (AFP) measurement. Assuming a constant field $\vec{B}$ and another field $\vec{B_{1}}$ perpendicular to $\vec{B}$ and rotates with angular velocity $-\omega$. In the rotating frame that rotates with $\vec{B_{1}}$, both aforementioned field are constant. The effective field in the rotating frame is
+
+\begin{equation}\label{EffectiveField}
+B_{eff}\vec{z}=(B-\omega/\gamma)\vec{z} + B_{1}\vec{x'}
+\end{equation}
+
+where $\vec{x'}$ is the direction that $\vec{B_{1}}$ is in. When on resonance (B = $\omega/\gamma$), the effective field is perpendicular to the constant field $\vec{B}$.
 
 \subsubsection{Quantum Mechanical Formulation}
 
@@ -83,6 +91,23 @@ i\hbar \dot{\psi_{r}}=-\gamma \hbar \vec{I}\cdot(\vec{B_{r}} + \vec{\omega}/\gam
 The same effective field in the rotating frame is reached as that from the classical derivation.
 
 \subsection{Adiabatic Fast Passage}
+
+Adiabatic Fast Passage (AFP) NMR is used to measure the $^{e}$He polarization. In an AFP measurement, with the assistance of a oscillating radiofrequency (RF) field, the spins follow the effective field in a rotating frame (as discussed in more detail below) and are flipped 180 degrees to the opposite direction and then flipped back, producing two peaks in signal when they're perpendicular to the pick up coils.
+
+The flipping process can be achieved by either sweeping the main holding field or sweeping the RF frequency so that the longitudinal component of effective field in the rotating field goes through zero. AFP measurements in out lab are typically done by sweeping the holding field while keeping the RF frequency constant. The RF coils produce a RF field of magnitude 2$B_{1}$ perpendicular to the main holding field B. The oscillating field has a frequency of $\omega$ and can be decomposed into two counter-rotating components with the same amplitude B$_{1}$. Only the component rotating in direction to be able to give a resonance in Eq.\ref{EffectiveField} has an important effect. In this frame, the effective field is
+
+\begin{equation}
+B_{eff}\vec{z}=(B-\omega/\gamma)\vec{z} + B_{1}\vec{x'}
+\end{equation}
+
+as discussed above. The other rotating component does not affect the spins. In an AFP measurement, the holding field starts from a value that's lower than $\omega/\gamma$ ($\omega/\gamma-B\gg B_{1}$), so that the effective field is almost aligned with the holding field (and the spins). The holding field is then swept at a constant rate through resonance to a value greater than $\omega/\gamma$. The sweeping rate is of great importance. The sweep needs to be slow enough so that the nuclear spins can follow the effective field
+
+\begin{equation}
+\frac{\dot B}{B_{1}}\ll \omega
+\end{equation}
+
+Sweep that satisfies this condition is considered as adiabatic.
+
 
 
 
