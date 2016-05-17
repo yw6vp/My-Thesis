@@ -24,5 +24,11 @@
 \contentsline {subsubsection}{\numberline {2.2.2.1}Classical Formulation}{23}
 \contentsline {subsubsection}{\numberline {2.2.2.2}Quantum Mechanical Formulation}{24}
 \contentsline {subsection}{\numberline {2.2.3}Adiabatic Fast Passage}{25}
-\contentsline {chapter}{Bibliography}{27}
-\contentsline {chapter}{\numberline {A}Appendix title}{28}
+\contentsline {subsection}{\numberline {2.2.4}Spinups and Spindowns}{29}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Double-Chambered Cell Spinup}{30}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Initial Spinup}{33}
+\contentsline {subsubsection}{\numberline {2.2.4.3}Spindown}{34}
+\contentsline {subsection}{\numberline {2.2.5}AFP Loss}{36}
+\contentsline {section}{\numberline {2.3}Electron Paramagnetic Resonance}{36}
+\contentsline {chapter}{Bibliography}{37}
+\contentsline {chapter}{\numberline {A}Appendix title}{38}
