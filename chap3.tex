@@ -108,7 +108,7 @@ as discussed above. The other rotating component does not affect the spins. In a
 
 Sweep that satisfies this condition is considered as adiabatic.
 
-Sweep rate cannot be too slow either, because the relaxation rate of the spins are faster near the resonance especially with a small effective field. The relaxation rate of $^{3}$He in the rotating frame is 
+Sweep rate cannot be too slow either, because the relaxation rate of the spins are faster near the resonance especially with a small effective field. The relaxation rate of $^{3}$He in the rotating frame at resonance is 
 
 \begin{equation}
 \frac{1}{T_{1r}}=D\frac{|\nabla B_{z}|^{2}}{B_{1}^{2}} 
@@ -280,6 +280,50 @@ A simple example for the second method would be to perform one spindown with one
 where $\tau_{1hr}$ and $\tau_{2hr}$ are the lifetimes measured with taking AFP every 1 hour and every 2 hours, $\tau_{true}$ is the true lifetime of the cell without interference from measurements, $\Gamma_{AFP\_1hr}$ ($\Gamma_{AFP\_2hr}$)is the relaxation rate due to taking measurements every 1hr (2hr). We can then solve for $\tau_{true}$.
 
 \subsection{AFP Loss}
+
+The longitudinal spin relaxation rate due to static field inhomogeneities is
+
+\begin{equation}
+\frac{1}{T_{1}} = D\frac{|\nabla B_{x}|^{2}+|\nabla B_{y}|^{2}}{B_{0}^{2}}
+\end{equation}
+
+where D is the diffusion constant for the polarized spins, and is inversely proportional to the gas pressure. $B_{0}$ is the mean magnetic field along z axis. $B_{x}$ and $B_{y}$ are the x and y components of the magnetic field. However, when performing AFP measurement, the spins are exposed to a small oscillating RF field, the spin relaxation can be greatly accelerated under magnetic resonance conditions~\cite{PhysRevA.38.5092},
+
+\begin{equation}
+\frac{1}{T_{r1}} = \frac{8R^{4}}{175D}|\nabla \Omega_{z}|^{2}\sum_{n} \frac{175}{4(\chi_{1n}^{2}-2)(\chi_{1n}^{4}+r^{2}+r^{2}s^{2})(1+s^{2})}
+\end{equation}
+
+where R is the cell radius, D is the diffusion constant, $\Omega_{z}$ is the Larmor frequency of the holding field, $r=\frac{\omega_{r}R^{2}}{D}$, $s=\frac{\Omega_{0}-\omega}{\omega_{r}}$, the numbers $\chi_{1n}$ are the zeros of the derivatives of the spherical Bessel functions
+
+\begin{equation}
+\frac{d}{dx}j_{1}(x_{1n})=0~for~n=1,2,3...
+\end{equation}
+
+Since $r^{2}\gg \chi_{1n}^{4}$, and $\sum_{n}\frac{1}{\chi_{1n}^{2}-2}=\frac{1}{2}$~\cite{PhysRevA.37.2877},
+
+\begin{equation}
+\frac{1}{T_{r1}}=\frac{R^{4}|\nabla\Omega_{z}|^{2}}{r^{2}(1+s^{2})^{2}D}=\frac{|\nabla B_{z}|^{2}D}{B^{2}(1+s^{2})^2}
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
