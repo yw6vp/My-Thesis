@@ -29,6 +29,9 @@
 \contentsline {subsubsection}{\numberline {2.2.4.2}Initial Spinup}{33}
 \contentsline {subsubsection}{\numberline {2.2.4.3}Spindown}{34}
 \contentsline {subsection}{\numberline {2.2.5}AFP Loss}{36}
-\contentsline {section}{\numberline {2.3}Electron Paramagnetic Resonance}{36}
-\contentsline {chapter}{Bibliography}{37}
-\contentsline {chapter}{\numberline {A}Appendix title}{38}
+\contentsline {section}{\numberline {2.3}Electron Paramagnetic Resonance}{38}
+\contentsline {subsection}{\numberline {2.3.1}Overview}{38}
+\contentsline {subsection}{\numberline {2.3.2}The Breit-Rabi Equation}{39}
+\contentsline {subsection}{\numberline {2.3.3}Experimental Methods}{41}
+\contentsline {chapter}{Bibliography}{42}
+\contentsline {chapter}{\numberline {A}Appendix title}{43}
