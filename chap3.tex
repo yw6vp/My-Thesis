@@ -357,24 +357,80 @@ The Zeeman transition frequency of $m_{F} \rightarrow m_{F} - 1$ is
 \begin{equation}
 \begin{split}
 \nu_{m_{F}\rightarrow m_{F-1}} &=\frac{E_{F,m_{F}}-E_{F,m_{F}-1}}{h} \\
-&= -\frac{g_{I}\mu_{N}B}{h}\pm \frac{h\Delta \nu_{hfs}}{2}\left(\sqrt{1+\frac{4m_{F}}{2I+1}x+x^{2}}-\sqrt{1+\frac{4m_{F}-1}{2I+1}x+x^{2}}\right)
+&= -\frac{g_{I}\mu_{N}B}{h}\pm \frac{\Delta \nu_{hfs}}{2}\left(\sqrt{1+\frac{4m_{F}}{2I+1}x+x^{2}}-\sqrt{1+\frac{4m_{F}-1}{2I+1}x+x^{2}}\right)
 \end{split}
 \end{equation}
 
 The second term is much greater than the first term under our operating conditions, so the sign of the frequency $\nu_{m_{F}\rightarrow m_{F-1}}$ depends on the second term only. If we focus on the top hyperfine manifold, the transition frequency is
 
 \begin{equation}\label{Zeeman}
-\nu_{m_{F}\rightarrow m_{F-1}} = -\frac{g_{I}\mu_{N}B}{h}+ \frac{h\Delta \nu_{hfs}}{2}\left(\sqrt{1+\frac{4m_{F}}{2I+1}x+x^{2}}-\sqrt{1+\frac{4m_{F}-1}{2I+1}x+x^{2}}\right)
+\nu_{m_{F}\rightarrow m_{F-1}} = -\frac{g_{I}\mu_{N}B}{h}+ \frac{\Delta \nu_{hfs}}{2}\left(\sqrt{1+\frac{4m_{F}}{2I+1}x+x^{2}}-\sqrt{1+\frac{4m_{F}-1}{2I+1}x+x^{2}}\right)
 \end{equation}
+
+\subsection{Shift of Zeeman Frequency}
 
 Under our operating condition, the size of Zeeman splitting is much less than hyperfine splitting, which makes x a small number. The Taylor expansion of Eq.~\ref{Zeeman} is
 
-\begin{equation}
+\begin{equation}\label{Taylorwithx}
 \begin{split}
 \nu_{m_{F}\rightarrow m_{F-1}}=&-\frac{g_{I}\mu_{N}B}{h}\\
-&+\frac{h\Delta\nu_{hfs}}{2}\left(\frac{2x}{2I+1}-\frac{2(2m_{F}-1)x^{2}}{(2I+1)^{2}}+\frac{(-(2I+1)^{2}+4-12m_{F}+12m_{F}^{2})x^{3}}{(2I+1)^{3}}\right+\cdots)
+&+\frac{\Delta\nu_{hfs}}{2}\left(\frac{2x}{2I+1}-\frac{2(2m_{F}-1)x^{2}}{(2I+1)^{2}}+\frac{(-(2I+1)^{2}+4-12m_{F}+12m_{F}^{2})x^{3}}{(2I+1)^{3}}+\cdots\right)
 \end{split}
 \end{equation}
+ 
+With the approximation
+
+\begin{subequations}
+	\begin{gather}
+	g_{s}\mu_{B} \gg g_{I}\mu_{N}\\
+	x \approx -\frac{g_{s}\mu_{B}B}{h\Delta \nu_{hfs}}
+	\end{gather}
+\end{subequations}
+
+The shift of $\nu_{m_{F}\rightarrow m_{F-1}}$ due to a small effective field $\Delta B$ ($\Delta B \ll B$) from polarized $^{3}$He is
+
+\begin{equation}
+\begin{split}
+\Delta \nu_{m_{F}\rightarrow m_{F-1}} = &-\frac{g_{s}\mu_{B}}{h(2I+1)} \Delta B \left[1+ 2(2m-1)\frac{g_{s}\mu_{B}B}{h \Delta\nu_{hfs}(2I+1)}\right.\\ 
+&\left.+6\left(-\frac{(2I+1)^{2}}{4}+1-3m+3m^{2}\right)\left(\frac{g_{s}\mu_{B}B}{h \Delta\nu_{hfs}(2I+1)}\right)^{2}+\cdots\right]
+\end{split}
+\end{equation}
+
+Usually the pumping chamber is spherical, the magnetic field produced inside a uniformly magnetized sphere is
+
+\begin{equation}
+\boldsymbol{\Delta B}=\frac{2}{3}\mu_{0}\boldsymbol{M}
+\end{equation}
+
+where $\mu_{0}$ is the vacuum permeability, $\boldsymbol{M}$ is the magnetization of $^{3}$He, 
+
+\begin{equation}
+\boldsymbol{M}=\boldsymbol{\mu_{K}}[He]P
+\end{equation}
+
+where $\mu_{K}$ is the magnetic moment of $^{3}$He, [He] is its density, and P its polarization. As we mentioned before, as a result of the Fermi-contact interaction $\alpha$ {\bf K$\cdot$S} between the nuclear spin {\bf K} of the noble gas nucleus and the electron spin {\bf S} of the alkali metal atom, the effective magnetic field from the polarized $^{3}$He gas is enhanced by a factor of $\kappa_{0}$:
+
+\begin{equation}
+\boldsymbol{\Delta B}=\frac{2}{3} \kappa_{0}\mu_{0}\boldsymbol{\mu_{K}}[He]P
+\end{equation}
+
+The enhancement factor $\kappa_{0}$ was measured by Romalis~\emph{et al.} in 1998 with an error of 1.5\%~\cite{PhysRevA.58.3004}
+
+\begin{equation}
+\kappa_{0}^{Rb-^{3}He}=4.52+0.00934[T(^{\circ}C)]
+\end{equation}
+
+and then it was measured by Babcock~\emph{et al.} in 2005
+
+\begin{subequations}
+	\begin{gather}
+	\kappa_{0}^{Rb}=6.39+0.00914[T-200(^{\circ}C)]\\
+	\kappa_{0}^{K}=5.99+0.0086[T-200(^{\circ}C)]\\
+	\kappa_{0}^{Na}=4.84+0.00914[T-200(^{\circ}C)]
+	\end{gather}
+\end{subequations}
+
+The two results agree within the error. Thus we can calculate $^{3}$He polarization with the EPR frequency shift. 
 
 \subsection{Experimental Methods}
 
