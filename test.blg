@@ -4,37 +4,38 @@ The top-level auxiliary file: test.aux
 The style file: abbrv.bst
 A level-1 auxiliary file: bib.aux
 Database file #1: ref.bib
-Warning--empty year in WalkerHapper
+Warning--to sort, need author or key in PeterThesis
+Warning--empty author in PeterThesis
 You've used 1 entry,
             2118 wiz_defined-function locations,
-            503 strings with 3823 characters,
-and the built_in function-call counts, 225 in all, are:
-= -- 19
-> -- 7
+            503 strings with 3890 characters,
+and the built_in function-call counts, 184 in all, are:
+= -- 16
+> -- 1
 < -- 0
-+ -- 3
-- -- 2
-* -- 12
-:= -- 47
-add.period$ -- 3
++ -- 1
+- -- 0
+* -- 13
+:= -- 31
+add.period$ -- 2
 call.type$ -- 1
-change.case$ -- 4
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 2
+cite$ -- 3
 duplicate$ -- 10
-empty$ -- 18
-format.name$ -- 2
-if$ -- 41
+empty$ -- 19
+format.name$ -- 0
+if$ -- 37
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 6
+newline$ -- 7
+num.names$ -- 0
+pop$ -- 4
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 2
 quote$ -- 0
-skip$ -- 6
+skip$ -- 7
 stack$ -- 0
 substring$ -- 5
 swap$ -- 1
@@ -42,8 +43,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
-warning$ -- 1
-while$ -- 2
+warning$ -- 2
+while$ -- 0
 width$ -- 2
-write$ -- 11
-(There was 1 warning)
+write$ -- 10
+(There were 2 warnings)

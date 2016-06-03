@@ -1,9 +1,49 @@
 \begin{thebibliography}{1}
 
+\bibitem{PeterThesis}
+High-performance nuclear-polarized $^{3}\mathrm{He}$ targets for electron
+  scattering based on spin-exchange optical pumping.
+\newblock {\em PhD thesis, University of Virginia}, 2010.
+
+\bibitem{PhysRevA.71.013414}
+E.~Babcock, I.~A. Nelson, S.~Kadlecek, and T.~G. Walker.
+\newblock $^{3}\mathrm{He}$ polarization-dependent epr frequency shifts of
+  alkali-metal\char21{}$^{3}\mathrm{He}$ pairs.
+\newblock {\em Phys. Rev. A}, 71:013414, Jan 2005.
+
+\bibitem{PhysRevA.37.2877}
+G.~D. Cates, S.~R. Schaefer, and W.~Happer.
+\newblock Relaxation of spins due to field inhomogeneities in gaseous samples
+  at low magnetic fields and low pressures.
+\newblock {\em Phys. Rev. A}, 37:2877--2885, Apr 1988.
+
+\bibitem{PhysRevA.38.5092}
+G.~D. Cates, D.~J. White, T.-R. Chien, S.~R. Schaefer, and W.~Happer.
+\newblock Spin relaxation in gases due to inhomogeneous static and oscillating
+  magnetic fields.
+\newblock {\em Phys. Rev. A}, 38:5092--5106, Nov 1988.
+
 \bibitem{Romalis1997}
 E.~M. M.~V.~Romalis and G.~D. Cates.
 \newblock Pressure broadening of rb d$_{1}$ and d$_{2}$ lines by $^{3}$he,
   $^{4}$he, n$_{2}$, and xe: line cores and near wings.
 \newblock {\em Phys. Rev. A}, 56(6), 1997.
+
+\bibitem{RevModPhys.26.167}
+I.~I. Rabi, N.~F. Ramsey, and J.~Schwinger.
+\newblock Use of rotating coordinates in magnetic resonance problems.
+\newblock {\em Rev. Mod. Phys.}, 26:167--171, Apr 1954.
+
+\bibitem{PhysRevA.58.3004}
+M.~V. Romalis and G.~D. Cates.
+\newblock Accurate ${}^{3}\mathrm{He}$ polarimetry using the rb zeeman
+  frequency shift due to the $\mathrm{Rb}{-}^{3}\mathrm{He}$ spin-exchange
+  collisions.
+\newblock {\em Phys. Rev. A}, 58:3004--3011, Oct 1998.
+
+\bibitem{WalkerHapper}
+W.~H. Thad G.~Walker.
+\newblock Spin-exchange optical pumping of noble-gas nuclei.
+\newblock {\em RMP Colloquia}.
 
 \end{thebibliography}

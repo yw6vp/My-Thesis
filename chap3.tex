@@ -494,9 +494,29 @@ which is the derivative of the Lorentzian function. The FM sweep line crosses ze
 
 \subsubsection{EPR Spin Flip Process}
 
+After the transition frequency is located, the VCO frequency is first set to it and then stays locked with a proportional-integral feedback circuit (P.I. box). The circuit is shown in Fig.~\ref{PIBox}. 
 
+\begin{figure}[H]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{PIBox.png}}
+	\caption{{\bf The same P.I. circuit that was first used by Romalis in our lab. The drawing was then corrected by Peter Dolph.\cite{PeterThesis}}}
+	\label{PIBox}
+\end{figure}
 
+The output of the lock-in amplifier is sent to the input of the P.I. box, and the output of the P.I. box controls the input of the VCO. If the effective magnetic field drifts away, the P.I. box would receive a non-zero input, and attempt to change the frequency of the VCO output so that its input is zero again. Therefore, the VCO output always matches the transition frequency.
 
+Because the EPR frequency is also affected by sources other than the polarized $^{3}$He such as the holding field and earth field, we flip the $^{3}$He spins by sweeping the frequency while keeping the holding field unchanged. The contribution from the flipped spins has a opposite sign while other factors still contribute in the same way which allows us to extract the change of Zeeman transition frequency due to polarized $^{3}$He and calculate the polarization. We typically let the cell polarization reach saturation before performing EPR measurements. AFP measurements are taken right before and after the EPR measurements for calculating the calibration constant (the ratio between polarization and AFP signal size). Fig.~\ref{epr} shows a typical EPR spin flip process.
+
+\begin{figure}[t!]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{epr.png}}
+	\caption{{\bf An EPR measurement for a hybrid cell at 235$^{\circ}$C.}} The spins are flipped around 200 mark, and flipped back around 500 mark.
+	\label{epr}
+\end{figure}
+
+Under normal operating conditions for a double-chambered cell, the pumping chamber is heated to around 170$^{\circ}$C or 235$^{\circ}$C depending on if the cell is hybrid, the target chamber and transfer tube remain at room temperature. The temperature difference causes differences in gas densities and affects AFP signal size. Temperature controller of the oven only maintains the surface temperature of the pumping chamber at set temperature, but the gas inside the pumping chamber is always hotter due to absorption of laser energy. The enhancement factor $\kappa_{0}$ is also slightly temperature dependent which may be underestimated by ~4\% when using the surface temperature as the gas temperature. Dolph described a method called temperature test to extract gas temperature inside the pumping chamber in detail in his thesis~\cite{PeterThesis}. The idea is to take AFP measurements when the laser is blocked and unblocked multiple times, assuming the change of gas densities due to absorption of laser is the only reason for the difference in signal size (aside from AFP loss) and the gas temperature when laser is blocked is the same as that measured by RTDs (resistance temperature detectors) on the exterior of the pumping chamber, one can calculate the inside temperature when laser is unblocked. 
+
+\section{Pulsed Nuclear Magnetic Resonance}
 
 
 

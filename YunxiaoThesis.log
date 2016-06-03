@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  3 JUN 2016 06:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  3 JUN 2016 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1477,15 +1477,6 @@ Overfull \hbox (8.00165pt too wide) in paragraph at lines 3--3
 scale. Adapted 
  []
 
-
-LaTeX Warning: Citation `WalkerHapper' on page ix undefined on input line 4.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page ix undefined on input line 7.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page ix undefined on input line 8.
-
 [9
 
 
@@ -1503,7 +1494,7 @@ Chapter 1.
 
 
 
-] <AlkaliVaporDensity.png, id=43, 437.635pt x 408.52625pt>
+] <AlkaliVaporDensity.png, id=44, 437.635pt x 408.52625pt>
 File: AlkaliVaporDensity.png Graphic file (type png)
 
 <use AlkaliVaporDensity.png>
@@ -1527,14 +1518,7 @@ File: OpticalPumping.png Graphic file (type png)
 <use OpticalPumping.png>
 Package pdftex.def Info: OpticalPumping.png used on input line 54.
 (pdftex.def)             Requested size: 292.09052pt x 245.91814pt.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 6 undefined on input line 55.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 6 undefined on input line 55.
-
-[6 <./OpticalPumping.png>] [7]
+ [6 <./OpticalPumping.png>] [7]
 <AbsorptionLine.png, id=72, 468.75125pt x 342.27875pt>
 File: AbsorptionLine.png Graphic file (type png)
 
@@ -1555,13 +1539,6 @@ File: SpinExchange.png Graphic file (type png)
 Package pdftex.def Info: SpinExchange.png used on input line 227.
 (pdftex.def)             Requested size: 470.7576pt x 372.39034pt.
 
-
-LaTeX Warning: Citation `WalkerHapper' on page 14 undefined on input line 228.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 14 undefined on input line 228.
-
-
 Overfull \hbox (12.0226pt too wide) in paragraph at lines 242--243
 []\OT1/cmr/m/n/12 An alkali-metal atom and a noble-gas atom in-ter-act via both
  a large spin-independent
@@ -1573,14 +1550,7 @@ File: V1.png Graphic file (type png)
 <use V1.png>
 Package pdftex.def Info: V1.png used on input line 256.
 (pdftex.def)             Requested size: 480.79506pt x 340.27042pt.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 16 undefined on input line 257.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 16 undefined on input line 257.
-
-[16 <./V1.png>] [17] [18] [19]) [20]
+ [16 <./V1.png>] [17] [18] [19]) [20]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
@@ -1590,10 +1560,6 @@ Chapter 2.
 
 
 ] [22]
-
-LaTeX Warning: Citation `RevModPhys.26.167' on page 23 undefined on input line 
-34.
-
 
 LaTeX Warning: Reference `eq2' on page 23 undefined on input line 46.
 
@@ -1640,28 +1606,14 @@ File: BradySpinup.png Graphic file (type png)
 Package pdftex.def Info: BradySpinup.png used on input line 227.
 (pdftex.def)             Requested size: 462.72762pt x 367.37158pt.
 
-[32] [33 <./BradySpinup.png>] [34] [35]
-
-LaTeX Warning: Citation `PhysRevA.38.5092' on page 36 undefined on input line 2
-97.
-
-[36]
-
-LaTeX Warning: Citation `PhysRevA.37.2877' on page 37 undefined on input line 3
-09.
-
-[37] <AFPLossvsGradient.png, id=190, 451.9284pt x 355.5684pt>
+[32] [33 <./BradySpinup.png>] [34] [35] [36] [37]
+<AFPLossvsGradient.png, id=190, 451.9284pt x 355.5684pt>
 File: AFPLossvsGradient.png Graphic file (type png)
 
 <use AFPLossvsGradient.png>
 Package pdftex.def Info: AFPLossvsGradient.png used on input line 333.
 (pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
-
-
-LaTeX Warning: Citation `PhysRevA.71.013414' on page 38 undefined on input line
- 342.
-
-[38 <./AFPLossvsGradient.png>] [39] [40]
+ [38 <./AFPLossvsGradient.png>] [39] [40]
 Overfull \hbox (49.96259pt too wide) in paragraph at lines 386--386
 [] 
  []
@@ -1674,12 +1626,7 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 415.
 
-[41]
-
-LaTeX Warning: Citation `PhysRevA.58.3004' on page 42 undefined on input line 4
-24.
-
-[42] [43]
+[41] [42] [43]
 Overfull \hbox (5.80333pt too wide) in paragraph at lines 454--455
 []\OT1/cmr/m/n/12 The RF fre-quency is gen-er-ated by the 18.2MHz Voltage-contr
 olled os-cil-la-tor (VCO).
@@ -1690,20 +1637,36 @@ File: fmsweep.png Graphic file (type png)
  <use fmsweep.png>
 Package pdftex.def Info: fmsweep.png used on input line 490.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
-) [45]
-[46 <./fmsweep.png>]
+
+<PIBox.png, id=219, 867.24pt x 483.8075pt>
+File: PIBox.png Graphic file (type png)
+ <use PIBox.png>
+Package pdftex.def Info: PIBox.png used on input line 501.
+(pdftex.def)             Requested size: 867.2379pt x 483.80632pt.
+ [45]
+Overfull \vbox (145.65164pt too high) has occurred while \output is active []
+
+
+[46 <./fmsweep.png> <./PIBox.png>] <epr.png, id=229, 752.8125pt x 401.5pt>
+File: epr.png Graphic file (type png)
+
+<use epr.png>
+Package pdftex.def Info: epr.png used on input line 512.
+(pdftex.def)             Requested size: 752.81065pt x 401.49901pt.
+ [47]) [48 <./epr.png>]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl)) [47
+ (./bib.tex (./YunxiaoThesis.bbl [49
 
 
 
-]
+]))
+[50]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [48
+) [51
 
 
 
@@ -1723,13 +1686,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12906 strings out of 493033
- 229842 string characters out of 6134139
- 272391 words of memory out of 5000000
- 16214 multiletter control sequences out of 15000+600000
+ 12919 strings out of 493033
+ 229985 string characters out of 6134139
+ 272434 words of memory out of 5000000
+ 16225 multiletter control sequences out of 15000+600000
  23881 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,42p,10408b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,18n,42p,10408b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.p
@@ -1748,10 +1711,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (58 pages, 964325 bytes).
+Output written on YunxiaoThesis.pdf (61 pages, 1261701 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
+ 307 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
