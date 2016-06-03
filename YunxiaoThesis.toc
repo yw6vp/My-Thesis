@@ -1,7 +1,7 @@
 \contentsline {chapter}{Abstract}{ii}
 \contentsline {chapter}{Acknowledgements}{iv}
-\contentsline {chapter}{List of Tables}{vii}
-\contentsline {chapter}{List of Figures}{viii}
+\contentsline {chapter}{List of Tables}{viii}
+\contentsline {chapter}{List of Figures}{ix}
 \contentsline {chapter}{\numberline {1}Spin-Exchange Optical Pumping}{1}
 \contentsline {section}{\numberline {1.1}Overview}{1}
 \contentsline {section}{\numberline {1.2}Optical pumping}{2}
@@ -33,6 +33,8 @@
 \contentsline {subsection}{\numberline {2.3.1}Overview}{38}
 \contentsline {subsection}{\numberline {2.3.2}The Breit-Rabi Equation}{39}
 \contentsline {subsection}{\numberline {2.3.3}Shift of Zeeman Frequency}{41}
-\contentsline {subsection}{\numberline {2.3.4}Experimental Methods}{41}
-\contentsline {chapter}{Bibliography}{42}
-\contentsline {chapter}{\numberline {A}Appendix title}{43}
+\contentsline {subsection}{\numberline {2.3.4}Experimental Methods}{43}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Overview}{43}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Locating Zeeman Transition Frequency}{44}
+\contentsline {chapter}{Bibliography}{45}
+\contentsline {chapter}{\numberline {A}Appendix title}{46}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  2 JUN 2016 02:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  3 JUN 2016 01:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,20 +1396,19 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 31.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-<AFPLossvsGradient.png, id=1, 451.9284pt x 355.5684pt>
-File: AFPLossvsGradient.png Graphic file (type png)
+<AFPandEPRsetup.png, id=1, 1045.9075pt x 636.3775pt>
+File: AFPandEPRsetup.png Graphic file (type png)
+ <use AFPandEPRsetup.png>
+Package pdftex.def Info: AFPandEPRsetup.png used on input line 51.
+(pdftex.def)             Requested size: 1045.90495pt x 636.37595pt.
 
-<use AFPLossvsGradient.png>
-Package pdftex.def Info: AFPLossvsGradient.png used on input line 51.
-(pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
- [1
+[1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./A
-FPLossvsGradient.png>]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./AFPandEPRsetup.png>]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./test.bbl))
-[3
+ (./bib.tex (./test.bbl)) [3
 
 
 ]
@@ -1420,12 +1419,12 @@ See the caption package documentation for explanation.
 (./test.aux (./bib.aux)) ) 
 Here is how much of TeX's memory you used:
  12664 strings out of 493033
- 226156 string characters out of 6134139
+ 226138 string characters out of 6134139
  265016 words of memory out of 5000000
  16055 multiletter control sequences out of 15000+600000
  14283 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,8n,42p,10399b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,42p,10399b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
@@ -1436,7 +1435,7 @@ s/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti12.pfb>
-Output written on test.pdf (3 pages, 183648 bytes).
+Output written on test.pdf (3 pages, 227108 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
