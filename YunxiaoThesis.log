@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  2 JUN 2016 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  3 JUN 2016 06:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1597,93 +1597,104 @@ LaTeX Warning: Citation `RevModPhys.26.167' on page 23 undefined on input line
 
 LaTeX Warning: Reference `eq2' on page 23 undefined on input line 46.
 
-[23] [24] [25] [26] <AFP.png, id=144, 567.11874pt x 406.51875pt>
+[23] [24] <AFPandEPRsetup.png, id=138, 1045.9075pt x 636.3775pt>
+File: AFPandEPRsetup.png Graphic file (type png)
+
+<use AFPandEPRsetup.png>
+Package pdftex.def Info: AFPandEPRsetup.png used on input line 99.
+(pdftex.def)             Requested size: 1045.90495pt x 636.37595pt.
+ [25 <./AFPandEPRsetup.png>] [26]
+<AFP.png, id=146, 567.11874pt x 406.51875pt>
 File: AFP.png Graphic file (type png)
  <use AFP.png>
-Package pdftex.def Info: AFP.png used on input line 149.
+Package pdftex.def Info: AFP.png used on input line 156.
 (pdftex.def)             Requested size: 567.11736pt x 406.51775pt.
-
-[27] [28 <./AFP.png>] <AFPSignal.png, id=153, 600.2425pt x 380.42125pt>
+ [27] [28 <./AFP.png>] <AFPSignal.png, id=155, 600.2425pt x 380.42125pt>
 File: AFPSignal.png Graphic file (type png)
-
-<use AFPSignal.png>
-Package pdftex.def Info: AFPSignal.png used on input line 164.
+ <use AFPSignal.png>
+Package pdftex.def Info: AFPSignal.png used on input line 171.
 (pdftex.def)             Requested size: 600.24103pt x 380.4203pt.
- [29 <./AFPSignal.png>]
-<TargetCell.png, id=158, 578.16pt x 362.35374pt>
+
+[29 <./AFPSignal.png>] <TargetCell.png, id=160, 578.16pt x 362.35374pt>
 File: TargetCell.png Graphic file (type png)
- <use TargetCell.png>
-Package pdftex.def Info: TargetCell.png used on input line 179.
+
+<use TargetCell.png>
+Package pdftex.def Info: TargetCell.png used on input line 186.
 (pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
 
 
 LaTeX Warning: Reference `PhysRevC.84.065201' on page 30 undefined on input lin
-e 184.
+e 191.
 
-[30 <./TargetCell.png>]
+[30 <./TargetCell.png>] [31]
 
-LaTeX Warning: Reference `PhysRevC.84.065201' on page 31 undefined on input lin
-e 208.
+LaTeX Warning: Reference `PhysRevC.84.065201' on page 32 undefined on input lin
+e 215.
 
-[31]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no š in font cmr12!
- <BradySpinup.png, id=166, 462.72874pt x 367.3725pt>
+<BradySpinup.png, id=168, 462.72874pt x 367.3725pt>
 File: BradySpinup.png Graphic file (type png)
  <use BradySpinup.png>
-Package pdftex.def Info: BradySpinup.png used on input line 220.
+Package pdftex.def Info: BradySpinup.png used on input line 227.
 (pdftex.def)             Requested size: 462.72762pt x 367.37158pt.
 
 [32] [33 <./BradySpinup.png>] [34] [35]
 
 LaTeX Warning: Citation `PhysRevA.38.5092' on page 36 undefined on input line 2
-90.
+97.
 
 [36]
 
 LaTeX Warning: Citation `PhysRevA.37.2877' on page 37 undefined on input line 3
-02.
+09.
 
-[37] <AFPLossvsGradient.png, id=188, 451.9284pt x 355.5684pt>
+[37] <AFPLossvsGradient.png, id=190, 451.9284pt x 355.5684pt>
 File: AFPLossvsGradient.png Graphic file (type png)
 
 <use AFPLossvsGradient.png>
-Package pdftex.def Info: AFPLossvsGradient.png used on input line 326.
+Package pdftex.def Info: AFPLossvsGradient.png used on input line 333.
 (pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
 
 
 LaTeX Warning: Citation `PhysRevA.71.013414' on page 38 undefined on input line
- 335.
+ 342.
 
 [38 <./AFPLossvsGradient.png>] [39] [40]
-Overfull \hbox (49.96259pt too wide) in paragraph at lines 379--379
+Overfull \hbox (49.96259pt too wide) in paragraph at lines 386--386
 [] 
  []
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 408.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 415.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 408.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 415.
 
 [41]
 
 LaTeX Warning: Citation `PhysRevA.58.3004' on page 42 undefined on input line 4
-17.
+24.
 
-[42] <fmsweep.png, id=210, 437.635pt x 408.52625pt>
+[42] [43]
+Overfull \hbox (5.80333pt too wide) in paragraph at lines 454--455
+[]\OT1/cmr/m/n/12 The RF fre-quency is gen-er-ated by the 18.2MHz Voltage-contr
+olled os-cil-la-tor (VCO).
+ []
+
+[44] <fmsweep.png, id=218, 437.635pt x 408.52625pt>
 File: fmsweep.png Graphic file (type png)
  <use fmsweep.png>
-Package pdftex.def Info: fmsweep.png used on input line 449.
+Package pdftex.def Info: fmsweep.png used on input line 490.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
- [43])
-[44 <./fmsweep.png>]
+) [45]
+[46 <./fmsweep.png>]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl)) [45
+ (./bib.tex (./YunxiaoThesis.bbl)) [47
 
 
 
@@ -1692,7 +1703,7 @@ Package pdftex.def Info: fmsweep.png used on input line 449.
 
  (./apdxa.tex
 Appendix A.
-) [46
+) [48
 
 
 
@@ -1712,10 +1723,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12899 strings out of 493033
- 229708 string characters out of 6134139
- 272368 words of memory out of 5000000
- 16208 multiletter control sequences out of 15000+600000
+ 12906 strings out of 493033
+ 229842 string characters out of 6134139
+ 272391 words of memory out of 5000000
+ 16214 multiletter control sequences out of 15000+600000
  23881 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,42p,10408b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1737,10 +1748,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (56 pages, 820169 bytes).
+Output written on YunxiaoThesis.pdf (58 pages, 964325 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
+ 293 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

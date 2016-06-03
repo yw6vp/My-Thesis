@@ -20,6 +20,7 @@ ggplot() +
   geom_line(data=df2, aes(x=f,y=fitted_s, color='red')) +
   xlab('f(kHz)') +
   ylab(expression(paste("Lockin Signal (", mu, "V)"))) +
+  scale_color_discrete(label="Fit") +
   theme_bw()
 
 
