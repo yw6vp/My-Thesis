@@ -37,5 +37,8 @@
 \contentsline {subsubsection}{\numberline {2.3.4.1}Overview}{43}
 \contentsline {subsubsection}{\numberline {2.3.4.2}Locating Zeeman Transition Frequency}{44}
 \contentsline {subsubsection}{\numberline {2.3.4.3}EPR Spin Flip Process}{45}
-\contentsline {chapter}{Bibliography}{49}
-\contentsline {chapter}{\numberline {A}Appendix title}{51}
+\contentsline {section}{\numberline {2.4}Pulsed Nuclear Magnetic Resonance}{48}
+\contentsline {subsection}{\numberline {2.4.1}The Rotating Coordinate System}{49}
+\contentsline {subsection}{\numberline {2.4.2}Free Induction Decay}{50}
+\contentsline {chapter}{Bibliography}{52}
+\contentsline {chapter}{\numberline {A}Appendix title}{54}

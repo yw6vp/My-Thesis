@@ -516,14 +516,49 @@ Because the EPR frequency is also affected by sources other than the polarized $
 
 Under normal operating conditions for a double-chambered cell, the pumping chamber is heated to around 170$^{\circ}$C or 235$^{\circ}$C depending on if the cell is hybrid, the target chamber and transfer tube remain at room temperature. The temperature difference causes differences in gas densities and affects AFP signal size. Temperature controller of the oven only maintains the surface temperature of the pumping chamber at set temperature, but the gas inside the pumping chamber is always hotter due to absorption of laser energy. The enhancement factor $\kappa_{0}$ is also slightly temperature dependent which may be underestimated by ~4\% when using the surface temperature as the gas temperature. Dolph described a method called temperature test to extract gas temperature inside the pumping chamber in detail in his thesis~\cite{PeterThesis}. The idea is to take AFP measurements when the laser is blocked and unblocked multiple times, assuming the change of gas densities due to absorption of laser is the only reason for the difference in signal size (aside from AFP loss) and the gas temperature when laser is blocked is the same as that measured by RTDs (resistance temperature detectors) on the exterior of the pumping chamber, one can calculate the inside temperature when laser is unblocked. 
 
-\section{Pulsed Nuclear Magnetic Resonance}
+\section{Pulsed Nuclear Magnetic Resonance} 
 
+Adiabatic Fast Passage has been the main technique used in our lab for measuring $^{3}$He polarization through detecting precessing spins with detection coils (we refer to them as pickup coils). In an AFP measurement, all $^{3}$He spins are flipped by sweeping the holding field while applying a RF field. In more recent studies, we have been exploring the possibility of replacing conventional glass windows with metal end windows in response to the 12 GeV upgrade of JLab. Because of the lack of studies on spin relaxation of polarized $^{3}$He on metal surfaces, various test cells made with large metal parts as well as glass parts are being studied in our lab. The inclusion of metal parts immediately renders AFP almost useless in the situation because of effects such as Eddy current, thus we have been performing Pulsed Nuclear Magnetic Resonance (PNMR) on metal cells.
 
+\subsection{The Rotating Coordinate System}
 
+In a PNMR measurement, a short pulse of RF frequency is applied to a small fraction of $^{3}$He gas. The RF frequency is tuned to be on resonance at the Larmor frequency of the holding field. As discussed before with AFP, in the rotating coordinate system, there will be an effective field due to rotation that exactly cancels the holding field which we assume to be in the z direction. The z component of the effective field is zero and there is a non-zero constant transverse component which we will call B$_{1}$. The nuclear spins will precess along B$_{1}$ and end up at an angle away from z axis: 
 
+\begin{equation}
+\alpha = \gamma B_{1} \Delta t
+\end{equation}
 
+where $\alpha$ is the angle (tip angle), $\gamma$ is the gyromagnetic ratio, and $\Delta t$ is the RF pulse duration. 
 
+\subsection{Free Induction Decay}
 
+At the end of the RF pulse, the tipped spins will have a transverse component equal to the magnetization multiplied by $\sin{\alpha}$. The spins continue to precess along the holding field and the transverse component will induce a signal in the pickup coils. 
+
+In addition to precession, the spins are affected by two types of relaxation processes. The first type is called the spin-lattice relaxation, it describes the rate at which the longitudinal component of magnetization approaches the thermodynamic equilibrium value. It is characterized by the spin-lattice relaxation time constant T$_{1}$. The rate of change of the longitudinal component is
+
+\begin{equation}
+\dot{M_{z}}=-(M_{z}-M_{0})/T_{1}
+\end{equation}
+
+where M$_{0}$ is the thermodynamic equilibrium magnetization. Solving the differential equation gives
+
+\begin{equation}
+M_{z}(t)=M_{0}-\left[M_{0}-M_{z}(0)\right]e^{-t/T_{1}}
+\end{equation}
+
+The name spin-lattice relaxation refers to the process in which the spins transfer energy to surrounding, thereby restoring their equilibrium state.
+
+The second relaxation process is the transverse relaxation, which is also referred to as the T$_{2}$ relaxation and spin-spin relaxation. The transverse component of magnetization decays because variations in the local magnetic field cause different moments to precess at different rates. This is the T$_{2}$ process. Normally, the dominating relaxation effect however, is another dephasing process due to inhomogeneities in the holding field over the volume of the cell. 
+
+The measured relaxation rate of the tipped spins is the result of all these effects combined:
+
+\begin{equation}
+\frac{1}{T_{2}^{*}}=\frac{1}{T_{1}}+\frac{1}{T_{2}}+\gamma \Delta B
+\end{equation}
+
+where $\Delta B$ is the variation in the holding field, $\gamma \Delta B$, the dominant term, is a spread in Larmor frequencies $\Delta \omega$, which causes spin-spin dephasing in a characteristic time of $1/\Delta \omega$. 
+
+The time evolution of the nuclear magnetization {\bf M} is described by the Bloch equation~\cite{PhysRev.70.460}:
 
 
 
