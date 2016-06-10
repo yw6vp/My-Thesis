@@ -40,5 +40,6 @@
 \contentsline {section}{\numberline {2.4}Pulsed Nuclear Magnetic Resonance}{48}
 \contentsline {subsection}{\numberline {2.4.1}The Rotating Coordinate System}{49}
 \contentsline {subsection}{\numberline {2.4.2}Free Induction Decay}{50}
-\contentsline {chapter}{Bibliography}{52}
-\contentsline {chapter}{\numberline {A}Appendix title}{54}
+\contentsline {subsection}{\numberline {2.4.3}Experimental Methods}{52}
+\contentsline {chapter}{Bibliography}{53}
+\contentsline {chapter}{\numberline {A}Appendix title}{55}

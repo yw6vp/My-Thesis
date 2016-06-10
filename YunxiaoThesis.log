@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  9 JUN 2016 02:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  9 JUN 2016 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1653,20 +1653,20 @@ File: epr.png Graphic file (type png)
 <use epr.png>
 Package pdftex.def Info: epr.png used on input line 512.
 (pdftex.def)             Requested size: 752.81065pt x 401.49901pt.
- [47] [48 <./epr.png>] [49] [50]) [51]
+ [47] [48 <./epr.png>] [49] [50]) [51] [52]
 \openout2 = `bib.aux'.
 
  (./bib.tex
-(./YunxiaoThesis.bbl [52
+(./YunxiaoThesis.bbl [53
 
 
 
-])) [53]
+])) [54]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [54
+) [55
 
 
 
@@ -1711,10 +1711,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (64 pages, 1266968 bytes).
+Output written on YunxiaoThesis.pdf (65 pages, 1268995 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
+ 319 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

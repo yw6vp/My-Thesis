@@ -553,16 +553,37 @@ The second relaxation process is the transverse relaxation, which is also referr
 The measured relaxation rate of the tipped spins is the result of all these effects combined:
 
 \begin{equation}
-\frac{1}{T_{2}^{*}}=\frac{1}{T_{1}}+\frac{1}{T_{2}}+\gamma \Delta B
+\frac{1}{T_{2}^{*}}=\frac{1}{T_{1}}+\frac{1}{T_{2}}+\gamma \Delta B_{0}
 \end{equation}
 
-where $\Delta B$ is the variation in the holding field, $\gamma \Delta B$, the dominant term, is a spread in Larmor frequencies $\Delta \omega$, which causes spin-spin dephasing in a characteristic time of $1/\Delta \omega$. 
+where $\Delta B_{0}$ is the variation in the holding field, $\gamma \Delta B_{0}$, the dominant term, is a spread in Larmor frequencies $\Delta \omega_{0}$, which causes spin-spin dephasing in a characteristic time of $1/\Delta \omega_{0}$. 
 
-The time evolution of the nuclear magnetization {\bf M} is described by the Bloch equation~\cite{PhysRev.70.460}:
+The time evolution of the nuclear magnetization {\bf M} is described by the Bloch equations~\cite{PhysRev.70.460}:
 
+\begin{subequations}
+	\begin{gather}
+	\frac{\partial M_{x}(t)}{\partial t}=\gamma\left(\boldsymbol{M(t)}\times \boldsymbol{B(t)}\right)_{x}-\frac{M_{x}(t)}{T_{2}^{*}}\\
+	\frac{\partial M_{y}(t)}{\partial t}=\gamma\left(\boldsymbol{M(t)}\times \boldsymbol{B(t)}\right)_{y}-\frac{M_{y}(t)}{T_{2}^{*}}\\
+	\frac{\partial M_{z}(t)}{\partial t}=\gamma\left(\boldsymbol{M(t)}\times \boldsymbol{B(t)}\right)_{z}-\frac{M_{z}(t)}{T_{1}}
+	\end{gather}
+\end{subequations}
 
+where $\gamma$ is the gyromagnetic ratio and the cross products are the precession terms, the last terms in each equation represent the decaying and dephasing of each component. The precessing spin magnetization generates a signal in the pickup coils that decays with time. This is called free induction decay, the induced signal is of the shape:
 
+\begin{equation}
+V(t)=A\omega_{0}\sin{\alpha}\sin{\left(\omega_{0}t+\phi\right)}e^{-t/T_{2}^{*}}
+\end{equation}
 
+where A is just a constant, $\omega_{0}$ is the Larmor frequency for the holding field, $\alpha$ is the tip angle, T$_{2}^{*}$ is the measured decay time constant. For our metal test cells, depending on the location of the pickup coils and the field setup, T$_{2}^{2}$ varies between several milliseconds to more than 300 milliseconds.
+
+\subsection{Experimental Methods}
+
+\begin{figure}[t!]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{PNMR_setup.png}}
+	\caption{{\bf PNMR setup.}}
+	\label{PNMR_setup}
+\end{figure}
 
 
 
