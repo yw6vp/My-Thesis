@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{PeterThesis}
 High-performance nuclear-polarized $^{3}\mathrm{He}$ targets for electron
@@ -38,6 +38,12 @@ E.~M. M.~V.~Romalis and G.~D. Cates.
 I.~I. Rabi, N.~F. Ramsey, and J.~Schwinger.
 \newblock Use of rotating coordinates in magnetic resonance problems.
 \newblock {\em Rev. Mod. Phys.}, 26:167--171, Apr 1954.
+
+\bibitem{J.Phys.France.35}
+M.~L. R.Barbe and F.~Laloe.
+\newblock Experimental verifications - measurement of the he3 self-diffusion
+  coefficient.
+\newblock 35:935--951, 1974.
 
 \bibitem{PhysRevA.58.3004}
 M.~V. Romalis and G.~D. Cates.

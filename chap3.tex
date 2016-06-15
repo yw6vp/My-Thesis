@@ -578,12 +578,54 @@ where A is just a constant, $\omega_{0}$ is the Larmor frequency for the holding
 
 \subsection{Experimental Methods}
 
+Our PNMR setup is shown in Fig.~\ref{PNMR_setup}. The Labview program on the computer controls the timing of a gate signal that is fired from the function generator. The gate signal is fed to the back of the second function generator and triggers it to produce a short pulse. The second function generator sends out RF pulse with pre-set amplitude, duration and frequency only when the gate signal is of voltage higher than the threshold. The frequency of the RF pulse is carefully tuned to be at the Larmor frequency of the holding field. 
+
 \begin{figure}[t!]
 	\centering
 	\resizebox{0.91\textwidth}{!}{\includegraphics{PNMR_setup.png}}
 	\caption{{\bf PNMR setup.}}
 	\label{PNMR_setup}
 \end{figure}
+
+The pulse is sent from the function generator to a coil wrapped directly on a small portion of the cell. The spins contained in the coil are exposed to the pulse and tipped by an angle which depends on the amplitude and the duration of the pulse. In the rotating frame, the effective field B$_{1}$ causes the spins to precess around it (as discussed before), the precession frequency is $\gamma B_{1}$ so the angle the spins rotate by (tip angle) is  
+
+\begin{equation}\label{tip_angle}
+\alpha = \gamma B_{1} \Delta t
+\end{equation}
+
+where $\gamma$ is the gyromagnetic ratio, the effective field B$_{1}$ is directly proportional to the amplitude of the RF pulse, $\Delta$t is the duration of the pulse. Ideally, a 90$^{\circ}$ tip angle would result in the maximum signal, but it has not been the case for us most of the time because of field inhomogeneities. The coils are normally wrapped on the transfer tube of the cell which is off the center of the holding field and exposed to greater inhomogeneities. The details of how we measure the test cells will be discussed in later chapters. Relatively large inhomogeneities cause the spins to precess at different rates, and the dephasing becomes more significant with longer pulse duration and larger tip angle, which leads to non-optimal signal. A typical tip angle for us would be between 30$^{\circ}$ and 45$^{\circ}$. 
+
+After the spins are tipped away from z axis, they precess around the holding field and induce a signal in the detection coil. The signal is amplified by a low noise pre-amplifier first and then goes through an isolation switch. The switch only lets signal pass when the controlling gate voltage is low, thus stops the RF pulse from coming back through the detection circuit. The signal is at the Larmor frequency, and is mixed with another frequency after the switch. The mixing frequency is only slightly different from the Larmor frequency, the output of the mixer has both the sum of the two frequencies and the difference. A second pre-amplifier is used to select and amplifies the lower of the two frequencies while filtering out high frequency noises. The final output is displayed on a oscilloscope and collected by the Labview program on the computer. Fig.~\ref{FID} shows a PNMR measurement with around 150 ms decay time constant.
+
+\begin{figure}[H]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{FID.png}}
+	\caption{{\bf A PNMR signal taken with gold coated test cell.}}
+	\label{FID}
+\end{figure}
+
+The tip angle can be measured with a short sequence of FID signals. Theoretically the tip angle can be calculated with Eq.~\ref{tip_angle}. But because of inhomogeneities and other factors, the calculation serves as only an estimate, it is often more accurate and convenient to measure the tip angle directly. We take several PNMR measurements in quick succession with the same RF pulse settings. After every pulse, the transverse component of the spins quickly decay and dephase, leaving only the longitudinal component which is equal to $\cos{\alpha}$ times the original magnetization. The intervals between measurements are short enough so that T$_{1}$ can be safely ignored. The series of measurements also need to be performed on the same portion of the gas (i.e. the same group of spins tipped by the first pulse), thus it is important to know that the self-diffusion of $^{3}$He is significantly slower than the sampling rate. The self-diffusion coefficient of $^{3}$He at 300K is~\cite{J.Phys.France.35}
+
+\begin{equation}
+D=\frac{1440(80)torr}{P}cm^{2}/s
+\end{equation}
+
+which is roughly 1.89 cm$^{2}$/s at 760 torr. The diffusion length is described by
+
+\begin{equation}
+l = 2\sqrt{Dt}
+\end{equation}
+
+Thus in one second, the gas will move around 2.75 cm through self-diffusion. For this reason, we only take 2 or 3 PNMR measurements to calculate the tip angle. As additional measurements would have given enough time for the tipped spins from the first PNMR and the surrounding spins to mix.
+
+Since only the longitudinal component of the tipped spins are preserved, the amplitude of the i$_{th}$ PNMR is
+
+\begin{equation}
+V_{i}=V_{0}cos^{i-1}\alpha 
+\end{equation}
+
+where V$_{0}$ is the induced signal in the first PNMR. We can then use this equation to calculate the tip angle $\alpha$.
+
 
 
 

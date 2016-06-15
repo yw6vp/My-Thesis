@@ -5,19 +5,46 @@
 
 Spin-polarized noble gases have been widely used for various purposes. In JLAB, polarized $^{3}$He is used as target for electron-scattering experiments. This is because a $^{3}$He nucleus has a pair of protons with paired spins and a single neutron that contributes the most of the nuclear spin. In MRI, polarized $^{3}$He has seen uses such as detecting structural damage in the lungs.
 
-There are generally two ways of polarizing $^{3}$He: Metastability-Exchange Optical Pumping (MEOP) and Spin-Exchange Optical Pumping (SEOP). Our group focuses on SEOP as MEOP polarizes gas at relatively low pressure, thus further compression is required to produce target cells.
+There are generally two ways of polarizing $^{3}$He: Metastability-Exchange Optical Pumping (MEOP) and Spin-Exchange Optical Pumping (SEOP). Our group focuses on SEOP as MEOP polarizes gas at relatively low pressure ($\sim$1 torr), thus further compression is required to produce target cells of several atms that meet the need of JLab experiments.
 
-In SEOP, alkali metal is polarized by circularly polarized laser that's tuned to the D1 transition of it. $^{3}$He obtains polarization from alkali metal through spin exchange process. With the combination of hybrid alkali mixtures (typically Rb and K) and spectrally narrowed lasers, more than 70\% polarizations have been produced.
+In SEOP, alkali metal is polarized by circularly polarized laser tuned to the D1 transition of the particular alkali species used. $^{3}$He obtains polarization from alkali metal through spin exchange process. With the combination of hybrid alkali mixtures (typically Rb and K) and spectrally narrowed lasers, more than 70\% polarizations have been produced.
 
 \section{Optical pumping}
 
 \subsection{Rb for SEOP}
 
-In optical pumping, Rb is often the alkali metal that's optically pumped by circularly polarized laser light. The angular momentum of a polarized photon is transfered to the valence electron of Rb atom. In the case of hybrid mixture of Rb/K, Rb is still the alkali metal that's pumped by laser light directly while K serves as a more efficient medium to transfer the polarization from Rb to $^{3}$He compared to direct transfer from Rb to $^{3}$He. Rb is so widely used mainly for its low melting point, the relative ease of acquiring laser at the Rb D1 line wavelength and the clear seperation between D1 (794.7nm) and D2 line (780nm). 
+In optical pumping, Rb is often the alkali metal chosen to be optically pumped by circularly polarized laser light. The angular momentum of a polarized photon is transfered to the valence electron of Rb atom. In the case of hybrid mixture of Rb/K, Rb is still the alkali metal that is directly pumped by laser light while K serves as an efficient medium to transfer the polarization from Rb to $^{3}$He. Because the spin destruction rates are much lower for lighter alkali metals, K-$^{3}$He spin-exchange process is a lot more efficient than that of Rb-$^{3}$He. However, it is still much easier to optically pump Rb and transfer the polarization to $^{3}$He through K, mainly for Rb's low melting point, the relative ease of acquiring laser at the Rb D1 line wavelength and the wide separation between D1 (794.7nm) and D2 line (780nm). 
 
 The Rb melting point is at 39.5$^{\circ}$C, so it's easy to achieve enough Rb vapor without having to drive the oven temperature too high. In our lab, depending on if the cell contains pure Rb or Rb/K mixture, the oven temperature can be between 85$^{\circ}$C to as high as 255$^{\circ}$C. Perhaps the most used oven temperature for hybrid is 235$^{\circ}$C which has empirically been a good temperature to produce Rb/K mixture vapor, while 85$^{\circ}$C is enough for pure Rb.
 
-\begin{figure}[H]
+\subsection{Vapor Pressure Curves}
+
+When the alkali metal is heated to above its melting point, a small amount of alkali metal atoms evaporate. The equilibrium vapor pressure is temperature dependent:
+
+\begin{equation}
+P=10^{5.006+\alpha + \beta/T} Pa
+\end{equation}
+
+where $\alpha$ and $\beta$ are listed in Table~\ref{VaporPressureCoef}.
+
+\begin{center}\label{VaporPressureCoef}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		& Patassium & Rubidim \\ \hline
+		$\alpha$ & 4.402 & 4.312 \\ \hline
+		$\beta$ & -4453 & -4040 \\ \hline
+	\end{tabular}
+\end{center}
+
+Thus the number density is 
+
+\begin{equation}
+[A]=\frac{10^{5.006+\alpha+\beta/T}}{k_{B}T}
+\end{equation}
+
+The number density curves of pure Rb and K vapor are shown in Fig.~\ref{fig:AlkaliVaporDensity}.
+
+\begin{figure}[t!]
 	
 	\centering
 	\resizebox{0.91\textwidth}{!}{\includegraphics{AlkaliVaporDensity.png}}
@@ -34,31 +61,31 @@ The Hamiltonian for ground state (L=0) alkali metal atoms in external magnetic f
 {\bf H} = A{\bf I \cdot S} + g_{e} \mu_{B} S_{z}B_{z} + g_{N}{\mu_{N}}I_{z}B_{z}
 \end{equation}
 
-The first term $A{\bf I \cdot S}$ describes the coupling of the nuclear spin {\bf I} with the electron spin {\bf S} and is key to spin exchange, where A is the isotropic magnetic-dipole coupling coefficient. The resulting energy levels are referred to as hyperfine structure. The second and third terms describe the Zeeman splitting due to the presence of a weak external magnetic field. ${\mu}_{B} = 9.274 \times 10^{-24}J/T$ and ${\mu}_{N} = 5.051 \times 10^{-27}J/T$ are the bohr and nuclear magnetons. $g_{e}\approx2$ and $g_{N}\approx5.59$ are the electronic and nuclear Lande g-factors.
+The first term $A{\bf I \cdot S}$ describes the coupling of the nuclear spin {\bf I} with the electron spin {\bf S} and is key to spin exchange, where A is the isotropic magnetic-dipole coupling coefficient. The resulting energy levels from the first term are referred to as hyperfine structure. The second and third terms describe the Zeeman splitting due to the presence of a weak external magnetic field. ${\mu}_{B} = 9.274 \times 10^{-24}J/T$ and ${\mu}_{N} = 5.051 \times 10^{-27}J/T$ are the Bohr and nuclear magnetons. $g_{e}\approx2$ and $g_{N}\approx5.59$ are the electronic and nuclear Lande g-factors.
 
-The linear relationship between energy levels and magnetic field only holds for weak magnetic fields as is the case with our lab where ~13 Gauss is used most of the time. When the Zeeman splitting grows relative to the hyperfine energy difference one would have to take into account the quantum mixing of the states, the result is described by Breit-Rabi Formula. With ~13 Gauss, the hyperfine term dominates the total Hamiltonian. The energy levels of $^{87}$Rb are shown in figure \ref{fig:Rb87EnergyLevels}.
+The linear relationship between energy levels and magnetic field only holds for weak magnetic fields which applies to our lab where $\sim$13 Gauss is used most of the time. When the Zeeman splitting grows comparable to the hyperfine energy difference one would have to take into account the quantum mixing of the states, the result is described by Breit-Rabi Formula. With $\sim$13 Gauss, the hyperfine term dominates the total Hamiltonian. The energy levels of $^{87}$Rb are shown in Fig.~\ref{RbEnergyLevels}.
 
-\begin{figure}[H]
+\begin{figure}[t!]
 	\centering
-	\resizebox{0.91\textwidth}{!}{\includegraphics{Rb87EnergyLevelsPeter.png}}
+	\resizebox{0.91\textwidth}{!}{\includegraphics{RbEnergyLevels.png}}
 	\caption{{\bf Level Diagram of $^{87}$Rb. The splittings are not to scale. Adapted from Dolph's PhD thesis.}}
-	\label{fig:Rb87Energylevels}
+	\label{RbEnergyLevels}
 \end{figure}
 
 \subsection{Optical Pumping Process Overview}
 
-For simplicity, the following discussion will ignore the nuclear spins for now. The inclusion of nuclear spins will increase the number of energy states but the optical pumping mechanism remains the same. In our typical setup, circularly polarized laser light is tuned to the D1 line of Rb and excites valence electrons of Rb from 5S$_{1/2}$ state to 5P$_{1/2}$ state as shown in figure \ref{fig:OpticalPumping} (2S$_{1/2}$ and 2P$_{1/2}$ states are used in the figure for the simple model described below). 
+For simplicity, the following discussion will ignore the nuclear spins for now. The inclusion of nuclear spins will increase the number of energy states but the optical pumping mechanism remains the same. In our typical setup, circularly polarized laser light is tuned to the D1 line of Rb and excites valence electrons of Rb from 5S$_{1/2}$ state to 5P$_{1/2}$ state as shown in Fig.~\ref{fig:OpticalPumping} (2S$_{1/2}$ and 2P$_{1/2}$ states are used in the simple model described by the figure below). 
 
-\begin{figure}[H]
+\begin{figure}[t!]
 	\centering
 	\resizebox{0.91\textwidth}{!}{\includegraphics{OpticalPumping.png}}
 	\caption{{\bf The interaction of alkali-metal atoms with left-circularly ($\sigma^{+}$) polarized light. (from Ref.\@ \cite{WalkerHapper})}}
 	\label{fig:OpticalPumping}
 \end{figure}
 
-Although left-circularly polarized light is assumed in the figure, either circular polarization works the same. Conservation of angular momentum requires $\Delta$m = +1 as the figure show. Through collisions with other Rb atoms, excited electrons will be mix and evenly distribute on the two 2P$_{1/2}$ states. Electrons then decay to the two ground states with equal probabilities. The selection rule for the decay process is $\Delta$m = 0 or $\pm$1. Even though both grounds receive electrons from the decay, only the m = -1/2 state absorb the circular polarized photons, so atoms are in effect pumped to the m = +1/2 state. When we consider Rb with nuclear spins, both 5S$_{1/2}$ and 5P$_{1/2}$ states are split into more energy levels, but the net effect is still that the ground state with highest m accumulate atoms from those with lower m.
+Left-circularly polarized light is assumed in the figure, but either circular polarization works the same. Conservation of angular momentum requires $\Delta$m = +1 as the figure shows. Through collisions with other Rb atoms, excited electrons will mix and evenly distribute on the two 2P$_{1/2}$ states. Electrons then decay to the two ground states with equal probabilities. The selection rule for the decay process is $\Delta$m = 0 or $\pm$1. Even though both ground states receive electrons from the decay, only the m = -1/2 state absorbs the circular polarized photons and is being depleted, so atoms are in effect pumped to the m = +1/2 state. When we consider Rb with nuclear spins, both 5S$_{1/2}$ and 5P$_{1/2}$ states are split into more energy levels, but the net effect is still that the ground state with highest m accumulate atoms over time.
 
-When the excited electrons decay back to the ground state, they emit unpolarized photons which can depolarize the gas. A small amount of N$_{2}$ gas is added into the cell (typically around 0.1 Amagats) to non-radiatively quench the excited electrons as N$_{2}$ molecules can absorb the released energy of spontaneous decays into their rotational and vibrational modes of oscillation. With an appropriate amount of N$_{2}$, the photon-emitting decays can be reduced to less than 5\%.
+When the excited electrons decay back to the ground state, they emit unpolarized photons with angular momentum in random directions which can depolarize the gas. A small amount of N$_{2}$ gas is added into the cell (typically around 0.1 Amagats) to non-radiatively quench the excited electrons as N$_{2}$ molecules can absorb the released energy of spontaneous decays into their rotational and vibrational modes of oscillation. With an appropriate amount of N$_{2}$, the photon-emitting decays can be reduced to less than 5\%.
 
 \subsection{Optical Pumping Rate}
 
@@ -68,29 +95,19 @@ The optical pumping rate at position $\vec{r}$ can be described by
 R = \int \Phi(\nu, \vec{r})\sigma(\nu)d\nu
 \end{equation}
 
-where $\Phi(\nu,\vec{r})$ is the position dependent photon spectral flux density and $\sigma(\nu)$ is the photon absorption cross section. The cross section has a natural Lorentzian lineshape which is broadened by Doppler effect and pressure broadening. The pressure broadening effect dominates the lineshape as our cells normally have densities well above one amagat. $\sigma(\nu)$ follows the sum rule:
+where $\Phi(\nu,\vec{r})$ is the position dependent photon spectral flux density and $\sigma(\nu)$ is the photon absorption cross section. The cross section has a natural Lorentzian lineshape which is broadened by Doppler effect and pressure broadening. The pressure broadening effect dominates the lineshape as our cells normally have densities well above one amagat. The collisions of Rb with $^{3}$He and N$_{2}$ cause the broadening as well as a slight shift of the D$_{1}$ line. The coefficients of pressure broadening for $^{3}$He, $^{4}$He and N$_{2}$ are listed in Table~\ref{PBCoef}, and can be used to calculate the broadened line width and the shifted line center.
 
-\begin{equation}
-\int\sigma(\nu)d\nu=\pi r_{0}cf
-\end{equation}
-
-where $r_{0}=2.82 \times 10^{-13}$ cm is the classical electron radius and f=0.337is the transition oscillator strength. Thus the photon absorption cross section can be described by Lorentzian lineshape:
-
-\begin{equation}
-\sigma(\nu)=fr_{e}c\frac{\frac{\Gamma_{A}}{2}}{(\nu-\nu_{0})^{2}+(\frac{\Gamma_{A}}{2})^{2}}
-\end{equation}
-
-where $\Gamma_{A}$ is the pressure dependent FWHM. At the front of the cell, the photon spectral flux density is the product of a Gaussian spatial distribution and a Gaussian spectrum.
-
-\begin{subequations}
-	\begin{gather}
-	\phi(\nu,\vec{r})=\phi_{0}(\vec{r})G(\nu) \\
-	\phi_{0}(\vec{r})=\frac{P}{h\nu}\frac{2}{\omega^{2}\pi}e^{2r^{2}/\omega^{2}}\\
-	G(\nu)=\frac{1}{\sqrt{2\pi}\sigma_{l}}e^{-(\nu-\nu_{l})^2/2\sigma_{l}^{2}}
-	\end{gather}
-\end{subequations}
-
-where P is the laser power; $\omega$ is the beam waist;  $\sigma_{l}$ is the Gaussian width of the laser and $\nu_{l}$ is the central laser frequency.
+\begin{center}\label{PBCoef}
+	\begin{tabular}{ c c c c c c}
+		\hline \hline
+		& $^{4}$He & $^{3}$He & Temp. depen. & N$_{2}$ & Temp. depen.\\ 
+		D$_{1}$ full width & 18.0$\pm$0.2 & 18.7$\pm$0.3 & T$^{0.05\pm0.05}$ & 17.8$\pm$0.3 & T$^{0.3}$\\ 
+		(GHz/amg) &&&&& \\
+		D$_{1}$ line shift & 4.3$\pm$0.1 & 5.64$\pm$0.15 & T$^{1.1\pm0.1}$ &
+		-8.25$\pm$0.15 & T$^{0.3}$ \\ 
+		(GHz/amg) &&&&& \\ \hline \hline
+	\end{tabular}
+\end{center}
 
 \begin{figure}[t!]
 	\centering
@@ -102,13 +119,37 @@ where P is the laser power; $\omega$ is the beam waist;  $\sigma_{l}$ is the Gau
 \begin{figure}[t!]
 	\centering
 	\resizebox{0.91\textwidth}{!}{\includegraphics{PressureBroadening.png}}
-	\caption{{\bf The shift and the broadening due to presence of $^{3}He$ for Rb $D_{1}$ and $D_{2}$ lines. (from Ref.\@ \cite{Romalis1997})}}
-	\label{AbsorptionLine}
+	\caption{{\bf The shift and the broadening due to presence of $^{3}$He for Rb $D_{1}$ and $D_{2}$ lines. (from Ref.\@ \cite{Romalis1997})}}
+	\label{PressureBroadening}
 \end{figure}
+
+$\sigma(\nu)$ follows the sum rule:
+
+\begin{equation}
+\int\sigma(\nu)d\nu=\pi r_{0}cf
+\end{equation}
+
+where $r_{0}=2.82 \times 10^{-13}$ cm is the classical electron radius and f=0.337is the transition oscillator strength. Thus the photon absorption cross section can be described by Lorentzian lineshape:
+
+\begin{equation}
+\sigma(\nu)=fr_{e}c\frac{\frac{\Gamma_{A}}{2}}{(\nu-\nu_{0})^{2}+(\frac{\Gamma_{A}}{2})^{2}}
+\end{equation}
+
+where $\Gamma_{A}$ is the pressure dependent FWHM, $\Gamma_{A}\approx 0.04nm/amg \cdot [^{3}He]$. At the front of the cell, the photon spectral flux density is the product of a Gaussian spatial distribution and a Gaussian spectrum.
+
+\begin{subequations}
+	\begin{gather}
+	\phi(\nu,\vec{r})=\phi_{0}(\vec{r})G(\nu) \\
+	\phi_{0}(\vec{r})=\frac{P}{h\nu}\frac{2}{\omega^{2}\pi}e^{2r^{2}/\omega^{2}}\\
+	G(\nu)=\frac{1}{\sqrt{2\pi}\sigma_{l}}e^{-(\nu-\nu_{l})^2/2\sigma_{l}^{2}}
+	\end{gather}
+\end{subequations}
+
+where P is the laser power; $\omega$ is the beam waist;  $\sigma_{l}$ is the Gaussian width of the laser and $\nu_{l}$ is the central laser frequency.
 
 \subsection{Polarization Time Evolution}
 
-Although polarizations of Rb electrons are more complex, $^{3}He$ nuclei have an intrinsic nuclear spin of 1/2, and it's simpler to explain the math with spin of 1/2, let's define the polarization as the asymetry between +1/2 state and -1/2 state:
+Polarizations of Rb electrons are more complex, but $^{3}He$ nuclei have an intrinsic nuclear spin of 1/2, and it is simpler to explain the math with spin of 1/2. Let's define the polarization as the asymetry between +1/2 state and -1/2 state:
 
 \begin{equation}
 P=\frac{\rho_{+1/2}-\rho_{-1/2}}{\rho_{+1/2}+\rho_{-1/2}}=\rho_{+1/2}-\rho_{-1/2}
@@ -128,7 +169,7 @@ $\gamma$ is the polarization rate and $\Gamma$ is the depolarization rate in the
 P(t)=Ce^{-(\gamma+\Gamma)t} + \frac{\gamma}{\gamma+\Gamma}
 \end{equation}
 
-Note the depolarization rate also contributes to the speed at which P approaches saturation. The saturated polarization is defined as the value of P in the limit t $\rightarrow \infty$:
+Note the depolarization rate also contributes to the rate at which P approaches saturation as it lowers the saturated polarization hence shortens the time to reach it. The saturated polarization is defined as the value of P in the limit t $\rightarrow \infty$:
 
 \begin{equation}
 P_{\infty}=\frac{\gamma}{\gamma+\Gamma}
@@ -146,13 +187,13 @@ Thus, P(t) can be expressed as:
 P(t)=(P_{0}-P_{\infty})e^{-(\gamma+\Gamma)t}+P_{\infty}
 \end{equation}
 
-In the case of polarizing Rb with a pump laser. $\gamma$ is the pumping rate R and $\Gamma$ is the Rb spin relaxation rate $\Gamma_{Rb}$. There is typically a small angle $\theta$ between the pump laser and the magnetic field that separates the different spin states of Rb valence electrons even though great effort has been made to minimize the angle. Thus P(t) can be rewritten as:
+In the case of polarizing Rb with a pump laser, $\gamma$ is the pumping rate R and $\Gamma$ is the Rb spin relaxation rate $\Gamma_{Rb}$. There is typically a small angle $\theta$ between the pump laser and the holding field even though great effort has been made to minimize the angle. Thus P(t) can be rewritten as:
 
 \begin{equation}\label{Pt}
 P(t) = P_{0}e^{-(R+\Gamma_{Rb})t} + P_{laser}cos\theta \frac{R}{R+\Gamma_{Rb}}(1-e^{-(R+\Gamma_{Rb})t})
 \end{equation}
 
-$P_{laser}$ is the circular polarization of the pump laser which is above 99.5\%. Rb close to the front side of the cell can reach above 97\% (depends on the laser power and other factors) on the order of 100's of microseconds. As the laser propagates through the cell, power is attenuated by Rb vapor. Therefore Rb polarization at the back side of the cell is lower than that at the front side. One way to overcome the problem is to shine pump laser from both sides of the side which would lead to higher overall Rb polarization and $^{3}$He polarization.
+$P_{laser}$ is the circular polarization of the pump laser which is above 99.5\%. Rb close to the front side of the cell can reach above 97\% (depends on the laser power and other factors) on the order of 100's of microseconds. As the laser propagates through the cell, power is attenuated by Rb vapor. Therefore Rb polarization at the back side of the cell is lower than that at the front side. One way to overcome the problem is to shine pump laser from both sides of the cell which would lead to higher overall Rb polarization and $^{3}$He polarization.
 
 Spins are thermally polarized with the presence of a magnetic field even without external pumping source. The probability for a spin to be in state s is:
 
@@ -164,7 +205,7 @@ where $E_{s}$ is the energy of the state, $k_{B}$ is the Boltzmann constant and 
 
 \subsection{Rb Spin Destruction Rate}
 
-There are two main mechanisms of Rb depolarization: the binary collisions with Rb, $^{3}$He and $N_{2}$ and the formation and breakup of van der Waals molecules, while the second mechanism is negligible for $^{3}$He cells. The Rb spin destruction rate can then be expressed as
+There are two main mechanisms of Rb depolarization: the binary collisions with Rb, $^{3}$He and $N_{2}$, and the formation and breakup of van der Waals molecules, the second mechanism is negligible for $^{3}$He cells. The Rb spin destruction rate can then be expressed as
 
 \begin{equation}
 \Gamma_{Rb}=k_{Rb-Rb}[Rb]+k_{Rb-^{3}He}[^{3}He]+k_{Rb-N_{2}}[N_{2}]

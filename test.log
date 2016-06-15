@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  10 JUN 2016 01:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  15 JUN 2016 00:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,15 +1396,16 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 31.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-<PNMR_setup.png, id=1, 602.25pt x 577.15625pt>
-File: PNMR_setup.png Graphic file (type png)
- <use PNMR_setup.png>
-Package pdftex.def Info: PNMR_setup.png used on input line 51.
-(pdftex.def)             Requested size: 602.24852pt x 577.15483pt.
- [1
+<RbEnergyLevels.png, id=1, 516.93124pt x 611.28375pt>
+File: RbEnergyLevels.png Graphic file (type png)
+ <use RbEnergyLevels.png>
+Package pdftex.def Info: RbEnergyLevels.png used on input line 58.
+(pdftex.def)             Requested size: 516.92998pt x 611.28226pt.
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./P
-NMR_setup.png>]
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./RbEnergyLevels.png>]
 \openout2 = `bib.aux'.
 
  (./bib.tex (./test.bbl
@@ -1421,29 +1422,26 @@ See the caption package documentation for explanation.
 
 (./test.aux (./bib.aux)) ) 
 Here is how much of TeX's memory you used:
- 12662 strings out of 493033
- 226090 string characters out of 6134139
- 266013 words of memory out of 5000000
- 16053 multiletter control sequences out of 15000+600000
- 14283 words of font info for 55 fonts, out of 8000000 for 9000
+ 12658 strings out of 493033
+ 226044 string characters out of 6134139
+ 267013 words of memory out of 5000000
+ 16050 multiletter control sequences out of 15000+600000
+ 12725 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,42p,10399b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,9n,42p,10399b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmib10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i12.pfb>
-Output written on test.pdf (3 pages, 273393 bytes).
+onts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb>
+Output written on test.pdf (3 pages, 135245 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
