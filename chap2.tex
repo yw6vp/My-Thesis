@@ -97,17 +97,21 @@ R = \int \Phi(\nu, \vec{r})\sigma(\nu)d\nu
 
 where $\Phi(\nu,\vec{r})$ is the position dependent photon spectral flux density and $\sigma(\nu)$ is the photon absorption cross section. The cross section has a natural Lorentzian lineshape which is broadened by Doppler effect and pressure broadening. The pressure broadening effect dominates the lineshape as our cells normally have densities well above one amagat. The collisions of Rb with $^{3}$He and N$_{2}$ cause the broadening as well as a slight shift of the D$_{1}$ line. The coefficients of pressure broadening for $^{3}$He, $^{4}$He and N$_{2}$ are listed in Table~\ref{PBCoef}, and can be used to calculate the broadened line width and the shifted line center.
 
-\begin{center}\label{PBCoef}
-	\begin{tabular}{ c c c c c c}
-		\hline \hline
-		& $^{4}$He & $^{3}$He & Temp. depen. & N$_{2}$ & Temp. depen.\\ 
-		D$_{1}$ full width & 18.0$\pm$0.2 & 18.7$\pm$0.3 & T$^{0.05\pm0.05}$ & 17.8$\pm$0.3 & T$^{0.3}$\\ 
-		(GHz/amg) &&&&& \\
-		D$_{1}$ line shift & 4.3$\pm$0.1 & 5.64$\pm$0.15 & T$^{1.1\pm0.1}$ &
-		-8.25$\pm$0.15 & T$^{0.3}$ \\ 
-		(GHz/amg) &&&&& \\ \hline \hline
-	\end{tabular}
-\end{center}
+\begin{table}[t!]
+	\begin{center}
+		\caption{ Pressure broadening of Rb D$_{1}$ lines by $^{3}$He, $^{4}$He and N$_{2}$. The broadening and shifting density coefficients are listed. The 4th and 6th columns are the temperature dependence for He and N$_{2}$, respectively. All coefficients are given for 353 K, values for different temperatures can be calculated with the temperature dependence.}
+		\label{PBCoef}
+		\begin{tabular}{ c c c c c c}
+			\hline \hline
+			& $^{4}$He & $^{3}$He & Temp. depen. & N$_{2}$ & Temp. depen.\\ 
+			D$_{1}$ full width & 18.0$\pm$0.2 & 18.7$\pm$0.3 & T$^{0.05\pm0.05}$ & 17.8$\pm$0.3 & T$^{0.3}$\\ 
+			(GHz/amg) &&&&& \\
+			D$_{1}$ line shift & 4.3$\pm$0.1 & 5.64$\pm$0.15 & T$^{1.1\pm0.1}$ &
+			-8.25$\pm$0.15 & T$^{0.3}$ \\ 
+			(GHz/amg) &&&&& \\ \hline \hline
+		\end{tabular}
+	\end{center}
+\end{table}
 
 \begin{figure}[t!]
 	\centering
@@ -193,7 +197,7 @@ In the case of polarizing Rb with a pump laser, $\gamma$ is the pumping rate R a
 P(t) = P_{0}e^{-(R+\Gamma_{Rb})t} + P_{laser}cos\theta \frac{R}{R+\Gamma_{Rb}}(1-e^{-(R+\Gamma_{Rb})t})
 \end{equation}
 
-$P_{laser}$ is the circular polarization of the pump laser which is above 99.5\%. Rb close to the front side of the cell can reach above 97\% (depends on the laser power and other factors) on the order of 100's of microseconds. As the laser propagates through the cell, power is attenuated by Rb vapor. Therefore Rb polarization at the back side of the cell is lower than that at the front side. One way to overcome the problem is to shine pump laser from both sides of the cell which would lead to higher overall Rb polarization and $^{3}$He polarization.
+$\theta$ is called the skew angle, $P_{laser}$ is the circular polarization of the pump laser which is above 99.5\%. Rb close to the front side of the cell can reach above 97\% (depends on the laser power and other factors) on the order of 100's of microseconds. As the laser propagates through the cell, power is attenuated by Rb vapor. Therefore Rb polarization at the back side of the cell is lower than that at the front side. One way to overcome the problem is to shine pump laser from both sides of the cell which would lead to higher overall Rb polarization and $^{3}$He polarization.
 
 Spins are thermally polarized with the presence of a magnetic field even without external pumping source. The probability for a spin to be in state s is:
 
@@ -241,7 +245,7 @@ The approximate spin destruction rates due to various gases are:
 	\end{gather}
 \end{subequations}
 
-The total spin destruction rate is 669 Hz.
+The total spin destruction rate is 669 Hz. With more than 20 W narrowband laser, the optical pumping rate is often 100s kHz, which is much greater than the total Rb spin destruction rate. Therefore, it is very easy to achieve a close to unity alkali polarization. 
 
 \section{Spin Exchange}
 
@@ -261,7 +265,7 @@ where $\gamma_{se}$ is the spin exchange rate between $^{3}$He and Rb, and $\Gam
 
 \subsection{Spin-Dependent Interactions}
 
-The key process in spin-exchange optical pumping is collisional transfer of polarization between optically pumped alkali-metal atoms and the nuclei of the noble gas atoms. As in Fig. \ref{SpinExchange}, the transfer of angular momentum occurs either while the atoms are bound in van der Waals molecules or in simple binary collisions. For $^{3}He$, binary collisions dominate, and the contribution from van der Waals molecules is negligible. The time scale for binary collisions is on the order of $~10^{-12}$ sec, so the collision can induce both $\Delta F=\pm1$ and $\Delta F=0$ transitions between hyperfine sublevels. For heavier noble gases like $^{129}$Xe at pressure of a few tens of Torr, the contributions of van der Waals molecuels can greatly exceed that of binary collisions. At several atms which is the typical operating pressure for SEOP, the time scale of van der Waals molecules is greatly limited by collision so that the binary collisions dominate.
+The key process in spin-exchange optical pumping is collisional transfer of polarization between optically pumped alkali-metal atoms and the nuclei of the noble gas atoms. As in Fig. \ref{SpinExchange}, the transfer of angular momentum occurs either while the atoms are bound in van der Waals molecules or in simple binary collisions. For $^{3}He$, binary collisions dominate, and the contribution from van der Waals molecules is negligible. The time scale for binary collisions is on the order of $~10^{-12}$ sec, the collision can induce both $\Delta F=\pm1$ and $\Delta F=0$ transitions between hyperfine sublevels. For heavier noble gases like $^{129}$Xe at pressure of a few tens of Torr, the contributions of van der Waals molecuels can greatly exceed that of binary collisions. At several atms which is the typical operating pressure for SEOP, the time scale of van der Waals molecules is greatly limited by collision so that the binary collisions dominate.
 
 \begin{figure}[t!]
 	\centering
@@ -270,15 +274,13 @@ The key process in spin-exchange optical pumping is collisional transfer of pola
 	\label{SpinExchange}
 \end{figure}
 
-Spin-dependent interactions produce the spin transfer and relaxation. For SEOP, spin-rotation interaction between $\vec{S}$ and the rotational angular momentum $\vec{N}$ and the isotropic hyperfine interaction between $\vec{S}$ and the noble-gas nuclear spin $\vec{I}$ dominate the spin-exchange process:
+Spin-dependent interactions produce the spin transfer and relaxation. For SEOP, spin-rotation interaction between $\vec{S}$ and the rotational angular momentum $\vec{N}$ of the atom pair formed by Rb and noble gas atom, and the isotropic hyperfine interaction between $\vec{S}$ and the noble-gas nuclear spin $\vec{I}_{b}$ dominate the spin-exchange process:
 
 \begin{equation}\label{V1}
-V_{1}(\vec{R})=\gamma(R)\vec{N}\cdot \vec{S}+A(R)\vec{I}\cdot \vec{S}
+V_{1}(\vec{R})=\gamma(R)\vec{N}\cdot \vec{S}+A(R)\vec{I}_{b}\cdot \vec{S}
 \end{equation}
 
-$\vec{I}_{a}$ and $\vec{I}_{b}$ are the nuclear spins of the atomic pair.
-
-The spin-rotation interaction is caused by the magnetic fields from relative motion of the charges of the colliding atoms, and the isotropic hyperfine interaction comes from the magnetic field inside the nucleus of the noble-gas atom. 
+The spin-rotation interaction is caused by the magnetic fields from relative motion of the charges of the colliding atoms, and the isotropic hyperfine interaction comes from the magnetic field inside the nucleus of the noble-gas atom. The spin-rotation interaction produces relaxation of the alkali-metal electron-spins, while the isotropic hyperfine interaction transfers angular momentum back and forth between the alkali-metal electron spins and the noble-gas nuclear spins.
 
 An alkali-metal atom and a noble-gas atom interact via both a large spin-independent interaction $V_{0}(R)$ and a small spin-dependent interaction $V_{1}(R)$. At the high operating temperatures, $V_{0}$ determines classical collision trajectories, while $V_{1}$ acts as a small perturbation. We'll focus on $V_{1}$ below since it is responsible for spin exchange.
 
@@ -296,18 +298,18 @@ V_{1}(\vec{R})=\gamma(R)\vec{N}\cdot \vec{S}+\sum_{k}A_{k}(R)\vec{I}_{k}\cdot \v
 	\centering
 	\resizebox{0.91\textwidth}{!}{\includegraphics{V1.png}}
 	\caption{{\bf Strengths of various spin-dependent interactions as functions of separation(from Ref.\@ \cite{WalkerHapper})}}
-	\label{SpinExchange}
+	\label{V1}
 \end{figure}
 
-where $\gamma$ is the coefficient of the spin-rotation interaction, while $A_{k}$, $B_{k}$, $C_{k}$ are the coefficients for isotropic magnetic-dipole hyperfine interactions, anisotropic magnetic-dipole hyperfine interactions, and electric quadrupole interactions, respectively. $A_{a}$ greatly exceed other coefficients as the separations between atoms increase. 
+where $\vec{I}_{a}$ and $\vec{I}_{b}$ are the nuclear spins of the atomic pair, where a stands for alkali metal atom and b stands for noble gas atom. $\gamma$ is the coefficient of the spin-rotation interaction, while $A_{k}$, $B_{k}$, $C_{k}$ are the coefficients for isotropic magnetic-dipole hyperfine interactions, anisotropic magnetic-dipole hyperfine interactions, and electric quadrupole interactions, respectively. $A_{a}$ greatly exceed other coefficients as the separations between atoms increase. 
 
-The isotropic hyperfine interactions come from the Fermi-contact magnetic fields of the nuclei pair. 
+The isotropic hyperfine interactions come from the Fermi-contact magnetic fields of the two nuclei. A$_{b}$ is the term responsible for spin exchange:
 
 \begin{equation}
 A_{b}(R)=\frac{8\pi g_{s}\mu_{B}\mu_{b}}{3I_{b}}|\eta \phi_{0}(R)|^{2}
 \end{equation}
 
-where $\eta$ is the enhancement factor which equals to the ratio of the perturbed wave function at the noble gas nucleus to that without the noble gas atom. The isotropic hyperfine interaction also introduces a frequency of the magnetic resonance lines for alkali-metal and noble gas atoms. The frequency shift of alkali-metal electrons due to the polarized noble gas nuclei is used in the technique Electron Paramagnetic Resonance (EPR) to calculate the polarization of noble gas nuclei.
+where $\eta$ is the enhancement factor which equals to the ratio of the perturbed wave function at the noble gas nucleus to that without the noble gas atom. The isotropic hyperfine interaction also introduces a frequency shift of the magnetic resonance lines for alkali-metal and noble gas atoms. The frequency shift is characterized by another enhancement factor $\kappa$ which is the ratio of the actual shift of the alkali metal electron lines due to the presence of polarized noble gas nuclei to what would be produced by the bulk magnetization of polarized noble gas. The shift is used in the technique Electron Paramagnetic Resonance (EPR) to calculate the polarization of noble gas nuclei.
 
 The isotropic magnetic-dipole coupling polarizes the noble gas nuclei parallel to the electron spin polarization, while the anisotropic magnetic-dipole coupling polarizes in the opposite direction. Fortunately, the anisotropic interaction is negligible compared to isotropic interaction.
 
@@ -319,7 +321,7 @@ The spin exchange rate due to binary collisions is:
 \gamma_{se}=<\sigma_{se}v>[Rb]=k_{se}[Rb]
 \end{equation}
 
-where $k_{se}=<\sigma_{se}v$ is the velocity-averaged spin exchange rate constant. $k_{se}$ for spin exchange between $^{3}He$ and Rb is:
+where $k_{se}=<\sigma_{se}v>$ is the velocity-averaged spin exchange rate constant. $k_{se}$ for spin exchange between $^{3}He$ and Rb is:
 
 \begin{equation}
 k_{se}^{^{3}He-Rb}=(6.7\pm 0.7)\times 10^{-20}cm^{3}/s
@@ -334,7 +336,7 @@ Under 170$^{\circ}$C which is a typical temperature that we run tests with,
 Thus for a single chamber cell,
 
 \begin{equation}
-frac{1}{\gamma_{se}}\approx 15.9 hrs
+\frac{1}{\gamma_{se}}\approx 15.9 hrs
 \end{equation}
 
 \section{$^{3}He$ Spinup and Relaxation}
@@ -374,7 +376,7 @@ The relaxation rate due to field inhomogeneities is
 \Gamma_{inhomogeneity} = D\frac{|\nabla B_{x}|^{2}+|\nabla B_{y}|^{2}}{B_{0}^{2}}
 \end{equation}
 
-where D is the $^{3}$He diffusion constant, $\nabla B_{x}$ and $\nabla B_{y}$ are the transverse magnetic field inhomogeneities, $B_{0}$ is the holding field along z-axis. Under operating conditions, assuming the pressure is around 12 atm and field is 12.6 G, $D\approx 0.16cm^{2}/s$ and the field inhomogeneities are ~ 10mG/cm, the relaxation rate is ~ 1/1400 hr$^{-1}$
+where D is the $^{3}$He diffusion constant, $\nabla B_{x}$ and $\nabla B_{y}$ are the transverse magnetic field inhomogeneities, $B_{0}$ is the holding field along z-axis. Under operating conditions, assuming the pressure is around 12 atm and field is 12.6 G, $D\approx 0.16cm^{2}/s$ and the field inhomogeneities are ~ 10mG/cm, the relaxation rate is ~ 1/1400 hr$^{-1}$.
 
 Wall relaxation is typically the dominant relaxation mechanism for cells in our lab. This mechanism depends on the property of the inner surface of glass. Most of the target cells are contructed with reblown General Electric Type 180 (GE-180) glass. This aluminosilicate glass is highly impermeable to $^{3}$He. The wall relaxation is believed to be associated to several different mechanisms, such as paramagnetic impurities in the glass and microfissures in the surface that could trap $^{3}$He atoms. It has been found reblowing the glass can help lower the wall relaxation rate because it reduces the number of microfissures. The wall relaxation is not well understood, but it is believed to scale with the surface-to-volume ratio:
 
