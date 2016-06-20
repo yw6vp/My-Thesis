@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  15 JUN 2016 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  16 JUN 2016 01:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1282,7 +1282,7 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 (./YunxiaoThesis.aux (./abstract.aux) (./ack.aux) (./contents.aux)
 (./tables.aux) (./figures.aux) (./chap2.aux
 
-LaTeX Warning: Label `SpinExchange' multiply defined.
+LaTeX Warning: Label `V1' multiply defined.
 
 ) (./chap3.aux
 
@@ -1620,54 +1620,50 @@ File: AFPandEPRsetup.png Graphic file (type png)
 <use AFPandEPRsetup.png>
 Package pdftex.def Info: AFPandEPRsetup.png used on input line 99.
 (pdftex.def)             Requested size: 1045.90495pt x 636.37595pt.
- [26 <./AFPandEPRsetup.png>] [27]
-<AFP.png, id=150, 567.11874pt x 406.51875pt>
+ [26] [27 <./AFPandEPRsetup.png>] [28]
+<AFP.png, id=153, 567.11874pt x 406.51875pt>
 File: AFP.png Graphic file (type png)
  <use AFP.png>
 Package pdftex.def Info: AFP.png used on input line 156.
 (pdftex.def)             Requested size: 567.11736pt x 406.51775pt.
- [28] [29 <./AFP.png>] <AFPSignal.png, id=158, 600.2425pt x 380.42125pt>
+ [29] [30 <./AFP.png>] <AFPSignal.png, id=161, 600.2425pt x 380.42125pt>
 File: AFPSignal.png Graphic file (type png)
  <use AFPSignal.png>
 Package pdftex.def Info: AFPSignal.png used on input line 171.
 (pdftex.def)             Requested size: 600.24103pt x 380.4203pt.
 
-[30 <./AFPSignal.png>] <TargetCell.png, id=163, 578.16pt x 362.35374pt>
+[31 <./AFPSignal.png>] <TargetCell.png, id=166, 578.16pt x 362.35374pt>
 File: TargetCell.png Graphic file (type png)
 
 <use TargetCell.png>
 Package pdftex.def Info: TargetCell.png used on input line 186.
 (pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
-
-
-LaTeX Warning: Reference `PhysRevC.84.065201' on page 31 undefined on input lin
-e 191.
-
-[31 <./TargetCell.png>] [32]
+ [32 <./TargetCell.png>]
 
 LaTeX Warning: Reference `PhysRevC.84.065201' on page 33 undefined on input lin
 e 215.
 
+[33]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no š in font cmr12!
-<BradySpinup.png, id=171, 462.72874pt x 367.3725pt>
+ <BradySpinup.png, id=175, 462.72874pt x 367.3725pt>
 File: BradySpinup.png Graphic file (type png)
  <use BradySpinup.png>
 Package pdftex.def Info: BradySpinup.png used on input line 227.
 (pdftex.def)             Requested size: 462.72762pt x 367.37158pt.
 
-[33] [34 <./BradySpinup.png>] [35] [36]
+[34] [35 <./BradySpinup.png>] [36] [37]
 
-LaTeX Warning: Citation `PhysRevA.38.5092' on page 37 undefined on input line 2
+LaTeX Warning: Citation `PhysRevA.38.5092' on page 38 undefined on input line 2
 97.
 
-[37]
+[38]
 
-LaTeX Warning: Citation `PhysRevA.37.2877' on page 38 undefined on input line 3
+LaTeX Warning: Citation `PhysRevA.37.2877' on page 39 undefined on input line 3
 09.
 
-[38] <AFPLossvsGradient.png, id=193, 451.9284pt x 355.5684pt>
+[39] <AFPLossvsGradient.png, id=197, 451.9284pt x 355.5684pt>
 File: AFPLossvsGradient.png Graphic file (type png)
 
 <use AFPLossvsGradient.png>
@@ -1675,10 +1671,10 @@ Package pdftex.def Info: AFPLossvsGradient.png used on input line 333.
 (pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
 
 
-LaTeX Warning: Citation `PhysRevA.71.013414' on page 39 undefined on input line
+LaTeX Warning: Citation `PhysRevA.71.013414' on page 40 undefined on input line
  342.
 
-[39 <./AFPLossvsGradient.png>] [40] [41]
+[40 <./AFPLossvsGradient.png>] [41] [42]
 Overfull \hbox (49.96259pt too wide) in paragraph at lines 386--386
 [] 
  []
@@ -1691,40 +1687,36 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 415.
 
-[42]
+[43]
 
-LaTeX Warning: Citation `PhysRevA.58.3004' on page 43 undefined on input line 4
+LaTeX Warning: Citation `PhysRevA.58.3004' on page 44 undefined on input line 4
 24.
 
-[43] [44]
-Overfull \hbox (5.80333pt too wide) in paragraph at lines 454--455
-[]\OT1/cmr/m/n/12 The RF fre-quency is gen-er-ated by the 18.2MHz Voltage-contr
+[44] [45]
+Overfull \hbox (3.84918pt too wide) in paragraph at lines 454--455
+[]\OT1/cmr/m/n/12 The RF fre-quency is gen-er-ated by the 18.2MHz voltage-contr
 olled os-cil-la-tor (VCO).
  []
 
-[45] <fmsweep.png, id=222, 437.635pt x 408.52625pt>
+[46] <fmsweep.png, id=225, 437.635pt x 408.52625pt>
 File: fmsweep.png Graphic file (type png)
  <use fmsweep.png>
 Package pdftex.def Info: fmsweep.png used on input line 490.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
 
-<PIBox.png, id=223, 867.24pt x 483.8075pt>
+<PIBox.png, id=226, 867.24pt x 483.8075pt>
 File: PIBox.png Graphic file (type png)
  <use PIBox.png>
 Package pdftex.def Info: PIBox.png used on input line 501.
 (pdftex.def)             Requested size: 867.2379pt x 483.80632pt.
 
 
-LaTeX Warning: Citation `PeterThesis' on page 46 undefined on input line 502.
+LaTeX Warning: Citation `PeterThesis' on page 47 undefined on input line 502.
 
 
-LaTeX Warning: Citation `PeterThesis' on page 46 undefined on input line 502.
+LaTeX Warning: Citation `PeterThesis' on page 47 undefined on input line 502.
 
-[46]
-Overfull \vbox (145.65164pt too high) has occurred while \output is active []
-
-
-[47 <./fmsweep.png> <./PIBox.png>] <epr.png, id=232, 752.8125pt x 401.5pt>
+[47] [48 <./fmsweep.png>] <epr.png, id=234, 752.8125pt x 401.5pt>
 File: epr.png Graphic file (type png)
 
 <use epr.png>
@@ -1732,20 +1724,20 @@ Package pdftex.def Info: epr.png used on input line 512.
 (pdftex.def)             Requested size: 752.81065pt x 401.49901pt.
 
 
-LaTeX Warning: Citation `PeterThesis' on page 48 undefined on input line 517.
+LaTeX Warning: Citation `PeterThesis' on page 49 undefined on input line 517.
 
-[48] [49 <./epr.png>] [50] [51]
+[49 <./PIBox.png>] [50 <./epr.png>] [51] [52]
 
-LaTeX Warning: Citation `PhysRev.70.460' on page 52 undefined on input line 561
+LaTeX Warning: Citation `PhysRev.70.460' on page 53 undefined on input line 561
 .
 
-[52] <PNMR_setup.png, id=250, 556.0775pt x 523.9575pt>
+[53] <PNMR_setup.png, id=253, 556.0775pt x 523.9575pt>
 File: PNMR_setup.png Graphic file (type png)
  <use PNMR_setup.png>
 Package pdftex.def Info: PNMR_setup.png used on input line 585.
 (pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
 
-[53] [54 <./PNMR_setup.png>] <FID.png, id=258, 418.56375pt x 142.5325pt>
+[54] [55 <./PNMR_setup.png>] <FID.png, id=261, 418.56375pt x 142.5325pt>
 File: FID.png Graphic file (type png)
 
 <use FID.png>
@@ -1753,31 +1745,31 @@ Package pdftex.def Info: FID.png used on input line 602.
 (pdftex.def)             Requested size: 418.56271pt x 142.53214pt.
 
 
-LaTeX Warning: Citation `J.Phys.France.35' on page 55 undefined on input line 6
+LaTeX Warning: Citation `J.Phys.France.35' on page 56 undefined on input line 6
 07.
 
-[55 <./FID.png>]) [56]
+[56 <./FID.png>] [57]) [58]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex
 Chapter 3.
-) [57
+) [59
 
 
 
 ]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl [58
+ (./bib.tex (./YunxiaoThesis.bbl [60
 
 
 
-])) [59]
+])) [61]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [60
+) [62
 
 
 
@@ -1799,7 +1791,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  12948 strings out of 493033
  230300 string characters out of 6134139
- 272992 words of memory out of 5000000
+ 272989 words of memory out of 5000000
  16244 multiletter control sequences out of 15000+600000
  24233 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1823,10 +1815,10 @@ texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (70 pages, 1537209 bytes).
+Output written on YunxiaoThesis.pdf (72 pages, 1539216 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
+ 350 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

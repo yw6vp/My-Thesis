@@ -25,23 +25,23 @@
 \contentsline {subsubsection}{\numberline {2.2.2.1}Classical Formulation}{24}
 \contentsline {subsubsection}{\numberline {2.2.2.2}Quantum Mechanical Formulation}{25}
 \contentsline {subsection}{\numberline {2.2.3}Adiabatic Fast Passage}{26}
-\contentsline {subsection}{\numberline {2.2.4}Spinups and Spindowns}{30}
-\contentsline {subsubsection}{\numberline {2.2.4.1}Double-Chambered Cell Spinup}{31}
-\contentsline {subsubsection}{\numberline {2.2.4.2}Initial Spinup}{34}
-\contentsline {subsubsection}{\numberline {2.2.4.3}Spindown}{35}
-\contentsline {subsection}{\numberline {2.2.5}AFP Loss}{37}
-\contentsline {section}{\numberline {2.3}Electron Paramagnetic Resonance}{39}
-\contentsline {subsection}{\numberline {2.3.1}Overview}{39}
-\contentsline {subsection}{\numberline {2.3.2}The Breit-Rabi Equation}{40}
-\contentsline {subsection}{\numberline {2.3.3}Shift of Zeeman Frequency}{42}
-\contentsline {subsection}{\numberline {2.3.4}Experimental Methods}{44}
-\contentsline {subsubsection}{\numberline {2.3.4.1}Overview}{44}
-\contentsline {subsubsection}{\numberline {2.3.4.2}Locating Zeeman Transition Frequency}{45}
-\contentsline {subsubsection}{\numberline {2.3.4.3}EPR Spin Flip Process}{46}
-\contentsline {section}{\numberline {2.4}Pulsed Nuclear Magnetic Resonance}{49}
-\contentsline {subsection}{\numberline {2.4.1}The Rotating Coordinate System}{50}
-\contentsline {subsection}{\numberline {2.4.2}Free Induction Decay}{51}
-\contentsline {subsection}{\numberline {2.4.3}Experimental Methods}{53}
-\contentsline {chapter}{\numberline {3}Lorem Ipsum}{57}
-\contentsline {chapter}{Bibliography}{58}
-\contentsline {chapter}{\numberline {A}Appendix title}{60}
+\contentsline {subsection}{\numberline {2.2.4}Spinups and Spindowns}{31}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Double-Chambered Cell Spinup}{32}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Initial Spinup}{35}
+\contentsline {subsubsection}{\numberline {2.2.4.3}Spindown}{36}
+\contentsline {subsection}{\numberline {2.2.5}AFP Loss}{38}
+\contentsline {section}{\numberline {2.3}Electron Paramagnetic Resonance}{40}
+\contentsline {subsection}{\numberline {2.3.1}Overview}{40}
+\contentsline {subsection}{\numberline {2.3.2}The Breit-Rabi Equation}{41}
+\contentsline {subsection}{\numberline {2.3.3}Shift of Zeeman Frequency}{43}
+\contentsline {subsection}{\numberline {2.3.4}Experimental Methods}{45}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Overview}{45}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Locating Zeeman Transition Frequency}{46}
+\contentsline {subsubsection}{\numberline {2.3.4.3}EPR Spin Flip Process}{47}
+\contentsline {section}{\numberline {2.4}Pulsed Nuclear Magnetic Resonance}{51}
+\contentsline {subsection}{\numberline {2.4.1}The Rotating Coordinate System}{51}
+\contentsline {subsection}{\numberline {2.4.2}Free Induction Decay}{52}
+\contentsline {subsection}{\numberline {2.4.3}Experimental Methods}{54}
+\contentsline {chapter}{\numberline {3}Lorem Ipsum}{59}
+\contentsline {chapter}{Bibliography}{60}
+\contentsline {chapter}{\numberline {A}Appendix title}{62}
