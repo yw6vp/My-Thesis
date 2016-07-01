@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  16 JUN 2016 01:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  30 JUN 2016 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1501,7 +1501,7 @@ LaTeX Warning: Citation `PeterThesis' on page x undefined on input line 17.
 \tf@lof=\write5
 \openout5 = `YunxiaoThesis.lof'.
 
-) [10]
+) [10] [11]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
@@ -1510,21 +1510,21 @@ Chapter 1.
 
 
 
-] [2] <AlkaliVaporDensity.png, id=47, 437.635pt x 408.52625pt>
+] [2] <AlkaliVaporDensity.png, id=51, 437.635pt x 408.52625pt>
 File: AlkaliVaporDensity.png Graphic file (type png)
 
 <use AlkaliVaporDensity.png>
 Package pdftex.def Info: AlkaliVaporDensity.png used on input line 50.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
  [3] [4 <./AlkaliVaporDensity.png>]
-<RbEnergyLevels.png, id=58, 516.93124pt x 611.28375pt>
+<RbEnergyLevels.png, id=61, 516.93124pt x 611.28375pt>
 File: RbEnergyLevels.png Graphic file (type png)
 
 <use RbEnergyLevels.png>
 Package pdftex.def Info: RbEnergyLevels.png used on input line 70.
 (pdftex.def)             Requested size: 516.92998pt x 611.28226pt.
 
-<OpticalPumping.png, id=59, 292.09125pt x 245.91875pt>
+<OpticalPumping.png, id=62, 292.09125pt x 245.91875pt>
 File: OpticalPumping.png Graphic file (type png)
 
 <use OpticalPumping.png>
@@ -1538,7 +1538,7 @@ LaTeX Warning: Citation `WalkerHapper' on page 5 undefined on input line 82.
 LaTeX Warning: Citation `WalkerHapper' on page 5 undefined on input line 82.
 
 [5] [6 <./RbEnergyLevels.png>] [7 <./OpticalPumping.png>]
-<AbsorptionLine.png, id=71, 468.75125pt x 342.27875pt>
+<AbsorptionLine.png, id=74, 468.75125pt x 342.27875pt>
 File: AbsorptionLine.png Graphic file (type png)
 
 <use AbsorptionLine.png>
@@ -1551,7 +1551,7 @@ LaTeX Warning: Citation `Romalis1997' on page 8 undefined on input line 119.
 
 LaTeX Warning: Citation `Romalis1997' on page 8 undefined on input line 119.
 
-<PressureBroadening.png, id=72, 490.83376pt x 339.2675pt>
+<PressureBroadening.png, id=75, 490.83376pt x 339.2675pt>
 File: PressureBroadening.png Graphic file (type png)
 
 <use PressureBroadening.png>
@@ -1565,7 +1565,7 @@ LaTeX Warning: Citation `Romalis1997' on page 8 undefined on input line 126.
 LaTeX Warning: Citation `Romalis1997' on page 8 undefined on input line 126.
 
 [8] [9 <./AbsorptionLine.png>] [10 <./PressureBroadening.png>] [11] [12]
-[13] [14] <SpinExchange.png, id=100, 470.75874pt x 372.39125pt>
+[13] [14] <SpinExchange.png, id=104, 470.75874pt x 372.39125pt>
 File: SpinExchange.png Graphic file (type png)
 
 <use SpinExchange.png>
@@ -1584,7 +1584,7 @@ Overfull \hbox (12.0226pt too wide) in paragraph at lines 285--286
  a large spin-independent
  []
 
-[15] [16 <./SpinExchange.png>] <V1.png, id=109, 480.79625pt x 340.27126pt>
+[15] [16 <./SpinExchange.png>] <V1.png, id=112, 480.79625pt x 340.27126pt>
 File: V1.png Graphic file (type png)
 
 <use V1.png>
@@ -1611,28 +1611,25 @@ Chapter 2.
 LaTeX Warning: Citation `RevModPhys.26.167' on page 24 undefined on input line 
 34.
 
-
-LaTeX Warning: Reference `eq2' on page 24 undefined on input line 46.
-
-[24] [25] <AFPandEPRsetup.png, id=141, 1045.9075pt x 636.3775pt>
+[24] [25] <AFPandEPRsetup.png, id=144, 1045.9075pt x 636.3775pt>
 File: AFPandEPRsetup.png Graphic file (type png)
 
 <use AFPandEPRsetup.png>
 Package pdftex.def Info: AFPandEPRsetup.png used on input line 99.
 (pdftex.def)             Requested size: 1045.90495pt x 636.37595pt.
  [26] [27 <./AFPandEPRsetup.png>] [28]
-<AFP.png, id=153, 567.11874pt x 406.51875pt>
+<AFP.png, id=156, 567.11874pt x 406.51875pt>
 File: AFP.png Graphic file (type png)
  <use AFP.png>
 Package pdftex.def Info: AFP.png used on input line 156.
 (pdftex.def)             Requested size: 567.11736pt x 406.51775pt.
- [29] [30 <./AFP.png>] <AFPSignal.png, id=161, 600.2425pt x 380.42125pt>
+ [29] [30 <./AFP.png>] <AFPSignal.png, id=164, 600.2425pt x 380.42125pt>
 File: AFPSignal.png Graphic file (type png)
  <use AFPSignal.png>
 Package pdftex.def Info: AFPSignal.png used on input line 171.
 (pdftex.def)             Requested size: 600.24103pt x 380.4203pt.
 
-[31 <./AFPSignal.png>] <TargetCell.png, id=166, 578.16pt x 362.35374pt>
+[31 <./AFPSignal.png>] <TargetCell.png, id=169, 578.16pt x 362.35374pt>
 File: TargetCell.png Graphic file (type png)
 
 <use TargetCell.png>
@@ -1647,7 +1644,7 @@ e 215.
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no š in font cmr12!
- <BradySpinup.png, id=175, 462.72874pt x 367.3725pt>
+ <BradySpinup.png, id=178, 462.72874pt x 367.3725pt>
 File: BradySpinup.png Graphic file (type png)
  <use BradySpinup.png>
 Package pdftex.def Info: BradySpinup.png used on input line 227.
@@ -1663,7 +1660,7 @@ LaTeX Warning: Citation `PhysRevA.38.5092' on page 38 undefined on input line 2
 LaTeX Warning: Citation `PhysRevA.37.2877' on page 39 undefined on input line 3
 09.
 
-[39] <AFPLossvsGradient.png, id=197, 451.9284pt x 355.5684pt>
+[39] <AFPLossvsGradient.png, id=201, 451.9284pt x 355.5684pt>
 File: AFPLossvsGradient.png Graphic file (type png)
 
 <use AFPLossvsGradient.png>
@@ -1698,13 +1695,13 @@ Overfull \hbox (3.84918pt too wide) in paragraph at lines 454--455
 olled os-cil-la-tor (VCO).
  []
 
-[46] <fmsweep.png, id=225, 437.635pt x 408.52625pt>
+[46] <fmsweep.png, id=228, 437.635pt x 408.52625pt>
 File: fmsweep.png Graphic file (type png)
  <use fmsweep.png>
 Package pdftex.def Info: fmsweep.png used on input line 490.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
 
-<PIBox.png, id=226, 867.24pt x 483.8075pt>
+<PIBox.png, id=229, 867.24pt x 483.8075pt>
 File: PIBox.png Graphic file (type png)
  <use PIBox.png>
 Package pdftex.def Info: PIBox.png used on input line 501.
@@ -1716,7 +1713,7 @@ LaTeX Warning: Citation `PeterThesis' on page 47 undefined on input line 502.
 
 LaTeX Warning: Citation `PeterThesis' on page 47 undefined on input line 502.
 
-[47] [48 <./fmsweep.png>] <epr.png, id=234, 752.8125pt x 401.5pt>
+[47] [48 <./fmsweep.png>] <epr.png, id=237, 752.8125pt x 401.5pt>
 File: epr.png Graphic file (type png)
 
 <use epr.png>
@@ -1731,13 +1728,13 @@ LaTeX Warning: Citation `PeterThesis' on page 49 undefined on input line 517.
 LaTeX Warning: Citation `PhysRev.70.460' on page 53 undefined on input line 561
 .
 
-[53] <PNMR_setup.png, id=253, 556.0775pt x 523.9575pt>
+[53] <PNMR_setup.png, id=256, 556.0775pt x 523.9575pt>
 File: PNMR_setup.png Graphic file (type png)
  <use PNMR_setup.png>
 Package pdftex.def Info: PNMR_setup.png used on input line 585.
 (pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
 
-[54] [55 <./PNMR_setup.png>] <FID.png, id=261, 418.56375pt x 142.5325pt>
+[54] [55 <./PNMR_setup.png>] <FID.png, id=264, 418.56375pt x 142.5325pt>
 File: FID.png Graphic file (type png)
 
 <use FID.png>
@@ -1753,23 +1750,34 @@ LaTeX Warning: Citation `J.Phys.France.35' on page 56 undefined on input line 6
 
  (./chap4.tex
 Chapter 3.
-) [59
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page 59 undefined on input line
+ 6.
+
+[59
 
 
 
-]
+] [60] [61] <target_performance.png, id=285, 803.0pt x 467.7475pt>
+File: target_performance.png Graphic file (type png)
+
+<use target_performance.png>
+Package pdftex.def Info: target_performance.png used on input line 22.
+(pdftex.def)             Requested size: 802.99805pt x 467.74634pt.
+) [62] [63 <./target_performance.png>]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl [60
+ (./bib.tex
+(./YunxiaoThesis.bbl [64
 
 
 
-])) [61]
+])) [65]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [62
+) [66
 
 
 
@@ -1789,11 +1797,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12948 strings out of 493033
- 230300 string characters out of 6134139
- 272989 words of memory out of 5000000
- 16244 multiletter control sequences out of 15000+600000
- 24233 words of font info for 98 fonts, out of 8000000 for 9000
+ 12953 strings out of 493033
+ 230430 string characters out of 6134139
+ 273011 words of memory out of 5000000
+ 16249 multiletter control sequences out of 15000+600000
+ 23881 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,42p,10408b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -1808,17 +1816,16 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (72 pages, 1539216 bytes).
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on YunxiaoThesis.pdf (77 pages, 1611783 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
+ 365 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

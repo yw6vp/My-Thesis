@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  30 JUN 2016 01:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  30 JUN 2016 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,32 +1396,15 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 31.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 $k_{se}^{K}=(7.46\pm0.62)\times10^{-20}$ cm^
-                                                 {3}/s
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<target_performance.png, id=1, 803.0pt x 467.7475pt>
+File: target_performance.png Graphic file (type png)
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.44 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<use target_performance.png>
+Package pdftex.def Info: target_performance.png used on input line 69.
+(pdftex.def)             Requested size: 802.99805pt x 467.74634pt.
+ [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<RbEnergyLevels.png, id=1, 516.93124pt x 611.28375pt>
-File: RbEnergyLevels.png Graphic file (type png)
- <use RbEnergyLevels.png>
-Package pdftex.def Info: RbEnergyLevels.png used on input line 69.
-(pdftex.def)             Requested size: 516.92998pt x 611.28226pt.
-
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-[2 <./RbEnergyLevels.png>]
+] [2 <./target_performance.png>]
 \openout2 = `bib.aux'.
 
  (./bib.tex (./test.bbl
@@ -1439,8 +1422,8 @@ See the caption package documentation for explanation.
 (./test.aux (./bib.aux)) ) 
 Here is how much of TeX's memory you used:
  12661 strings out of 493033
- 226075 string characters out of 6134139
- 269021 words of memory out of 5000000
+ 226089 string characters out of 6134139
+ 270021 words of memory out of 5000000
  16053 multiletter control sequences out of 15000+600000
  12725 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1455,7 +1438,7 @@ fonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb>
-Output written on test.pdf (3 pages, 145461 bytes).
+Output written on test.pdf (3 pages, 168063 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
