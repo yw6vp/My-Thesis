@@ -3,7 +3,7 @@
 
 \section{Overview}
 
-In the first part of this chapter, I present the development of high-performance polarized $^{3}$He targets for use in electron scattering experiments that utilize the technique of alkali-hybrid spin-exchange optical pumping. Data of 24 separate target cells are presented, each of these cells was constructed while preparing of one of four experiments at Jefferson Laboratory. The results document dramatic improvement in the performance of polarized $^{3}$He targets. I focus on the data analysis work in this chapter since most of the data had already been taken by the time I joined the group. Other details are described by Jaideep Singh~\cite{PhysRevC.91.055205}. With the wide range of data, we successfully determined the so-called X-factors that quantify a temperature-dependent and as-yet poorly understood spin-relaxation mechanism that limits the maximum achievable $^{3}$He polarization to well under 100\%. We developed a simulation of the alkali-hybrid spin-exchange optical pumping process that provided a means to calculate volume averaged alkali polarization. The data collected also served as a measurement of the K-$^{3}$He spin-exchange rate coefficient $k_{se}^{K}=(7.46\pm0.62)\times10^{-20}$ cm$^{3}$/s over the temperature range 503 K to 563 K.
+In the first part of this chapter, I present the development of high-performance polarized $^{3}$He targets for use in electron scattering experiments that utilize the technique of alkali-hybrid spin-exchange optical pumping. Data of 24 separate target cells are presented, each of these cells was constructed while preparing of one of four experiments at Jefferson Laboratory. The results document dramatic improvement in the performance of polarized $^{3}$He targets. I focus on the data analysis work in this chapter since most of the data had already been taken by the time I joined the group. Other details are described by Jaideep Singh~\cite{PhysRevC.91.055205}. With the wide range of data, we successfully determined the so-called X-factors that quantify a temperature-dependent and as-yet poorly understood spin-relaxation mechanism that limits the maximum achievable $^{3}$He polarization to well under 100\%. The data collected also served as a measurement of the K-$^{3}$He spin-exchange rate coefficient $k_{se}^{K}=(7.46\pm0.62)\times10^{-20}$ cm$^{3}$/s over the temperature range 503 K to 563 K.
 
 In the second part of the chapter, I report the results we have so far on developing the next generation target cell. As mentioned in previous chapters, target cells are composed of two distinct chambers: a pumping chamber (PC) where gas is polarized, and a target chamber through which the electron beam passes. The two chambers are traditionally connected by a single transfer tube. The polarization in the target chamber is replenished by gas from pumping chamber through diffusion. This is not a problem as long as the time scales associated with diffusion are short compared with the time scales associated with the depolarization process. The time scale of diffusion through transfer tube is roughly 0.5-1 hour. Due to the increasing electron beam current, the polarization gradient between the two chambers increased from 1-2\% to up about 8\% in more recent experiments. Future experiments are likely to use beam currents 4 times or more of what caused 8\% polarization gradient. A new design was developed Peter Dolph which circulates the gas with convection instead of diffusion. Dolph demonstrated the design with a prototype cell, later I tested the first and second convection style cells with high $^{3}$He polarization while having convection on. The success with our new design enables future experiment to run with higher electron beam current without causing too much polarization gradient.
 
@@ -25,6 +25,208 @@ Two figures of merit (FOMs) are plotted in Fig.~\ref{fig:foms}, both of which ar
 \end{figure}
 
 \subsection{Experimental Methods}
+
+\subsubsection{The $^{3}$He Targets}
+
+Chapter 2 has already described single-chambered cell polarization dynamics to some extent as it is a simpler model for introducing spin-exchange optical pumping. The $^{3}$He target cells JLab uses for electron scattering experiments usualy include two chambers, a pumping chamber (PC), which is placed in an oven and pumped by circularly polarized laser, and a target chamber (TC) that the electron beam passes through. Fig.\ref{TargetCell} shows a typical cell. 
+
+\begin{figure}[H]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{TargetCell.png}}
+	\caption{{\bf A target cell. The dimensions of different parts of the cell are not to scale.}}
+	\label{TargetCell}
+\end{figure}
+
+After baking the cell to remove moisture and other contaminants, mixtures of Rb and K are chased into the cell. Once the cell has been pumped with a diffusion pump for about a week, we can fill the cell with N$_{2}$ and $^{3}$He. 
+
+The $^{3}$He density is of great importance for characterizing the target cells as it is required in many of the calculations I will discuss later in the chapter. One way to determine the $^{3}$He density is to through measurements during the cell-filling process. A carefully calibrated volume, together with pressure and temperature measurements gives the volume of different spaces in the gas system (the system that is used to pump the cell and fill it with N$_{2}$ and $^{3}$He) and the cell. By comparing the amount of $^{3}$He left in the system, the amount that went into the cell is obtained. The volume of the cell can be measured by determining its buoyancy force in water. The $^{3}$He density is determined to within about 1\% with the method.
+
+Another method used quite often for determining the $^{3}$He density through measurements of the pressure broadening of the D$_{1}$ and D$_{2}$ absorption lines with a scannable single-frequency laser. This measurement also provides the value of D, which is the ratio of K vapor density to Rb vapor density. Although the value of D is for the temperature at which the measurement is performed, its value for operating condition can be inferred with alkali-metal vapor pressure curves. D is also measured with the Faraday Rotation technique in many cases, and the two methods agree with each other quite well. The fill densities and geometric properties of the aforementioned 24 cells are shown in Table~\ref{fill_densities}.
+
+\begin{table*}\scriptsize \label{fill_densities}
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			\multirow{2}{*}{\begin{sideways}{EXP}\end{sideways}}&\multirow{2}{*}{Cell} & Total & PC & \multirow{2}{*}Fill & TC   \\
+			&& Volume(cc) & Volume(cc) & Density(amg) & length(cm)\\
+			\hline
+			\hline
+			\multirow{5}{*}{\begin{sideways}saGDH\end{sideways}} 
+			& Proteus & 235.9 & 90.8 & 6.88 & 34.3\\
+			\cline{2-6}
+			& Peter & 208.6 & 111.3 & 8.80 & 39.4\\
+			\cline{2-6}
+			& Penelope & 204.3 & 102.2 & 8.93 & 39.7\\
+			\cline{2-6}
+			& Powell & 213.3 & 111.6 & 8.95 & 40.5\\
+			\cline{2-6}
+			& Prasch & 257.7 & 114.5 & 6.94 & 35.3\\
+			\hline
+			\hline
+			\multirow{9}{*}{\begin{sideways}GEN\end{sideways}} 
+			& Al & 168.4 & 90.2 & 8.91 & 38.4\\ \cline{2-6}
+			& Barbara & 386.2 & 306.8 & 7.60 & 38.7 \\ \cline{2-6}
+			& Gloria & 378.2 & 298.8 & 7.40 & 38.4\\ \cline{2-6}
+			& Anna & 386.8 & 303.7 & 8.09 & 38.7\\ \cline{2-6}
+			& Dexter & 181.4 & 99.3 & 9.95 & 38.7\\ \cline{2-6}
+			& Edna & 378.3 & 290.3 & 7.47 & 38.7\\ \cline{2-6}
+			& Dolly & 378.3 & 293.5 & 7.42 & 38.7\\ \cline{2-6}
+			& Simone & 219.5 & 118.6 & 8.17 & 37.9\\ \cline{2-6}
+			& Sosa & 388.8 & 304.7 & 7.96 & 38.7\\ \hline
+			\multirow{10}{*}{\begin{sideways}Transversity and $d_{2}^{n}$\end{sideways}} 
+			& Boris & 246.1 & 166.1 & 8.08 & 38.4\\ \cline{2-6} 
+			& Samantha & 259.0 & 176.9 & 7.97 & 38.4\\ \cline{2-6}
+			& Alex & 278.3 & 193.9 & 7.73 & 39.1\\ \cline{2-6}
+			& Moss & 269.8 & 184.7 & 7.92 & 38.7\\ \cline{2-6}
+			& Tigger & 271.7 & 186.9 & 7.81 & 38.7\\ \cline{2-6}
+			& Astral & 251.4 & 164.9 & 8.18 & 38.4\\ \cline{2-6}
+			& Stephanie & 244.3 & 164.9 & 8.10 & 38.5\\ \cline{2-6}
+			& Brady & 249.9 & 169.3 & 7.88 & 38.4\\ \cline{2-6}
+			& Maureen & 268.5 & 177.4 & 7.63 & 39.8\\ \cline{2-6}
+			& Antoinette & 437.8 & 351.8 & 6.57 & 40.3\\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{The table contains the names, total and pumping chamber volumes, fill densities and target chamber lengths of the 24 target cells. The fill densities are the average of the results from gas system measurements and pressure broadening measurements.}
+\end{table*}
+
+\subsubsection{Target Cell Polarization Dynamics}
+
+As previously mentioned, AFP is used to monitor the polarization of $^{3}$He. An exact value of polarization remains to be calibrated with EPR, but the signal size is directly proportional to the polarization, thus is an indication of how the polarization changes relatively. Two processes that are monitored with AFP are spinups and spindowns. 
+
+The process of $^{3}$He gaining polarization through spin-exchange with Rb that is being constantly pumped by circularly polarized laser is called a spinup. A typical example of a spinup is shown in Fig.~\ref{spinup}.
+
+\begin{figure}[H]
+	\label{spinup}
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{Spinup.png}}
+	\caption{{(a) Shown is a spinup of the target Brady. The spinup data has been fit with a 3-parameter and a 5-parameter formalism. (b) The residuals of the two fits. The error for 3-parameter fit is larger because it does not account for diffusion between two chambers. Adopted from~\cite{PhysRevC.91.055205}.}
+\end{figure}
+
+The equation that describes spinups of single-chambered cell is: 
+
+\begin{equation}
+P(t)=(P^{0}-P^{\infty})e^{-\Gamma_{sc}t}+P^{\infty}
+\end{equation}
+
+where $P^{\infty}$ is the saturation polarization, $P^{0}$ is the initial polarization, $\Gamma_{sc}=\gamma_{se}(1+X)+\Gamma$ is the spin up rate of the buildup of polarization. The subscript "sc" here stands for "single chamber" to differ from the spinup rate of double-chambered cell. $\gamma_{se}$ is the spin-exchange rate, X is the X factor that limits the maximal achievable polarization, which will be discussed in more detail later in the chapter. $\Gamma$ is the spin relaxation rate. When using this equation to fit spinup, there are only three parameters, hence the name 3-parameter fit. The saturation polarization is giveny by:
+
+\begin{equation}
+P^{\infty}=\frac{\langle P_{A}\rangle \gamma_{se}}{\Gamma_{sc}}=\frac{\langle P_{A}\gamma_{se}}{\gamma_{se}(1+X)+\Gamma}
+\end{equation}
+
+where $\langle P_{A}\rangle$ is the polarization of the alkali vapor averaged over the cell.
+
+The following derivation will only focus on double-chambered cell. The polarization accumulation rate can be described by 
+
+\begin{subequations}\label{DoubleChamber}
+	\begin{gather}
+	\frac{dP_{pc}}{dt}=\Gamma_{se}(P_{A}-P_{pc})-\Gamma_{pc}P_{pc}-d_{pc}(P_{pc}-P_{tc})\\
+	\frac{dP_{tc}}{dt}=-\Gamma_{tc}P_{tc}+d_{tc}(P_{pc}-P_{tc})
+	\end{gather}
+\end{subequations}
+
+where $P_{pc} (P_{tc})$ is the $^{3}$He polarization in PC (TC); $\gamma_{se}$ is the spin-exchange rate in PC; $\Gamma_{pc} (\Gamma_{tc})$  is the relaxation rate o $^{3}$He polarization in PC (TC); $d_{pc} (d_{tc})$ is the probability for a nucleus to leave PC (TC) and enter TC (PC). The transfer rates $d_{pc}$ and $d_{tc}$ are related by:
+
+\begin{equation}
+f_{pc}d_{pc}=f_{tc}d_{tc}
+\end{equation}
+
+where $f_{pc} (f_{tc})$ is the fraction of atoms in PC (TC). The solutions to Eq.\ref{DoubleChamber} are
+
+\begin{subequations}\label{DoubleChamberSolution}
+	\begin{gather}
+	P_{pc}(t)=C_{pc}e^{-\Gamma_{f}t}+(P_{pc}^{0}-P_{pc}^{\infty}-C_{pc})e^{-\Gamma_{s}t}+P_{pc}^{\infty}\\
+	P_{tc}(t)=C_{tc}e^{-\Gamma_{f}t}+(P_{tc}^{0}-P_{tc}^{\infty}-C_{tc})e^{-\Gamma_{s}t}+P_{tc}^{\infty}
+	\end{gather}
+\end{subequations}
+
+where $P_{pc}^{0} (P_{tc}^{0})$ is the initial polarization in the pumping (target) chamber, $P_{pc}^{\infty} (P_{tc}^{\infty})$ is the saturation polarization in the pumping (target) chamber. The "slow" time constant $\Gamma_{s}$ is mostly determined by the volume averaged spin-exchange rate, which is given by
+
+\begin{equation}
+\Gamma_{s}=\langle \gamma_{se}\rangle(1+X)+\langle\Gamma\rangle-\delta\Gamma
+\end{equation}
+
+where $\langle\gamma_{se}\rangle=f_{pc}\gamma_{se}$ is the cell averaged spin-exchange rate, $\langle\Gamma\rangle$ is the cell averaged spin relaxation rate, as the rate might be different for pumping chamber and target chamber. The quantity $\delta\Gamma$ contains corrections due to the finite speed at which polarization moves between the two chambers. The size of $\delta\Gamma$ is usually no more than 10\% of the size of $\Gamma_{s}$ in our studies, and never more than 15\%.
+
+Detailed discussion is done by Dolph\ref{PhysRevC.84.065201}. Again, the name 5-parameter fit comes from the fact that there are 5 parameters in each of the two equations. It's interesting to note the time evolution of $^{3}$He polarization for double-chambered cells has a new time constant: the "fast" time constant $\gamma_{f}$ that is dominated by the diffusion rates $d_{PC}$ and $d_{TC}$ when diffusion is relatively fast. In the fast-transfer limit, double-chambered solution reduces to single-chambered solution. 
+
+The other interesting point is the relation between the saturation polarization in PC and TC：
+
+\begin{equation}
+P_{tc}^{\infty}=\frac{P_{pc}^{\infty}}{1+\frac{\Gamma_{tc}}{d_{tc}}}
+\end{equation}
+
+In the fast-transfer limit where $d_{tc}\gg \Gamma_{tc}$, $P_{tc}^{\infty}=P_{pc}^{\infty}$. 
+
+\subsubsection{Initial Spinup}
+
+As shown in Fig.\ref{BradySpinup}, the early behavior of spinup with zero polarization for the pumping chamber and the target chamber are quite different. The initial part of the pumping chamber is almost linear but the target chamber shows a curved initial part. By performing a Taylor expansion on Eq.~\ref{DoubleChamberSolution} we obtain the initial part of the spinup for both chambers:
+
+\begin{figure}[H]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{BradySpinup.png}}
+	\caption{{\bf $^{3}$He polarization as a function of time for both the pumping chamber and the target chamber. The top curve is the pumping chamber and the bottom curve is the target chamber. Data was taken at a fast pace so there would be enough points to demonstrate the initial behavior. }}
+	\label{BradySpinup}
+\end{figure}
+
+\begin{subequations}\label{InitialSpinup}
+	\begin{gather}
+	P_{pc}(t)=\gamma_{se}P_{A}t-\frac{1}{2}\gamma_{se}P_{A}(\gamma_{se}+\Gamma_{pc}+d_{pc})t^{2}\\
+	P_{tc}(t)=\frac{1}{2}\gamma_{se}P_{A}d_{tc}t^{2}
+	\end{gather}
+\end{subequations}
+
+where $\gamma_{se}$ is the spin-exchange rate in the pumping chamber and $P_{A}$ is the alkali polarization. It's clear that the dominant term in $P_{pc}(t)$ is the linear term while the shape of $P_{tc}(t)$ is quadratic. 
+
+The slope of the linear shape of initial spinup of the pumping chamber gives access to the product $P_{A}\gamma_{se}$ and fitting the initial spinup of the target chamber to a quadratic function provides the product $\gamma_{se}P_{A}d_{TC}$. The alkali polarization $P_{A}$ can be measured with a technique named Faraday Rotation, we then gain knowledge of the spin-exchange rate $\gamma_{se}$ and the diffusion rate $d_{tc}$. The slope of the polarization buildup in the pumping chamber is often written as $m_{pc}=P_{A}\gamma_se}$. 
+
+The spin relaxation rate is also of great importance for characterizing target cells. The relaxation rates in the pumping chamber and the target chamber are different due to geometric and other properties. The cell-average relaxation rate can then be written as
+
+\begin{equation}
+\langle \Gamma \rangle=f_{pc}\Gamma_{pc}+f_{tc}\Gamma_{tc}
+\end{equation}
+
+where $f_{pc}$ ($f_{tc}$) is the fraction of atoms in PC (TC); $\Gamma_{pc}$ ($\Gamma_{tc}$) is the average relaxation rate in PC (TC). When the cell is being pumped by laser, the pumping chamber is heated with hot air to create alkali vapor while the target chamber remains at the room temperature. Difference in temperature further complicates difference in relaxation rates between the two chambers. However, when trying to measure the life time (the inverse of the relaxation rate) of the cell, we typically keep the entire cell at room temperature and perform a "spindown" measurement. 
+
+During a spindown, the cell starts with some polarization (normally as high as possible so we can obtain a more complete curve), and relaxes on its own while we take AFP measurements at a certain rate. Typically, the interval between measurements is anywhere between 30 mins and 2 hrs, depending on the lifetime of the cell. The rule of thumb is to take AFP frequently enough so the spindown curve has sufficient data points while not too often so the polarization relaxes too fast due to AFP losses. The $^{3}$He polarization relaxation can be described by
+
+\begin{equation}\label{Spindown}
+P(t)=P_{0}e^{-t/\tau_{true}}
+\end{equation}
+
+The true lifetime $\tau_{true}$ of the cell without relaxation due to AFP loss can be measured with two methods: the first is to take 5 AFP measurements consecutively with very short interval (normally around 3 minutes), the second is to perform several spindown measurements, each with a different interval. 
+
+In the first method, because the lifetime of the cell is much longer than 3 minutes, we can safely attribute all losses to AFP measurements and extract the loss due to a single AFP $loss_{afp}$. The data values can then be corrected with the equation
+
+\begin{equation}
+S_{i}^{corrected}=S_{i}^{raw}/(1-loss_{afp})^{i-1}
+\end{equation}
+
+where $S_{i}^{corrected}$ is the corrected signal, $S_{i}^{raw}$ is the raw signal, i represents it is the $i$th measurement in the spindown, $loss_{afp}$ is the loss due to a single measurement. Fitting the corrected values to Eq.~\ref{Spindown} gives the true lifetime $\tau_{true}$.
+
+A simple example for the second method would be to perform one spindown with one-hour interval and another spindown with two-hour interval, the relaxation rates in these two spindowns are
+
+\begin{subequations}
+	\begin{equation}
+	\frac{1}{\tau_{1hr}}=\frac{1}{\tau_{true}}+\Gamma_{AFP\_1hr}
+	\end{equation}
+	\begin{equation}
+	\frac{1}{\tau_{2hr}}=\frac{1}{\tau_{true}}+\Gamma_{AFP\_2hr}
+	\end{equation}
+	\begin{equation}
+	\Gamma_{AFP\_1hr}=2\times \Gamma_{AFP\_2hr}
+	\end{equation}
+\end{subequations}
+
+where $\tau_{1hr}$ and $\tau_{2hr}$ are the lifetimes measured with taking AFP every 1 hour and every 2 hours, $\tau_{true}$ is the true lifetime of the cell without interference from measurements, $\Gamma_{AFP\_1hr}$ ($\Gamma_{AFP\_2hr}$)is the relaxation rate due to taking measurements every 1hr (2hr). We can then solve for $\tau_{true}$.
+
+\subsubsection{The K-$^{3}$He Spin-Exchange Rate Constant}
+
+
+
+
+
+
 
 
 
