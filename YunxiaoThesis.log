@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  2 JUL 2016 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  8 JUL 2016 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,11 +1291,7 @@ LaTeX Warning: Label `V1' multiply defined.
 
 LaTeX Warning: Label `AFPSignal' multiply defined.
 
-) (./chap4.aux
-
-LaTeX Warning: Label `TargetCell' multiply defined.
-
-) (./bib.aux) (./apdxa.aux))
+) (./chap4.aux) (./bib.aux) (./apdxa.aux))
 \openout1 = `YunxiaoThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -1485,7 +1481,12 @@ scale. Adapted
 
 
 
-] [10])
+] [10]
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page xi undefined on input line
+ 22.
+
+)
 \tf@lof=\write5
 \openout5 = `YunxiaoThesis.lof'.
 
@@ -1498,7 +1499,7 @@ Chapter 1.
 
 
 
-] [2] <AlkaliVaporDensity.png, id=51, 437.635pt x 408.52625pt>
+] [2] <AlkaliVaporDensity.png, id=52, 437.635pt x 408.52625pt>
 File: AlkaliVaporDensity.png Graphic file (type png)
 
 <use AlkaliVaporDensity.png>
@@ -1578,125 +1579,176 @@ File: AFPSignal.png Graphic file (type png)
 Package pdftex.def Info: AFPSignal.png used on input line 171.
 (pdftex.def)             Requested size: 600.24103pt x 380.4203pt.
 
-[31 <./AFPSignal.png>] <TargetCell.png, id=169, 578.16pt x 362.35374pt>
-File: TargetCell.png Graphic file (type png)
-
-<use TargetCell.png>
-Package pdftex.def Info: TargetCell.png used on input line 186.
-(pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
- [32 <./TargetCell.png>]
-
-LaTeX Warning: Reference `PhysRevC.84.065201' on page 33 undefined on input lin
-e 215.
-
-[33]
-Missing character: There is no ï in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no š in font cmr12!
- <BradySpinup.png, id=178, 462.72874pt x 367.3725pt>
-File: BradySpinup.png Graphic file (type png)
- <use BradySpinup.png>
-Package pdftex.def Info: BradySpinup.png used on input line 227.
-(pdftex.def)             Requested size: 462.72762pt x 367.37158pt.
-
-[34] [35 <./BradySpinup.png>] [36] [37] [38] [39]
-<AFPLossvsGradient.png, id=201, 451.9284pt x 355.5684pt>
+[31 <./AFPSignal.png>] [32]
+<AFPLossvsGradient.png, id=174, 451.9284pt x 355.5684pt>
 File: AFPLossvsGradient.png Graphic file (type png)
 
 <use AFPLossvsGradient.png>
-Package pdftex.def Info: AFPLossvsGradient.png used on input line 333.
+Package pdftex.def Info: AFPLossvsGradient.png used on input line 220.
 (pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
- [40 <./AFPLossvsGradient.png>] [41] [42]
-Overfull \hbox (49.96259pt too wide) in paragraph at lines 386--386
+ [33 <./AFPLossvsGradient.png>] [34] [35]
+Overfull \hbox (49.96259pt too wide) in paragraph at lines 273--273
 [] 
  []
 
+[36]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 415.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 302.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 415.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 302.
 
-[43] [44] [45]
-Overfull \hbox (3.84918pt too wide) in paragraph at lines 454--455
+[37] [38]
+Overfull \hbox (3.84918pt too wide) in paragraph at lines 341--342
 []\OT1/cmr/m/n/12 The RF fre-quency is gen-er-ated by the 18.2MHz voltage-contr
 olled os-cil-la-tor (VCO).
  []
 
-[46] <fmsweep.png, id=228, 437.635pt x 408.52625pt>
+[39] <fmsweep.png, id=202, 437.635pt x 408.52625pt>
 File: fmsweep.png Graphic file (type png)
  <use fmsweep.png>
-Package pdftex.def Info: fmsweep.png used on input line 490.
+Package pdftex.def Info: fmsweep.png used on input line 377.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
-
-<PIBox.png, id=229, 867.24pt x 483.8075pt>
+ [40]
+<PIBox.png, id=206, 867.24pt x 483.8075pt>
 File: PIBox.png Graphic file (type png)
  <use PIBox.png>
-Package pdftex.def Info: PIBox.png used on input line 501.
+Package pdftex.def Info: PIBox.png used on input line 388.
 (pdftex.def)             Requested size: 867.2379pt x 483.80632pt.
- [47] [48 <./fmsweep.png>] <epr.png, id=237, 752.8125pt x 401.5pt>
+ [41 <./fmsweep.png>] [42 <./PIBox.png>] <epr.png, id=215, 752.8125pt x 401.5pt
+>
 File: epr.png Graphic file (type png)
  <use epr.png>
-Package pdftex.def Info: epr.png used on input line 512.
+Package pdftex.def Info: epr.png used on input line 399.
 (pdftex.def)             Requested size: 752.81065pt x 401.49901pt.
- [49 <./PIBox.png>]
-[50 <./epr.png>] [51] [52] [53]
-<PNMR_setup.png, id=256, 556.0775pt x 523.9575pt>
+
+[43 <./epr.png>] [44] [45] [46] [47]
+<PNMR_setup.png, id=233, 556.0775pt x 523.9575pt>
 File: PNMR_setup.png Graphic file (type png)
  <use PNMR_setup.png>
-Package pdftex.def Info: PNMR_setup.png used on input line 585.
+Package pdftex.def Info: PNMR_setup.png used on input line 472.
 (pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
- [54]
-[55 <./PNMR_setup.png>] <FID.png, id=264, 418.56375pt x 142.5325pt>
+ [48 <./PNMR_setup.png>] [49] <FID.png, id=241, 418.56375pt x 142.5325pt>
 File: FID.png Graphic file (type png)
-
-<use FID.png>
-Package pdftex.def Info: FID.png used on input line 602.
+ <use FID.png>
+Package pdftex.def Info: FID.png used on input line 489.
 (pdftex.def)             Requested size: 418.56271pt x 142.53214pt.
- [56 <./FID.png>] [57]) [58]
+
+[50 <./FID.png>]) [51]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex
 Chapter 3.
 
-LaTeX Warning: Citation `PhysRevC.91.055205' on page 59 undefined on input line
+LaTeX Warning: Citation `PhysRevC.91.055205' on page 52 undefined on input line
  6.
 
-[59
+[52
 
 
 
-] [60] [61] <target_performance.png, id=285, 803.0pt x 467.7475pt>
+] [53] [54] <target_performance.png, id=259, 803.0pt x 467.7475pt>
 File: target_performance.png Graphic file (type png)
 
 <use target_performance.png>
 Package pdftex.def Info: target_performance.png used on input line 22.
 (pdftex.def)             Requested size: 802.99805pt x 467.74634pt.
- [62] [63 <./target_performance.png>]
+ [55]
+<TargetCell.png, id=263, 578.16pt x 362.35374pt>
 File: TargetCell.png Graphic file (type png)
-
-<use TargetCell.png>
+ <use TargetCell.png>
 Package pdftex.def Info: TargetCell.png used on input line 35.
 (pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
- [64]
+ [56 <./target_performance.png>] [57 <./TargetCell.png>]
+
+Package caption Warning: \label without proper reference on input line 46.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fill_densities' on page 58 undefined on input line 44
+.
+
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 48.
-) [65] [66]
+
+Package caption Warning: \label without proper reference on input line 99.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `spinup' on page 58 undefined on input line 96.
+
+<Spinup.png, id=273, 798.985pt x 610.28pt>
+File: Spinup.png Graphic file (type png)
+ <use Spinup.png>
+Package pdftex.def Info: Spinup.png used on input line 101.
+(pdftex.def)             Requested size: 798.98305pt x 610.2785pt.
+
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page 58 undefined on input line
+ 102.
+
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page 58 undefined on input line
+ 102.
+
+[58] [59] [60 <./Spinup.png>] [61]
+Overfull \hbox (1.48613pt too wide) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
+P[]\OT1/cmr/m/n/12 )$ is the ini-tial po-lar-iza-tion in the pump-ing (tar-get)
+ cham-ber, $\OML/cmm/m/it/12 P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P[]\OT1/cmr/m
+/n/12 )$
+ []
+
+
+LaTeX Warning: Reference `PhysRevC.84.065201' on page 62 undefined on input lin
+e 151.
+
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+Missing character: There is no š in font cmr12!
+[62] <BradySpinup.png, id=291, 462.72874pt x 367.3725pt>
+File: BradySpinup.png Graphic file (type png)
+ <use BradySpinup.png>
+Package pdftex.def Info: BradySpinup.png used on input line 167.
+(pdftex.def)             Requested size: 462.72762pt x 367.37158pt.
+
+[63] [64 <./BradySpinup.png>] [65] [66] [67] [68]
+
+LaTeX Warning: Citation `PhysRevLett.80.2801' on page 69 undefined on input lin
+e 253.
+
+
+LaTeX Warning: Citation `PhysRevA.66.032703' on page 69 undefined on input line
+ 253.
+
+
+Package caption Warning: \label without proper reference on input line 266.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `m_ratio' on page 69 undefined on input line 259.
+
+<m_ratio.png, id=312, 787.94376pt x 390.45876pt>
+File: m_ratio.png Graphic file (type png)
+ <use m_ratio.png>
+Package pdftex.def Info: m_ratio.png used on input line 268.
+(pdftex.def)             Requested size: 787.94183pt x 390.4578pt.
+ [69])
+[70 <./m_ratio.png>]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl [67
+ (./bib.tex (./YunxiaoThesis.bbl [71
 
 
 
-]))
-[68]
+])) [72]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [69
+) [73
 
 
 
@@ -1716,10 +1768,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12982 strings out of 493033
- 230891 string characters out of 6134139
- 284268 words of memory out of 5000000
- 16267 multiletter control sequences out of 15000+600000
+ 12997 strings out of 493033
+ 231108 string characters out of 6134139
+ 285382 words of memory out of 5000000
+ 16280 multiletter control sequences out of 15000+600000
  25762 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,42p,10408b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1741,10 +1793,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (80 pages, 1625448 bytes).
+Output written on YunxiaoThesis.pdf (84 pages, 1734617 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
+ 391 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

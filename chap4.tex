@@ -99,7 +99,7 @@ The process of $^{3}$He gaining polarization through spin-exchange with Rb that 
 	\label{spinup}
 	\centering
 	\resizebox{0.91\textwidth}{!}{\includegraphics{Spinup.png}}
-	\caption{{(a) Shown is a spinup of the target Brady. The spinup data has been fit with a 3-parameter and a 5-parameter formalism. (b) The residuals of the two fits. The error for 3-parameter fit is larger because it does not account for diffusion between two chambers. Adopted from~\cite{PhysRevC.91.055205}.}
+	\caption{{(a) Shown is a spinup of the target Brady. The spinup data has been fit with a 3-parameter and a 5-parameter formalism. (b) The residuals of the two fits. The error for 3-parameter fit is larger because it does not account for diffusion between two chambers. Adopted from~\cite{PhysRevC.91.055205}.}}
 \end{figure}
 
 The equation that describes spinups of single-chambered cell is: 
@@ -178,7 +178,7 @@ As shown in Fig.\ref{BradySpinup}, the early behavior of spinup with zero polari
 
 where $\gamma_{se}$ is the spin-exchange rate in the pumping chamber and $P_{A}$ is the alkali polarization. It's clear that the dominant term in $P_{pc}(t)$ is the linear term while the shape of $P_{tc}(t)$ is quadratic. 
 
-The slope of the linear shape of initial spinup of the pumping chamber gives access to the product $P_{A}\gamma_{se}$ and fitting the initial spinup of the target chamber to a quadratic function provides the product $\gamma_{se}P_{A}d_{TC}$. The alkali polarization $P_{A}$ can be measured with a technique named Faraday Rotation, we then gain knowledge of the spin-exchange rate $\gamma_{se}$ and the diffusion rate $d_{tc}$. The slope of the polarization buildup in the pumping chamber is often written as $m_{pc}=P_{A}\gamma_se}$. 
+The slope of the linear shape of initial spinup of the pumping chamber gives access to the product $P_{A}\gamma_{se}$ and fitting the initial spinup of the target chamber to a quadratic function provides the product $\gamma_{se}P_{A}d_{TC}$. The alkali polarization $P_{A}$ can be measured with a technique named Faraday Rotation, we then gain knowledge of the spin-exchange rate $\gamma_{se}$ and the diffusion rate $d_{tc}$. The slope of the polarization buildup in the pumping chamber is often written as $m_{pc}=P_{A}\gamma_{se}$. 
 
 The spin relaxation rate is also of great importance for characterizing target cells. The relaxation rates in the pumping chamber and the target chamber are different due to geometric and other properties. The cell-average relaxation rate can then be written as
 
@@ -222,13 +222,52 @@ where $\tau_{1hr}$ and $\tau_{2hr}$ are the lifetimes measured with taking AFP e
 
 \subsubsection{The K-$^{3}$He Spin-Exchange Rate Constant}
 
+As mentioned in the initial spinup section, the polarization in the pumping chamber at the beginning of accumulation process if started with completely unpolarized state can be described by 
 
+\begin{equation}
+P_{pc} = \gamma_{se}\langle P_{A}\rangle (t-t_{0})+b(t-t_{0})^{2} = m_{pc}t + bt^{2} + c
+\end{equation}
 
+where m$_{pc}$ is the slope of the linear term. Typically, in the first 20 to 30 minutes, the spinup behaves so linearly that the effect of quadratic term is negligible.
 
+During these initial spinups, an AFP measurement was taken every 3 minutes. The AFP losses were carefully accounted for when calculating m$_{pc}$. The $^{3}$He spins were flipped to the opposite direction during every AFP measurement for a short period of time while still receiving polarization in the original direction. Care was taken to account for the time during which spins were "anti-aligned". We refer to the the slope collected from initial spinups as m$_{pc}^{s}$, to differentiate it from the same quantity measured with the Faraday Rotation technique. I will briefly introduce Faraday Rotation, the details were described thoroughly by Dolph.~\cite{PeterThesis}.
 
+The Faraday Rotation technique, as the name implies, is the observation of Faraday rotation using a linearly polarized probe laser. Faraday rotation refers to the change in the orientation of the polarization axis when linearly polarized light passes through a polarized alkali vapor. It is sufficient to consider only the alkali-metal atom's D$_{1}$ and D$_{2}$ lines for our case, the Faraday rotation angle $\phi_{r}$ is:
 
+\begin{equation}\label{rotation_angle}
+\phi_{r}(\nu)=\left(\frac{r_{e}c}{6}\right)P_{A}cos(\theta)[Rb]l\{F_{Rb}(\nu)+DF_{K}(\nu)\}
+\end{equation}
 
+where r$_{e}$ is the classical electron radius, c is the speed of light in vacuum, l is the path length through the vapor, D is the ratio of the K to Rb vapor number densities, F$_{A}(\nu)$ is the frequency dependence of alkali species A. 
 
+During a Faraday Rotation measurement, $\phi_{r}$ was measured at several probe wavelengths and fit to the Eq.~\ref{rotation_angle}. We were able to obtain the quantities $P_{A}[Rb]l$ and D from the fit. However, in order ot extract [Rb], it is necessary to measure the path length l and P$_{A}$. Alkali polarization was measured by measuring the Faraday rotation angle while inducing Zeeman transition. It is worth noting this only gave line-averaged polarization as only information on the path of the probe laser was collected. The volume-averaged alkali polarization can be obtained by applying small corrections from our simulation.
 
+With knowledge of alkali densities, the spin-exchange rate is:
 
+\begin{equation}
+\gamma_{se}=k_{se}^{Rb}[Rb]+k_{se}^{K}[K]
+\end{equation}
+
+where $k_{se}^{Rb}(k_{se}^{K})$ is the spin-exchange rate constant between $^{3}$He and Rb (K). The m$_{pc}$ calculated with this manner is referred as m$_{pc}^{F}$, since this quantity was computed with Faraday rotation data.
+
+The values of m$_{pc}^{F}$ and m$_{pc}^{s}$ are expected to be the same if they are measured against the same cell under identical conditions. The spin-exchange rate constants $k_{se}^{Rb}$ and $k_{se}^{K}$ are required to calculate m$_{pc}^{F}$. $k_{se}^{Rb}$ has been measured and reported in literature multiple times. $k_{se}^{K}$ on the other hand, is not as well-known. The value of $k_{se}^{Rb}$ we used was the combined result from Baranga \emph{et al.}~\cite{PhysRevLett.80.2801} and from Chann \emph{et al.}~\cite{PhysRevA.66.032703}:
+
+\begin{equation}
+k_{se}^{Rb}=(6.79\pm 0.14)\times 10^{-20}cm^{3}/s
+\end{equation}
+
+The ratio of m$_{pc}^{F}$/m$_{pc}^{s}$ is plotted in Fig.~\ref{m_ratio}. The two measurements with the Rb only cell Sosa are shown with solid circles. To calculate the ratio for the rest of the measurements, a value for $k_{se}^{K}$ is needed. Babcock reported this number to be $(5.5\pm 0.4)\times 10^{-20}cm^{3}/s$ in his thesis. However, the resulting ratio was significantly lower than unity in all but one of the 6 measurements, as shown with open diamonds in the figure. We fit our data so the ratio m$_{pc}^{F}$/m$_{pc}^{s}$ is equal to one while treating $k_{se}^{K}$ as a free parameter. The results are shown with solid diamonds. Our fitted $k_{se}^{K}$ value is
+
+\begin{equation}
+k_{se}^{K}=(7.46\pm 0.62)\times 10^{-20}cm^{3}/s
+\end{equation}
+
+\begin{figure}[t!]
+	\label{m_ratio}
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{m_ratio.png}}
+	\caption{{Plotted is the ratio m$_{pc}^{F}$/m$_{pc}^{s}$ for eight separate measurements. The numbers above the cell names are the oven set temperatures at which the measurements were made.}}
+\end{figure}
+
+The reason why our result is significantly higher than Babcock's is unclear. One possibility may be temperature dependence as the temperatures under which our measurements were made were higher than that of Babcock's. We decided to use our own result of $k_{se}^{K}$ to measure the X factor because it was measured under similar operating conditions to our other measurements, and our own result improves internal consistency of our data.
 
