@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  11 JUL 2016 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  11 JUL 2016 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1408,28 +1408,27 @@ LaTeX Warning: Float too large for page by 18.94162pt on input line 131.
 
 LaTeX Warning: Reference `PBCoef' on page 1 undefined on input line 133.
 
-<Spinup.png, id=1, 798.985pt x 610.28pt>
-File: Spinup.png Graphic file (type png)
- <use Spinup.png>
-Package pdftex.def Info: Spinup.png used on input line 138.
-(pdftex.def)             Requested size: 798.98305pt x 610.2785pt.
+<hotrelaxation.png, id=1, 572.1375pt x 692.5875pt>
+File: hotrelaxation.png Graphic file (type png)
+ <use hotrelaxation.png>
+Package pdftex.def Info: hotrelaxation.png used on input line 138.
+(pdftex.def)             Requested size: 572.1361pt x 692.5858pt.
 
 
-LaTeX Warning: Citation `PhysRevC.91.055205' on page 1 undefined on input line 
-139.
-
-
-LaTeX Warning: Citation `PhysRevC.91.055205' on page 1 undefined on input line 
-139.
+LaTeX Warning: Reference `fig:foms' on page 1 undefined on input line 142.
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
 
-LaTeX Warning: Reference `fig:foms' on page 3 undefined on input line 142.
+LaTeX Warning: Text page 3 contains only floats.
 
-[3 <./Spinup.png>]
+
+Overfull \vbox (10.73747pt too high) has occurred while \output is active []
+
+
+[3 <./hotrelaxation.png>]
 \openout2 = `bib.aux'.
 
  (./bib.tex (./test.bbl
@@ -1450,31 +1449,32 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12694 strings out of 493033
- 226544 string characters out of 6134139
- 309853 words of memory out of 5000000
- 16075 multiletter control sequences out of 15000+600000
+ 12692 strings out of 493033
+ 226556 string characters out of 6134139
+ 309875 words of memory out of 5000000
+ 16073 multiletter control sequences out of 15000+600000
  14606 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,42p,10399b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on test.pdf (4 pages, 240832 bytes).
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on test.pdf (4 pages, 200568 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

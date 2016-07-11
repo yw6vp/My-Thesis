@@ -385,11 +385,56 @@ where n$_{0}$ is the $^{3}$He fill density, n$_{pc(tc)}$ is the $^{3}$He density
 
 Our methods of extracting X require using some form of the equation
 
-\begin{equation}
+\begin{equation}\label{gammase}
 \langle \gamma_{se}\rangle=\frac{\Gamma_{s}-\langle \Gamma\rangle+\delta\Gamma}{1+X}
 \end{equation}
 
-The method Babcock used and we applied on a small number of cells is called "hot relaxation method". 
+One method Babcock used and we applied on a small number of cells is called "hot relaxation method". We plot $\langle \gamma_{se}\rangle$ as a function of $\Gamma_s - \langle\Gamma\rangle + \delta\Gamma$, the slope of a linear fit to the data is expected to be 1/(1+X). Three such fits are shown in Fig.~\ref{hotrelaxation}, all of which were constrained to go through the origin. Two of the three X values were significantly different than zero. The X factor of Simone is too close to zero when taken the error into account for us to make a strong statement.
+
+The small correction $\delta\Gamma$ came into play because of the double-chambered design. It can be approximated by
+
+\begin{equation}
+\delta\Gamma\approx f_{pc}f_{tc}(d_{pc}+d_{tc})u^2 + higher~order~terms
+\end{equation}
+
+where $d_{pc(tc)}$ is the probability per unit time that a $^3$He atom will exit the pumping (target) chamber. The quantity u is 
+
+\begin{equation}\label{u}
+u=\frac{\gamma_{se}(1+X)+\Gamma_{pc}-\Gamma_{tc}}{d_{pc}+d_{tc}}
+\end{equation}
+
+where $\Gamma_{pc(tc)}$ is the spin relaxation rate in the pumping (target) chamber. What makes the determination of X tricky is that we need to know its value before we can calculate u which is a prerequisite for X. However, because $\delta\Gamma$ is such a small correction typically being 10\% of less of the size of $\Gamma_s$, we solve this problem in an iterative manner. X is initially assumed to be 0 and plugged into Eq.~\ref{u}, which in the end lead to a different value of X that is closer to its real value. After iterating this process a few times, X quickly converges to a stable value.
+
+\begin{figure}[t!]
+	\label{hotrelaxation}
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{hotrelaxation.png}}
+	\caption{{The cell-averaged spin-exchange rate $\langle\gamma_{se}\rangle$ is calculated using data from Faraday rotation and the spin-exchange constants $k_{se}^{Rb}$ and $k_{se}^{K}$. The three linear fits shown here are constrained to go through zero. The errors quoted in values of X factor include the uncertainty in our determination of $k_{se}^{K}$.}}
+\end{figure}
+
+However, the hot relaxation method assumes the temperature dependence of the X factor is identical to the temperature dependence of $\gamma_{se}$ by combining data taken at different temperature into one value of X. It is also time consuming to perform measurements shown in Fig.~\ref{hotrelaxation}. For these two reasons, the hot relaxation method was only applied to a small number of cells. 
+
+In order to measure X factor at a single temperature and explore its temperature dependence, we used 4 four other methods to determine the value of X factor. All but the second method described below are based on the "polarization method" from Ref.~\cite{PhysRevLett.96.083003}. The difference is that we used early time measurements of the initial spinups for $P_A\langle\gamma_{se}\rangle$ for the third and fourth methods. And the second method is basically a single point measurement of the hot relaxation method described above.
+
+We label the results from the four single temperature methods as $X_1$, $X_2$, $X_3$ and $X_4$ respectively. The most straightforward method requires measurements of $\langle P_A\rangle$, $P_{pc}^\infty$ and $\Gamma_s$. The equilibrium $^3$He polarization can be rewritten as
+
+\begin{equation}\label{pinfty}
+P_{pc}^\infty=\frac{\langle P_A\rangle\langle\gamma_{se}\rangle}{\Gamma_s+\delta\Gamma-\delta\Gamma'}
+\end{equation}
+
+where $\delta\Gamma'=f_{tc}\Gamma_{tc}^2/(\Gamma_{tc}+d_{tc}).$ Substitute Eq.~\ref{gammase} into Eq.~\ref{pinfty}, $X_1$ is
+
+\begin{equation}
+X_1=\frac{\langle P_A\rangle}{P_{pc}^\infty}\left(\frac{\Gamma_s-\langle\Gamma\rangle+\delta\Gamma}{\Gamma_s+\delta\Gamma-\delta\Gamma'}\right)-1
+\end{equation}
+
+Just as what we did for the hot relaxation method, here $\delta\Gamma$ is calculated in the same iterative manner. X is first taken as 0 and the iteration continued until X converged to a stable value.
+
+
+
+
+
+
 
 
 
