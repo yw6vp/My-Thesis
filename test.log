@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  11 JUL 2016 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  12 JUL 2016 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,26 +1402,18 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 49.
 
-<hotrelaxation.png, id=1, 572.1375pt x 692.5875pt>
-File: hotrelaxation.png Graphic file (type png)
- <use hotrelaxation.png>
-Package pdftex.def Info: hotrelaxation.png used on input line 89.
-(pdftex.def)             Requested size: 572.1361pt x 692.5858pt.
-
-
-LaTeX Warning: Reference `fig:foms' on page 1 undefined on input line 93.
-
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+<XvsT.png, id=1, 762.85pt x 442.65375pt>
+File: XvsT.png Graphic file (type png)
+ <use XvsT.png>
+Package pdftex.def Info: XvsT.png used on input line 89.
+(pdftex.def)             Requested size: 762.84814pt x 442.65265pt.
+ [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 
-LaTeX Warning: Text page 2 contains only floats.
+LaTeX Warning: Reference `fig:foms' on page 2 undefined on input line 93.
 
-
-Overfull \vbox (10.73747pt too high) has occurred while \output is active []
-
-
-[2 <./hotrelaxation.png>]
+[2 <./XvsT.png>]
 \openout2 = `bib.aux'.
 
  (./bib.tex (./test.bbl
@@ -1442,10 +1434,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12691 strings out of 493033
- 226545 string characters out of 6134139
- 273275 words of memory out of 5000000
- 16072 multiletter control sequences out of 15000+600000
+ 12692 strings out of 493033
+ 226501 string characters out of 6134139
+ 273266 words of memory out of 5000000
+ 16073 multiletter control sequences out of 15000+600000
  14606 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,42p,10399b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1459,7 +1451,7 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on test.pdf (3 pages, 136813 bytes).
+Output written on test.pdf (3 pages, 126143 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
