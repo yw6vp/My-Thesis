@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  9 JUL 2016 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  11 JUL 2016 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1460,56 +1460,38 @@ Missing character: There is no ù in font cmr12!
 \openout2 = `tables.aux'.
 
 
-(./tables.tex (./YunxiaoThesis.lot)
+(./tables.tex (./YunxiaoThesis.lot [8
+
+
+
+])
 \tf@lot=\write4
 \openout4 = `YunxiaoThesis.lot'.
 
-) [8
-
-
-
-]
+) [9]
 \openout2 = `figures.aux'.
 
- (./figures.tex (./YunxiaoThesis.lof
+ (./figures.tex
+(./YunxiaoThesis.lof
 Overfull \hbox (8.00165pt too wide) in paragraph at lines 3--3
  [][] []\OT1/cmr/bx/n/12 Level Di-a-gram of $[]$Rb. The split-tings are not to 
 scale. Adapted 
  []
 
-
-LaTeX Warning: Citation `WalkerHapper' on page ix undefined on input line 4.
-
-
-LaTeX Warning: Citation `Romalis1997' on page ix undefined on input line 5.
-
-
-LaTeX Warning: Citation `Romalis1997' on page ix undefined on input line 6.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page ix undefined on input line 7.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page ix undefined on input line 8.
-
-[9
+[10
 
 
 
-]
+] [11]
 
-LaTeX Warning: Citation `PeterThesis' on page x undefined on input line 15.
-
-[10]
-
-LaTeX Warning: Citation `PhysRevC.91.055205' on page xi undefined on input line
- 22.
+LaTeX Warning: Citation `PhysRevC.91.055205' on page xii undefined on input lin
+e 22.
 
 )
 \tf@lof=\write5
 \openout5 = `YunxiaoThesis.lof'.
 
-) [11]
+) [12]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
@@ -1518,94 +1500,60 @@ Chapter 1.
 
 
 
-] [2] <AlkaliVaporDensity.png, id=52, 437.635pt x 408.52625pt>
+] [2] <AlkaliVaporDensity.png, id=55, 437.635pt x 408.52625pt>
 File: AlkaliVaporDensity.png Graphic file (type png)
 
 <use AlkaliVaporDensity.png>
 Package pdftex.def Info: AlkaliVaporDensity.png used on input line 50.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
  [3] [4 <./AlkaliVaporDensity.png>]
-<RbEnergyLevels.png, id=61, 516.93124pt x 611.28375pt>
+<RbEnergyLevels.png, id=64, 516.93124pt x 611.28375pt>
 File: RbEnergyLevels.png Graphic file (type png)
 
 <use RbEnergyLevels.png>
 Package pdftex.def Info: RbEnergyLevels.png used on input line 70.
 (pdftex.def)             Requested size: 516.92998pt x 611.28226pt.
 
-<OpticalPumping.png, id=62, 292.09125pt x 245.91875pt>
+<OpticalPumping.png, id=65, 292.09125pt x 245.91875pt>
 File: OpticalPumping.png Graphic file (type png)
 
 <use OpticalPumping.png>
 Package pdftex.def Info: OpticalPumping.png used on input line 81.
 (pdftex.def)             Requested size: 292.09052pt x 245.91814pt.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 5 undefined on input line 82.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 5 undefined on input line 82.
-
-[5] [6 <./RbEnergyLevels.png>] [7 <./OpticalPumping.png>]
-<AbsorptionLine.png, id=74, 468.75125pt x 342.27875pt>
+ [5] [6 <./RbEnergyLevels.png>] [7 <./OpticalPumping.png>] <AbsorptionLine.png,
+ id=78, 468.75125pt x 342.27875pt>
 File: AbsorptionLine.png Graphic file (type png)
 
 <use AbsorptionLine.png>
 Package pdftex.def Info: AbsorptionLine.png used on input line 118.
 (pdftex.def)             Requested size: 468.75009pt x 342.2779pt.
 
-
-LaTeX Warning: Citation `Romalis1997' on page 8 undefined on input line 119.
-
-
-LaTeX Warning: Citation `Romalis1997' on page 8 undefined on input line 119.
-
-<PressureBroadening.png, id=75, 490.83376pt x 339.2675pt>
+<PressureBroadening.png, id=79, 490.83376pt x 339.2675pt>
 File: PressureBroadening.png Graphic file (type png)
 
 <use PressureBroadening.png>
 Package pdftex.def Info: PressureBroadening.png used on input line 125.
 (pdftex.def)             Requested size: 490.83255pt x 339.26666pt.
-
-
-LaTeX Warning: Citation `Romalis1997' on page 8 undefined on input line 126.
-
-
-LaTeX Warning: Citation `Romalis1997' on page 8 undefined on input line 126.
-
-[8] [9 <./AbsorptionLine.png>] [10 <./PressureBroadening.png>] [11] [12]
-[13] [14] <SpinExchange.png, id=104, 470.75874pt x 372.39125pt>
+ [8] [9 <./AbsorptionLine.png>] [10 <./PressureBroadening.png>] [11] [12] [13] 
+[14]
+<SpinExchange.png, id=107, 470.75874pt x 372.39125pt>
 File: SpinExchange.png Graphic file (type png)
-
-<use SpinExchange.png>
+ <use SpinExchange.png>
 Package pdftex.def Info: SpinExchange.png used on input line 272.
 (pdftex.def)             Requested size: 470.7576pt x 372.39034pt.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 15 undefined on input line 273.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 15 undefined on input line 273.
-
 
 Overfull \hbox (12.0226pt too wide) in paragraph at lines 285--286
 []\OT1/cmr/m/n/12 An alkali-metal atom and a noble-gas atom in-ter-act via both
  a large spin-independent
  []
 
-[15] [16 <./SpinExchange.png>] <V1.png, id=112, 480.79625pt x 340.27126pt>
+[15] [16 <./SpinExchange.png>] <V1.png, id=115, 480.79625pt x 340.27126pt>
 File: V1.png Graphic file (type png)
 
 <use V1.png>
 Package pdftex.def Info: V1.png used on input line 299.
 (pdftex.def)             Requested size: 480.79506pt x 340.27042pt.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 17 undefined on input line 300.
-
-
-LaTeX Warning: Citation `WalkerHapper' on page 17 undefined on input line 300.
-
-[17 <./V1.png>] [18] [19] [20]) [21]
+ [17 <./V1.png>] [18] [19] [20]) [21]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
@@ -1614,50 +1562,32 @@ Chapter 2.
 
 
 
-] [23]
-
-LaTeX Warning: Citation `RevModPhys.26.167' on page 24 undefined on input line 
-34.
-
-[24] [25] <AFPandEPRsetup.png, id=144, 1045.9075pt x 636.3775pt>
+] [23] [24] [25] <AFPandEPRsetup.png, id=148, 1045.9075pt x 636.3775pt>
 File: AFPandEPRsetup.png Graphic file (type png)
 
 <use AFPandEPRsetup.png>
 Package pdftex.def Info: AFPandEPRsetup.png used on input line 99.
 (pdftex.def)             Requested size: 1045.90495pt x 636.37595pt.
  [26] [27 <./AFPandEPRsetup.png>] [28]
-<AFP.png, id=156, 567.11874pt x 406.51875pt>
+<AFP.png, id=159, 567.11874pt x 406.51875pt>
 File: AFP.png Graphic file (type png)
  <use AFP.png>
 Package pdftex.def Info: AFP.png used on input line 156.
 (pdftex.def)             Requested size: 567.11736pt x 406.51775pt.
- [29] [30 <./AFP.png>] <AFPSignal.png, id=164, 600.2425pt x 380.42125pt>
+ [29] [30 <./AFP.png>] <AFPSignal.png, id=167, 600.2425pt x 380.42125pt>
 File: AFPSignal.png Graphic file (type png)
  <use AFPSignal.png>
 Package pdftex.def Info: AFPSignal.png used on input line 171.
 (pdftex.def)             Requested size: 600.24103pt x 380.4203pt.
 
-
-LaTeX Warning: Citation `PhysRevA.38.5092' on page 31 undefined on input line 1
-84.
-
-[31 <./AFPSignal.png>]
-
-LaTeX Warning: Citation `PhysRevA.37.2877' on page 32 undefined on input line 1
-96.
-
-[32] <AFPLossvsGradient.png, id=174, 451.9284pt x 355.5684pt>
+[31 <./AFPSignal.png>] [32]
+<AFPLossvsGradient.png, id=177, 451.9284pt x 355.5684pt>
 File: AFPLossvsGradient.png Graphic file (type png)
 
 <use AFPLossvsGradient.png>
 Package pdftex.def Info: AFPLossvsGradient.png used on input line 220.
 (pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
-
-
-LaTeX Warning: Citation `PhysRevA.71.013414' on page 33 undefined on input line
- 229.
-
-[33 <./AFPLossvsGradient.png>] [34] [35]
+ [33 <./AFPLossvsGradient.png>] [34] [35]
 Overfull \hbox (49.96259pt too wide) in paragraph at lines 273--273
 [] 
  []
@@ -1671,65 +1601,41 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 302.
 
-
-LaTeX Warning: Citation `PhysRevA.58.3004' on page 37 undefined on input line 3
-11.
-
 [37] [38]
 Overfull \hbox (3.84918pt too wide) in paragraph at lines 341--342
 []\OT1/cmr/m/n/12 The RF fre-quency is gen-er-ated by the 18.2MHz voltage-contr
 olled os-cil-la-tor (VCO).
  []
 
-[39] <fmsweep.png, id=202, 437.635pt x 408.52625pt>
+[39] <fmsweep.png, id=205, 437.635pt x 408.52625pt>
 File: fmsweep.png Graphic file (type png)
  <use fmsweep.png>
 Package pdftex.def Info: fmsweep.png used on input line 377.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
  [40]
-<PIBox.png, id=206, 867.24pt x 483.8075pt>
+<PIBox.png, id=209, 867.24pt x 483.8075pt>
 File: PIBox.png Graphic file (type png)
  <use PIBox.png>
 Package pdftex.def Info: PIBox.png used on input line 388.
 (pdftex.def)             Requested size: 867.2379pt x 483.80632pt.
-
-
-LaTeX Warning: Citation `PeterThesis' on page 41 undefined on input line 389.
-
-
-LaTeX Warning: Citation `PeterThesis' on page 41 undefined on input line 389.
-
-[41 <./fmsweep.png>] [42 <./PIBox.png>]
-<epr.png, id=215, 752.8125pt x 401.5pt>
+ [41 <./fmsweep.png>] [42 <./PIBox.png>] <epr.png, id=218, 752.8125pt x 401.5pt
+>
 File: epr.png Graphic file (type png)
  <use epr.png>
 Package pdftex.def Info: epr.png used on input line 399.
 (pdftex.def)             Requested size: 752.81065pt x 401.49901pt.
 
-
-LaTeX Warning: Citation `PeterThesis' on page 43 undefined on input line 404.
-
-[43 <./epr.png>] [44] [45]
-
-LaTeX Warning: Citation `PhysRev.70.460' on page 46 undefined on input line 448
-.
-
-[46] [47] <PNMR_setup.png, id=233, 556.0775pt x 523.9575pt>
+[43 <./epr.png>] [44] [45] [46] [47]
+<PNMR_setup.png, id=236, 556.0775pt x 523.9575pt>
 File: PNMR_setup.png Graphic file (type png)
-
-<use PNMR_setup.png>
+ <use PNMR_setup.png>
 Package pdftex.def Info: PNMR_setup.png used on input line 472.
 (pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
- [48 <./PNMR_setup.png>] [49]
-<FID.png, id=241, 418.56375pt x 142.5325pt>
+ [48 <./PNMR_setup.png>] [49] <FID.png, id=245, 418.56375pt x 142.5325pt>
 File: FID.png Graphic file (type png)
  <use FID.png>
 Package pdftex.def Info: FID.png used on input line 489.
 (pdftex.def)             Requested size: 418.56271pt x 142.53214pt.
-
-
-LaTeX Warning: Citation `J.Phys.France.35' on page 50 undefined on input line 4
-94.
 
 [50 <./FID.png>]) [51]
 \openout2 = `chap4.aux'.
@@ -1744,52 +1650,45 @@ LaTeX Warning: Citation `PhysRevC.91.055205' on page 52 undefined on input line
 
 
 
-] [53] [54] <target_performance.png, id=259, 803.0pt x 467.7475pt>
+] [53] [54] <target_performance.png, id=262, 803.0pt x 467.7475pt>
 File: target_performance.png Graphic file (type png)
 
 <use target_performance.png>
 Package pdftex.def Info: target_performance.png used on input line 22.
 (pdftex.def)             Requested size: 802.99805pt x 467.74634pt.
  [55]
-<TargetCell.png, id=263, 578.16pt x 362.35374pt>
+<TargetCell.png, id=267, 578.16pt x 362.35374pt>
 File: TargetCell.png Graphic file (type png)
  <use TargetCell.png>
 Package pdftex.def Info: TargetCell.png used on input line 35.
 (pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
  [56 <./target_performance.png>] [57 <./TargetCell.png>]
-
-Package caption Warning: \label without proper reference on input line 46.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fill_densities' on page 58 undefined on input line 44
-.
-
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 48.
 
-Package caption Warning: \label without proper reference on input line 99.
+
+Package caption Warning: \label without proper reference on input line 100.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `spinup' on page 58 undefined on input line 96.
+LaTeX Warning: Reference `spinup' on page 58 undefined on input line 97.
 
-<Spinup.png, id=273, 798.985pt x 610.28pt>
+<Spinup.png, id=276, 798.985pt x 610.28pt>
 File: Spinup.png Graphic file (type png)
  <use Spinup.png>
-Package pdftex.def Info: Spinup.png used on input line 101.
+Package pdftex.def Info: Spinup.png used on input line 102.
 (pdftex.def)             Requested size: 798.98305pt x 610.2785pt.
 
 
 LaTeX Warning: Citation `PhysRevC.91.055205' on page 58 undefined on input line
- 102.
+ 103.
 
 
 LaTeX Warning: Citation `PhysRevC.91.055205' on page 58 undefined on input line
- 102.
+ 103.
 
 [58] [59] [60 <./Spinup.png>] [61]
-Overfull \hbox (1.48613pt too wide) in paragraph at lines 143--144
+Overfull \hbox (1.48613pt too wide) in paragraph at lines 144--145
 []\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
 P[]\OT1/cmr/m/n/12 )$ is the ini-tial po-lar-iza-tion in the pump-ing (tar-get)
  cham-ber, $\OML/cmm/m/it/12 P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P[]\OT1/cmr/m
@@ -1798,65 +1697,101 @@ P[]\OT1/cmr/m/n/12 )$ is the ini-tial po-lar-iza-tion in the pump-ing (tar-get)
 
 
 LaTeX Warning: Reference `PhysRevC.84.065201' on page 62 undefined on input lin
-e 151.
+e 152.
 
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no º in font cmr12!
 Missing character: There is no ö in font cmr12!
-[62] <BradySpinup.png, id=291, 462.72874pt x 367.3725pt>
+[62] <BradySpinup.png, id=294, 462.72874pt x 367.3725pt>
 File: BradySpinup.png Graphic file (type png)
  <use BradySpinup.png>
-Package pdftex.def Info: BradySpinup.png used on input line 167.
+Package pdftex.def Info: BradySpinup.png used on input line 168.
 (pdftex.def)             Requested size: 462.72762pt x 367.37158pt.
 
-[63] [64 <./BradySpinup.png>] [65] [66]
-
-LaTeX Warning: Citation `PeterThesis' on page 67 undefined on input line 233.
-
-[67] [68]
+[63] [64 <./BradySpinup.png>] [65] [66] [67] [68]
 
 LaTeX Warning: Citation `PhysRevLett.80.2801' on page 69 undefined on input lin
-e 253.
+e 254.
 
 
 LaTeX Warning: Citation `PhysRevA.66.032703' on page 69 undefined on input line
- 253.
+ 254.
 
 
-Package caption Warning: \label without proper reference on input line 266.
+Package caption Warning: \label without proper reference on input line 267.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `m_ratio' on page 69 undefined on input line 259.
+LaTeX Warning: Reference `m_ratio' on page 69 undefined on input line 260.
 
-<m_ratio.png, id=312, 787.94376pt x 390.45876pt>
+<m_ratio.png, id=315, 787.94376pt x 390.45876pt>
 File: m_ratio.png Graphic file (type png)
  <use m_ratio.png>
-Package pdftex.def Info: m_ratio.png used on input line 268.
+Package pdftex.def Info: m_ratio.png used on input line 269.
 (pdftex.def)             Requested size: 787.94183pt x 390.4578pt.
  [69]
 
 LaTeX Warning: Citation `PhysRevLett.96.083003' on page 70 undefined on input l
-ine 278.
+ine 279.
 
 [70 <./m_ratio.png>]
 
-LaTeX Warning: Citation `JaideepThesis' on page 71 undefined on input line 294.
+LaTeX Warning: Float too large for page by 18.94162pt on input line 376.
+
+[71] [72]
+
+LaTeX Warning: Citation `JaideepThesis' on page 73 undefined on input line 385.
 
 
-[71]) [72]
+
+Package caption Warning: \label without proper reference on input line 410.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `hotrelaxation' on page 73 undefined on input line 393
+.
+
+[73] <hotrelaxation.png, id=337, 572.1375pt x 692.5875pt>
+File: hotrelaxation.png Graphic file (type png)
+
+<use hotrelaxation.png>
+Package pdftex.def Info: hotrelaxation.png used on input line 412.
+(pdftex.def)             Requested size: 572.1361pt x 692.5858pt.
+
+
+Package caption Warning: \label without proper reference on input line 410.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `hotrelaxation' on page 74 undefined on input line 416
+.
+
+
+LaTeX Warning: Citation `PhysRevLett.96.083003' on page 74 undefined on input l
+ine 418.
+
+[74]
+
+LaTeX Warning: Text page 75 contains only floats.
+
+
+Overfull \vbox (10.73747pt too high) has occurred while \output is active []
+
+
+[75 <./hotrelaxation.png>] [76]) [77] [78]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl [73
+ (./bib.tex (./YunxiaoThesis.bbl
+[79
 
 
 
-])) [74]
+])) [80]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [75
+) [81
 
 
 
@@ -1876,35 +1811,41 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12999 strings out of 493033
- 231146 string characters out of 6134139
- 285348 words of memory out of 5000000
- 16282 multiletter control sequences out of 15000+600000
- 25762 words of font info for 105 fonts, out of 8000000 for 9000
+ 13024 strings out of 493033
+ 231529 string characters out of 6134139
+ 316956 words of memory out of 5000000
+ 16306 multiletter control sequences out of 15000+600000
+ 28656 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,42p,10408b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (86 pages, 1738907 bytes).
+ 44i,18n,42p,10408b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on YunxiaoThesis.pdf (93 pages, 1864157 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 247 compressed objects within 3 object streams
+ 446 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -43,7 +43,7 @@ The $^{3}$He density is of great importance for characterizing the target cells 
 
 Another method used quite often for determining the $^{3}$He density through measurements of the pressure broadening of the D$_{1}$ and D$_{2}$ absorption lines with a scannable single-frequency laser. This measurement also provides the value of D, which is the ratio of K vapor density to Rb vapor density. Although the value of D is for the temperature at which the measurement is performed, its value for operating condition can be inferred with alkali-metal vapor pressure curves. D is also measured with the Faraday Rotation technique in many cases, and the two methods agree with each other quite well. The fill densities and geometric properties of the aforementioned 24 cells are shown in Table~\ref{fill_densities}.
 
-\begin{table*}\scriptsize \label{fill_densities}
+\begin{table*}\scriptsize 
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|}
 			\hline
@@ -87,6 +87,7 @@ Another method used quite often for determining the $^{3}$He density through mea
 		\end{tabular}
 	\end{center}
 	\caption{The table contains the names, total and pumping chamber volumes, fill densities and target chamber lengths of the 24 target cells. The fill densities are the average of the results from gas system measurements and pressure broadening measurements.}
+	\label{fill_densities}
 \end{table*}
 
 \subsubsection{Target Cell Polarization Dynamics}
@@ -244,7 +245,7 @@ During a Faraday Rotation measurement, $\phi_{r}$ was measured at several probe 
 
 With knowledge of alkali densities, the spin-exchange rate is:
 
-\begin{equation}
+\begin{equation}\label{gammasefr}
 \gamma_{se}=k_{se}^{Rb}[Rb]+k_{se}^{K}[K]
 \end{equation}
 
@@ -370,8 +371,8 @@ Unlike many other properties of the cell that could be measured directly, X fact
 		\end{tabular}
 		\caption
 		{Cell Performance for three sets of experiments: saGDH (top), GEN (middle), and Transversity \& $d_2^n$ (bottom).  Within each experiment grouping, data is grouped by type of laser used (B = Broadband, N = Narrowband). $I_0$ is the nominal incident laser intensity at the center of the pumping chamber. $T_{pc}^{set}$ is the oven set temperature. $P_{pc}^\infty$ is the equilibrium polarization in the pumping chamber and $\Gamma_s$ is the slow time constant extracted from the five parameter fit to the polarization build up curve. $\Gamma_c$ is the cell-averaged room temperature spin relaxation rate. $\langle P_A\rangle/P_A^l$ is the volume averaged to line averaged alkali polarizaiton ratio determined from the optical pumping simulation. $P_A^l$ is the measured line averaged alkali polarization. $D_{fr} \& D_{pb}$ are the K to Rb density ratios determined from Faraday rotation and pressure broadening measurements. [Rb]$_{fr}$ is the Rb number density measured from Faraday rotation. $\Delta T_{He}$ is the temperature of Rb inferred from the number density relative to the oven set temperature. $\Delta T_{He}$ is the temperature of $^3$He inferred from temperature tests relative to the oven set temperature. X is the best combined value for the X-factor. $^\star$ indicates X was measured using only spinup, alkali polarization, and Faraday rotation data. $^\dagger$ indicates X was also measured using the early-time behavior of the spinup.}
+		\label{table:CellTable}
 	\end{center}
-	\label{table:CellTable}
 \end{table*}
 
 
@@ -429,6 +430,91 @@ X_1=\frac{\langle P_A\rangle}{P_{pc}^\infty}\left(\frac{\Gamma_s-\langle\Gamma\r
 \end{equation}
 
 Just as what we did for the hot relaxation method, here $\delta\Gamma$ is calculated in the same iterative manner. X is first taken as 0 and the iteration continued until X converged to a stable value.
+
+For the second method, we first solve Eq.~\ref{gammase} for X:
+
+\begin{equation}\label{x23}
+X=\frac{\Gamma_s-\langle\Gamma\rangle+\delta\Gamma}{\langle\gamma_{se}\rangle}-1
+\end{equation}
+
+then we substitute Eq.~\ref{gammasefr} into the equation above:
+
+\begin{equation}
+X_2=\frac{\Gamma_s-\langle\Gamma\rangle+\delta\Gamma}{f_{pc}k_{se}^{Rb}[Rb](1+D')}-1
+\end{equation}
+
+Again $\delta\Gamma$ is calculated iteratively. We chose to use our value of $k_{se}^{K}$ for better consistency with the rest of our data.
+
+The third method is very similar to the second, but we determine $\langle\gamma_{se}\rangle$ with data from initial spinups:
+
+\begin{equation}
+\langle\gamma_{se}\rangle=f_{pc}m_{pc}^{s}/\langle P_A\rangle
+\end{equation}
+
+Substitute the above equation into Eq.~\ref{x23}, we get
+
+\begin{equation}
+X_3=\langle P_A\rangle\frac{\Gamma_s-\langle\Gamma\rangle+\delta\Gamma}{f_{pc}m_{pc}^s}-1
+\end{equation}
+
+Note the quantity $k_{se}^K$ used for $X_2$ was obtained by fitting the ratio $m_{pc}^F/m_{pc}^s$ to 1, thus for any hybrid cell, $X_2$ and $X_3$ are highly correlated. However, for pure Rb cell such as Sosa, these two methods are independent.
+
+The fourth method is similar to the first one. It starts from Eq.~\ref{pinfty}, what makes it different from the first method is that it treats $\langle\gamma_{se}\rangle$ as a known quantity and expresses $\Gamma_s$ with it using Eq.~\ref{gammase}, while the first method did it in the exact opposite way. Then the cell-averaged spin-exchange rate is evaluated with 
+
+\begin{equation}
+\langle\gamma_{se}\rangle=f_{pc}m_{pc}^s/\langle P_A\rangle
+\end{equation}
+
+Thus $X_4$ is
+
+\begin{equation}
+X_4=\frac{P_A}{P_{pc}^\infty}-\frac{\langle P_A\rangle(\langle\Gamma\rangle-\delta\Gamma')}{f_{pc}m_{pc}^s}-1
+\end{equation}
+
+\begin{table*}
+	\scriptsize
+	\captionsetup{font=small}
+	\begin{center}
+		\def\arraystretch{0.75}
+		\setlength\tabcolsep{1pt}
+		\begin{tabular}{|c|c|cccc|c|}
+			\hline
+			Cell & T($^\circ$C) & $X_1$ & $X_2$ & $X_3$ & $X_4$ & $X_{12}/X_{1234}$\\ 
+			\multirow{2}{*}{Simone} & 215 & -0.02(12) & -0.10(14) & - & - & -0.04(12) \\
+			& 255 & 0.13(08) & 0.08(09) & - & - & 0.11(06) \\
+			\hline
+			\multirow{4}{*}{Sosa} & 160 & 0.22(07) & 0.28(09) & 0.32(15) & 0.18(09) & 0.24(06)$^\dagger$ \\
+			& 170 & 0.24(07) & 0.37(15) & - & - & 0.27(06)\\
+			& 180 & 0.45(08) & 0.40(09) & 0.50(17) & 0.45(09) & 0.43(06)$^\dagger$ \\
+			& 190 & 0.59(16) & 0.57(17) & - & - & 0.58(12) \\
+			\hline
+			\hline
+			Boris & 235 & 0.21(14) & 0.31(14) & - & - & 0.26(10)\\
+			\hline
+			Sam. & 235 & 0.08(06) & 0.22(09) & - & - & 0.12(05) \\
+			\hline
+			Alex & 235 & 0.34(09) & 0.35(09) & 0.63(20) & 0.29(10) & 0.34(06)$^\dagger$\\
+			\hline
+			Astral & 235 & 0.15(07) & 0.22(10) & 0.20(14) & 0.14(07) & 0.17(05)$^\dagger$\\
+			\hline
+			Steph. & 235 & 0.31(17) & 0.31(10) & - & - & 0.31(08)\\
+			\hline
+			Brady & 235 & 0.13(07) & 0.15(09) & 0.23(14) & 0.11(07) & 0.14(05)$^\dagger$\\
+			\hline
+			\multirow{3}{*}{Antoinette} & 215 & 0.27(09) & 0.44(17) & 0.30(19) & 0.25(11) & 0.28(08)$^\dagger$\\
+			& 235 & 0.20(09) & 0.34(12) & 0.36(17) & 0.15(09) & 0.24(07)$^\dagger$\\
+			& 255 & 0.55(26) & 0.54(16) & 0.50(30) & 0.56(26) & 0.55(13)$^\dagger$\\
+			\hline
+		\end{tabular}
+		\caption
+		{Shown are the values of the X factor at the indicated over set temperatures. The last column is a weighted average of results from either the first two methods or all four methods. A $^\dagger$ indicates combined values computed with all 4 methods.}
+		\label{Xtable}
+	\end{center}
+\end{table*}
+
+The computed X factors are shown in Table~\ref{Xtable}. 
+
+
 
 
 
