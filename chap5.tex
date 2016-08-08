@@ -5,11 +5,79 @@
 
 Electron scattering experiments at JLab have traditionally used $^{3}$He targets made of glass due to the compatibility with spin-exchange optical pumping, the capability to be shape into desired geometries through glass blowing, and the excellent nuclear spin relaxation properties. The borosilicate glass Pyrex had been the glass of choice prior to the discovery that the much less permeable aluminosilicate glass generally provides longer spin-relaxation time. The most recent targets were thus composed entirely of the aluminosilicate glass GE180.
 
-After the 12 GeV upgrade, JLab plans to run experiments with much higher electron beam currents. The maximum current used before the upgrade was 15$\mu$A, while future experiments will be run at up to 60$\mu$A. We believe an all-glass target cell might survive long enough for an experiment with 30$\mu$A, but it is unlikely to survive at 60$\mu$A. A natural solution would be to replace the thin glass window (where electron beam enters and exits the target cell) with a material with higher strength. 
+After the 12 GeV upgrade, JLab plans to run experiments with much higher electron beam currents. The maximum current used before the upgrade was 15$\mu$A, while future experiments will be run at up to 60$\mu$A. We believe an all-glass target cell might survive long enough for an experiment with 30$\mu$A, but it is unlikely to survive at 60$\mu$A. A natural solution would be to replace the thin glass window (where electron beam enters and exits the target cell) with a material with higher strength and good spin-relaxation properties. 
 
 Deninger~\emph{et al.} from the Mainz group showed relaxation time of various metal surfaces: Mg (6 h), Al (6 h), Zn(12 h) etc. Gold caught our attention in particular, because it has a relatively long relaxation time of 20 h. This relaxation time was measured by coating the glass surface with gold, thus the area of gold surface was much larger than what will be needed for target windows. In addition, while the coating process made sure of the chemical purity, it did not make effort in ensuring the microscopic smoothness, which means the surface area was further increased. In light of this, our group have tested 19 cells with various geometries and materials, most of which incorporate a OFHC (Oxygen-free high thermal conductivity) copper tube with gold coating. OFHC copper was chosen as the substrate in most cases because of its structural strengths and the familiarity with manufacturers. Towards the end of my work, we achieved a 15.6 h relaxation time with a Pyrex cell that had a 5'' long by 1'' gold coated copper tube attached horizontally. By extrapolating the relaxation rate due to gold surface from this result, we believe the relaxation rate introduced by small metal windows in a target cell will be less than 1/135 h$^{-1}$.
 
 \section{Wall Relaxation of $^{3}$He}
 
+\subsection{Relaxation on Glass Surfaces}
 
+Fitzsimmons and Walters have studied surface-induce spin-lattice relaxation times as a function of temperature for $^{3}$He gas in glass containers~\cite{PhysRev.179.156}. There are mainly two categories of wall relaxation mechanisms: $^{3}$He adsorption on the glass surface and the permeation of $^{3}$He into glass. The latter mechanism can be greatly reduced by using impermeable aluminosilicate glass such as GE180. 
 
+Timsit and Daniels~\cite{Timsit} then studied surface relaxation on a great number of common materials and presented a phenomenological model to describe the relaxation processes.For permeable glasses, the relaxation is determined by absorption of gas in the surface layer of the glass and by the paramagnetic impurity content of the glass. The surface adsorption of $^{3}$He near paramagnetic sites on the walls also contributes to the nuclear relaxation. Relaxation due to absorption for permeable glasses will be discussed first below.
+
+The diffusion coefficient $D$ of a noble gas in a glass can be calculated with the following equation:
+\begin{equation}\label{D}
+D=D_{0}e^{-Q_{d}/kT}
+\end{equation}
+where $Q_{d}$ is the activation energy for diffusion and $D_{0}$ is a constant. The diffusion coefficient can also be expressed with the mean diffusion jump distance of $^{3}$He atom in the glass $\langle\Delta r\rangle$ as:
+\begin{equation}
+D=\frac{\langle\Delta r\rangle^{2}}{6\tau}
+\end{equation}
+where $\tau$ is the mean time between diffusion jumps
+\begin{equation}\label{residence_time}
+\tau=\tau_{0}e^{E_{dif}/kT}
+\end{equation}
+where $\tau_{0}=\langle\Delta r\rangle^{2}/6D_{0}$.
+
+Let $n_{g}$ be the number of atoms dissolved in the surface layer of mean thickness $\langle\Delta r\rangle$, the rate at which $^{3}$He atoms enter and leave the surface layer of the glass is then $n_{g}/6\tau$. $n_{g}$ should be proportional to the solubility $S$ of $^{3}$He in the glass, so for a spherical cell
+\begin{equation}\label{absorption_ng}
+n_{g}=\frac{6NkT\langle\Delta r\rangle S}{d}
+\end{equation}
+where d is the diameter of the cell, N is the total number of free $^{3}$He atoms.
+
+The intrinsic relaxation time $T_{i}$ is longer than $\tau$, the time it takes for $^{3}$He to leave the $\langle\Delta r\rangle$ layer, for most trapping sites in the glass. However, $T_{i}$ for a paramagnetic site is shorter than $\tau$, thus will completely relax the nuclear spin of a $^{3}$He atom. The relaxation time of $^{3}$He in permeable glass cells is controlled by absorption of the atoms in the surface layer at paramagnetic sites. The average nuclear relaxation time of a $^{3}$He trapped in the glass close to a Fe$^{3+}$ ion (one common type of paramagnetic impurity in glass) is~\cite{Abragam}:
+\begin{equation}
+\frac{1}{T_i}\approx\frac{3}{5}\frac{\mu_{He}^{2}\mu_{B}^{2}g^2}
+{\hbar^2b^6}\frac{T_{Fe}}{1+\omega_0^2T_{Fe}^2}
+\end{equation}
+where $\mu_{He}$ is the nuclear dipole moment of $^{3}$He, $\mu_B$ is the Bohr magneton, g is the g factor of the Fe$^{3+}$ ($^{6}S_{5/2}$) ion, and b is the distance between the spins. Taking b as 1 $\mathring{A}$ and g as 5.9~\cite{Kittel}, $T_i$ is $\sim10^{-11}$ s, which is 10 times smaller than the shortest $\tau$.
+
+Even a small amount of paramagnetic impurities among the trapping sites in the glass can provide dominating contribution on the $^{3}$He spin relaxation. Assuming during the random walk of $^{3}$He atom in the glass, there are on average $\beta$ atoms in its vicinity, and atom fraction of paramagnetic impurities is $N_{impurity}$, the relaxation time due to absorption is if $T_i\ll\tau$:
+\begin{equation}\label{T_ab}
+T_{ab}=\frac{6N\tau}{\beta N_{Fe}n_g}
+\end{equation}
+
+For impermeable glasses such as GE180, the relaxation rate due to absorption into the glass walls is typically negligible. The dominating relaxation mechanism here is adsorption of $^{3}$He on the glass wall in vicinity of a paramagnetic site.
+
+The sticking time $tau_s$ is given by Frenkel's Law:
+\begin{equation}\label{sticking_time}
+\tau_s=\tau_{s0}e^{E_{ad}/kT}
+\end{equation}
+where $\tau_{s0}$ is on the order of $10^{-13}$ s for most solid surfaces~\cite{Frenkel}, $E_{ad}$ is the adsorption energy. At room temperature, we have $\tau_s\sim\tau_{s0}\sim 10^{-13}$ s. The number of atoms hitting the wall per unit time and unit area is given by $\frac{1}{4}n\bar{v}$, where n is the number density of $^{3}$He gas and $\bar{v}$ is the mean velocity. For a spherical cell with diameter d, the number of atoms adsorbed on the wall is
+\begin{equation}\label{adsorption_ng}
+n_{g}'=\frac{3N\bar{v}\tau_s}{2d}
+\end{equation}
+
+The intrinsic relaxation time $T_i'$ of a $^{3}He$ near a paramagnetic site on the wall is much longer than the sticking time $\tau_s$. The average number of collisions required to depolarize $^{3}$He is $T_i'/\tau_s$, thus the relaxation time due to adsorption is
+\begin{equation}\label{T_ad}
+T_{ad}=\frac{NT_i'}{N_{impurity}n_g'}
+\end{equation}
+
+The total relaxation rate is the sum of that due to adsorption and absorption (for permeable glasses):
+\begin{equation}
+\frac{1}{T_{wall}}=\frac{1}{T_{ad}}+\frac{1}{T_{ab}}
+\end{equation}
+
+Substitute Eq.~\ref{residence_time},~\ref{absorption_ng} into Eq.~\ref{T_ab} and Eq.~\ref{sticking_time},~\ref{adsorption_ng} into Eq.~\ref{T_ad}, the wall relaxation rate can be written as
+\begin{equation}
+\begin{split}
+\frac{1}{T_{wall}}=&\frac{\beta N_{impurity}kT\langle\Delta r\rangle S}{d\tau_0}e^{-E_{dif}/kT}\\
+&+\frac{3N_{impurity}\bar{v}\tau_{s0}}{2dT_i'}e^{E_{ad}/kT}
+\end{split}
+\end{equation}
+
+Fitzsimmons~\emph{et al.}~\cite{PhysRev.179.156} found by using impermeable aluminosilicate glass, the relaxation due to absorption can be greatly reduced thus increasing the total relaxation time. Heil~\emph{et al.} reported~\cite{PhysRevA.201.337} glass cells that were internally coated with metallic films provided even longer relaxation time. Ce was one of the metals that greatly reduced wall relaxation rate as it blocks $^{3}$He atoms from diffusing into the glass walls and it also has a low adsorption energy which leads to very short sticking time. For SEOP (Spin-Exchange Optical Pumping), we automatically profit from the Rb film which covers the inner surface of the pumping chamber. Similarly, another way to eliminate relaxation due to absorption is to coat the inner surface with sol-gel~\cite{solgel}. It is a mixture of aluminum nitrate nonahydrate $Al(NO_3)_39H_2O$, ethanol and deionized water. The sol-gel coating also improves relaxation time by blocking $^{3}$He atoms from diffusing into the glass.
+
+\subsection{Relaxation on Metal Surfaces}

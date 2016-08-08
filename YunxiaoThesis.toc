@@ -50,5 +50,7 @@
 \contentsline {chapter}{\numberline {4}Development of Hybrid Targets}{80}
 \contentsline {section}{\numberline {4.1}Overview}{80}
 \contentsline {section}{\numberline {4.2}Wall Relaxation of $^{3}$He}{81}
-\contentsline {chapter}{Bibliography}{82}
-\contentsline {chapter}{\numberline {A}Appendix title}{84}
+\contentsline {subsection}{\numberline {4.2.1}Relaxation on Glass Surfaces}{81}
+\contentsline {subsection}{\numberline {4.2.2}Relaxation on Metal Surfaces}{85}
+\contentsline {chapter}{Bibliography}{86}
+\contentsline {chapter}{\numberline {A}Appendix title}{88}
