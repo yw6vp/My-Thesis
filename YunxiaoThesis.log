@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  7 AUG 2016 23:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  9 AUG 2016 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1904,52 +1904,48 @@ LaTeX Warning: Citation `Kittel' on page 83 undefined on input line 45.
 
 LaTeX Warning: Citation `Frenkel' on page 84 undefined on input line 58.
 
+[84]
 
-LaTeX Warning: Reference `residence_time' on page 84 undefined on input line 73
+LaTeX Warning: Citation `PhysRev.179.156' on page 85 undefined on input line 86
 .
 
 
-LaTeX Warning: Reference `absorption_ng' on page 84 undefined on input line 73.
+LaTeX Warning: Citation `PhysRevA.201.337' on page 85 undefined on input line 8
+6.
 
 
-
-LaTeX Warning: Reference `T_ab' on page 84 undefined on input line 73.
-
-
-LaTeX Warning: Reference `sticking_time' on page 84 undefined on input line 73.
+LaTeX Warning: Citation `solgel' on page 85 undefined on input line 86.
 
 
-
-LaTeX Warning: Reference `adsorption_ng' on page 84 undefined on input line 73.
-
+LaTeX Warning: Citation `barrer' on page 85 undefined on input line 90.
 
 
-LaTeX Warning: Reference `T_ad' on page 84 undefined on input line 73.
+LaTeX Warning: Citation `Smythe' on page 85 undefined on input line 90.
 
 
-LaTeX Warning: Citation `PhysRev.179.156' on page 84 undefined on input line 81
-.
+LaTeX Warning: Citation `Timsit' on page 85 undefined on input line 90.
 
+[85]
 
-LaTeX Warning: Citation `PhysRevA.201.337' on page 84 undefined on input line 8
-1.
+LaTeX Warning: Citation `Slichter' on page 86 undefined on input line 96.
 
+[86]
 
-LaTeX Warning: Citation `solgel' on page 84 undefined on input line 81.
+LaTeX Warning: Citation `NelsonThesis' on page 87 undefined on input line 101.
 
-[84]) [85]
+) [87] [88]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl [86
+ (./bib.tex (./YunxiaoThesis.bbl [89
 
 
 
-])) [87]
+])) [90]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [88
+) [91
 
 
 
@@ -1969,10 +1965,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13054 strings out of 493033
- 231847 string characters out of 6134139
- 319072 words of memory out of 5000000
- 16328 multiletter control sequences out of 15000+600000
+ 13058 strings out of 493033
+ 231887 string characters out of 6134139
+ 319138 words of memory out of 5000000
+ 16332 multiletter control sequences out of 15000+600000
  28656 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,42p,10408b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2000,10 +1996,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (100 pages, 1901047 bytes).
+Output written on YunxiaoThesis.pdf (103 pages, 1907992 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
+ 481 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

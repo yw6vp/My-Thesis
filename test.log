@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  7 AUG 2016 23:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  9 AUG 2016 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,27 +1400,27 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 32.
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 49.
 
 <Spinup.png, id=1, 798.985pt x 610.28pt>
 File: Spinup.png Graphic file (type png)
  <use Spinup.png>
-Package pdftex.def Info: Spinup.png used on input line 89.
+Package pdftex.def Info: Spinup.png used on input line 86.
 (pdftex.def)             Requested size: 798.98305pt x 610.2785pt.
 
 
 LaTeX Warning: Citation `PhysRevC.91.055205' on page 1 undefined on input line 
-90.
+87.
 
 
 LaTeX Warning: Citation `PhysRevC.91.055205' on page 1 undefined on input line 
-90.
+87.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 
-LaTeX Warning: Reference `fig:foms' on page 2 undefined on input line 98.
+LaTeX Warning: Reference `fig:foms' on page 2 undefined on input line 95.
 
 [2 <./Spinup.png>]
 \openout2 = `bib.aux'.
@@ -1449,19 +1449,19 @@ Here is how much of TeX's memory you used:
  16074 multiletter control sequences out of 15000+600000
  14606 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,42p,10399b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,42p,10399b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on test.pdf (3 pages, 197558 bytes).
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on test.pdf (3 pages, 193921 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
