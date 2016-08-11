@@ -52,5 +52,9 @@
 \contentsline {section}{\numberline {4.2}Wall Relaxation of $^{3}$He}{82}
 \contentsline {subsection}{\numberline {4.2.1}Relaxation on Glass Surfaces}{82}
 \contentsline {subsection}{\numberline {4.2.2}Relaxation on Metal Surfaces}{86}
-\contentsline {chapter}{Bibliography}{89}
-\contentsline {chapter}{\numberline {A}Appendix title}{91}
+\contentsline {section}{\numberline {4.3}Test Cell Fabrication}{88}
+\contentsline {subsection}{\numberline {4.3.1}Overview}{88}
+\contentsline {subsection}{\numberline {4.3.2}Glass-to-Metal Seal}{89}
+\contentsline {subsection}{\numberline {4.3.3}Mechanical and Electropolishing}{90}
+\contentsline {chapter}{Bibliography}{91}
+\contentsline {chapter}{\numberline {A}Appendix title}{93}

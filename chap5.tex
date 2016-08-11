@@ -7,7 +7,7 @@ Electron scattering experiments at JLab have traditionally used $^{3}$He targets
 
 After the 12 GeV upgrade, JLab plans to run experiments with much higher electron beam currents. The maximum current used before the upgrade was 15$\mu$A, while future experiments will be run at up to 60$\mu$A. We believe an all-glass target cell might survive long enough for an experiment with 30$\mu$A, but it is unlikely to survive at 60$\mu$A. A natural solution would be to replace the thin glass window (where electron beam enters and exits the target cell) with a material with higher strength and good spin-relaxation properties. 
 
-Deninger~\emph{et al.} from the Mainz group showed relaxation time of various metal surfaces: Mg (6 h), Al (6 h), Zn(12 h) etc. Gold caught our attention in particular, because it has a relatively long relaxation time of 20 h. This relaxation time was measured by coating the glass surface with gold, thus the area of gold surface was much larger than what will be needed for target windows. In addition, while the coating process made sure of the chemical purity, it did not make effort in ensuring the microscopic smoothness, which means the surface area was further increased. In light of this, our group have tested 19 cells with various geometries and materials, most of which incorporate a OFHC (Oxygen-free high thermal conductivity) copper tube with gold coating. OFHC copper was chosen as the substrate in most cases because of its structural strengths and the familiarity with manufacturers. Towards the end of my work, we achieved a 15.6 h relaxation time with a Pyrex cell that had a 5'' long by 1'' gold coated copper tube attached horizontally. By extrapolating the relaxation rate due to gold surface from this result, we believe the relaxation rate introduced by small metal windows in a target cell will be less than 1/135 h$^{-1}$. To the best of our knowledge, our group was the first to have proved the potential of incorporating metal to target cells in the presence of alkali vapor.
+Deninger~\emph{et al.} from the Mainz group showed relaxation time of various metal surfaces: Mg (6 h), Al (6 h), Zn(12 h) etc. Gold caught our attention in particular, because it has a relatively long relaxation time of 20 h. This relaxation time was measured by coating the glass surface with gold, thus the area of gold surface was much larger than what will be needed for target windows. In addition, while the coating process made sure of the chemical purity, it did not make effort in ensuring the microscopic smoothness, which means the surface area was further increased. In light of this, our group have tested 19 cells with various geometries and materials, most of which incorporate a OFHC (oxygen-free high thermal conductivity) copper tube with gold coating. OFHC copper was chosen as the substrate in most cases because of its structural strengths and the familiarity with manufacturers. Towards the end of my work, we achieved a 15.6 h relaxation time with a Pyrex cell that had a 5'' long by 1'' gold coated copper tube attached horizontally. By extrapolating the relaxation rate due to gold surface from this result, we believe the relaxation rate introduced by small metal windows in a target cell will be less than 1/135 h$^{-1}$. To the best of our knowledge, our group was the first to have proved the potential of incorporating metal to target cells in the presence of alkali vapor.
 
 \section{Wall Relaxation of $^{3}$He}
 
@@ -106,5 +106,37 @@ where S and V are the surface area of the metal and total volume of the cell, re
 
 If eddy currents and Korringa relaxation are the only surface relaxation mechanisms, we would have very long lifetime for our test metal cells. Unfortunately, our series of studies have shown relaxation times to be between a few hours and 16 hours most of the time, for which both aforementioned relaxation mechanisms can be safely neglected. Although the dominating relaxation mechanism is still not well understood and significantly faster than those we have better understanding about, the results of our studies are still promising, as they suggest the extra relaxation rate due to use of small metal end windows should still be small enough and allow future experiments to run at 60$\mu$A electron beam current.
 
-\section{Experimental Setup}
+\section{Test Cell Fabrication}
 
+\subsection{Overview}
+
+In order to study the relaxation rate due to metal surface, we have created and tested 19 cells so far, most of which contains a metal tube. The metal tubes are 5'' in length and 1'' outer diameter, 3'' of glass tubes are attached to both ends via Houskeeper seal. The total area of the metal surface is 101.3 $cm^2$, and is far larger than what will be for metal end windows. This large geometry is chosen to intentionally increase the relaxation rate for studying. This particular design of metal tube is also favored for the convenience of manufacturing, as we were expecting a large number of test cells to be studied and any design that saves time could potentially mean a much shorter test time before we determine the final design.
+
+The making of these test cells usually include five steps (except control cells with pure glass and cells without gold coating):
+
+1. Larson Electronic Glass~\cite{Larson} provides us a glass-to-metal-to-glass tube that uses Houskeeper seal to attach glass to metal
+
+2. The machine shop in the physics department of University of Virginia then mechanically polishes the inside of the metal tube.
+
+3. Able Electropolishing electropolishes the metal tube.
+
+4. Epner Technology Inc. electroplates the metal tube with gold.
+
+5. Mike Souza at Princeton University, our glass blower, resizes the glass from stock material and makes the final cell with our desired dimensions and attaches the metal tube to the glass cell. The resizing is for removing micro-fissures from the glass surface and reducing wall relaxation rates~\cite{Cates1993}.
+
+Each step will be described below.
+
+\subsection{Glass-to-Metal Seal}
+
+Larson Electronic Glass made the glass-to-metal-to-glass tubes for us, Fig.~\ref{metal_tube} is a picture of one the tubes used in our tests. The glass-to-metal seal used by Larson is known as the Houskeeper seal~\cite{Houskeeper}. The outside of the copper tube is machined down to a knife edge and is wetted with glass. The edge of copper is usually heated before covering with glass. The heating process creates a thin layer of crimson-color copper oxide as can be seen in Fig.~\ref{metal_tube}. Houskeeper seals were originally used for vacuum, we checked each seal down to the $10^{-10}mbar\cdot l/s$ level. To make sure these seals will survive the high pressure JLab experiments, we also tested the integrity of them under up to 15 atm for extended period of time.
+
+\begin{figure}[t!]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{metal_tube.png}}
+	\caption{{Shown is a glass-to-metal-to-glass seal. The metal tube is 5'' long by 1'' outer diameter. The glass is wetted onto the knife-edge of copper on both ends.}}
+	\label{metal_tube}
+\end{figure}
+
+The copper used in our tests is OFHC (oxygen-free high thermal conductivity) copper. In the earlier stage of our tests, OFHC copper was attached to the Pyrex glass, in which case a direct connection could be made. For the later tests where we were moving closer to the final goal of using metal end windows with the impermeable aluminosilicate glass GE180, a transition glass between OFHC copper and GE180 had to be used. The coefficient of expansion for GE180 glass is not compatible for making a direct seal with OFHC copper, thus Corning 7052 Kovar sealing glass was used as the transition. The two materials connected by a seal should have similar coefficients of expansion, the 7052 Kovar sealing glass serves as an intermediate material to bridge the gap between OFHC copper and GE180. The other type of metal used in our glass-to-metal seals was titanium, for which only Pyrex was used.
+
+\subsection{Mechanical and Electropolishing}
