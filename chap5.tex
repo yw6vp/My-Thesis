@@ -194,7 +194,7 @@ Although the actual cell fill work only took less than a day, the preparation th
 \begin{figure}[t!]
 	\centering
 	\resizebox{0.91\textwidth}{!}{\includegraphics{cell_gas_system.png}}
-	\caption{{A diagram of a Pyrex string with a cell and a retort attached while connected to the gas system through the bellows. Adopted from Matyas~\cite{DanThesis}.}}
+	\caption{{A diagram of a Pyrex string with a cell and a retort attached while connected to the gas system through the bellows. Adapted from Matyas~\cite{DanThesis}.}}
 	\label{cell_gas_system}
 \end{figure}
 
@@ -216,14 +216,96 @@ All cells incorporated metal were tested with Pulse NMR as it is only affects a 
 
 \subsection{Pickup Coils}
 
-
+In a AFP measurement, pickup coils are placed next to the side windows of the oven. However, the same setup proved to be more difficult for us to receive high-quality PNMR signals. To still keep the pickup coils outside of the oven, we manually wrap a solenoid coil on the transfer tube of test cells where it is approximately 2'' below the bottom of the oven. These coils were made with 40-50 turns of AWG 20 copper wire. Because of the off-center positions of the pickup coils, inhomogeneities were significant enough to affect FID signals, gradient coils were used to cancel the inhomogeneities.
 
 \subsection{Gradient Coils}
 
+Inhomogeneities were canceled to the best we could empirically with three sets of gradient coils. Each set of gradients coils consists of two oppositely wound coils separated by a distance $d$, this particular type of coils are referred to as "Maxwell coils". The setup is very similar to that of Helmholtz coils, except the opposite direction of currents and the larger optimum separation $d=R$, where $R$ is the radius of the coils. The opposite direction is to cancel out the magnetic field at the center, and the optimum separation makes the first four leading terms in the Taylor expansion zero\cite{Callaghan}. Fig.\ref{gradient_coils} shows the coil orientations. The z axis is defined to be aligned with the direction of the holding field while x and y axes are in the transverse plane. The direction of coil axis is then defined by the angle $\theta$ and $\phi$, where $\theta$ is with respect to the z axis and $\phi$ is the azimuthal angle in the x-y plane.
 
+\begin{figure}[t!]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{gradient_coils.png}}
+	\caption{{Diagram of the coils. Adopted from Zheng~\cite{YuanThesis}.}}
+	\label{gradient_coils}
+\end{figure}
+
+The magnetic field at the center is given by\cite{PhysRevA.37.2877}
+
+\begin{equation}\label{gradient}
+\begin{split}
+\nabla\boldsymbol{B}(\theta, \phi)
+&=\begin{bmatrix}
+\partial B_x/\partial x & \partial B_y/\partial x & \partial B_z/\partial x \\
+\partial B_x/\partial y & \partial B_y/\partial y & \partial B_z/\partial y \\
+\partial B_x/\partial z & \partial B_y/\partial z & \partial B_z/\partial z
+\end{bmatrix}\\
+&=3\kappa I
+\begin{bmatrix}
+sin^2\theta cos^2\phi-\frac{1}{3} & sin^2\theta sin\phi cos\phi & sin\theta cos\theta cos\phi \\
+sin^2\theta sin\phi cos\phi & sin^2\theta sin^2\phi-\frac{1}{3} & sin\theta cos\theta sin\phi \\
+sin\theta cos\theta cos\phi & sin\theta cos\theta sin\phi & cos^2\theta-\frac{1}{3}
+\end{bmatrix}
+\end{split}
+\end{equation}
+where the calibration constant $\kappa$ is:
+
+\begin{equation}
+\kappa = \frac{3\pi n R^2 d/2}{5(d^2/4+R^2)^{5/2}}G\,cm\,A^{-1}
+\end{equation}
+
+The most important terms in Eq.\ref{gradient} are those related to $B_z$: $\partial B_z/\partial x$, $\partial B_z/\partial y$ and $\partial B_z/\partial z$. The orientations of the gradient coils can be chosen such that each of the three sets of coils controls one of the aforementioned terms. This "magic angle" $\theta_m$ is given by
+
+\begin{equation}
+\theta_m = cos^{-1}1/\sqrt{3}=54.7^{\circ}
+\end{equation}
+
+For $\theta=\theta_m$ and $\phi=0$ the gradient tensor is
+
+\begin{equation}
+\nabla\boldsymbol{B}(\theta_m, 0)=\kappa I
+\begin{bmatrix}
+1 & 0 & \sqrt{2}\\
+0 & -1 & 0 \\
+\sqrt{2} & 0 & 0
+\end{bmatrix}
+\end{equation}
+
+For $\theta=\theta_m$ and $\phi=\pi/2$ we have
+
+\begin{equation}
+\nabla\boldsymbol{B}(\theta_m, 0)=\kappa I
+\begin{bmatrix}
+-1 & 0 & 0\\
+0 & 1 & \sqrt{2}\\
+0 & \sqrt{2} & 0
+\end{bmatrix}
+\end{equation}
+
+Finally, for the z gradient coil we have
+
+\begin{equation}
+\nabla\boldsymbol{B}(\theta_m, 0)=\kappa I
+\begin{bmatrix}
+-1 & 0 & 0\\
+0 & -1 & 0\\
+0 & 0 & 2
+\end{bmatrix}
+\end{equation}
+
+Our gradient coils were built by Zheng~\cite{YuanThesis}. The separations were do not follow the optimum condition $d=\sqrt{3}R$ due to spatial limitations. The dimensions of the gradient coils are shown in Table~\ref{gradient_coils_table}.
+
+\begin{center}
+	\begin{tabular}{ | c | c| c| c | }
+		\hline
+		& turns & radius & separation \\ \hline
+		x & 42 & 33 cm & 64 cm \\ \hline 
+		y & 100 & 28 cm & 56 cm \\ \hline
+		z & 8 & 66 cm & 66 cm \\
+		\hline
+	\end{tabular}
+\end{center}\label{gradient_coils_table}
 
 \subsection{Laser Setup}
-
 
 
 

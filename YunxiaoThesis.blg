@@ -10,56 +10,80 @@ A level-1 auxiliary file: figures.aux
 A level-1 auxiliary file: chap2.aux
 A level-1 auxiliary file: chap3.aux
 A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: chap5.aux
 A level-1 auxiliary file: bib.aux
 A level-1 auxiliary file: apdxa.aux
 Database file #1: ref.bib
+Warning--I didn't find a database entry for "Kittel"
 Name 1 in "M. V. Romalis, E. Miron, and G. D. Cates" has a comma at the end for entry Romalis1997
 while executing---line 1049 of file abbrv.bst
 Warning--to sort, need author or key in PeterThesis
+Warning--to sort, need author or key in DanThesis
+Warning--to sort, need author or key in JaideepThesis
+Warning--to sort, need author or key in Timsit
+Warning--to sort, need author or key in NelsonThesis
+Warning--empty author in Timsit
+Warning--empty author in NelsonThesis
+Warning--empty author in JaideepThesis
 Warning--empty author in PeterThesis
+Warning--empty author in DanThesis
+Warning--empty publisher in Abragam
+Warning--empty year in Abragam
+Warning--empty publisher in barrer
+Warning--empty year in barrer
+Warning--empty publisher in Electropolishing
+Warning--empty year in Electropolishing
+Warning--empty publisher in Frenkel
+Warning--empty year in Frenkel
+Warning--empty publisher in Larson
+Warning--empty year in Larson
 Name 1 in "M. V. Romalis, E. Miron, and G. D. Cates" has a comma at the end for entry Romalis1997
 while executing---line 1090 of file abbrv.bst
 Warning--empty journal in J.Phys.France.35
+Warning--empty publisher in Slichter
+Warning--empty year in Slichter
+Warning--empty publisher in Smythe
+Warning--empty year in Smythe
 Warning--empty year in WalkerHapper
-You've used 10 entries,
+You've used 31 entries,
             2118 wiz_defined-function locations,
-            581 strings with 5628 characters,
-and the built_in function-call counts, 3150 in all, are:
-= -- 312
-> -- 141
+            706 strings with 8825 characters,
+and the built_in function-call counts, 9490 in all, are:
+= -- 882
+> -- 477
 < -- 0
-+ -- 56
-- -- 46
-* -- 243
-:= -- 540
-add.period$ -- 29
-call.type$ -- 10
-change.case$ -- 53
++ -- 194
+- -- 162
+* -- 753
+:= -- 1605
+add.period$ -- 81
+call.type$ -- 31
+change.case$ -- 167
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 107
-empty$ -- 241
-format.name$ -- 46
-if$ -- 631
+cite$ -- 57
+duplicate$ -- 341
+empty$ -- 728
+format.name$ -- 162
+if$ -- 1890
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 10
-newline$ -- 52
-num.names$ -- 18
-pop$ -- 42
+int.to.str$ -- 31
+missing$ -- 38
+newline$ -- 146
+num.names$ -- 52
+pop$ -- 196
 preamble$ -- 1
-purify$ -- 43
+purify$ -- 143
 quote$ -- 0
-skip$ -- 72
+skip$ -- 205
 stack$ -- 0
-substring$ -- 232
-swap$ -- 9
+substring$ -- 572
+swap$ -- 30
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 40
-warning$ -- 4
-while$ -- 30
-width$ -- 12
-write$ -- 106
+type$ -- 110
+warning$ -- 26
+while$ -- 80
+width$ -- 33
+write$ -- 297
 (There were 2 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  12 AUG 2016 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  13 AUG 2016 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,31 +1400,30 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 32.
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 49.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 54.
 
-<cell_gas_system.png, id=1, 761.84625pt x 512.91624pt>
-File: cell_gas_system.png Graphic file (type png)
-
-<use cell_gas_system.png>
-Package pdftex.def Info: cell_gas_system.png used on input line 86.
-(pdftex.def)             Requested size: 761.84439pt x 512.915pt.
-
-
-LaTeX Warning: Citation `DanThesis' on page 1 undefined on input line 87.
+<gradient_coils.png, id=1, 539.01375pt x 438.63875pt>
+File: gradient_coils.png Graphic file (type png)
+ <use gradient_coils.png>
+Package pdftex.def Info: gradient_coils.png used on input line 102.
+(pdftex.def)             Requested size: 539.01242pt x 438.63766pt.
 
 
-LaTeX Warning: Citation `DanThesis' on page 1 undefined on input line 87.
+LaTeX Warning: Citation `YuanThesis' on page 1 undefined on input line 103.
 
 
-LaTeX Warning: Reference `spinup' on page 1 undefined on input line 91.
-
-
-LaTeX Warning: Reference `fig:foms' on page 1 undefined on input line 95.
+LaTeX Warning: Citation `YuanThesis' on page 1 undefined on input line 103.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-[2 <./cell_gas_system.png>]
+
+LaTeX Warning: Reference `spinup' on page 2 undefined on input line 107.
+
+
+LaTeX Warning: Reference `fig:foms' on page 2 undefined on input line 111.
+
+[2 <./gradient_coils.png>]
 \openout2 = `bib.aux'.
 
  (./bib.tex (./test.bbl
@@ -1446,8 +1445,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  12693 strings out of 493033
- 226576 string characters out of 6134139
- 273241 words of memory out of 5000000
+ 226572 string characters out of 6134139
+ 274241 words of memory out of 5000000
  16074 multiletter control sequences out of 15000+600000
  14606 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1457,16 +1456,17 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on test.pdf (3 pages, 128039 bytes).
+Output written on test.pdf (3 pages, 263024 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

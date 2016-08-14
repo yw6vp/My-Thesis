@@ -1,9 +1,36 @@
 \begin{thebibliography}{10}
 
+\bibitem{Timsit}
+Nuclear relaxation of $^{3}$he gas on various solid surfaces.
+\newblock {\em Canadian Journal of Physics}, 1971.
+
+\bibitem{NelsonThesis}
+Physics of practical spin-exchange optical pumping.
+\newblock {\em PhD thesis, University of Wisconsin-Madison}, 2001.
+
+\bibitem{JaideepThesis}
+Alkali-hybrid spin-exchange optically-pumped polarized $^{3}$he targets used
+  for studying neutron structure.
+\newblock {\em PhD thesis, University of Virginia}, 2010.
+
 \bibitem{PeterThesis}
 High-performance nuclear-polarized $^{3}\mathrm{He}$ targets for electron
   scattering based on spin-exchange optical pumping.
 \newblock {\em PhD thesis, University of Virginia}, 2010.
+
+\bibitem{DanThesis}
+Characterizing $^{3}$he nuclear spin relaxation in vessels of glass and metal.
+\newblock {\em Master thesis, University of Virginia}, 2016.
+
+\bibitem{Abragam}
+A.~Abragam.
+\newblock {\em Principles of Nuclear Magnetism}.
+
+\bibitem{PhysRevLett.96.083003}
+E.~Babcock, B.~Chann, T.~G. Walker, W.~C. Chen, and T.~R. Gentile.
+\newblock Limits to the polarization for spin-exchange optical pumping of
+  $^{3}\mathrm{He}$.
+\newblock {\em Phys. Rev. Lett.}, 96:083003, Mar 2006.
 
 \bibitem{PhysRevA.71.013414}
 E.~Babcock, I.~A. Nelson, S.~Kadlecek, and T.~G. Walker.
@@ -11,10 +38,27 @@ E.~Babcock, I.~A. Nelson, S.~Kadlecek, and T.~G. Walker.
   alkali-metal\char21{}$^{3}\mathrm{He}$ pairs.
 \newblock {\em Phys. Rev. A}, 71:013414, Jan 2005.
 
+\bibitem{barrer}
+R.~M. Barrer.
+\newblock {\em Diffusion in and through Solids}.
+
+\bibitem{PhysRevLett.80.2801}
+A.~Ben-Amar~Baranga, S.~Appelt, M.~V. Romalis, C.~J. Erickson, A.~R. Young,
+  G.~D. Cates, and W.~Happer.
+\newblock Polarization of ${}^{3}\mathrm{He}$ by spin exchange with optically
+  pumped rb and k vapors.
+\newblock {\em Phys. Rev. Lett.}, 80:2801--2804, Mar 1998.
+
 \bibitem{PhysRev.70.460}
 F.~Bloch.
 \newblock Nuclear induction.
 \newblock {\em Phys. Rev.}, 70:460--474, Oct 1946.
+
+\bibitem{Cates1993}
+G.~D. Cates.
+\newblock Polarized targets in high energy physics.
+\newblock {\em Proceedings of the 1993 Summer Institute on Particle Physics:
+  Spin Structure in High Energy Processes (SSI93)}, SLAC-R-444:185--207, 1993.
 
 \bibitem{PhysRevA.37.2877}
 G.~D. Cates, S.~R. Schaefer, and W.~Happer.
@@ -27,6 +71,53 @@ G.~D. Cates, D.~J. White, T.-R. Chien, S.~R. Schaefer, and W.~Happer.
 \newblock Spin relaxation in gases due to inhomogeneous static and oscillating
   magnetic fields.
 \newblock {\em Phys. Rev. A}, 38:5092--5106, Nov 1988.
+
+\bibitem{PhysRevA.66.032703}
+B.~Chann, E.~Babcock, L.~W. Anderson, and T.~G. Walker.
+\newblock Measurements of ${}^{3}\mathrm{He}$ spin-exchange rates.
+\newblock {\em Phys. Rev. A}, 66:032703, Sep 2002.
+
+\bibitem{Electropolishing}
+I.~Delstar Metal~Finishing.
+\newblock {\em https://www.delstar.com/electropolishing}.
+
+\bibitem{PhysRevC.84.065201}
+P.~A.~M. Dolph, J.~Singh, T.~Averett, A.~Kelleher, K.~E. Mooney, V.~Nelyubin,
+  W.~A. Tobias, B.~Wojtsekhowski, and G.~D. Cates.
+\newblock Gas dynamics in high-luminosity polarized ${}^{3}$he targets using
+  diffusion and convection.
+\newblock {\em Phys. Rev. C}, 84:065201, Dec 2011.
+
+\bibitem{PhysRev.179.156}
+W.~A. Fitzsimmons, L.~L. Tankersley, and G.~K. Walters.
+\newblock Nature of surface-induced nuclear-spin relaxation of gaseous
+  ${\mathrm{he}}^{3}$.
+\newblock {\em Phys. Rev.}, 179:156--165, Mar 1969.
+
+\bibitem{Frenkel}
+J.~Frenkel.
+\newblock {\em Kinetic Theory of Liquids}.
+
+\bibitem{Larson}
+L.~E. Glass.
+\newblock {\em http://www.larsonelectronicglass.com}.
+
+\bibitem{PhysRevA.201.337}
+W.~Heil, H.~Humblot, E.~Otten, M.~Schafer, R.~Sarkau, and M.~Leduc.
+\newblock Very long nuclear relaxation times of spin-polarized $^{3}$he in
+  metal coated cells.
+\newblock {\em Phys. Rev. A}, 201:337--343, May 1995.
+
+\bibitem{Houskeeper}
+W.~G. Houskeeper.
+\newblock The art of sealing base metals through glass.
+\newblock {\em Transactions of the American Institute of Electrical Engineers},
+  XLII:870--877, 1923.
+
+\bibitem{solgel}
+M.~F. Hsu, G.~D. Cates, I.~Kominis, I.~A. Aksay, and D.~M. Dabbs.
+\newblock Sol-gel coated glass cells for spin-exchange polarized 3he.
+\newblock {\em Applied Physics Letters}, 77(13):2069--2071, 2000.
 
 \bibitem{Romalis1997}
 E.~M. M.~V.~Romalis and G.~D. Cates.
@@ -51,6 +142,21 @@ M.~V. Romalis and G.~D. Cates.
   frequency shift due to the $\mathrm{Rb}{-}^{3}\mathrm{He}$ spin-exchange
   collisions.
 \newblock {\em Phys. Rev. A}, 58:3004--3011, Oct 1998.
+
+\bibitem{PhysRevC.91.055205}
+J.~T. Singh, P.~A.~M. Dolph, W.~A. Tobias, T.~D. Averett, A.~Kelleher, K.~E.
+  Mooney, V.~V. Nelyubin, Y.~Wang, Y.~Zheng, and G.~D. Cates.
+\newblock Development of high-performance alkali-hybrid polarized
+  $^{3}\mathrm{He}$ targets for electron scattering.
+\newblock {\em Phys. Rev. C}, 91:055205, May 2015.
+
+\bibitem{Slichter}
+C.~P. Slichter.
+\newblock {\em Principles of Magnetic Resonance}.
+
+\bibitem{Smythe}
+W.~Smythe.
+\newblock {\em Static and Dynamic Electricity}.
 
 \bibitem{WalkerHapper}
 W.~H. Thad G.~Walker.

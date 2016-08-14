@@ -61,5 +61,9 @@
 \contentsline {subsection}{\numberline {4.3.6}Cell Fill Procedure}{95}
 \contentsline {subsubsection}{\numberline {4.3.6.1}Cell Fill Preparation}{95}
 \contentsline {subsubsection}{\numberline {4.3.6.2}Cell Fill}{97}
-\contentsline {chapter}{Bibliography}{99}
-\contentsline {chapter}{\numberline {A}Appendix title}{101}
+\contentsline {section}{\numberline {4.4}Experimental Procedure}{98}
+\contentsline {subsection}{\numberline {4.4.1}Pickup Coils}{98}
+\contentsline {subsection}{\numberline {4.4.2}Gradient Coils}{99}
+\contentsline {subsection}{\numberline {4.4.3}Laser Setup}{101}
+\contentsline {chapter}{Bibliography}{102}
+\contentsline {chapter}{\numberline {A}Appendix title}{106}
