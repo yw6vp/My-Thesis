@@ -64,6 +64,7 @@
 \contentsline {section}{\numberline {4.4}Experimental Procedure}{98}
 \contentsline {subsection}{\numberline {4.4.1}Pickup Coils}{98}
 \contentsline {subsection}{\numberline {4.4.2}Gradient Coils}{99}
-\contentsline {subsection}{\numberline {4.4.3}Laser Setup}{101}
-\contentsline {chapter}{Bibliography}{102}
-\contentsline {chapter}{\numberline {A}Appendix title}{106}
+\contentsline {subsection}{\numberline {4.4.3}Laser Setup}{102}
+\contentsline {subsection}{\numberline {4.4.4}Results and Discussions}{103}
+\contentsline {chapter}{Bibliography}{104}
+\contentsline {chapter}{\numberline {A}Appendix title}{108}
