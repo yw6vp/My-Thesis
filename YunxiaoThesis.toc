@@ -58,13 +58,13 @@
 \contentsline {subsection}{\numberline {4.3.3}Mechanical and Electropolishing}{90}
 \contentsline {subsection}{\numberline {4.3.4}Electroplating}{91}
 \contentsline {subsection}{\numberline {4.3.5}Final Assembly of the Cell}{92}
-\contentsline {subsection}{\numberline {4.3.6}Cell Fill Procedure}{95}
-\contentsline {subsubsection}{\numberline {4.3.6.1}Cell Fill Preparation}{95}
-\contentsline {subsubsection}{\numberline {4.3.6.2}Cell Fill}{97}
-\contentsline {section}{\numberline {4.4}Experimental Procedure}{98}
-\contentsline {subsection}{\numberline {4.4.1}Pickup Coils}{98}
-\contentsline {subsection}{\numberline {4.4.2}Gradient Coils}{99}
-\contentsline {subsection}{\numberline {4.4.3}Laser Setup}{102}
-\contentsline {subsection}{\numberline {4.4.4}Results and Discussions}{103}
-\contentsline {chapter}{Bibliography}{104}
-\contentsline {chapter}{\numberline {A}Appendix title}{108}
+\contentsline {section}{\numberline {4.4}Cell Fill Procedure}{95}
+\contentsline {subsection}{\numberline {4.4.1}Cell Fill Preparation}{95}
+\contentsline {subsection}{\numberline {4.4.2}Cell Fill}{97}
+\contentsline {section}{\numberline {4.5}Experimental Setup and Procedure}{98}
+\contentsline {subsection}{\numberline {4.5.1}Pickup Coils}{99}
+\contentsline {subsection}{\numberline {4.5.2}Gradient Coils}{99}
+\contentsline {subsection}{\numberline {4.5.3}Laser Setup}{102}
+\contentsline {subsection}{\numberline {4.5.4}PNMR Losses and Corrected Lifetime}{103}
+\contentsline {chapter}{Bibliography}{109}
+\contentsline {chapter}{\numberline {A}Appendix title}{113}

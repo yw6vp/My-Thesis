@@ -320,8 +320,56 @@ Fig.~\ref{optics} shows a diagram of the optics used for SEOP (spin-exchange opt
 
 \subsection{PNMR Losses and Corrected Lifetime}
 
+As described in chapter 3, there are generally two methods for us to determine polarization losses due to measurements: one is to take several measurements quickly enough that all depolarization can be attributed to measurement losses, the second method is to take multiple spindown measurements each with a different sampling rate. PNMR measurements cause a fraction of longitudinal polarization to be lost, two adjacent measurements require a long enough separation so the depolarization effect can be fully dispersed. For this reason, the first method mentioned above is not an option for PNMR. We have applied the second method to most of the 19 test cells that had lifetime of at least a few hours.
 
+A spindown is typically a series of measurements of FID (Free Induction Decay) signals. Obtaining a good FID signal generally requires tuning the holding magnetic field and the gradient settings to reduce inhomogeneities.
 
+\begin{figure}[t!]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{PNMR_setup.png}}
+	\caption{{\bf PNMR setup.}}
+	\label{PNMR_setup}
+\end{figure}
+
+In a PNMR measurement, it is important that the RF frequency is the correct Larmor frequency of the holding field. We often set the RF frequency to be at 56.6 kHz, it was often the case the holding field would start being off-resonance at the beginning. As each cell's geometric properties, the exact position and height the cell was mounted at, the pickup coil locations was slightly different, the combination of which resulted in a slightly different field at the location where we took measurements, thus field tuning was often necessary. As Fig.~\ref{PNMR_setup} shows, the final recorded signal was the absolute value of the difference between the signal and the mixing frequency, which does not provide information about whether the frequency of the signal (which was proportional to the holding field) was correctly above (or below) the mixing frequency. By intentionally change the mixing frequency by an appropriate amount, we were able to tell whether the recorded frequency on the oscilloscope should be added to or subtracted from the mixing frequency to give us the signal frequency. The holding field was proportional to the current which was monitored with a shunt resistor, thus the next step was to use the proportionality to calculate the destination shunt resistor value for the correct field. However, this was further complicated by non-zero fields produced by gradient coils as the pickup coil location was not at the center of the coils. The calculation of destination shunt resistor value typically brought us closer to the resonance field, a few iterations of the previous steps should be enough for field tuning.
+
+The settings of the gradient coils also required tweaking in most cases. In order to reach longer transverse relaxation time $T_2$, the inhomogeneities should be low. Because the pickup coils were often at least 3-4 inches below the center of the fields, gradient coils were very useful in decreasing the inhomogeneities. The location of the pickup coils were in the same x-y plane (x, y and z axes were defined the same way as in Fig.\ref{gradient_coils}) with the center of the fields, so it was expected either $\partial B_z/\partial x$ or $\partial B_z/\partial y$ was initially the dominant term in field inhomogeneities. So x or y gradient coils should provide the most significant improvements at the beginning, while it also produced non-zero non-zero partial derivatives in other directions that needed to be canceled with other gradient coils later and non-zero field that required further field tuning. The adjusting of the holding field and the gradients settings were an iterative process for achieving long $T_2$ and high-quality FID signals. Fig.~\ref{FID} shows a typical FID signal with approximately 150 ms $T_2$.
+
+\begin{figure}[H]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{FID.png}}
+	\caption{{\bf A PNMR signal taken with gold coated test cell.}}
+	\label{FID}
+\end{figure}
+
+Once the optimal settings were found, multiple spindowns were taken. Each spindown was a series of PNMR measurements set apart with fixed time interval. Multiple intervals were used for different spindown measurements, each of the intervals was typically repeated at least twice. Fig.~\ref{3spindowns} shows 3 spindowns for the test cell GoldenVec1 which as a horizontal metal tube and similar configuration to that of a convection style cell. The time interval used for the 3 spindowns were 20 min, 30 min and 60 min, respectively. Using the additional relaxation rate due to taking PNMR once every hour as the base rate $\Gamma_{PNMR}$, the measured relaxation rate for taking n PNMR every hour can be related to the true lifetime (without relaxation from PNMR) by:
+
+\begin{equation}
+\frac{1}{T_{measured}} = \frac{1}{T_{trure}} + n\cdot \Gamma_{PNMR}
+\end{equation}
+in the relation of $\frac{1}{T_{measured}}$ versus n, $\frac{1}{T_{trure}}$ is the intercept, and the $\Gamma_{PNMR}$ is the slope.
+
+\begin{figure}[t!]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{3spindowns.png}}
+	\caption{{3 spindowns of the cell GoldenVec1 each with a different sampling rate.}}
+	\label{3spindowns}
+\end{figure}
+
+\begin{figure}[t!]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{corrected_T1.png}}
+	\caption{{A linear fit to extract lifetime corrected for relaxation due to PNMR losses.}}
+	\label{corrected_T1}
+\end{figure}
+
+Fig.~\ref{corrected_T1} shows the linear fit between the sampling rates (n) as x and the inverse of measured lifetimes as y. The intercept is $0.0676\,hr^{-1}$, thus the true lifetime without any loss due to taking PNMR measurements is $1/0.0676=14.8\,hr$. The slope is $0.2\,hr^{-1}$, which means the relaxation rate due to taking one PNMR per hour is $1/50\,hr^{-1}$. The percentage loss of polarization due to a single PNMR measurement can be calculated as:
+
+\begin{equation}
+1-e^{-t\cdot \Gamma_{PNMR}} = 1-e^{-1\times \frac{1}{50}} =0.0198=2\%
+\end{equation}
+
+\section{Relaxation Measurement Results and Discussion}
 
 
 

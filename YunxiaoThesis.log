@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  13 AUG 2016 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  14 AUG 2016 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,7 +1291,14 @@ LaTeX Warning: Label `V1' multiply defined.
 
 LaTeX Warning: Label `AFPSignal' multiply defined.
 
-) (./chap4.aux) (./chap5.aux) (./bib.aux) (./apdxa.aux))
+) (./chap4.aux) (./chap5.aux
+
+LaTeX Warning: Label `PNMR_setup' multiply defined.
+
+
+LaTeX Warning: Label `FID' multiply defined.
+
+) (./bib.aux) (./apdxa.aux))
 \openout1 = `YunxiaoThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -1633,11 +1640,11 @@ File: PNMR_setup.png Graphic file (type png)
  <use PNMR_setup.png>
 Package pdftex.def Info: PNMR_setup.png used on input line 472.
 (pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
- [48 <./PNMR_setup.png>] [49] <FID.png, id=251, 418.56375pt x 142.5325pt>
+ [48 <./PNMR_setup.png>] [49] <FID.png, id=251, 626.34pt x 270.00874pt>
 File: FID.png Graphic file (type png)
  <use FID.png>
 Package pdftex.def Info: FID.png used on input line 489.
-(pdftex.def)             Requested size: 418.56271pt x 142.53214pt.
+(pdftex.def)             Requested size: 626.33846pt x 270.00807pt.
 
 [50 <./FID.png>]) [51]
 \openout2 = `chap4.aux'.
@@ -1804,14 +1811,13 @@ Package pdftex.def Info: string.png used on input line 181.
 
 LaTeX Warning: Reference `' on page 95 undefined on input line 192.
 
-<cell_gas_system.png, id=425, 761.84625pt x 512.91624pt>
+[95 <./string.png>] <cell_gas_system.png, id=430, 761.84625pt x 512.91624pt>
 File: cell_gas_system.png Graphic file (type png)
 
 <use cell_gas_system.png>
 Package pdftex.def Info: cell_gas_system.png used on input line 196.
 (pdftex.def)             Requested size: 761.84439pt x 512.915pt.
- [95 <./string.png>] [96 <./cell_gas_system.png>]
-[97] [98]
+ [96 <./cell_gas_system.png>] [97] [98]
 
 LaTeX Warning: Citation `Callaghan' on page 99 undefined on input line 223.
 
@@ -1832,32 +1838,55 @@ LaTeX Warning: Citation `YuanThesis' on page 99 undefined on input line 228.
 
 LaTeX Warning: Citation `YuanThesis' on page 101 undefined on input line 295.
 
-[101] <optics.png, id=453, 717.68124pt x 466.74374pt>
+[101] [102] <optics.png, id=456, 717.68124pt x 466.74374pt>
 File: optics.png Graphic file (type png)
  <use optics.png>
 Package pdftex.def Info: optics.png used on input line 316.
 (pdftex.def)             Requested size: 717.67949pt x 466.7426pt.
 
 
-LaTeX Warning: Citation `YuanThesis' on page 102 undefined on input line 317.
+LaTeX Warning: Citation `YuanThesis' on page 103 undefined on input line 317.
 
 
-LaTeX Warning: Citation `YuanThesis' on page 102 undefined on input line 317.
+LaTeX Warning: Citation `YuanThesis' on page 103 undefined on input line 317.
 
-) [102] [103 <./optics.png>]
+[103 <./optics.png>]
+File: PNMR_setup.png Graphic file (type png)
+ <use PNMR_setup.png>
+Package pdftex.def Info: PNMR_setup.png used on input line 329.
+(pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
+ [104] [105]
+File: FID.png Graphic file (type png)
+ <use FID.png>
+Package pdftex.def Info: FID.png used on input line 340.
+(pdftex.def)             Requested size: 626.33846pt x 270.00807pt.
+ [106]
+<3spindowns.png, id=470, 926.46124pt x 293.095pt>
+File: 3spindowns.png Graphic file (type png)
+ <use 3spindowns.png>
+Package pdftex.def Info: 3spindowns.png used on input line 354.
+(pdftex.def)             Requested size: 926.45897pt x 293.09427pt.
+
+<corrected_T1.png, id=471, 429.605pt x 293.095pt>
+File: corrected_T1.png Graphic file (type png)
+ <use corrected_T1.png>
+Package pdftex.def Info: corrected_T1.png used on input line 361.
+(pdftex.def)             Requested size: 429.60394pt x 293.09427pt.
+
+[107 <./3spindowns.png>]) [108 <./corrected_T1.png>]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl [104
+ (./bib.tex
+(./YunxiaoThesis.bbl [109
 
 
 
-] [105]
-[106])) [107]
+] [110] [111])) [112]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [108
+) [113
 
 
 
@@ -1877,10 +1906,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13115 strings out of 493033
- 232908 string characters out of 6134139
- 319377 words of memory out of 5000000
- 16382 multiletter control sequences out of 15000+600000
+ 13127 strings out of 493033
+ 233122 string characters out of 6134139
+ 319407 words of memory out of 5000000
+ 16392 multiletter control sequences out of 15000+600000
  28656 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,21n,42p,10408b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1908,10 +1937,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (122 pages, 3697475 bytes).
+Output written on YunxiaoThesis.pdf (127 pages, 3865091 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
+ 578 PDF objects out of 1000 (max. 8388607)
+ 355 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
