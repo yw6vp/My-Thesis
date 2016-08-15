@@ -45,39 +45,33 @@ $^{\circ}C$
 	\captionsetup{font=scriptsize}
 	\begin{center}
 		\def\arraystretch{0.75}
-		\setlength\tabcolsep{1pt}
-		\begin{tabular}{|c|c|cccc|c|}
+		\setlength\tabcolsep{2pt}
+		\begin{tabular}{|c|c|c|c|c|c|c|}
 			\hline
-			Cell & T($^\circ$C) & $X_1$ & $X_2$ & $X_3$ & $X_4$ & $X_{12}/X_{1234}$\\ 
-			\multirow{2}{*}{Simone} & 215 & -0.02(12) & -0.10(14) & - & - & -0.04(12) \\
-			& 255 & 0.13(08) & 0.08(09) & - & - & 0.11(06) \\
-			\hline
-			\multirow{4}{*}{Sosa} & 160 & 0.22(07) & 0.28(09) & 0.32(15) & 0.18(09) & 0.24(06)$^\dagger$ \\
-			& 170 & 0.24(07) & 0.37(15) & - & - & 0.27(06)\\
-			& 180 & 0.45(08) & 0.40(09) & 0.50(17) & 0.45(09) & 0.43(06)$^\dagger$ \\
-			& 190 & 0.59(16) & 0.57(17) & - & - & 0.58(12) \\
-			\hline
-			\hline
-			Boris & 235 & 0.21(14) & 0.31(14) & - & - & 0.26(10)\\
-			\hline
-			Sam. & 235 & 0.08(06) & 0.22(09) & - & - & 0.12(05) \\
-			\hline
-			Alex & 235 & 0.34(09) & 0.35(09) & 0.63(20) & 0.29(10) & 0.34(06)$^\dagger$\\
-			\hline
-			Astral & 235 & 0.15(07) & 0.22(10) & 0.20(14) & 0.14(07) & 0.17(05)$^\dagger$\\
-			\hline
-			Steph. & 235 & 0.31(17) & 0.31(10) & - & - & 0.31(08)\\
-			\hline
-			Brady & 235 & 0.13(07) & 0.15(09) & 0.23(14) & 0.11(07) & 0.14(05)$^\dagger$\\
-			\hline
-			\multirow{3}{*}{Antoinette} & 215 & 0.27(09) & 0.44(17) & 0.30(19) & 0.25(11) & 0.28(08)$^\dagger$\\
-			& 235 & 0.20(09) & 0.34(12) & 0.36(17) & 0.15(09) & 0.24(07)$^\dagger$\\
-			& 255 & 0.55(26) & 0.54(16) & 0.50(30) & 0.56(26) & 0.55(13)$^\dagger$\\
-			\hline
+			Cell Name & Fill Type & Geometry & Glass & Metal & Max Lifetime (hr) & Fill Date\\ \hline
+			Tyrion & NGP & Sphere & GE180 & Gold on glass & 1.21 & 6/18/09 \\ \hline
+			Gold Maiden1 & NGP & Flange & Pyrex & Gold on Copper & 2.14 & 6/18/10 \\ \hline
+			Gold Maiden2 & NGP & Flange & Pyrex & Gold on Copper & None & 8/14/10\\ \hline
+			Gold Maiden3 & NGP & Flange & Pyrex & Gold on Copper & 6.49 & 11/11/10\\ \hline
+			Goldfinger & NGP & Vertical & Pyrex & Gold on Copper & 3.59 & 4/28/13\\ \hline
+			Cupid & NGP & Vertical & Pyrex & Bare Copper & 3.13 & 6/15/13\\ \hline
+			Goldeneye & NGP & Vertical with Valve & Pyrex & Gold on Copper & 13.94 & 10/2/13\\ \hline
+			GoldRush & NGP & Vertical & Pyrex & Gold on Copper & 14.81$^\dagger$  & 11/8/13\\ \hline
+			Pyrah & NGP & Vertical & Pyrex & None & 26.52$^\dagger$ & 2/1/14\\ \hline
+			GoldenVec & NGP & Horizontal & Pyrex & Gold on Copper & 10.6 & 10/18/14\\ \hline
+			TitanVec & NGP & Horizontal & Pyrex & Gold on Titanium & 0.52 & 12/15/14\\ \hline
+			GoldenVec2 & Cryogenic & Horizontal & Pyrex & Gold on Copper & 15.6 & 2/14/15\\ \hline
+			Titan & NGP & Vertical & Pyrex & Bare Titanium & None & 3/11/15\\ \hline
+			GoldenVec180 & Cryogenic & Horizontal & GE180 & Gold on Copper & 4.43 & 6/17/15\\ \hline
+			GolderVec360 & Cryogenic & Horizontal & GE180 & Gold on Copper & 3.01 & 7/11/15\\ \hline
+			Tweety & Cryogenic & Vertical & Pyrex & Canary Glass & 22.7 & 9/22/15 \\ \hline
+			Sylvester & Cryogenic & Horizontal & GE180 & Canary Glass & 6.39 & 11/20/15\\ \hline
+			Kappa1 & Cryogenic & Sphere & GE180 & None & 72.17 & 2/6/16\\ \hline
+			Goldfinger180 & Cryogenic & Vertical & GE180 & Gold on Copper & 12.4 $^\dagger$ & 5/19/16\\ \hline
 		\end{tabular}
 		\caption
-		{Shown are the values of the X factor at the indicated over set temperatures. The last column is a weighted average of results from either the first two methods or all four methods. A $^\dagger$ indicates combined values computed with all 4 methods.}
-		\label{table:Xtable}
+		{Shown are the fill information, design and maximum measured lifetime of the test cells. Fill type is the method of cleaning gas filled into the cell. $^\dagger$ indicates the maximum lifetime was obtained at an elevated position. Although canary glass is not metal, it is listed in the column of metal for Tweety and Sylvester for the sake of convenience.}
+		\label{test_cells}
 	\end{center}
 \end{table*}
 
@@ -94,9 +88,9 @@ $^{\circ}C$
 
 \begin{figure}[t!]
 	\centering
-	\resizebox{0.91\textwidth}{!}{\includegraphics{goldrush_inhomogeneities.png}}
-	\caption{{Shown on the right is the inhomogeneities vs. vertical distance from the center of the field. Shown on the left is the cell Goldrush with relaxation time due to field inhomogeneities as displayed on the right.}}
-	\label{goldrush_inhomogeneities}
+	\resizebox{0.6\textwidth}{!}{\includegraphics{goldenvec.png}}
+	\caption{{Design of the horizontal cell GoldenVec.}}
+	\label{goldenvec}
 \end{figure}
 
 \begin{figure}[t!]

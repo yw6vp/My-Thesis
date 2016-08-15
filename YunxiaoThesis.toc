@@ -1,7 +1,7 @@
 \contentsline {chapter}{Abstract}{ii}
 \contentsline {chapter}{Acknowledgements}{iv}
 \contentsline {chapter}{List of Tables}{ix}
-\contentsline {chapter}{List of Figures}{xi}
+\contentsline {chapter}{List of Figures}{xii}
 \contentsline {chapter}{\numberline {1}Spin-Exchange Optical Pumping}{1}
 \contentsline {section}{\numberline {1.1}Overview}{1}
 \contentsline {section}{\numberline {1.2}Optical pumping}{2}
@@ -67,8 +67,11 @@
 \contentsline {subsection}{\numberline {4.5.3}Laser Setup}{102}
 \contentsline {subsection}{\numberline {4.5.4}PNMR Losses and Corrected Lifetime}{103}
 \contentsline {section}{\numberline {4.6}Relaxation Measurement Results and Discussion}{108}
-\contentsline {subsection}{\numberline {4.6.1}Gold Coated Spherical Cell}{109}
-\contentsline {subsection}{\numberline {4.6.2}Gold Coated Spool Pieces}{110}
-\contentsline {subsection}{\numberline {4.6.3}Vertical Cells}{111}
-\contentsline {chapter}{Bibliography}{117}
-\contentsline {chapter}{\numberline {A}Appendix title}{121}
+\contentsline {subsection}{\numberline {4.6.1}Gold Coated Spherical Cell}{111}
+\contentsline {subsection}{\numberline {4.6.2}Gold Coated Spool Pieces}{111}
+\contentsline {subsection}{\numberline {4.6.3}Vertical Cells}{112}
+\contentsline {subsection}{\numberline {4.6.4}Horizontal Cells}{116}
+\contentsline {subsection}{\numberline {4.6.5}GE180 Cells}{118}
+\contentsline {subsection}{\numberline {4.6.6}Titanium Tubes}{120}
+\contentsline {chapter}{Bibliography}{121}
+\contentsline {chapter}{\numberline {A}Appendix title}{125}
