@@ -54,17 +54,21 @@
 \contentsline {subsection}{\numberline {4.2.2}Relaxation on Metal Surfaces}{86}
 \contentsline {section}{\numberline {4.3}Test Cell Fabrication}{88}
 \contentsline {subsection}{\numberline {4.3.1}Overview}{88}
-\contentsline {subsection}{\numberline {4.3.2}Glass-to-Metal Seal}{89}
-\contentsline {subsection}{\numberline {4.3.3}Mechanical and Electropolishing}{90}
-\contentsline {subsection}{\numberline {4.3.4}Electroplating}{91}
-\contentsline {subsection}{\numberline {4.3.5}Final Assembly of the Cell}{92}
+\contentsline {subsection}{\numberline {4.3.2}Glass--Metal Seal}{89}
+\contentsline {subsection}{\numberline {4.3.3}Mechanical and Electropolishing}{91}
+\contentsline {subsection}{\numberline {4.3.4}Electroplating}{92}
+\contentsline {subsection}{\numberline {4.3.5}Final Assembly of the Cell}{93}
 \contentsline {section}{\numberline {4.4}Cell Fill Procedure}{95}
-\contentsline {subsection}{\numberline {4.4.1}Cell Fill Preparation}{95}
+\contentsline {subsection}{\numberline {4.4.1}Cell Fill Preparation}{96}
 \contentsline {subsection}{\numberline {4.4.2}Cell Fill}{97}
 \contentsline {section}{\numberline {4.5}Experimental Setup and Procedure}{98}
 \contentsline {subsection}{\numberline {4.5.1}Pickup Coils}{99}
 \contentsline {subsection}{\numberline {4.5.2}Gradient Coils}{99}
 \contentsline {subsection}{\numberline {4.5.3}Laser Setup}{102}
 \contentsline {subsection}{\numberline {4.5.4}PNMR Losses and Corrected Lifetime}{103}
-\contentsline {chapter}{Bibliography}{109}
-\contentsline {chapter}{\numberline {A}Appendix title}{113}
+\contentsline {section}{\numberline {4.6}Relaxation Measurement Results and Discussion}{108}
+\contentsline {subsection}{\numberline {4.6.1}Gold Coated Spherical Cell}{109}
+\contentsline {subsection}{\numberline {4.6.2}Gold Coated Spool Pieces}{110}
+\contentsline {subsection}{\numberline {4.6.3}Vertical Cells}{111}
+\contentsline {chapter}{Bibliography}{117}
+\contentsline {chapter}{\numberline {A}Appendix title}{121}
