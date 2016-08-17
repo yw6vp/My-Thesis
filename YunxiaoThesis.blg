@@ -14,11 +14,11 @@ A level-1 auxiliary file: chap5.aux
 A level-1 auxiliary file: bib.aux
 A level-1 auxiliary file: apdxa.aux
 Database file #1: ref.bib
+Warning--entry type for "YuanThesis" isn't style-file defined
+--line 416 of file ref.bib
+Warning--I didn't find a database entry for "WalkderHapper"
 Warning--I didn't find a database entry for "Kittel"
-Name 1 in "M. V. Romalis, E. Miron, and G. D. Cates" has a comma at the end for entry Romalis1997
-while executing---line 1049 of file abbrv.bst
 Warning--to sort, need author or key in PeterThesis
-Warning--to sort, need author or key in DanThesis
 Warning--to sort, need author or key in JaideepThesis
 Warning--to sort, need author or key in Timsit
 Warning--to sort, need author or key in NelsonThesis
@@ -26,64 +26,69 @@ Warning--empty author in Timsit
 Warning--empty author in NelsonThesis
 Warning--empty author in JaideepThesis
 Warning--empty author in PeterThesis
-Warning--empty author in DanThesis
 Warning--empty publisher in Abragam
 Warning--empty year in Abragam
 Warning--empty publisher in barrer
 Warning--empty year in barrer
+Warning--empty title in Alcock
+Warning--empty publisher in Callaghan
+Warning--empty year in Callaghan
 Warning--empty publisher in Electropolishing
 Warning--empty year in Electropolishing
 Warning--empty publisher in Frenkel
 Warning--empty year in Frenkel
 Warning--empty publisher in Larson
 Warning--empty year in Larson
-Name 1 in "M. V. Romalis, E. Miron, and G. D. Cates" has a comma at the end for entry Romalis1997
-while executing---line 1090 of file abbrv.bst
+Warning--empty journal in HapperPatent
+Warning--empty publisher in Epner
+Warning--empty year in Epner
+Warning--empty publisher in Merzbacher
 Warning--empty journal in J.Phys.France.35
 Warning--empty publisher in Slichter
 Warning--empty year in Slichter
 Warning--empty publisher in Smythe
 Warning--empty year in Smythe
-Warning--empty year in WalkerHapper
-You've used 31 entries,
+Warning--empty publisher in Able
+Warning--empty year in Able
+You've used 56 entries,
             2118 wiz_defined-function locations,
-            706 strings with 8825 characters,
-and the built_in function-call counts, 9490 in all, are:
-= -- 882
-> -- 477
+            855 strings with 19417 characters,
+and the built_in function-call counts, 29948 in all, are:
+= -- 2474
+> -- 2854
 < -- 0
-+ -- 194
-- -- 162
-* -- 753
-:= -- 1605
-add.period$ -- 81
-call.type$ -- 31
-change.case$ -- 167
++ -- 1141
+- -- 1084
+* -- 2969
+:= -- 5376
+add.period$ -- 152
+call.type$ -- 56
+change.case$ -- 698
 chr.to.int$ -- 0
-cite$ -- 57
-duplicate$ -- 341
-empty$ -- 728
-format.name$ -- 162
-if$ -- 1890
+cite$ -- 88
+duplicate$ -- 614
+empty$ -- 1355
+format.name$ -- 1084
+if$ -- 5513
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 38
-newline$ -- 146
-num.names$ -- 52
-pop$ -- 196
+int.to.str$ -- 56
+missing$ -- 66
+newline$ -- 267
+num.names$ -- 104
+pop$ -- 724
 preamble$ -- 1
-purify$ -- 143
+purify$ -- 654
 quote$ -- 0
-skip$ -- 205
+skip$ -- 380
 stack$ -- 0
-substring$ -- 572
-swap$ -- 30
+substring$ -- 1173
+swap$ -- 54
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 110
-warning$ -- 26
-while$ -- 80
-width$ -- 33
-write$ -- 297
-(There were 2 error messages)
+type$ -- 202
+warning$ -- 32
+while$ -- 164
+width$ -- 58
+write$ -- 555
+(There were 35 warnings)
