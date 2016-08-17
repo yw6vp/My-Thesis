@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  16 AUG 2016 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  16 AUG 2016 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,11 +1283,7 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsaveapp=\count152
 )
 (./YunxiaoThesis.aux (./abstract.aux) (./ack.aux) (./contents.aux)
-(./tables.aux) (./figures.aux) (./chap2.aux
-
-LaTeX Warning: Label `V1' multiply defined.
-
-) (./chap3.aux
+(./tables.aux) (./figures.aux) (./chap2.aux) (./chap3.aux
 
 LaTeX Warning: Label `AFPSignal' multiply defined.
 
@@ -1498,69 +1494,17 @@ scale. Adapted
 
  (./chap2.tex
 Chapter 1.
-
-LaTeX Warning: Citation `PhysRevLett.71.959' on page 1 undefined on input line 
-6.
-
-
-LaTeX Warning: Citation `PhysRevLett.89.242301' on page 1 undefined on input li
-ne 6.
-
-
-LaTeX Warning: Citation `PhysRevLett.105.262302' on page 1 undefined on input l
-ine 6.
-
-
-LaTeX Warning: Citation `PhysRevLett.107.072003' on page 1 undefined on input l
-ine 6.
-
-
-LaTeX Warning: Citation `PhysRev.132.2561' on page 1 undefined on input line 8.
-
-
-
-LaTeX Warning: Citation `PhysRevC.36.2244' on page 1 undefined on input line 8.
-
-
-
-LaTeX Warning: Citation `PhysRevA.44.3108' on page 1 undefined on input line 8.
-
-
-
-LaTeX Warning: Citation `PhysRevLett.67.3219' on page 1 undefined on input line
- 8.
-
-
-LaTeX Warning: Citation `PhysRevLett.5.373' on page 1 undefined on input line 1
-0.
-
-
-LaTeX Warning: Citation `HapperPatent' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `PhysRevLett.91.123003' on page 1 undefined on input li
-ne 10.
-
 [1
 
 
 
-] [2]
-
-LaTeX Warning: Citation `Alcock' on page 3 undefined on input line 27.
-
-<AlkaliVaporDensity.png, id=67, 437.635pt x 408.52625pt>
+] [2] <AlkaliVaporDensity.png, id=67, 437.635pt x 408.52625pt>
 File: AlkaliVaporDensity.png Graphic file (type png)
 
 <use AlkaliVaporDensity.png>
 Package pdftex.def Info: AlkaliVaporDensity.png used on input line 49.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
-
-
-LaTeX Warning: Citation `PhysRevA.58.1412' on page 3 undefined on input line 63
-.
-
-[3] [4 <./AlkaliVaporDensity.png>]
+ [3] [4 <./AlkaliVaporDensity.png>]
 <RbEnergyLevels.png, id=77, 516.93124pt x 611.28375pt>
 File: RbEnergyLevels.png Graphic file (type png)
 
@@ -1574,12 +1518,8 @@ File: OpticalPumping.png Graphic file (type png)
 <use OpticalPumping.png>
 Package pdftex.def Info: OpticalPumping.png used on input line 80.
 (pdftex.def)             Requested size: 292.09052pt x 245.91814pt.
- [5]
-
-LaTeX Warning: Citation `Wagshul' on page 6 undefined on input line 87.
-
-[6 <./RbEnergyLevels.png>] [7 <./OpticalPumping.png>]
-<AbsorptionLine.png, id=90, 468.75125pt x 342.27875pt>
+ [5] [6 <./RbEnergyLevels.png>] [7 <./OpticalPumping.png>] <AbsorptionLine.png,
+ id=90, 468.75125pt x 342.27875pt>
 File: AbsorptionLine.png Graphic file (type png)
 
 <use AbsorptionLine.png>
@@ -1592,31 +1532,11 @@ File: PressureBroadening.png Graphic file (type png)
 <use PressureBroadening.png>
 Package pdftex.def Info: PressureBroadening.png used on input line 123.
 (pdftex.def)             Requested size: 490.83255pt x 339.26666pt.
-
-
-LaTeX Warning: Citation `Merzbacher' on page 8 undefined on input line 128.
-
-[8]
-
-LaTeX Warning: Citation `PhysRevA.44.3108' on page 9 undefined on input line 13
-3.
-
-[9 <./AbsorptionLine.png>] [10 <./PressureBroadening.png>] [11] [12]
-
-LaTeX Warning: Citation `WalkderHapper' on page 13 undefined on input line 206.
-
-
-
-LaTeX Warning: Citation `Wagshul1994' on page 13 undefined on input line 211.
-
-
-LaTeX Warning: Citation `PhysRevLett.10.108' on page 13 undefined on input line
- 211.
-
-[13] [14] <SpinExchange.png, id=119, 470.75874pt x 372.39125pt>
+ [8] [9 <./AbsorptionLine.png>] [10 <./PressureBroadening.png>] [11] [12] [13] 
+[14]
+<SpinExchange.png, id=119, 470.75874pt x 372.39125pt>
 File: SpinExchange.png Graphic file (type png)
-
-<use SpinExchange.png>
+ <use SpinExchange.png>
 Package pdftex.def Info: SpinExchange.png used on input line 264.
 (pdftex.def)             Requested size: 470.7576pt x 372.39034pt.
 
@@ -1631,20 +1551,7 @@ File: V1.png Graphic file (type png)
 <use V1.png>
 Package pdftex.def Info: V1.png used on input line 291.
 (pdftex.def)             Requested size: 480.79506pt x 340.27042pt.
- [17 <./V1.png>] [18] [19]
-
-LaTeX Warning: Citation `PhysRevLett.67.3219' on page 20 undefined on input lin
-e 352.
-
-
-LaTeX Warning: Citation `PhysRev.138.A946' on page 20 undefined on input line 3
-59.
-
-
-LaTeX Warning: Citation `PhysRev.139.A1398' on page 20 undefined on input line 
-359.
-
-[20] [21]) [22]
+ [17 <./V1.png>] [18] [19] [20] [21]) [22]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
@@ -2030,8 +1937,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  13207 strings out of 493033
- 234608 string characters out of 6134139
- 319559 words of memory out of 5000000
+ 234599 string characters out of 6134139
+ 319645 words of memory out of 5000000
  16463 multiletter control sequences out of 15000+600000
  28656 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2060,7 +1967,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (147 pages, 6825739 bytes).
+Output written on YunxiaoThesis.pdf (147 pages, 6825448 bytes).
 PDF statistics:
  660 PDF objects out of 1000 (max. 8388607)
  399 compressed objects within 4 object streams
