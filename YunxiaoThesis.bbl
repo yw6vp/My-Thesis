@@ -8,6 +8,10 @@ Nuclear relaxation of $^{3}$he gas on various solid surfaces.
 Physics of practical spin-exchange optical pumping.
 \newblock {\em PhD thesis, University of Wisconsin-Madison}, 2001.
 
+\bibitem{BabcockThesis}
+Spin-exchange optical pumping with alkali-metal vapors.
+\newblock {\em PhD thesis, University of Wisconsin-Madison}, 2005.
+
 \bibitem{JaideepThesis}
 Alkali-hybrid spin-exchange optically-pumped polarized $^{3}$he targets used
   for studying neutron structure.
@@ -104,6 +108,11 @@ M.~A. Bouchiat, T.~R. Carver, and C.~M. Varnum.
   pumping and dipolar exchange.
 \newblock {\em Phys. Rev. Lett.}, 5:373--375, Oct 1960.
 
+\bibitem{PhysRev.38.2082.2}
+G.~Breit and I.~I. Rabi.
+\newblock Measurement of nuclear spin.
+\newblock {\em Phys. Rev.}, 38:2082--2083, Dec 1931.
+
 \bibitem{Alcock}
 A.~C., V.~Itkin, and H.~M.K.
 \newblock {\em Candadian Metallurgial Quarterly}, 23, 1984.
@@ -129,6 +138,13 @@ G.~D. Cates, D.~J. White, T.-R. Chien, S.~R. Schaefer, and W.~Happer.
 \newblock Spin relaxation in gases due to inhomogeneous static and oscillating
   magnetic fields.
 \newblock {\em Phys. Rev. A}, 38:5092--5106, Nov 1988.
+
+\bibitem{JAP.94.6908}
+B.~Chann, E.~Babcock, L.~Anderson, T.~Walker, W.~Chen, T.~Smith, A.~Thompson,
+  and T.~Gentile.
+\newblock Production of highly polarized $^{3}$he using spectrally narrowed
+  diode laser array bars.
+\newblock {\em Journal of applied physcis}, 94:6908--6914.
 
 \bibitem{PhysRevA.66.032703}
 B.~Chann, E.~Babcock, L.~W. Anderson, and T.~G. Walker.
@@ -207,6 +223,10 @@ M.~F. Hsu, G.~D. Cates, I.~Kominis, I.~A. Aksay, and D.~M. Dabbs.
 E.~T. Inc.
 \newblock {\em http://www.epner.com}.
 
+\bibitem{Jackson}
+J.~Jackson.
+\newblock {\em Classical Electrodynamics}.
+
 \bibitem{PhysRevA.44.3108}
 B.~Larson, O.~Hausser, P.~P.~J. Delheij, D.~M. Whittal, and D.~Thiessen.
 \newblock Optical pumping of rb in the presence of high-pressure
@@ -229,6 +249,11 @@ N.~R. Newbury, A.~S. Barton, P.~Bogorad, G.~D. Cates, M.~Gatzke, B.~Saam,
   L.~Han, R.~Holmes, P.~A. Souder, J.~Xu, and D.~Benton.
 \newblock Laser polarized muonic helium.
 \newblock {\em Phys. Rev. Lett.}, 67:3219--3222, Dec 1991.
+
+\bibitem{PhysRevA.48.4411}
+N.~R. Newbury, A.~S. Barton, G.~D. Cates, W.~Happer, and H.~Middleton.
+\newblock Gaseous $^{3}\mathrm{-}^{3}$he magnetic dipolar spin relaxation.
+\newblock {\em Phys. Rev. A}, 48:4411--4420, Dec 1993.
 
 \bibitem{PhysRevLett.107.072003}
 X.~Qian, K.~Allada, C.~Dutta, J.~Huang, J.~Katich, Y.~Wang, Y.~Zhang, K.~Aniol,
@@ -343,6 +368,12 @@ W.~Smythe.
 A.~E. A. M.~I. Technologies.
 \newblock {\em http://www.ableelectropolishing.com}.
 
+\bibitem{PhysRevLett.107.023204}
+T.~V. Tscherbul, P.~Zhang, H.~R. Sadeghpour, and A.~Dalgarno.
+\newblock Anisotropic hyperfine interactions limit the efficiency of
+  spin-exchange optical pumping of $^{3}\mathrm{He}$ nuclei.
+\newblock {\em Phys. Rev. Lett.}, 107:023204, Jul 2011.
+
 \bibitem{Wagshul}
 M.~Wagshul and T.~Chupp.
 \newblock Optical pumping of high-density rb with a broadband dye laser and
@@ -359,6 +390,16 @@ M.~Wagshul and T.~Chupp.
 T.~G. Walker and W.~Happer.
 \newblock Spin-exchange optical pumping of noble-gas nuclei.
 \newblock {\em Rev. Mod. Phys.}, 69:629--642, Apr 1997.
+
+\bibitem{PhysRevA.81.032709}
+T.~G. Walker, I.~A. Nelson, and S.~Kadlecek.
+\newblock Method for deducing anisotropic spin-exchange rates.
+\newblock {\em Phys. Rev. A}, 81:032709, Mar 2010.
+
+\bibitem{PhysRevA.56.2090}
+T.~G. Walker, J.~H. Thywissen, and W.~Happer.
+\newblock Spin-rotation interaction of alkali-metal\char21{}he-atom pairs.
+\newblock {\em Phys. Rev. A}, 56:2090--2094, Sep 1997.
 
 \bibitem{YuanThesis}
 Y.~Zheng.

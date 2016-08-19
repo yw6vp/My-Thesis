@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  18 AUG 2016 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  19 AUG 2016 00:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1585,20 +1585,12 @@ File: AFPLossvsGradient.png Graphic file (type png)
 <use AFPLossvsGradient.png>
 Package pdftex.def Info: AFPLossvsGradient.png used on input line 211.
 (pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
- [34] [35 <./AFPLossvsGradient.png>]
-
-LaTeX Warning: Citation `PhysRev.38.2082.2' on page 36 undefined on input line 
-226.
-
-[36]
+ [34] [35 <./AFPLossvsGradient.png>] [36]
 Overfull \hbox (49.96259pt too wide) in paragraph at lines 263--263
 [] 
  []
 
 [37]
-
-LaTeX Warning: Citation `Jackson' on page 38 undefined on input line 281.
-
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 289.
@@ -1652,15 +1644,7 @@ Chapter 3.
 
 
 
-]
-
-LaTeX Warning: Citation `PhysRevA.56.2090' on page 55 undefined on input line 1
-0.
-
-
-LaTeX Warning: Citation `JAP.94.6908' on page 55 undefined on input line 12.
-
-[55] <target_performance.png, id=278, 803.0pt x 467.7475pt>
+] [55] <target_performance.png, id=278, 803.0pt x 467.7475pt>
 File: target_performance.png Graphic file (type png)
 
 <use target_performance.png>
@@ -1694,15 +1678,11 @@ Package pdftex.def Info: BradySpinup.png used on input line 160.
 
 [64] [65 <./BradySpinup.png>] [66] [67] [68]
 
-Package caption Warning: \label without proper reference on input line 265.
+Package caption Warning: \label without proper reference on input line 252.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `m_ratio' on page 69 undefined on input line 245.
-
-
-LaTeX Warning: Citation `BabcockThesis' on page 69 undefined on input line 245.
-
 
 [69] <m_ratio.png, id=331, 787.94376pt x 390.45876pt>
 File: m_ratio.png Graphic file (type png)
@@ -1714,35 +1694,13 @@ Package pdftex.def Info: m_ratio.png used on input line 254.
 
 LaTeX Warning: Float too large for page by 18.94162pt on input line 361.
 
-[71] [72]
-
-LaTeX Warning: Citation `PhysRevA.48.4411' on page 73 undefined on input line 3
-69.
-
-
-Package caption Warning: \label without proper reference on input line 408.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `hotrelaxation' on page 73 undefined on input line 377
-.
-
-[73] <hotrelaxation.png, id=349, 572.1375pt x 692.5875pt>
+[71] [72] [73] <hotrelaxation.png, id=349, 572.1375pt x 692.5875pt>
 File: hotrelaxation.png Graphic file (type png)
 
 <use hotrelaxation.png>
 Package pdftex.def Info: hotrelaxation.png used on input line 393.
 (pdftex.def)             Requested size: 572.1361pt x 692.5858pt.
-
-
-Package caption Warning: \label without proper reference on input line 408.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `hotrelaxation' on page 74 undefined on input line 398
-.
-
-[74]
+ [74]
 
 LaTeX Warning: Text page 75 contains only floats.
 
@@ -1752,7 +1710,7 @@ Overfull \vbox (10.73747pt too high) has occurred while \output is active []
 
 [75 <./hotrelaxation.png>] [76] [77] [78]
 
-Package caption Warning: \label without proper reference on input line 520.
+Package caption Warning: \label without proper reference on input line 502.
 See the caption package documentation for explanation.
 
 
@@ -1763,16 +1721,7 @@ File: XvsT.png Graphic file (type png)
  <use XvsT.png>
 Package pdftex.def Info: XvsT.png used on input line 504.
 (pdftex.def)             Requested size: 762.84814pt x 442.65265pt.
- [79]
-
-LaTeX Warning: Citation `PhysRevA.81.032709' on page 80 undefined on input line
- 512.
-
-
-LaTeX Warning: Citation `PhysRevLett.107.023204' on page 80 undefined on input 
-line 512.
-
-[80 <./XvsT.png>]) [81]
+ [79] [80 <./XvsT.png>]) [81]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
@@ -1933,12 +1882,12 @@ Package pdftex.def Info: goldenvec.png used on input line 496.
 
 
 ] [124] [125] [126] [127]
-[128] [129] [130])) [131]
+[128] [129] [130] [131])) [132]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [132
+) [133
 
 
 
@@ -1989,10 +1938,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (148 pages, 6827141 bytes).
+Output written on YunxiaoThesis.pdf (149 pages, 6828134 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
- 401 compressed objects within 5 object streams
+ 667 PDF objects out of 1000 (max. 8388607)
+ 403 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
