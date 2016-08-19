@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  16 AUG 2016 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  18 AUG 2016 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1564,18 +1564,18 @@ Chapter 2.
 File: AFPandEPRsetup.png Graphic file (type png)
 
 <use AFPandEPRsetup.png>
-Package pdftex.def Info: AFPandEPRsetup.png used on input line 99.
+Package pdftex.def Info: AFPandEPRsetup.png used on input line 95.
 (pdftex.def)             Requested size: 1045.90495pt x 636.37595pt.
  [27] [28 <./AFPandEPRsetup.png>] [29]
 <AFP.png, id=175, 567.11874pt x 406.51875pt>
 File: AFP.png Graphic file (type png)
  <use AFP.png>
-Package pdftex.def Info: AFP.png used on input line 156.
+Package pdftex.def Info: AFP.png used on input line 151.
 (pdftex.def)             Requested size: 567.11736pt x 406.51775pt.
  [30] [31 <./AFP.png>] <AFPSignal.png, id=183, 600.2425pt x 380.42125pt>
 File: AFPSignal.png Graphic file (type png)
  <use AFPSignal.png>
-Package pdftex.def Info: AFPSignal.png used on input line 171.
+Package pdftex.def Info: AFPSignal.png used on input line 165.
 (pdftex.def)             Requested size: 600.24103pt x 380.4203pt.
 
 [32 <./AFPSignal.png>] [33]
@@ -1583,142 +1583,155 @@ Package pdftex.def Info: AFPSignal.png used on input line 171.
 File: AFPLossvsGradient.png Graphic file (type png)
 
 <use AFPLossvsGradient.png>
-Package pdftex.def Info: AFPLossvsGradient.png used on input line 220.
+Package pdftex.def Info: AFPLossvsGradient.png used on input line 211.
 (pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
- [34 <./AFPLossvsGradient.png>] [35] [36]
-Overfull \hbox (49.96259pt too wide) in paragraph at lines 273--273
+ [34] [35 <./AFPLossvsGradient.png>]
+
+LaTeX Warning: Citation `PhysRev.38.2082.2' on page 36 undefined on input line 
+226.
+
+[36]
+Overfull \hbox (49.96259pt too wide) in paragraph at lines 263--263
 [] 
  []
 
 [37]
 
+LaTeX Warning: Citation `Jackson' on page 38 undefined on input line 281.
+
+
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 302.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 289.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 302.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 289.
 
-[38] [39]
-Overfull \hbox (3.84918pt too wide) in paragraph at lines 341--342
+[38] [39] [40]
+Overfull \hbox (3.84918pt too wide) in paragraph at lines 326--327
 []\OT1/cmr/m/n/12 The RF fre-quency is gen-er-ated by the 18.2MHz voltage-contr
 olled os-cil-la-tor (VCO).
  []
 
-[40] <fmsweep.png, id=221, 437.635pt x 408.52625pt>
+[41] <fmsweep.png, id=224, 437.635pt x 408.52625pt>
 File: fmsweep.png Graphic file (type png)
  <use fmsweep.png>
-Package pdftex.def Info: fmsweep.png used on input line 377.
+Package pdftex.def Info: fmsweep.png used on input line 358.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
- [41]
+
 <PIBox.png, id=225, 867.24pt x 483.8075pt>
 File: PIBox.png Graphic file (type png)
  <use PIBox.png>
-Package pdftex.def Info: PIBox.png used on input line 388.
+Package pdftex.def Info: PIBox.png used on input line 369.
 (pdftex.def)             Requested size: 867.2379pt x 483.80632pt.
- [42 <./fmsweep.png>] [43 <./PIBox.png>] <epr.png, id=234, 752.8125pt x 401.5pt
->
+ [42] [43 <./fmsweep.png>] <epr.png, id=233, 752.8125pt x 401.5pt>
 File: epr.png Graphic file (type png)
  <use epr.png>
-Package pdftex.def Info: epr.png used on input line 399.
+Package pdftex.def Info: epr.png used on input line 380.
 (pdftex.def)             Requested size: 752.81065pt x 401.49901pt.
-
-[44 <./epr.png>] [45] [46] [47] [48]
+ [44 <./PIBox.png>]
+[45 <./epr.png>] [46] [47] [48]
 <PNMR_setup.png, id=252, 556.0775pt x 523.9575pt>
 File: PNMR_setup.png Graphic file (type png)
  <use PNMR_setup.png>
-Package pdftex.def Info: PNMR_setup.png used on input line 472.
+Package pdftex.def Info: PNMR_setup.png used on input line 448.
 (pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
- [49 <./PNMR_setup.png>] [50] <FID.png, id=260, 626.34pt x 270.00874pt>
+ [49]
+[50 <./PNMR_setup.png>] <FID.png, id=260, 626.34pt x 270.00874pt>
 File: FID.png Graphic file (type png)
- <use FID.png>
-Package pdftex.def Info: FID.png used on input line 489.
-(pdftex.def)             Requested size: 626.33846pt x 270.00807pt.
 
-[51 <./FID.png>]) [52]
+<use FID.png>
+Package pdftex.def Info: FID.png used on input line 464.
+(pdftex.def)             Requested size: 626.33846pt x 270.00807pt.
+ [51 <./FID.png>] [52]) [53]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex
 Chapter 3.
-[53
+[54
 
 
 
-] [54] <target_performance.png, id=275, 803.0pt x 467.7475pt>
+]
+
+LaTeX Warning: Citation `PhysRevA.56.2090' on page 55 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation `JAP.94.6908' on page 55 undefined on input line 12.
+
+[55] <target_performance.png, id=278, 803.0pt x 467.7475pt>
 File: target_performance.png Graphic file (type png)
 
 <use target_performance.png>
 Package pdftex.def Info: target_performance.png used on input line 20.
 (pdftex.def)             Requested size: 802.99805pt x 467.74634pt.
- [55] [56 <./target_performance.png>]
-<TargetCell.png, id=283, 578.16pt x 362.35374pt>
+ [56] [57 <./target_performance.png>]
+<TargetCell.png, id=287, 578.16pt x 362.35374pt>
 File: TargetCell.png Graphic file (type png)
  <use TargetCell.png>
 Package pdftex.def Info: TargetCell.png used on input line 33.
 (pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
- [57 <./TargetCell.png>]
+ [58 <./TargetCell.png>]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 46.
- <Spinup.png, id=289, 798.985pt x 610.28pt>
+ <Spinup.png, id=292, 798.985pt x 610.28pt>
 File: Spinup.png Graphic file (type png)
  <use Spinup.png>
 Package pdftex.def Info: Spinup.png used on input line 99.
 (pdftex.def)             Requested size: 798.98305pt x 610.2785pt.
 
-[58] [59] [60 <./Spinup.png>]
-Overfull \hbox (1.48613pt too wide) in paragraph at lines 142--143
-[]\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
-P[]\OT1/cmr/m/n/12 )$ is the ini-tial po-lar-iza-tion in the pump-ing (tar-get)
- cham-ber, $\OML/cmm/m/it/12 P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P[]\OT1/cmr/m
-/n/12 )$
- []
-
-[61]
-
-LaTeX Warning: Reference `PhysRevC.84.065201' on page 62 undefined on input lin
-e 150.
-
+[59] [60] [61 <./Spinup.png>] [62]
 Missing character: There is no ï in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no š in font cmr12!
-[62] <BradySpinup.png, id=306, 462.72874pt x 367.3725pt>
+ [63]
+<BradySpinup.png, id=310, 462.72874pt x 367.3725pt>
 File: BradySpinup.png Graphic file (type png)
  <use BradySpinup.png>
-Package pdftex.def Info: BradySpinup.png used on input line 166.
+Package pdftex.def Info: BradySpinup.png used on input line 160.
 (pdftex.def)             Requested size: 462.72762pt x 367.37158pt.
 
-[63 <./BradySpinup.png>] [64] [65] [66] [67]
+[64] [65 <./BradySpinup.png>] [66] [67] [68]
 
 Package caption Warning: \label without proper reference on input line 265.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `m_ratio' on page 68 undefined on input line 258.
+LaTeX Warning: Reference `m_ratio' on page 69 undefined on input line 245.
 
-[68] <m_ratio.png, id=327, 787.94376pt x 390.45876pt>
+
+LaTeX Warning: Citation `BabcockThesis' on page 69 undefined on input line 245.
+
+
+[69] <m_ratio.png, id=331, 787.94376pt x 390.45876pt>
 File: m_ratio.png Graphic file (type png)
  <use m_ratio.png>
-Package pdftex.def Info: m_ratio.png used on input line 267.
+Package pdftex.def Info: m_ratio.png used on input line 254.
 (pdftex.def)             Requested size: 787.94183pt x 390.4578pt.
 
-[69 <./m_ratio.png>]
+[70 <./m_ratio.png>]
 
-LaTeX Warning: Float too large for page by 18.94162pt on input line 374.
+LaTeX Warning: Float too large for page by 18.94162pt on input line 361.
 
-[70] [71]
+[71] [72]
+
+LaTeX Warning: Citation `PhysRevA.48.4411' on page 73 undefined on input line 3
+69.
+
 
 Package caption Warning: \label without proper reference on input line 408.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `hotrelaxation' on page 72 undefined on input line 391
+LaTeX Warning: Reference `hotrelaxation' on page 73 undefined on input line 377
 .
 
-[72] <hotrelaxation.png, id=346, 572.1375pt x 692.5875pt>
+[73] <hotrelaxation.png, id=349, 572.1375pt x 692.5875pt>
 File: hotrelaxation.png Graphic file (type png)
 
 <use hotrelaxation.png>
-Package pdftex.def Info: hotrelaxation.png used on input line 410.
+Package pdftex.def Info: hotrelaxation.png used on input line 393.
 (pdftex.def)             Requested size: 572.1361pt x 692.5858pt.
 
 
@@ -1726,197 +1739,206 @@ Package caption Warning: \label without proper reference on input line 408.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `hotrelaxation' on page 73 undefined on input line 414
+LaTeX Warning: Reference `hotrelaxation' on page 74 undefined on input line 398
 .
 
-[73]
+[74]
 
-LaTeX Warning: Text page 74 contains only floats.
+LaTeX Warning: Text page 75 contains only floats.
 
 
 Overfull \vbox (10.73747pt too high) has occurred while \output is active []
 
 
-[74 <./hotrelaxation.png>] [75] [76] [77]
+[75 <./hotrelaxation.png>] [76] [77] [78]
 
 Package caption Warning: \label without proper reference on input line 520.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `XvsT' on page 78 undefined on input line 517.
+LaTeX Warning: Reference `XvsT' on page 79 undefined on input line 499.
 
-<XvsT.png, id=366, 762.85pt x 442.65375pt>
+<XvsT.png, id=369, 762.85pt x 442.65375pt>
 File: XvsT.png Graphic file (type png)
  <use XvsT.png>
-Package pdftex.def Info: XvsT.png used on input line 522.
+Package pdftex.def Info: XvsT.png used on input line 504.
 (pdftex.def)             Requested size: 762.84814pt x 442.65265pt.
- [78]) [79 <./XvsT.png>] [80]
+ [79]
+
+LaTeX Warning: Citation `PhysRevA.81.032709' on page 80 undefined on input line
+ 512.
+
+
+LaTeX Warning: Citation `PhysRevLett.107.023204' on page 80 undefined on input 
+line 512.
+
+[80 <./XvsT.png>]) [81]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
 Chapter 4.
-[81
+[82
 
 
 
-] [82] [83]
+] [83] [84]
 
-LaTeX Warning: Citation `Kittel' on page 84 undefined on input line 45.
+LaTeX Warning: Citation `Kittel' on page 85 undefined on input line 45.
 
-[84] [85] [86] [87] [88] [89] <metal_tube.png, id=407, 604.2575pt x 449.68pt>
+[85] [86] [87] [88] [89] [90] <metal_tube.png, id=410, 604.2575pt x 449.68pt>
 File: metal_tube.png Graphic file (type png)
 
 <use metal_tube.png>
 Package pdftex.def Info: metal_tube.png used on input line 135.
 (pdftex.def)             Requested size: 604.25603pt x 449.6789pt.
- <pressure_test.png, id=408, 1235.61626pt x 460.72125pt>
+ <pressure_test.png, id=411, 1235.61626pt x 460.72125pt>
 File: pressure_test.png Graphic file (type png)
 
 <use pressure_test.png>
 Package pdftex.def Info: pressure_test.png used on input line 142.
 (pdftex.def)             Requested size: 1235.61325pt x 460.72012pt.
- [90]
+ [91]
 
-LaTeX Warning: Text page 91 contains only floats.
+LaTeX Warning: Text page 92 contains only floats.
 
-[91 <./metal_tube.png> <./pressure_test.png>]
-<Electropolishing.png, id=417, 553.06625pt x 463.7325pt>
+[92 <./metal_tube.png> <./pressure_test.png>]
+<Electropolishing.png, id=420, 553.06625pt x 463.7325pt>
 File: Electropolishing.png Graphic file (type png)
 
 <use Electropolishing.png>
 Package pdftex.def Info: Electropolishing.png used on input line 157.
 (pdftex.def)             Requested size: 553.0649pt x 463.73135pt.
- [92] [93 <./Electropolishing.png>]
-<gold_coating.png, id=426, 478.78876pt x 322.20375pt>
+ [93] [94 <./Electropolishing.png>]
+<gold_coating.png, id=429, 478.78876pt x 322.20375pt>
 File: gold_coating.png Graphic file (type png)
  <use gold_coating.png>
 Package pdftex.def Info: gold_coating.png used on input line 168.
 (pdftex.def)             Requested size: 478.78758pt x 322.20296pt.
 
-[94 <./gold_coating.png>]
-<ultrasonic_cleaner.png, id=431, 220.825pt x 316.18124pt>
+[95 <./gold_coating.png>]
+<ultrasonic_cleaner.png, id=434, 220.825pt x 316.18124pt>
 File: ultrasonic_cleaner.png Graphic file (type png)
 
 <use ultrasonic_cleaner.png>
 Package pdftex.def Info: ultrasonic_cleaner.png used on input line 179.
 (pdftex.def)             Requested size: 220.82445pt x 316.18047pt.
- [95 <./ultrasonic_cleaner.png>]
-<string.png, id=436, 1239.63126pt x 702.625pt>
+ [96 <./ultrasonic_cleaner.png>]
+<string.png, id=439, 1239.63126pt x 702.625pt>
 File: string.png Graphic file (type png)
  <use string.png>
 Package pdftex.def Info: string.png used on input line 188.
 (pdftex.def)             Requested size: 1239.62823pt x 702.62328pt.
- [96 <./string.png>] <cell_gas_system.png, id=441, 761.84625pt x 512.91624pt>
+ [97 <./string.png>] <cell_gas_system.png, id=444, 761.84625pt x 512.91624pt>
 File: cell_gas_system.png Graphic file (type png)
 
 <use cell_gas_system.png>
 Package pdftex.def Info: cell_gas_system.png used on input line 203.
 (pdftex.def)             Requested size: 761.84439pt x 512.915pt.
- [97 <./cell_gas_system.png>] [98] [99] [100]
-<gradient_coils.png, id=456, 539.01375pt x 438.63875pt>
+ [98 <./cell_gas_system.png>] [99] [100] [101]
+<gradient_coils.png, id=459, 539.01375pt x 438.63875pt>
 File: gradient_coils.png Graphic file (type png)
 
 <use gradient_coils.png>
 Package pdftex.def Info: gradient_coils.png used on input line 234.
 (pdftex.def)             Requested size: 539.01242pt x 438.63766pt.
- [101 <./gradient_coils.png>] [102] [103]
-<optics.png, id=467, 717.68124pt x 466.74374pt>
+ [102 <./gradient_coils.png>] [103] [104]
+<optics.png, id=470, 717.68124pt x 466.74374pt>
 File: optics.png Graphic file (type png)
  <use optics.png>
 Package pdftex.def Info: optics.png used on input line 323.
 (pdftex.def)             Requested size: 717.67949pt x 466.7426pt.
- [104]
+ [105]
 File: PNMR_setup.png Graphic file (type png)
 
 <use PNMR_setup.png>
 Package pdftex.def Info: PNMR_setup.png used on input line 336.
 (pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
- [105 <./optics.png>] [106]
+ [106 <./optics.png>] [107]
 File: FID.png Graphic file (type png)
  <use FID.png>
 Package pdftex.def Info: FID.png used on input line 347.
 (pdftex.def)             Requested size: 626.33846pt x 270.00807pt.
- [107]
-<3spindowns.png, id=482, 926.46124pt x 293.095pt>
+ [108]
+<3spindowns.png, id=485, 926.46124pt x 293.095pt>
 File: 3spindowns.png Graphic file (type png)
  <use 3spindowns.png>
 Package pdftex.def Info: 3spindowns.png used on input line 361.
 (pdftex.def)             Requested size: 926.45897pt x 293.09427pt.
 
-<corrected_T1.png, id=483, 429.605pt x 293.095pt>
+<corrected_T1.png, id=486, 429.605pt x 293.095pt>
 File: corrected_T1.png Graphic file (type png)
  <use corrected_T1.png>
 Package pdftex.def Info: corrected_T1.png used on input line 368.
 (pdftex.def)             Requested size: 429.60394pt x 293.09427pt.
 
-[108 <./3spindowns.png>]
-<metal_end_windows.png, id=488, 549.05125pt x 276.03125pt>
+[109 <./3spindowns.png>]
+<metal_end_windows.png, id=491, 549.05125pt x 276.03125pt>
 File: metal_end_windows.png Graphic file (type png)
 
 <use metal_end_windows.png>
 Package pdftex.def Info: metal_end_windows.png used on input line 383.
 (pdftex.def)             Requested size: 549.04991pt x 276.03056pt.
- [109 <./corrected_T1.png>] [110 <./metal_end_windows.png>] [111] <spool_piece.
-png, id=501, 207.77625pt x 759.83875pt>
+ [110 <./corrected_T1.png>] [111 <./metal_end_windows.png>] [112] <spool_piece.
+png, id=504, 207.77625pt x 759.83875pt>
 File: spool_piece.png Graphic file (type png)
 
 <use spool_piece.png>
 Package pdftex.def Info: spool_piece.png used on input line 434.
 (pdftex.def)             Requested size: 207.77573pt x 759.83688pt.
- [112 <./spool_piece.png>]
-<goldfinger.png, id=506, 374.39874pt x 356.33125pt>
+ [113 <./spool_piece.png>]
+<goldfinger.png, id=509, 374.39874pt x 356.33125pt>
 File: goldfinger.png Graphic file (type png)
  <use goldfinger.png>
 Package pdftex.def Info: goldfinger.png used on input line 447.
 (pdftex.def)             Requested size: 374.39783pt x 356.33037pt.
 
-<T1_degradation.png, id=507, 850.17625pt x 425.59pt>
+<T1_degradation.png, id=510, 850.17625pt x 425.59pt>
 File: T1_degradation.png Graphic file (type png)
  <use T1_degradation.png>
 Package pdftex.def Info: T1_degradation.png used on input line 456.
 (pdftex.def)             Requested size: 850.17418pt x 425.58894pt.
 
-[113] <goldeneye.png, id=511, 161.60374pt x 587.19376pt>
+[114] <goldeneye.png, id=514, 161.60374pt x 587.19376pt>
 File: goldeneye.png Graphic file (type png)
  <use goldeneye.png>
 Package pdftex.def Info: goldeneye.png used on input line 465.
 (pdftex.def)             Requested size: 161.60335pt x 587.19232pt.
 
-[114 <./goldfinger.png>] <goldrush.png, id=516, 778.91pt x 562.1pt>
+[115 <./goldfinger.png>] <goldrush.png, id=519, 778.91pt x 562.1pt>
 File: goldrush.png Graphic file (type png)
 
 <use goldrush.png>
 Package pdftex.def Info: goldrush.png used on input line 474.
 (pdftex.def)             Requested size: 778.90811pt x 562.09863pt.
- [115 <./T1_degradation.png>]
-<goldrush_inhomogeneities.png, id=521, 567.11874pt x 281.05pt>
+ [116 <./T1_degradation.png>]
+<goldrush_inhomogeneities.png, id=524, 567.11874pt x 281.05pt>
 File: goldrush_inhomogeneities.png Graphic file (type png)
 
 <use goldrush_inhomogeneities.png>
 Package pdftex.def Info: goldrush_inhomogeneities.png used on input line 483.
 (pdftex.def)             Requested size: 567.11736pt x 281.0493pt.
- [116 <./goldeneye.png>]
-<goldenvec.png, id=526, 308.15125pt x 248.93pt>
+ [117 <./goldeneye.png>]
+<goldenvec.png, id=530, 308.15125pt x 248.93pt>
 File: goldenvec.png Graphic file (type png)
  <use goldenvec.png>
 Package pdftex.def Info: goldenvec.png used on input line 496.
 (pdftex.def)             Requested size: 308.15048pt x 248.92938pt.
- [117 <./goldrush.png>] [118 <./goldrush_inhomogeneities.png> <./goldenvec.png>
-] [119]
-[120]) [121]
+ [118 <./goldrush.png>] [119 <./goldrush_inhomogeneities.png> <./goldenvec.png>
+] [120]
+[121]) [122]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl [122
+ (./bib.tex (./YunxiaoThesis.bbl [123
 
 
 
-] [123] [124] [125] [126]
-[127] [128] [129])) [130]
+] [124] [125] [126] [127]
+[128] [129] [130])) [131]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [131
+) [132
 
 
 
@@ -1936,10 +1958,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13207 strings out of 493033
- 234599 string characters out of 6134139
- 319645 words of memory out of 5000000
- 16463 multiletter control sequences out of 15000+600000
+ 13214 strings out of 493033
+ 234715 string characters out of 6134139
+ 319651 words of memory out of 5000000
+ 16470 multiletter control sequences out of 15000+600000
  28656 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,21n,42p,10408b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1967,10 +1989,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (147 pages, 6825448 bytes).
+Output written on YunxiaoThesis.pdf (148 pages, 6827141 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
+ 664 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
