@@ -3,9 +3,9 @@
 
 \section{Overview}
 
-Traditional pure glass target cells are studied mainly using Adiabatic Fast Passage (AFP)~\cite{Abragam} Nuclear Magnetic Resonance (NMR) and Electron Paramagnetic Resonance (EPR). AFP is a technique that allows us to monitor a signal that is directly proportional to the $^{3}$He polarization, which serves as a means to gain knowledge of properties of cell including the time it takes to polarize it and the relaxation rates of its polarization. The EPR technique utilizes the fact that polarized $^{3}$He produces frequency shift of the magnetic resonance lines of alkali metal to measure the $^{3}$He polarization. When AFP and EPR are combined, we can calculate the calibration constant between an AFP signal and the corresponding $^{3}$He polarization. 
+Historically, pure-glass target cells used in electron scattering experiments have been studied mainly using Adiabatic Fast Passage (AFP)~\cite{Abragam} Nuclear Magnetic Resonance (NMR) and Electron Paramagnetic Resonance (EPR)~\cite{PhysRevA.58.3004}. AFP is a technique that allows us to monitor a signal that is directly proportional to the $^{3}$He polarization, which serves as a means to gain knowledge of properties of cell including the time it takes to polarize it and the relaxation rates of its polarization. The EPR technique utilizes the fact that polarized $^{3}$He produces frequency shift of the magnetic resonance lines of alkali metal to measure the $^{3}$He polarization. When AFP and EPR are combined, we can calculate the calibration constant between an AFP signal and the corresponding $^{3}$He polarization. 
 
-A significant focus of my studies is on exploring cells that incorporate metal. Unfortunately, AFP is not suitable for studying these cells as it requires exposing the entirety of the cell to a Radio Frequency (RF) magnetic field in an attempt to flip all spins in the cell. The RF field would induce an Eddy current induced in the metal body that significantly affects the resulting signal. For these cells, Pulsed Nuclear Magnetic Resonance (PNMR) has proven to be very useful. PNMR only applies a pulsed RF field to a small selected part of the cell which makes it relatively easy to prevent metal from distorting the signal. However, the spins tipped by applying the pulse lose their transverse component (which depends on the "tip angle"), we typically allow some time for this portion of gas to diffuse out of the region being monitored before we can the next measurement on a fresh sample of the gas. The highest rate at which PNMR measurements can be taken is limited by this requirement.
+A significant focus of my studies was on exploring cells that incorporated metal. Unfortunately, AFP is not suitable for studying such cells as it requires exposing the entirety of the cell to a Radio Frequency (RF) magnetic field in an attempt to flip all spins in the cell more-or-less simultaneously. The RF field would induce Eddy currents in the metal portions of the cell that would significantly affect the resulting signal. For glass and metal cells, Pulsed Nuclear Magnetic Resonance (PNMR) has proven to be very useful. Using PNMR, it is possible to apply the RF field to a small selected part of the cell which makes it relatively easy to prevent metal from distorting the signal. 
 
 This chapter introduces the three techniques mentioned above and how they're used for our studies.
 
@@ -18,12 +18,12 @@ The energy of a magnetic moment in an external field is
 \begin{equation}
 E = -\vec{\mu}\cdot \vec{B_{0}} = -\mu_{z}B_{0}
 \end{equation}
-where $\vec{\mu}$ is the magnetic moment, for a spin-1/2 nuclei, the energy is
+where $\vec{\mu}$ is the magnetic moment. For a spin-1/2 nuclei, the energy is
 
 \begin{equation}
 E = -\gamma B_{0}\hbar/2
 \end{equation}
-where $\gamma$ is the gyromagnetic ratio, $\gamma /2\pi \approx 3.2434kHz/Gauss$. When a oscillating magnetic field with the frequency $\omega=\gamma B_{0}$ is present, transitions between the +1/2 and -1/2 states are induced. This frequency is called Larmor frequency. When a nucleus is placed in an external magnetic field that is not aligned with its magnetic moment, it will precess at the Larmor frequency.
+where $\gamma$ is the gyromagnetic ratio, and $\gamma /2\pi \approx 3.2434\,{\rm kHz/Gauss}$. When a nucleus is placed in an external magnetic field that is not aligned with its magnetic moment, it will precess at the Larmor frequency. The Larmor frequency is defined as $\omega=\gamma B_{0}$.
 
 \subsection{The Rotating Coordinate System}
 
@@ -32,16 +32,15 @@ where $\gamma$ is the gyromagnetic ratio, $\gamma /2\pi \approx 3.2434kHz/Gauss$
 For a nucleus in an external field $\vec{B}$ with $\gamma \hbar \vec{I}$ as its nuclear angular momentum, the equation of motion in a stationary coordinate system is \cite{RevModPhys.26.167}
 
 \begin{equation}\label{eq1}
-\hbar \frac{d\vec{I}}{dt}=\gamma \hbar \vec{I} \times \vec{B}
+\hbar \frac{d\vec{I}}{dt}=\gamma \hbar \vec{I} \times \vec{B}.
 \end{equation}
 
-Let $\frac{\partial}{\partial t}$ represent the derivative with respect to a coordinate system that rotates with angular velocity $\vec{\omega}$,
+Let $\frac{\partial}{\partial t}$ represent the derivative with respect to a coordinate system that rotates with angular velocity $\vec{\omega}$, then
 
 \begin{equation}\label{eq2}
-\frac{d\vec{I}}{dt}=\frac{\partial \vec{I}}{\partial t}+\vec{\omega} \times \vec{I}
+\frac{d\vec{I}}{dt}=\frac{\partial \vec{I}}{\partial t}+\vec{\omega} \times \vec{I}.
 \end{equation}
-
-Substitute Eq.\@ \ref{eq2} into Eq.\@ \ref{eq1}, $\vec{I}$ in the rotating frame satisfies the equation of motion 
+Substitute Eq.~\ref{eq2} into Eq.~\ref{eq1}, $\vec{I}$ in the rotating frame satisfies the equation of motion 
 
 \begin{equation}
 \hbar \frac{\partial \vec{I}}{\partial t}=\gamma \hbar \vec{I} \times (\vec{B} + \vec{\omega}/\gamma)=\gamma \hbar \vec{I} \times \vec{B_{eff}}
@@ -66,10 +65,9 @@ where $\vec{x'}$ is the direction that $\vec{B_{1}}$ is in. When on resonance (B
 The above conclusion can be easily reached with quantum mechanics~\cite{RevModPhys.26.167}. The Shr$\ddot{o}$dinger equation for a magnetic moment in an external field is
 
 \begin{equation}\label{eq3}
-i\hbar \dot{\psi}=\mathcal{H} \psi=-\gamma \hbar \vec{I}\cdot \vec{B} \psi
+i\hbar \dot{\psi}=\mathcal{H} \psi=-\gamma \hbar \vec{I}\cdot \vec{B} \psi.
 \end{equation}
-
-Let $\psi$ and $\vec{B}$ be the wave function and magnetic field in a stationary frame and $\psi_{r}$ and $\vec{B_{r}}$ be the same quantities in a rotating frame with angular velocity $\vec{\omega}$. Using the rotation operator in quantum mechanics, 
+Let $\psi$ and $\vec{B}$ be the wave function and magnetic field respectively in a stationary frame and $\psi_{r}$ and $\vec{B_{r}}$ be the same quantities in a rotating frame with angular velocity $\vec{\omega}$. Using the rotation operator in quantum mechanics, 
 
 \begin{subequations}\label{eq4}
 	\begin{gather}
@@ -88,7 +86,7 @@ The same effective field in the rotating frame is reached as that from the class
 
 \subsection{Adiabatic Fast Passage}
 
-Adiabatic Fast Passage (AFP) NMR is used to measure the $^{3}$He polarization. In an AFP measurement, with the assistance of a oscillating radiofrequency (RF) field, the spins follow the effective field in a rotating frame (as discussed in more detail below) and are flipped 180 degrees to the opposite direction and then flipped back, producing two peaks in signal when they're perpendicular to the holding field and the pick up coils.
+The NMR technique of Adiabatic Fast Passage (AFP) is used to measure the $^{3}$He polarization. In an AFP measurement, with the assistance of a oscillating radiofrequency (RF) field, the spins follow the effective field in a rotating frame (as discussed in more detail below) and are flipped 180 degrees to the opposite direction and then flipped back, producing two peaks in signal when they're perpendicular to the holding field and the pick up coils.
 
 \begin{figure}[H]
 	\centering
@@ -97,32 +95,30 @@ Adiabatic Fast Passage (AFP) NMR is used to measure the $^{3}$He polarization. I
 	\label{AFPandEPRsetup}
 \end{figure}
 
-The flipping process can be achieved by either sweeping the main holding field or sweeping the RF frequency so that the longitudinal component of effective field in the rotating frame goes through zero. AFP measurements in out lab are typically done by sweeping the holding field while keeping the RF frequency constant. The RF coils produce a RF field of magnitude 2$B_{1}$ perpendicular to the main holding field B. The oscillating field has a frequency of $\omega$ and can be decomposed into two counter-rotating components with the same amplitude B$_{1}$. Only the component rotating in direction able to give a resonance in Eq.~\ref{EffectiveField} has an important effect. In this frame, the effective field is
+The flipping process can be achieved by either sweeping the main holding field or sweeping the RF frequency so that the longitudinal component of effective field in the rotating frame goes through zero. AFP measurements in our lab were typically done by sweeping the holding field while keeping the RF frequency constant. The RF coils produced an RF field of magnitude 2$B_{1}$ perpendicular to the main holding field B. The oscillating field has a frequency of $\omega$ and can be decomposed into two counter-rotating components with the same amplitude B$_{1}$. Only the component rotating in the direction able to produce a resonance in Eq.~\ref{EffectiveField} has an important effect. In this frame, the effective field is
 
 \begin{equation}
-B_{eff}\vec{z}=(B-\omega/\gamma)\vec{z} + B_{1}\vec{x'}
+\vec{B_{eff}}=(B-\omega/\gamma)\vec{z} + B_{1}\vec{x'}
 \end{equation}
-
-as discussed above. The other rotating component that rotates in the opposite direction does not affect the spins. In an AFP measurement, the holding field starts from a value lower than $\omega/\gamma$ ($\omega/\gamma-B\gg B_{1}$), so that the effective field is almost aligned with the holding field and the spins. The holding field is then swept at a constant rate through resonance to a value greater than $\omega/\gamma$. The sweeping rate is of great importance. The sweep needs to be slow enough so that the nuclear spins can follow the effective field
+as discussed above. The other rotating component that rotates in the opposite direction does not affect the spins. In an AFP measurement, the holding field starts from a value lower than $\omega/\gamma$ ($\omega/\gamma-B\gg B_{1}$), so that, initially, the effective field is almost aligned with the holding field and the spins. The holding field is then swept at a constant rate through resonance to a value greater than $\omega/\gamma$. The sweeping rate is of great importance. The sweep needs to be slow enough so that the nuclear spins can follow the effective field
 
 \begin{equation}
 \frac{\dot B}{B_{1}}\ll \omega
 \end{equation}
+Sweep rates that satisfy this condition are considered to be adiabatic.
 
-Sweep that satisfies this condition is considered as adiabatic.
-
-Sweep rate cannot be too slow either, because the relaxation rate of the spins are faster near the resonance especially with a small effective field B$_{1}$. The relaxation rate of $^{3}$He in the rotating frame at resonance is 
+Sweep rates cannot be too slow either, because the relaxation rate of the spins are faster near the resonance especially with a small effective field B$_{1}$. The relaxation rate of $^{3}$He in the rotating frame due to magnetic field inhomogeneities at resonance is~\cite{PhysRevA.38.5092} 
 
 \begin{equation}
 \frac{1}{T_{1r}}=D\frac{|\nabla B_{z}|^{2}}{B_{1}^{2}} 
 \end{equation}
-where D is the $^{3}$He self-diffusion constant. In order to keep the AFP loss low, it's important for the time scale that the spins stay close to resonance to be much shorter than $1/T_{1r}$:
+where D is the $^{3}$He self-diffusion constant. In order to keep the AFP loss low, it's important for the time scale during which the spins are close to resonance to be much shorter than $T_{1r}$, so we want:
 
 \begin{equation}
 D\frac{|\nabla B_{z}|^{2}}{B_{1}^{2}} \ll \frac{\dot B}{B_{1}}
 \end{equation}
 
-Typically, the field is swept from 12.6 Gauss to 20.4 Gauss in 6s, thus
+In the work presented here, the field was typically swept from 12.6 Gauss to 20.4 Gauss in 6s, thus
 
 \begin{subequations}
 	\begin{gather}
@@ -140,11 +136,11 @@ With these operating conditions,
 	\begin{gather}
 	D\frac{|\nabla B_{z}|^{2}}{B_{1}^{2}} \approx 1.6mHz\\
 	\frac{\dot B}{B_{1}} \approx 13Hz\\
-	w \approx 356kHz
+	\omega \approx 356kHz
 	\end{gather}
 \end{subequations}
 
-The AFP conditions are clearly well satisfied. Fig.\ref{AFP} shows the evolution of effective field in the rotating frame during an AFP measurement.
+The AFP conditions were clearly well satisfied for our parameters. Fig.\ref{AFP} shows the evolution of effective field in the rotating frame during an AFP measurement.
 
 \begin{figure}[H]
 	\centering
@@ -153,7 +149,7 @@ The AFP conditions are clearly well satisfied. Fig.\ref{AFP} shows the evolution
 	\label{AFP}
 \end{figure}
 
-The pick up coils are placed close to the cell and perpendicular to the holding field and RF field. As the $^{3}$He spins precess along the holding field, the transverse component of the spins will induce an electromotive force (EMF) that is directly proportional to the amplitude of the component in the pick up coils. The signal can be written as:
+During our AFP measurements, the pick up coils were placed close to the cell, with their axis perpendicular to both the holding field and RF field. Under these conditions, as the $^{3}$He spins precess along the holding field, the transverse component of the spins induces an electromotive force (EMF) that is directly proportional to the amplitude of the component in the pick up coils. The resulting signal can be written as:
 
 \begin{equation}
 S=A\omega \sin{\alpha(t)}=A\omega \frac{B_{1}}{\sqrt{B_{1}^{2}+(B(t)-\omega/\gamma)^{2}}}
@@ -179,7 +175,7 @@ where D is the diffusion constant for the polarized spins, and is inversely prop
 \begin{equation}
 \frac{1}{T_{r1}} = \frac{8R^{4}}{175D}|\nabla \Omega_{z}|^{2}\sum_{n} \frac{175}{4(\chi_{1n}^{2}-2)(\chi_{1n}^{4}+r^{2}+r^{2}s^{2})(1+s^{2})}
 \end{equation}
-where R is the cell radius, D is the diffusion constant, $\Omega_{z}$ is the Larmor frequency of the holding field, $r=\frac{\omega_{r}R^{2}}{D}$, $s=\frac{\Omega_{0}-\omega}{\omega_{r}}$, the numbers $\chi_{1n}$ are the zeros of the derivatives of the spherical Bessel functions
+where R is the cell radius, D is the diffusion constant, $\Omega_{z}$ is the Larmor frequency of the holding field, $r=\frac{\omega_{r}R^{2}}{D}$, $s=\frac{\Omega_{0}-\omega}{\omega_{r}}$, and the numbers $\chi_{1n}$ are the zeros of the derivatives of the spherical Bessel functions
 
 \begin{equation}
 \frac{d}{dx}j_{1}(x_{1n})=0~for~n=1,2,3...
@@ -188,7 +184,7 @@ where R is the cell radius, D is the diffusion constant, $\Omega_{z}$ is the Lar
 Since $r^{2}\gg \chi_{1n}^{4}$, and $\sum_{n}\frac{1}{\chi_{1n}^{2}-2}=\frac{1}{2}$~\cite{PhysRevA.37.2877},
 
 \begin{equation}
-\frac{1}{T_{r1}}=\frac{R^{4}|\nabla\Omega_{z}|^{2}}{r^{2}(1+s^{2})^{2}D}=\frac{|\nabla B_{z}|^{2}D}{B^{2}(1+s^{2})^2}
+\frac{1}{T_{r1}}=\frac{R^{4}|\nabla\Omega_{z}|^{2}}{r^{2}(1+s^{2})^{2}D}=\frac{|\nabla B_{z}|^{2}D}{B_1^{2}(1+s^{2})^2}
 \end{equation}
 
 If $P_{0}$ is the polarization before AFP, the polarization P after a single AFP flip is given by 
@@ -197,14 +193,20 @@ If $P_{0}$ is the polarization before AFP, the polarization P after a single AFP
 P=P_{0}e^{-\int \Gamma_{r1} dt}=P_{0}e^{-\int \frac{1}{T_{r1}}dt}
 \end{equation}
 
-Given the field sweep starts from 12.6G, ends at 20.4G, the RF frequency is 56.6kHZ, the sweep time is 6s and $B_{1}$ is 100mG, we can safely approximate the integral by 
+Thus fraction loss $L_{AFP}$ due to a single AFP flip is:
+
+\begin{equation}
+L_{AFP}=1-e^{\int \frac{1}{T_{r1}} dt} \approx \int \frac{1}{T_{r1}} dt
+\end{equation}
+
+For our conditions, the integration limits can be extended to $\pm \infty$, making it possible to calculate the integral as:
 
 \begin{equation}
 \int_{-\infty}^{\infty} \frac{1}{T_{r1}}dt=\frac{\pi D|\nabla B_{z}|^{2}}{2B_{1}\partial B_{1}/\partial t}
 \end{equation}
 which is the fractional loss due to a single AFP flip.
 
-To better understand AFP loss, we performed a study where we took AFP measurements at various different field gradients to study the relation between AFP loss and inhomogeneities. The gradients were produced by Maxwell-style transverse gradient coils and increased from 0 to a little under 160 mG/cm. At each set gradient, we take one AFP to look at the difference between the two peaks to determine the loss due to a single flip. Fig~\ref{AFPLossvsGradient} shows AFP losses collected from experiments and theoretical predictions. They agree mostly within the error bar.
+To better understand AFP loss, we performed a study where we took AFP measurements at various different field gradients to study the relation between AFP loss and inhomogeneities. The gradients were produced by Maxwell-style transverse gradient coils and increased from 0 to a little under 160 mG/cm. At each set gradient, we take one AFP to look at the difference between the two peaks to determine the loss due to a single flip. Fig~\ref{AFPLossvsGradient} shows AFP losses collected from experiments and theoretical predictions. They agree within the error bar.
 
 \begin{figure}[H]
 	\centering
@@ -217,9 +219,9 @@ To better understand AFP loss, we performed a study where we took AFP measuremen
 
 \subsection{Overview}
 
-Electron Paramagnetic Resonance (EPR) is a important technique for measuring the frequency shift of alkali metal Zeeman resonance due to the effective magnetic field produced by polarized $^{3}$He gas. The EPR shift is largely caused by the Fermi-contact interaction $\alpha$ {\bf K$\cdot$S} between the nuclear spin {\bf K} of the noble gas nucleus of magnetic moment $\mu_{K}$ and the electron spin {\bf S} of the alkali metal atom~\cite{PhysRevA.71.013414}. The magnetic field created by the bulk magnetization of the $^{3}$He gas also contributes directly to a relatively small part of the shift (rougly 1/6 for K). The total measured shift is therefore written as the expected Zeeman interaction with the field produced by the polarized $^{3}$He multiplied by an enhancement factor $\kappa_{0}$. The enhancement effect comes from overlapping of alkali metal electrons and $^{3}$He nuclei during binary collisions, thus $\kappa_{0}$ is different for each alkali metal species and slightly temperature dependent.
+Electron Paramagnetic Resonance (EPR) provides an important technique for measuring the frequency shift of alkali metal Zeeman resonances due to the effective magnetic field produced by polarized $^{3}$He gas. During spin-exchange collisions, the alkali valence electron is essentially located within the $^3$He nucleus thus facilitating a Fermi contact interaction between their spins. The EPR shift is largely caused by this Fermi-contact interaction $\alpha$ {\bf K$\cdot$S} between the nuclear spin {\bf K} of the noble gas nucleus of magnetic moment $\mu_{K}$ and the electron spin {\bf S} of the alkali metal atom~\cite{PhysRevA.71.013414}. The magnetic field created by the bulk magnetization of the $^{3}$He gas also contributes directly to a relatively small part of the shift (rougly 1/6 for K). Because the spin-exchange effective field is difficult to calculate accurately from theory, the total measured shift is usually written as the expected Zeeman interaction with the field produced by the polarized $^{3}$He multiplied by an atomic parameter $\kappa_{0}$. The value of $\kappa_0$ can be thought of as an enhancement due to attraction of the alkali electron wave function to the $^3$He nucleus~\cite{PhysRevA.58.3004}, which is different for each alkali metal species and slightly temperature dependent.
 
-During the process of optical pumping, the Rb atoms are excited to the 5P$_{\frac{1}{2}}$ state by the pump laser. The majority of these atoms are quenched non-radiatively to the ground state by N$_{2}$. While at 5P$_{\frac{1}{2}}$ state, Rb atoms can also be excited to the 5P$_{\frac{3}{2}}$ state through collisions with other Rb atoms. A small fraction of the excited atoms (5P$_{\frac{1}{2}}$ and 5P$_{\frac{3}{2}}$) decay by emitting either a D$_{1}$ photon or D$_{2}$ photon. The intensity of fluorescence is proportional to the excited Rb atoms, thus is higher when the Rb polarization is low so more Rb atoms can absorb laser and jump to the excited state. We typically induce Zeeman transitions with a RF coil to lower alkali polarization and detect D$_{2}$ photons with a photodiode behind a D$_{2}$ filter. The highest amount of D$_{2}$ photons is detected when the RF frequency is exactly equal to the Zeeman transition frequency.
+During the process of optical pumping, the Rb atoms are excited to the 5P$_{\frac{1}{2}}$ state by the pump laser. The majority of these atoms are quenched non-radiatively to the ground state by N$_{2}$. While in the 5P$_{\frac{1}{2}}$ state, Rb atoms can also be excited to the 5P$_{\frac{3}{2}}$ state through collisions with other Rb atoms. A small fraction of the excited atoms (5P$_{\frac{1}{2}}$ and 5P$_{\frac{3}{2}}$) decay by emitting either a D$_{1}$ photon or D$_{2}$ photon. The intensity of fluorescence is proportional to the population of excited Rb atoms, and is thus higher when the Rb polarization is low so more Rb atoms can absorb laser and jump to the excited state. We typically induce Zeeman transitions with an RF coil to lower alkali polarization and detect D$_{2}$ photons with a photodiode behind a D$_{2}$ filter. The highest amount of D$_{2}$ photons is detected when the RF frequency is exactly equal to the Zeeman transition frequency.
 
 \subsection{The Breit-Rabi Equation}
 
@@ -233,7 +235,6 @@ where
 \begin{equation}
 x=(g_{I}\mu_{N}-g_{s}\mu_{B})\frac{B}{h\Delta \nu_{hfs}}
 \end{equation}
-
 B is the magnetic field, $\Delta \nu_{hfs}$ is the hyperfine splitting frequency, I is the nuclear spin, $g_{I}$ and $g_{s}$ are the g factors of nuclear and electron spin, $\mu_{N}$ and $\mu_{B}$ are the nuclear and Bohr magneton, respectively. 
 
 The Zeeman transition frequency of $m_{F} \rightarrow m_{F} - 1$ is 
@@ -245,7 +246,7 @@ The Zeeman transition frequency of $m_{F} \rightarrow m_{F} - 1$ is
 \end{split}
 \end{equation}
 
-The second term is much greater than the first term under our operating conditions, so the sign of the frequency $\nu_{m_{F}\rightarrow m_{F-1}}$ depends on the second term only. If we focus on the top hyperfine manifold in the energy level graph, the transition frequency is
+The second term is much greater than the first term under our operating conditions, so the sign of the frequency $\nu_{m_{F}\rightarrow m_{F-1}}$ depends on the second term only. If we focus on the $F=I+\frac{1}{2}$ hyperfine manifold, the transition frequency is
 
 \begin{equation}\label{Zeeman}
 \nu_{m_{F}\rightarrow m_{F-1}} = -\frac{g_{I}\mu_{N}B}{h}+ \frac{\Delta \nu_{hfs}}{2}\left(\sqrt{1+\frac{4m_{F}}{2I+1}x+x^{2}}-\sqrt{1+\frac{4m_{F}-1}{2I+1}x+x^{2}}\right)
@@ -281,20 +282,20 @@ then to the lowest order approximation, the shift of $\nu_{m_{F}\rightarrow m_{F
 Usually the pumping chamber is spherical, the magnetic field produced inside a uniformly magnetized sphere is~\cite{Jackson}
 
 \begin{equation}
-\boldsymbol{\Delta B}=\frac{2}{3}\mu_{0}\boldsymbol{M}
+\Delta \boldsymbol{B}=\frac{2}{3}\mu_{0}\boldsymbol{M}
 \end{equation}
 where $\mu_{0}$ is the vacuum permeability, $\boldsymbol{M}$ is the magnetization of $^{3}$He, 
 
 \begin{equation}
-\boldsymbol{M}=\boldsymbol{\mu_{K}}[{\rm He}]P
+\boldsymbol{M}=\boldsymbol{\mu_{K}}[{\rm He}]P,
 \end{equation}
-where $\mu_{K}$ is the magnetic moment of $^{3}$He, [He] is its density, and P its polarization. As we mentioned before, as a result of the Fermi-contact interaction $\alpha${\bf K$\cdot$S} between the nuclear spin {\bf K} of the noble gas nucleus and the electron spin {\bf S} of the alkali metal atom, the effective magnetic field from the polarized $^{3}$He gas is enhanced by a factor of $\kappa_{0}$~\cite{PhysRevA.58.3004}:
+$\mu_{K}$ is the magnetic moment of $^{3}$He, [He] is its density, and P its polarization. As we mentioned before, as a result of the Fermi-contact interaction $\alpha${\bf K$\cdot$S} between the nuclear spin {\bf K} of the noble gas nucleus and the electron spin {\bf S} of the alkali metal atom, the effective magnetic field felt by alkali metal due to the polarized $^3$He nuclei is $\kappa_{0}$~\cite{PhysRevA.58.3004}:
 
 \begin{equation}
 \boldsymbol{\Delta B}=\frac{2}{3} \kappa_{0}\mu_{0}\boldsymbol{\mu_{K}}[He]P
 \end{equation}
 
-The enhancement factor $\kappa_{0}$ was measured by Romalis~\emph{et al.} in 1998 with an error of 1.5\%~\cite{PhysRevA.58.3004}
+The enhancement factor $\kappa_{0}$ was measured by Romalis and Cates in 1998 with an error of 1.5\%~\cite{PhysRevA.58.3004}
 
 \begin{equation}
 \kappa_{0}^{Rb-^{3}He}=4.52+0.00934[T(^{\circ}C)]
@@ -315,20 +316,20 @@ The two results agree within the error. Thus we can calculate $^{3}$He polarizat
 
 \subsubsection{Overview}
 
-Under normal operating conditions, hybrid cells with mixture of Rb and K are used. The vapor density of K is an order of magnitude higher than that of Rb, we typically induce the $m_{F} = 2 \rightarrow m_{F} = 1$ (assuming the angular momentum of laser photons is +1) $^{39}$K transition, which lowers the K polarization. Rb-K spin-exchange rate is fast enough that Rb is depolarized almost instantly. This allows more Rb atoms to absorb laser and be excited to the 5P$_{\frac{1}{2}}$ state which in turn produces more D$_{2}$ fluorescence. The D$_{2}$ fluorescence is at maximum intensity when the RF frequency is on resonance for the Zeeman transition. 
+Under operating conditions typical when using a polarized $^3$He target, hybrid cells with mixture of Rb and K are used. The vapor density of K is around 6 times as that of Rb, we typically induce the $^{39}$K transition corresponding to $m_{F} = 2 \rightarrow m_{F} = 1$ (assuming the angular momentum of laser photons is +1), which lowers the K polarization. The Rb-K spin-exchange rate is fast enough that the Rb is depolarized almost instantly. This allows more Rb atoms to absorb laser and be excited to the 5P$_{\frac{1}{2}}$ state which in turn produces more D$_{2}$ fluorescence. The D$_{2}$ fluorescence is at maximum intensity when the RF frequency is on resonance for the Zeeman transition. 
 
-We first locate the frequency with a frequency-modulated (FM) sweep, and set the RF frequency to the found value. The RF is locked to the frequency (which is slightly changing) that induces maximum D$_{2}$ light with a proportional-integral feedback circuit (P.I. box). This frequency is referred to as EPR frequency and is measured with a counter. To separate the frequency-shifting effect of polarized $^{3}$He from other sources that may affect the transition frequency, we flip the $^{3}$He magnetization by performing a RF frequency sweep. A frequency sweep is chosen rather than a holding field sweep  to keep external magnetic field constant, thus reducing factors that affect Zeeman splitting size. By comparing the frequency measured before and after the flip, together with the real temperature inside the pumping chamber, we can calculate the $^{3}$He polarization. We typically take AFP measurements right before and after the relatively quick EPR measurement, so that a calibration constant that translates AFP signal size to $^{3}$He polarization can be calculated.
+We first locate the frequency with a frequency-modulated (FM) sweep, and set the RF frequency to the found value. The RF is locked to the frequency that induces maximum D$_{2}$ light using a proportional-integral feedback circuit (P.I. box). This frequency is referred to as the EPR frequency and is measured with a frequency counter. To separate the frequency-shifting effect of polarized $^{3}$He from other sources that may affect the transition frequency, we flip the $^{3}$He magnetization by performing AFP using an RF frequency sweep. A frequency sweep is chosen rather than a holding field sweep  to keep external magnetic field constant, thus reducing factors that affect Zeeman splitting size. By comparing the frequency measured before and after the flip, together with the real temperature inside the pumping chamber, we can calculate the $^{3}$He polarization. We typically take AFP measurements right before and after the relatively quick EPR measurement (in our usual way using a magnetic field sweep), so that a calibration constant that translates AFP signal size to $^{3}$He polarization can be calculated.
 
 \subsubsection{Locating Zeeman Transition Frequency}
 
-The P.I. box only works well in locking the EPR frequency to the $m_{F}=2\rightarrow m_{F}=1$ K transition when the EPR frequency is close to the transition. Thus the first step in EPR measurements is to locate the Zeeman transition. A frequency-modulated (FM) sweep is performed through a range that covers the Zeeman transition, the range is known from experience or calculation and the P.I. box remains off during the sweep.
+The P.I. box only works well in locking the EPR frequency to the $m_{F}=2\rightarrow m_{F}=1$ K transition when the EPR frequency is close to the transition. Thus, the first step in EPR measurements is to locate the Zeeman transition. A frequency-modulated (FM) sweep is performed through a range that covers the Zeeman transition, the range is known from experience or calculation and the P.I. box remains off during the sweep.
 
-The RF frequency is generated by the 18.2MHz voltage-controlled oscillator (VCO). The D$_{2}$ fluorescence is detected with the photodiode and recorded during the sweep. The RF is frequency-modulated by a 200Hz signal, the VCO output at any moment during the sweep can be described as: 
+The RF frequency is generated by a voltage-controlled oscillator (VCO). The D$_{2}$ fluorescence is detected with the photodiode and recorded during the sweep. The RF is frequency-modulated by a 200Hz signal, and the VCO output at any moment during the sweep can be described as: 
 
 \begin{equation}
 V_{FM}(t)=V_{C0}\sin{\left(2\pi[f_{c}+D_{f}\sin{\left(2\pi f_{m}t+\phi_{m}\right)}]t+\phi_{c}\right)}
 \end{equation}
-where $V_{C0}$ is the amplitude of the sweeping RF frequency (carrier), $f_{c}$ is the RF frequency that is being swept through a set range, $D_{f}$ is the peak frequency deviation, $f_{m}$ is the modulating frequency (200Hz in our case), $\phi_{m}$ and $\phi_{c}$ are the phase of the modulation frequency and carrier frequency, respectively. Thus the RF frequency is
+where $V_{C0}$ is the amplitude of the sweeping RF frequency (carrier), $f_{c}$ is the RF frequency that is being swept through a set range, $D_{f}$ is the peak frequency deviation, $f_{m}$ is the modulating frequency (200Hz in our case), and $\phi_{m}$ and $\phi_{c}$ are the phase of the modulation frequency and carrier frequency, respectively. Thus, the RF frequency is
 
 \begin{equation}
 f_{FM}(t) = f_{c}(t)+D_{f}\sin{\left(2\pi f_{m}t+\phi_{m}\right)}
@@ -346,12 +347,7 @@ where $f_{0}$ is the Zeeman transition frequency, $\Gamma$ is the line width. Ke
 I(f(t))=I(f_{c}(t))+\frac{\partial I}{\partial f}\Bigm|_{f=f_{c}(t)}D_{f}\sin{\left(2\pi f_{m}t+\phi_{m}\right)}
 \end{equation}
 
-A lock-in amplifier is used to select only the $f_{m}$ term and reduce the noise, the signal picked by the lock-in is
-
-\begin{equation}
-s(t)=\frac{\partial I}{\partial f}\Bigm|_{f=f_{c}(t)}D_{f}\sin{\left(2\pi f_{m}t+\phi_{m}\right)}
-\end{equation}
-which is the derivative of the Lorentzian function multiplied by a sine function. The FM sweep line crosses zero when the RF frequency is equal to the Zeeman transition frequency (peak of the Lorentzian function), which produces the maximum D$_{2}$ light intensity. The region between the lowest and highest points of the derivative line is fitted to a line, and the zero-crossing point of the line is used as the Zeeman transition frequency. Fig.~\ref{fmsweep} shows an FM sweep.
+A lock-in amplifier is used to select only the $f_{m}$ term to reduce the noise, which is proportional to the derivative of the Lorentzian function multiplied by a sine function. The FM sweep line crosses zero when the RF frequency is equal to the Zeeman transition frequency (peak of the Lorentzian function), which produces the maximum D$_{2}$ light intensity. The region between the lowest and highest points of the derivative line is fitted to a line, and the zero-crossing point of the line is used as the Zeeman transition frequency. Fig.~\ref{fmsweep} shows an FM sweep.
 
 \begin{figure}[t!]
 	\centering
@@ -362,7 +358,7 @@ which is the derivative of the Lorentzian function multiplied by a sine function
 
 \subsubsection{EPR Spin Flip Process}
 
-After the transition frequency is located, the VCO frequency is first set to it and then stays locked with a proportional-integral feedback circuit (P.I. box). The circuit is shown in Fig.~\ref{PIBox}. 
+After the transition frequency is located, the VCO frequency is first set to it and then locked with a proportional-integral feedback circuit (P.I. box). The circuit is shown in Fig.~\ref{PIBox}. 
 
 \begin{figure}[t!]
 	\centering
@@ -371,9 +367,9 @@ After the transition frequency is located, the VCO frequency is first set to it 
 	\label{PIBox}
 \end{figure}
 
-The output of the lock-in amplifier is sent to the input of the P.I. box, and the output of the P.I. box controls the input of the VCO. If the effective magnetic field drifts away from resonance, the P.I. box would receive a non-zero input, and attempt to change the frequency of the VCO output so that its input is zero again. Therefore, the VCO output always matches the transition frequency.
+The output of the lock-in amplifier serves as an error signal and the input to the P.I. box. The output of the P.I. box is thus forced to a condition that minimizes the error signal and keeps the VCO centered on the resonant frequency.
 
-Because the EPR frequency is also affected by sources other than the polarized $^{3}$He such as the holding field and earth field, we flip the $^{3}$He spins by sweeping the frequency while keeping the holding field unchanged. The contribution from the flipped spins has a opposite sign while other factors still contribute in the same way which allows us to extract the change of Zeeman transition frequency due to polarized $^{3}$He and calculate the polarization. We typically let the cell polarization reach saturation before performing EPR measurements. AFP measurements are taken right before and after the EPR measurements for calculating the calibration constant (the ratio between polarization and AFP signal size). Fig.~\ref{epr} shows a typical EPR spin flip process.
+Because the EPR frequency is also affected by sources other than the polarized $^{3}$He such as the holding field and earth field, we flip the $^{3}$He spins by sweeping the frequency while keeping the holding field unchanged. The contribution from the flipped spins has the opposite sign while other factors still contribute in the same way, which allows us to extract the change of Zeeman transition frequency due to polarized $^{3}$He, and consequently, calculate the polarization. We typically let the cell polarization reach saturation before performing EPR measurements. AFP measurements are taken right before and after the EPR measurements for calculating the calibration constant (the ratio between polarization and AFP signal size). Fig.~\ref{epr} shows a typical EPR spin flip process.
 
 \begin{figure}[t!]
 	\centering
@@ -382,15 +378,15 @@ Because the EPR frequency is also affected by sources other than the polarized $
 	\label{epr}
 \end{figure}
 
-Under normal operating conditions for a double-chambered cell, the pumping chamber is heated to around 170$^{\circ}$C or 235$^{\circ}$C depending on if the cell is hybrid, the target chamber and transfer tube remain at room temperature. The temperature difference causes differences in gas densities and affects AFP signal size. Temperature controller of the oven only maintains the surface temperature of the pumping chamber at set temperature, but the gas inside the pumping chamber is always hotter due to absorption of laser energy. The enhancement factor $\kappa_{0}$ is also slightly temperature dependent which may be underestimated by $\sim$4\% when using the surface temperature as the gas temperature. Dolph described a method called temperature test to extract gas temperature inside the pumping chamber in detail in his thesis~\cite{PeterThesis}. The idea is to take AFP measurements when the laser is blocked and unblocked multiple times, assuming the change of gas densities due to absorption of laser is the only reason for the difference in signal size (aside from AFP loss which is compensated through fitting) and the gas temperature when laser is blocked is the same as that measured by RTDs (resistance temperature detectors) on the exterior of the pumping chamber, one can calculate the inside temperature when laser is unblocked. 
+Under normal operating conditions for a double-chambered cell, the pumping chamber is heated to around 170$^{\circ}$C or 235$^{\circ}$C depending on if the cell is hybrid, while the target chamber and transfer tube remain at room temperature. The temperature difference causes differences in gas densities and affects the AFP signal size. The temperature controller of the oven only maintains the surface temperature of the pumping chamber at a set temperature, but the gas inside the pumping chamber is always hotter due to absorption of laser energy. The enhancement factor $\kappa_{0}$ is also slightly temperature dependent which may be underestimated by $\sim$4\% when using the surface temperature as the gas temperature. Dolph described a method we referred to as a ``temperature test" to extract gas temperature inside the pumping chamber in detail in his thesis~\cite{PeterThesis}. The idea is to take AFP measurements when the laser is blocked and unblocked multiple times. With the assumptions that the change of gas densities due to absorption of laser and AFP losses are the only reasons for the difference in signal size, and the temperature measured by RTDs on the exterior of the pumping chamber truly reflects the gas temperature when laser is blocked, one can calculate the inside temperature when laser is unblocked. 
 
 \section{Pulsed Nuclear Magnetic Resonance} 
 
-Adiabatic Fast Passage has been the main technique used in our lab for measuring $^{3}$He polarization through detecting precessing spins with detection coils (we refer to them as pickup coils). In an AFP measurement, all $^{3}$He spins are flipped by sweeping the holding field while applying a RF field. In more recent studies, we have been exploring the possibility of replacing conventional glass windows with metal end windows in response to the 12 GeV upgrade of JLab. Because of the lack of studies on spin relaxation of polarized $^{3}$He on metal surfaces, various test cells made with large metal parts as well as glass parts are being studied in our lab. The inclusion of metal parts immediately renders AFP almost useless in the situation because of effects such as Eddy current, thus we have been performing Pulsed Nuclear Magnetic Resonance (PNMR) on metal cells.
+Adiabatic Fast Passage has been the main technique used in our lab for monitoring relative $^{3}$He polarization during various studies. In an AFP measurement, all $^{3}$He spins are flipped by sweeping the holding field while applying an RF field. As discussed by Chapter 5, we have been exploring the possibility of replacing conventional glass windows with metal end windows for future experiments planned during the 12 GeV era. Because of the lack of studies on spin relaxation of polarized $^{3}$He on metal surfaces, various test cells made with large metal parts as well as glass parts are being studied in our lab. The inclusion of metal parts immediately renders AFP almost useless because of effects such as Eddy currents. Thus, we have been using Pulsed Nuclear Magnetic Resonance (PNMR) for monitoring polarization when studying cells that include metal parts.
 
 \subsection{The Rotating Coordinate System}
 
-In a PNMR measurement, a short pulse of RF frequency is applied to a small fraction of $^{3}$He gas. The RF frequency is tuned to be on resonance at the Larmor frequency of the holding field. As discussed before with AFP, in the rotating coordinate system, there will be an effective field due to rotation that exactly cancels the holding field which we assume to be in the z direction. Thus the z component of the effective field is zero and there is a non-zero constant transverse component which we will call B$_{1}$. The nuclear spins will precess along B$_{1}$ and end up at an angle away from z axis: 
+In a PNMR measurement, a short pulse of RF frequency is applied to a small localized portion of $^{3}$He gas. The RF frequency is tuned to be on resonance at the Larmor frequency of the holding field. As discussed before with AFP, in the rotating coordinate system, there will be an effective field due to rotation that exactly cancels the holding field which we assume to be in the z direction. Thus the z component of the effective field is zero and there is a non-zero constant transverse component which we will call B$_{1}$. The nuclear spins will precess along B$_{1}$ and end up at an angle away from z axis: 
 
 \begin{equation}
 \alpha = \gamma B_{1} \Delta t
@@ -399,7 +395,14 @@ where $\alpha$ is the angle (tip angle), $\gamma$ is the gyromagnetic ratio, and
 
 \subsection{Free Induction Decay}
 
-At the end of the RF pulse, the tipped spins will have a transverse component equal to the magnetization multiplied by $\sin{\alpha}$. The spins continue to precess along the holding field and the transverse component will induce a signal in the pickup coils. 
+At the end of the RF pulse, the tipped spins will have a transverse component equal to the magnetization multiplied by $\sin{\alpha}$. The spins continue to precess along the holding field and the transverse component will induce a signal in the pickup coils whose axis is perpendicular to the holding field(as shown in Fig.~\ref{PNMR_setup}).  
+
+\begin{figure}[t!]
+	\centering
+	\resizebox{0.91\textwidth}{!}{\includegraphics{PNMR_setup.png}}
+	\caption{{\bf PNMR setup.}}
+	\label{PNMR_setup}
+\end{figure}
 
 In addition to precession, the spins are affected by two types of relaxation processes. The first type is called the spin-lattice relaxation, it describes the rate at which the longitudinal component of magnetization approaches the thermodynamic equilibrium value. It is characterized by the spin-lattice relaxation time constant T$_{1}$. The rate of change of the longitudinal component is
 
@@ -414,7 +417,7 @@ M_{z}(t)=M_{0}-\left[M_{0}-M_{z}(0)\right]e^{-t/T_{1}}
 
 The name spin-lattice relaxation refers to the process in which the spins transfer energy to surrounding, thereby restoring their equilibrium state.
 
-The second relaxation process is the transverse relaxation, which is also referred to as the T$_{2}$ relaxation and spin-spin relaxation. The transverse component of magnetization decays because variations in the local magnetic field cause different moments to precess at different rates. This is the T$_{2}$ process. Normally, the dominating relaxation effect however, is another dephasing process due to inhomogeneities in the holding field over the volume of the cell. 
+The second relaxation process is relaxation in the transverse plane, which is also referred to as the T$_{2}$ relaxation and was historically called ``spin-spin relaxation". The transverse component of magnetization decays because random fluctuations of the holding field cause different moments to precess at different rates. This is the T$_{2}$ process. Normally, the dominating relaxation effect however, is another dephasing process due to holding field inhomogeneities over the volume of the cell. 
 
 The measured relaxation rate of the tipped spins is the result of all these effects combined:
 
@@ -423,7 +426,7 @@ The measured relaxation rate of the tipped spins is the result of all these effe
 \end{equation}
 where $\Delta B_{0}$ is the variation in the holding field. $\gamma \Delta B_{0}$, the dominant term, is a spread in Larmor frequencies $\Delta \omega_{0}$, which causes spin-spin dephasing in a characteristic time of $1/\Delta \omega_{0}$. 
 
-The time evolution of the nuclear magnetization {\bf M} is described by the Bloch equations~\cite{PhysRev.70.460}:
+The time evolution of the nuclear magnetization {\bf M} can be described by the Bloch equations~\cite{PhysRev.70.460}:
 
 \begin{subequations}
 	\begin{gather}
@@ -432,7 +435,7 @@ The time evolution of the nuclear magnetization {\bf M} is described by the Bloc
 	\frac{\partial M_{z}(t)}{\partial t}=\gamma\left(\boldsymbol{M(t)}\times \boldsymbol{B(t)}\right)_{z}-\frac{M_{z}(t)}{T_{1}}
 	\end{gather}
 \end{subequations}
-where $\gamma$ is the gyromagnetic ratio and the cross products are the precession terms, the last terms in each equation represent the decaying and dephasing of each component. The precessing spin magnetization generates a signal in the pickup coils that decays with time. This is called free induction decay, the induced signal is of the shape:
+where $\gamma$ is the gyromagnetic ratio and the cross products are the precession terms, the last terms in each equation represent the decaying and dephasing of each component. The precessing spin magnetization generates a signal in the pickup coils that decays with time. This is called free induction decay, the induced signal is typically described by
 
 \begin{equation}
 V(t)=A\omega_{0}\sin{\alpha}\sin{\left(\omega_{0}t+\phi\right)}e^{-t/T_{2}^{*}}
@@ -441,23 +444,16 @@ where A is just a constant, $\omega_{0}$ is the Larmor frequency for the holding
 
 \subsection{Experimental Methods}
 
-Our PNMR setup is shown in Fig.~\ref{PNMR_setup}. The Labview program on the computer controls the timing of a gate signal that is fired from the first function generator. The gate signal is fed to the back of the second function generator and triggers it to produce a short pulse. The second function generator sends out RF pulse with pre-set amplitude, duration and frequency only when the gate signal is of voltage higher than the threshold. The frequency of the RF pulse is carefully tuned to be at the Larmor frequency of the holding field. 
+Our PNMR setup is shown in Fig.~\ref{PNMR_setup}. The Labview program on the computer controlled the timing of a gate signal that was fired from the first function generator (F.G.). The gate signal was fed to the back of the second function generator and triggered it to produce a short pulse. The second function generator sent out RF pulse with pre-set amplitude, duration and frequency only when the gate signal was of voltage higher than the threshold. The frequency of the RF pulse was carefully tuned to be at the Larmor frequency of the holding field. 
 
-\begin{figure}[t!]
-	\centering
-	\resizebox{0.91\textwidth}{!}{\includegraphics{PNMR_setup.png}}
-	\caption{{\bf PNMR setup.}}
-	\label{PNMR_setup}
-\end{figure}
-
-The pulse is sent from the function generator to a coil wrapped directly on a small portion of the cell. The spins contained in the coil are exposed to the pulse and tipped by an angle which depends on the amplitude and the duration of the pulse. In the rotating frame, the effective field B$_{1}$ causes the spins to precess around it (as discussed before), the precession frequency is $\gamma B_{1}$ so the angle the spins rotate by (tip angle) is  
+The pulse was sent from the function generator to a coil wrapped directly on a small portion of the cell. The spins in the proximity of the coil were exposed to the pulse and tipped by an angle which depended on the amplitude and the duration of the pulse. In the rotating frame, the effective field B$_{1}$ caused the spins to precess around it (as discussed before), the precession frequency was $\gamma B_{1}$ so the angle the spins rotate by (tip angle) can be calculated by:  
 
 \begin{equation}\label{tip_angle}
 \alpha = \gamma B_{1} \Delta t
 \end{equation}
-where $\gamma$ is the gyromagnetic ratio, the effective field B$_{1}$ is directly proportional to the amplitude of the RF pulse, $\Delta$t is the duration of the pulse. Ideally, a 90$^{\circ}$ tip angle would result in the maximum signal, but it has not been the case for us most of the time because of field inhomogeneities. The coils are normally wrapped on the transfer tube of the cell which is off the center of the holding field and exposed to greater inhomogeneities. The details of how we measure the test cells will be discussed in later chapters. Relatively large inhomogeneities cause the spins to precess at different rates, and the dephasing becomes more significant with longer pulse duration and larger tip angle, which leads to non-optimal signal. A typical tip angle for us would be between 30$^{\circ}$ and 45$^{\circ}$. 
+where $\gamma$ is the gyromagnetic ratio, the effective field B$_{1}$ is directly proportional to the amplitude of the RF pulse, and $\Delta$t is the duration of the pulse. Ideally, a 90$^{\circ}$ tip angle would result in the maximum signal, but it had not been the case for us most of the time because of field inhomogeneities. The coils were normally wrapped on the transfer tube of the cell which was off the center of the holding field and exposed to greater holding field inhomogeneities and different values of Rf field. The details of how we measure the test cells will be discussed in later chapters. These two reasons combined caused the spins to precess at different rates, and the dephasing became more significant with longer pulse duration and larger tip angle, which lead to non-optimal signal. Exact tip angles of specific group of spins depended on location, a typical effective tip angle would be between 30$^{\circ}$ and 45$^{\circ}$. 
 
-After the spins are tipped away from z axis, they precess around the holding field and induce a signal in the detection coil. The signal is amplified by a low noise pre-amplifier first and then goes through an isolation switch. The switch only lets signal pass when the controlling gate voltage is low, thus stops the RF pulse from coming back through the detection circuit. The signal is at the Larmor frequency, and is mixed with another frequency after the switch. The mixing frequency is only slightly different from the Larmor frequency, the output of the mixer has both the sum of the two frequencies and the difference. A second pre-amplifier is used to select and amplify the lower of the two frequencies while filtering out high frequency noises. The final output is displayed on a oscilloscope and collected by the Labview program on the computer. Fig.~\ref{FID} shows a PNMR measurement with around 150 ms decay time constant.
+After the spins were tipped away from z axis, they precessed around the holding field and induced a signal in the detection coil. The signal was amplified by a low noise pre-amplifier first and then went through an isolation switch. The switch only let signal pass when the controlling gate voltage was low, thus stopped the RF pulse from coming back through the detection circuit. The signal was at the Larmor frequency, and was mixed with another frequency after the switch. The mixing frequency was only slightly different from the Larmor frequency, the output of the mixer had both the sum of the two frequencies and the difference. A second pre-amplifier was used to select and amplify the lower of the two frequencies while filtering out high frequency noises. The final output was displayed on a oscilloscope and collected by the Labview program on the computer. Fig.~\ref{FID} shows a PNMR measurement with around 150 ms decay time constant.
 
 \begin{figure}[H]
 	\centering
@@ -466,25 +462,25 @@ After the spins are tipped away from z axis, they precess around the holding fie
 	\label{FID}
 \end{figure}
 
-The tip angle can be measured with a short sequence of FID signals. Theoretically the tip angle can be calculated with Eq.~\ref{tip_angle}. But because of inhomogeneities and other factors, the calculation serves as only an estimate, it is often more accurate and convenient to measure the tip angle directly. We take several PNMR measurements in quick succession with the same RF pulse settings. After every pulse, the transverse component of the spins quickly decay and dephase, leaving only the longitudinal component which is equal to $\cos{\alpha}$ times the original magnetization. The intervals between measurements are short enough so that T$_{1}$ can be safely ignored. The series of measurements also need to be performed on the same portion of the gas (i.e. the same group of spins tipped by the first pulse), thus it is important to know that the self-diffusion of $^{3}$He is significantly slower than the sampling rate. The self-diffusion coefficient of $^{3}$He at 300K is~\cite{J.Phys.France.35}
+The tip angle was measured with a short sequence of FID signals. Theoretically the tip angle can be calculated with Eq.~\ref{tip_angle}. But because of inhomogeneities and other factors, the calculation serves as only an estimate in practice and it was often more accurate and convenient to measure the tip angle directly. We took several PNMR measurements in quick succession with the same RF pulse settings. After every pulse, the transverse component of the spins quickly decayed and dephased, leaving only the longitudinal component which was equal to $\cos{\alpha}$ times the original magnetization. The intervals between measurements were short enough so that T$_{1}$ can be safely ignored. The series of measurements also needed to be performed on the same portion of the gas (i.e. the same group of spins tipped by the first pulse), thus it was important to know that the self-diffusion of $^{3}$He was significantly slower than the sampling rate. The self-diffusion coefficient of $^{3}$He at 300K is~\cite{J.Phys.France.35}
 
 \begin{equation}
 D=\frac{1440(80)torr}{P}cm^{2}/s
 \end{equation}
-which is roughly 1.89 cm$^{2}$/s at 760 torr (the test cells normally contain around 1 atm of $^{3}$He). The diffusion length is described by
+which is roughly 1.89 cm$^{2}$/s at 760 torr (the test cells normally contained around 1 atm of $^{3}$He). The diffusion length is described by
 
 \begin{equation}
 l = 2\sqrt{Dt}
 \end{equation}
 
-Thus in one second, the gas will move around 2.75 cm through self-diffusion. For this reason, we only take 2 or 3 PNMR measurements to calculate the tip angle. As additional measurements would have given enough time for the tipped spins from the first PNMR and the surrounding spins to mix.
+Thus in one second, the gas moved around 2.75 cm through self-diffusion. For this reason, we only took 2 or 3 PNMR measurements to calculate the tip angle. As additional measurements would have given enough time for the tipped spins from the first PNMR and the surrounding spins to mix.
 
-Since only the longitudinal component of the tipped spins are preserved, the amplitude of the i$_{th}$ PNMR is
+Since only the longitudinal component of the tipped spins were preserved, the amplitude of the i$_{th}$ PNMR was
 
 \begin{equation}
 V_{i}=V_{0}cos^{i-1}\alpha 
 \end{equation}
-where V$_{0}$ is the induced signal in the first PNMR. We can then use this equation to calculate the tip angle $\alpha$.
+where V$_{0}$ is the induced signal in the first PNMR. We could then use this equation to calculate the effective tip angle $\alpha$.
 
 
 

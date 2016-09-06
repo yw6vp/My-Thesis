@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {1.3}Spin Exchange}{14}
 \contentsline {subsection}{\numberline {1.3.1}Spin-Dependent Interactions}{14}
 \contentsline {subsection}{\numberline {1.3.2}Spin Exchange Rate}{19}
-\contentsline {section}{\numberline {1.4}$^{3}$He Spinup and Relaxation}{19}
+\contentsline {section}{\numberline {1.4}$^{3}$He Spinup and Relaxation}{20}
 \contentsline {section}{\numberline {1.5}X Factor}{21}
 \contentsline {chapter}{\numberline {2}$^{3}$He Polarimetry}{23}
 \contentsline {section}{\numberline {2.1}Overview}{23}
@@ -25,53 +25,53 @@
 \contentsline {subsubsection}{\numberline {2.2.2.1}Classical Formulation}{25}
 \contentsline {subsubsection}{\numberline {2.2.2.2}Quantum Mechanical Formulation}{26}
 \contentsline {subsection}{\numberline {2.2.3}Adiabatic Fast Passage}{27}
-\contentsline {subsection}{\numberline {2.2.4}AFP Loss}{32}
-\contentsline {section}{\numberline {2.3}Electron Paramagnetic Resonance}{35}
-\contentsline {subsection}{\numberline {2.3.1}Overview}{35}
-\contentsline {subsection}{\numberline {2.3.2}The Breit-Rabi Equation}{36}
-\contentsline {subsection}{\numberline {2.3.3}Shift of Zeeman Frequency}{37}
-\contentsline {subsection}{\numberline {2.3.4}Experimental Methods}{40}
-\contentsline {subsubsection}{\numberline {2.3.4.1}Overview}{40}
-\contentsline {subsubsection}{\numberline {2.3.4.2}Locating Zeeman Transition Frequency}{41}
-\contentsline {subsubsection}{\numberline {2.3.4.3}EPR Spin Flip Process}{42}
-\contentsline {section}{\numberline {2.4}Pulsed Nuclear Magnetic Resonance}{46}
-\contentsline {subsection}{\numberline {2.4.1}The Rotating Coordinate System}{46}
-\contentsline {subsection}{\numberline {2.4.2}Free Induction Decay}{47}
-\contentsline {subsection}{\numberline {2.4.3}Experimental Methods}{49}
-\contentsline {chapter}{\numberline {3}Development of Hybrid Targets}{54}
-\contentsline {section}{\numberline {3.1}Overview}{54}
-\contentsline {section}{\numberline {3.2}Development of Hybrid Targets}{55}
-\contentsline {subsection}{\numberline {3.2.1}Experimental Methods}{57}
-\contentsline {subsubsection}{\numberline {3.2.1.1}The $^{3}$He Targets}{57}
-\contentsline {subsubsection}{\numberline {3.2.1.2}Target Cell Polarization Dynamics}{59}
-\contentsline {subsubsection}{\numberline {3.2.1.3}Initial Spinup}{64}
-\contentsline {section}{\numberline {3.3}The K-$^{3}$He Spin-Exchange Rate Constant}{67}
-\contentsline {section}{\numberline {3.4}The X Factor}{71}
-\contentsline {chapter}{\numberline {4}Development of Cells with Metal End Windows}{82}
-\contentsline {section}{\numberline {4.1}Overview}{82}
-\contentsline {section}{\numberline {4.2}Wall Relaxation of $^{3}$He}{84}
-\contentsline {subsection}{\numberline {4.2.1}Relaxation on Glass Surfaces}{84}
-\contentsline {subsection}{\numberline {4.2.2}Relaxation on Metal Surfaces}{88}
-\contentsline {section}{\numberline {4.3}Test Cell Fabrication}{90}
-\contentsline {subsection}{\numberline {4.3.1}Overview}{90}
-\contentsline {subsection}{\numberline {4.3.2}Glass-Metal Seal}{91}
-\contentsline {subsection}{\numberline {4.3.3}Mechanical Polishing and Electropolishing}{93}
-\contentsline {subsection}{\numberline {4.3.4}Electroplating}{94}
-\contentsline {subsection}{\numberline {4.3.5}Final Assembly of the Cell}{95}
-\contentsline {section}{\numberline {4.4}Cell Fill Procedure}{97}
-\contentsline {subsection}{\numberline {4.4.1}Cell Fill Preparation}{98}
-\contentsline {subsection}{\numberline {4.4.2}Cell Fill}{99}
-\contentsline {section}{\numberline {4.5}Experimental Setup and Procedure}{100}
-\contentsline {subsection}{\numberline {4.5.1}Pickup Coils}{101}
-\contentsline {subsection}{\numberline {4.5.2}Gradient Coils}{101}
-\contentsline {subsection}{\numberline {4.5.3}Laser Setup}{104}
-\contentsline {subsection}{\numberline {4.5.4}PNMR Losses and Corrected Lifetime}{105}
-\contentsline {section}{\numberline {4.6}Relaxation Measurement Results and Discussion}{111}
-\contentsline {subsection}{\numberline {4.6.1}Gold Coated Spherical Cell}{112}
-\contentsline {subsection}{\numberline {4.6.2}Gold Coated Spool Pieces}{113}
-\contentsline {subsection}{\numberline {4.6.3}Vertical Cells}{114}
-\contentsline {subsection}{\numberline {4.6.4}Horizontal Cells}{117}
-\contentsline {subsection}{\numberline {4.6.5}GE180 Cells}{120}
-\contentsline {subsection}{\numberline {4.6.6}Titanium Tubes}{122}
-\contentsline {chapter}{Bibliography}{123}
-\contentsline {chapter}{\numberline {A}Appendix title}{133}
+\contentsline {subsection}{\numberline {2.2.4}AFP Loss}{31}
+\contentsline {section}{\numberline {2.3}Electron Paramagnetic Resonance}{34}
+\contentsline {subsection}{\numberline {2.3.1}Overview}{34}
+\contentsline {subsection}{\numberline {2.3.2}The Breit-Rabi Equation}{35}
+\contentsline {subsection}{\numberline {2.3.3}Shift of Zeeman Frequency}{36}
+\contentsline {subsection}{\numberline {2.3.4}Experimental Methods}{39}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Overview}{39}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Locating Zeeman Transition Frequency}{40}
+\contentsline {subsubsection}{\numberline {2.3.4.3}EPR Spin Flip Process}{41}
+\contentsline {section}{\numberline {2.4}Pulsed Nuclear Magnetic Resonance}{45}
+\contentsline {subsection}{\numberline {2.4.1}The Rotating Coordinate System}{45}
+\contentsline {subsection}{\numberline {2.4.2}Free Induction Decay}{46}
+\contentsline {subsection}{\numberline {2.4.3}Experimental Methods}{48}
+\contentsline {chapter}{\numberline {3}Development of Hybrid Targets}{53}
+\contentsline {section}{\numberline {3.1}Overview}{53}
+\contentsline {section}{\numberline {3.2}Development of Hybrid Targets}{54}
+\contentsline {subsection}{\numberline {3.2.1}Experimental Methods}{56}
+\contentsline {subsubsection}{\numberline {3.2.1.1}The $^{3}$He Targets}{56}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Target Cell Polarization Dynamics}{58}
+\contentsline {subsubsection}{\numberline {3.2.1.3}Initial Spinup}{63}
+\contentsline {section}{\numberline {3.3}The K-$^{3}$He Spin-Exchange Rate Constant}{66}
+\contentsline {section}{\numberline {3.4}The X Factor}{70}
+\contentsline {chapter}{\numberline {4}Development of Cells with Metal End Windows}{81}
+\contentsline {section}{\numberline {4.1}Overview}{81}
+\contentsline {section}{\numberline {4.2}Wall Relaxation of $^{3}$He}{83}
+\contentsline {subsection}{\numberline {4.2.1}Relaxation on Glass Surfaces}{83}
+\contentsline {subsection}{\numberline {4.2.2}Relaxation on Metal Surfaces}{87}
+\contentsline {section}{\numberline {4.3}Test Cell Fabrication}{89}
+\contentsline {subsection}{\numberline {4.3.1}Overview}{89}
+\contentsline {subsection}{\numberline {4.3.2}Glass-Metal Seal}{90}
+\contentsline {subsection}{\numberline {4.3.3}Mechanical Polishing and Electropolishing}{92}
+\contentsline {subsection}{\numberline {4.3.4}Electroplating}{93}
+\contentsline {subsection}{\numberline {4.3.5}Final Assembly of the Cell}{94}
+\contentsline {section}{\numberline {4.4}Cell Fill Procedure}{96}
+\contentsline {subsection}{\numberline {4.4.1}Cell Fill Preparation}{97}
+\contentsline {subsection}{\numberline {4.4.2}Cell Fill}{98}
+\contentsline {section}{\numberline {4.5}Experimental Setup and Procedure}{99}
+\contentsline {subsection}{\numberline {4.5.1}Pickup Coils}{100}
+\contentsline {subsection}{\numberline {4.5.2}Gradient Coils}{100}
+\contentsline {subsection}{\numberline {4.5.3}Laser Setup}{103}
+\contentsline {subsection}{\numberline {4.5.4}PNMR Losses and Corrected Lifetime}{104}
+\contentsline {section}{\numberline {4.6}Relaxation Measurement Results and Discussion}{110}
+\contentsline {subsection}{\numberline {4.6.1}Gold Coated Spherical Cell}{111}
+\contentsline {subsection}{\numberline {4.6.2}Gold Coated Spool Pieces}{112}
+\contentsline {subsection}{\numberline {4.6.3}Vertical Cells}{113}
+\contentsline {subsection}{\numberline {4.6.4}Horizontal Cells}{116}
+\contentsline {subsection}{\numberline {4.6.5}GE180 Cells}{119}
+\contentsline {subsection}{\numberline {4.6.6}Titanium Tubes}{121}
+\contentsline {chapter}{Bibliography}{122}
+\contentsline {chapter}{\numberline {A}Appendix title}{132}
