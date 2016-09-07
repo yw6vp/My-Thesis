@@ -86,7 +86,7 @@ The same effective field in the rotating frame is reached as that from the class
 
 \subsection{Adiabatic Fast Passage}
 
-The NMR technique of Adiabatic Fast Passage (AFP) is used to measure the $^{3}$He polarization. In an AFP measurement, with the assistance of a oscillating radiofrequency (RF) field, the spins follow the effective field in a rotating frame (as discussed in more detail below) and are flipped 180 degrees to the opposite direction and then flipped back, producing two peaks in signal when they're perpendicular to the holding field and the pick up coils.
+The NMR technique of Adiabatic Fast Passage (AFP) is used to measure the $^{3}$He polarization. In an AFP measurement, with the assistance of an oscillating radiofrequency (RF) field, the spins follow the effective field in a rotating frame (as discussed in more detail below) and are flipped 180 degrees to the opposite direction and then flipped back, producing two peaks in signal when they're perpendicular to the holding field and the pick up coils.
 
 \begin{figure}[H]
 	\centering
@@ -289,10 +289,10 @@ where $\mu_{0}$ is the vacuum permeability, $\boldsymbol{M}$ is the magnetizatio
 \begin{equation}
 \boldsymbol{M}=\boldsymbol{\mu_{K}}[{\rm He}]P,
 \end{equation}
-$\mu_{K}$ is the magnetic moment of $^{3}$He, [He] is its density, and P its polarization. As we mentioned before, as a result of the Fermi-contact interaction $\alpha${\bf K$\cdot$S} between the nuclear spin {\bf K} of the noble gas nucleus and the electron spin {\bf S} of the alkali metal atom, the effective magnetic field felt by alkali metal due to the polarized $^3$He nuclei is $\kappa_{0}$~\cite{PhysRevA.58.3004}:
+$\mu_{K}$ is the magnetic moment of $^{3}$He, [He] is its density, and P is its polarization. As we mentioned before, as a result of the Fermi-contact interaction $\alpha${\bf K$\cdot$S} between the nuclear spin {\bf K} of the noble gas nucleus and the electron spin {\bf S} of the alkali metal atom, the effective magnetic field felt by alkali metal due to the polarized $^3$He nuclei is $\kappa_{0}$~\cite{PhysRevA.58.3004}:
 
 \begin{equation}
-\boldsymbol{\Delta B}=\frac{2}{3} \kappa_{0}\mu_{0}\boldsymbol{\mu_{K}}[He]P
+\boldsymbol{\Delta B}=\frac{2}{3} \kappa_{0}\mu_{0}\boldsymbol{\mu_{K}}[{\rm He}]P
 \end{equation}
 
 The enhancement factor $\kappa_{0}$ was measured by Romalis and Cates in 1998 with an error of 1.5\%~\cite{PhysRevA.58.3004}
@@ -318,7 +318,7 @@ The two results agree within the error. Thus we can calculate $^{3}$He polarizat
 
 Under operating conditions typical when using a polarized $^3$He target, hybrid cells with mixture of Rb and K are used. The vapor density of K is around 6 times as that of Rb, we typically induce the $^{39}$K transition corresponding to $m_{F} = 2 \rightarrow m_{F} = 1$ (assuming the angular momentum of laser photons is +1), which lowers the K polarization. The Rb-K spin-exchange rate is fast enough that the Rb is depolarized almost instantly. This allows more Rb atoms to absorb laser and be excited to the 5P$_{\frac{1}{2}}$ state which in turn produces more D$_{2}$ fluorescence. The D$_{2}$ fluorescence is at maximum intensity when the RF frequency is on resonance for the Zeeman transition. 
 
-We first locate the frequency with a frequency-modulated (FM) sweep, and set the RF frequency to the found value. The RF is locked to the frequency that induces maximum D$_{2}$ light using a proportional-integral feedback circuit (P.I. box). This frequency is referred to as the EPR frequency and is measured with a frequency counter. To separate the frequency-shifting effect of polarized $^{3}$He from other sources that may affect the transition frequency, we flip the $^{3}$He magnetization by performing AFP using an RF frequency sweep. A frequency sweep is chosen rather than a holding field sweep  to keep external magnetic field constant, thus reducing factors that affect Zeeman splitting size. By comparing the frequency measured before and after the flip, together with the real temperature inside the pumping chamber, we can calculate the $^{3}$He polarization. We typically take AFP measurements right before and after the relatively quick EPR measurement (in our usual way using a magnetic field sweep), so that a calibration constant that translates AFP signal size to $^{3}$He polarization can be calculated.
+We first locate the frequency with a frequency-modulated (FM) sweep, and set the RF frequency to the found value. The RF is locked to the frequency that induces maximum D$_{2}$ light using a proportional-integral feedback circuit (P.I. box). This frequency is referred to as the EPR frequency and is measured with a frequency counter. To separate the frequency-shifting effect of polarized $^{3}$He from other sources that may affect the transition frequency, we flip the $^{3}$He magnetization by performing AFP using an RF frequency sweep. A frequency sweep is chosen rather than a holding field sweep  to keep external magnetic field constant, thus reducing factors that affect Zeeman splitting size. No signal is recorded during theses sweeps, as the varying frequency would affect the amplitude of AFP signals. By comparing the frequency measured before and after the flip, together with the real temperature inside the pumping chamber, we can calculate the $^{3}$He polarization. We typically take AFP measurements (in our usual way using a magnetic field sweep) right before and after the relatively quick EPR measurement, so that a calibration constant that translates AFP signal size to $^{3}$He polarization can be calculated.
 
 \subsubsection{Locating Zeeman Transition Frequency}
 
@@ -378,7 +378,7 @@ Because the EPR frequency is also affected by sources other than the polarized $
 	\label{epr}
 \end{figure}
 
-Under normal operating conditions for a double-chambered cell, the pumping chamber is heated to around 170$^{\circ}$C or 235$^{\circ}$C depending on if the cell is hybrid, while the target chamber and transfer tube remain at room temperature. The temperature difference causes differences in gas densities and affects the AFP signal size. The temperature controller of the oven only maintains the surface temperature of the pumping chamber at a set temperature, but the gas inside the pumping chamber is always hotter due to absorption of laser energy. The enhancement factor $\kappa_{0}$ is also slightly temperature dependent which may be underestimated by $\sim$4\% when using the surface temperature as the gas temperature. Dolph described a method we referred to as a ``temperature test" to extract gas temperature inside the pumping chamber in detail in his thesis~\cite{PeterThesis}. The idea is to take AFP measurements when the laser is blocked and unblocked multiple times. With the assumptions that the change of gas densities due to absorption of laser and AFP losses are the only reasons for the difference in signal size, and the temperature measured by RTDs on the exterior of the pumping chamber truly reflects the gas temperature when laser is blocked, one can calculate the inside temperature when laser is unblocked. 
+Under normal operating conditions for a double-chambered cell, the pumping chamber is heated to around 170$^{\circ}$C or 235$^{\circ}$C depending on if the cell is hybrid, while the target chamber and transfer tube remain at room temperature. The temperature difference causes differences in gas densities and affects the AFP signal size. The temperature controller of the oven only maintains the surface temperature of the pumping chamber at a set temperature, but the gas inside the pumping chamber is always hotter due to absorption of laser energy. The enhancement factor $\kappa_{0}$ is also slightly temperature dependent which may be underestimated by $\sim$4\% when using the surface temperature as the gas temperature. Dolph described a method we referred to as a ``temperature test" to extract gas temperature inside the pumping chamber in detail in his thesis~\cite{PeterThesis}. In a temperature test, we take AFP measurements when the laser is blocked and unblocked multiple times. With the assumptions that the change of gas densities due to absorption of laser and AFP losses are the only reasons for the difference in signal size, and the temperature measured by RTDs on the exterior of the pumping chamber truly reflects the gas temperature when laser is blocked, one can calculate the inside temperature when laser is unblocked. 
 
 \section{Pulsed Nuclear Magnetic Resonance} 
 
@@ -395,7 +395,7 @@ where $\alpha$ is the angle (tip angle), $\gamma$ is the gyromagnetic ratio, and
 
 \subsection{Free Induction Decay}
 
-At the end of the RF pulse, the tipped spins will have a transverse component equal to the magnetization multiplied by $\sin{\alpha}$. The spins continue to precess along the holding field and the transverse component will induce a signal in the pickup coils whose axis is perpendicular to the holding field(as shown in Fig.~\ref{PNMR_setup}).  
+At the end of the RF pulse, the tipped spins will have a transverse component equal to the magnetization multiplied by $\sin{\alpha}$. The spins continue to precess along the holding field and the transverse component will induce a signal in the pickup coils (wrapped around the transfer tube as shown in Fig.~\ref{PNMR_setup}) whose axis is perpendicular to the holding field.  
 
 \begin{figure}[t!]
 	\centering
@@ -419,7 +419,7 @@ The name spin-lattice relaxation refers to the process in which the spins transf
 
 The second relaxation process is relaxation in the transverse plane, which is also referred to as the T$_{2}$ relaxation and was historically called ``spin-spin relaxation". The transverse component of magnetization decays because random fluctuations of the holding field cause different moments to precess at different rates. This is the T$_{2}$ process. Normally, the dominating relaxation effect however, is another dephasing process due to holding field inhomogeneities over the volume of the cell. 
 
-The measured relaxation rate of the tipped spins is the result of all these effects combined:
+The measured transverse relaxation rate of the tipped spins is the result of all these effects combined:
 
 \begin{equation}
 \frac{1}{T_{2}^{*}}=\frac{1}{T_{2}}+\gamma \Delta B_{0}
@@ -451,7 +451,7 @@ The pulse was sent from the function generator to a coil wrapped directly on a s
 \begin{equation}\label{tip_angle}
 \alpha = \gamma B_{1} \Delta t
 \end{equation}
-where $\gamma$ is the gyromagnetic ratio, the effective field B$_{1}$ is directly proportional to the amplitude of the RF pulse, and $\Delta$t is the duration of the pulse. Ideally, a 90$^{\circ}$ tip angle would result in the maximum signal, but it had not been the case for us most of the time because of field inhomogeneities. The coils were normally wrapped on the transfer tube of the cell which was off the center of the holding field and exposed to greater holding field inhomogeneities and different values of Rf field. The details of how we measure the test cells will be discussed in later chapters. These two reasons combined caused the spins to precess at different rates, and the dephasing became more significant with longer pulse duration and larger tip angle, which lead to non-optimal signal. Exact tip angles of specific group of spins depended on location, a typical effective tip angle would be between 30$^{\circ}$ and 45$^{\circ}$. 
+where $\gamma$ is the gyromagnetic ratio, the effective field B$_{1}$ is directly proportional to the amplitude of the RF pulse, and $\Delta$t is the duration of the pulse. Ideally, a 90$^{\circ}$ tip angle would result in the maximum signal, but it had not been the case for us most of the time. The coils were normally wrapped on the transfer tube of the cell which was off the center of the holding field and exposed to relatively large holding field inhomogeneities. Different groups of spins contributed to the FID signal also saw different values of $B_1$. The details of how we measure the test cells will be discussed in later chapters. As a result, the spins to precessed at different rates, and the dephasing became more significant with longer pulse duration and larger tip angle, which led to non-optimal signals. Exact tip angles of specific group of spins depended on location, a typical effective tip angle for the whole region would be between 30$^{\circ}$ and 45$^{\circ}$. 
 
 After the spins were tipped away from z axis, they precessed around the holding field and induced a signal in the detection coil. The signal was amplified by a low noise pre-amplifier first and then went through an isolation switch. The switch only let signal pass when the controlling gate voltage was low, thus stopped the RF pulse from coming back through the detection circuit. The signal was at the Larmor frequency, and was mixed with another frequency after the switch. The mixing frequency was only slightly different from the Larmor frequency, the output of the mixer had both the sum of the two frequencies and the difference. A second pre-amplifier was used to select and amplify the lower of the two frequencies while filtering out high frequency noises. The final output was displayed on a oscilloscope and collected by the Labview program on the computer. Fig.~\ref{FID} shows a PNMR measurement with around 150 ms decay time constant.
 
@@ -465,7 +465,7 @@ After the spins were tipped away from z axis, they precessed around the holding 
 The tip angle was measured with a short sequence of FID signals. Theoretically the tip angle can be calculated with Eq.~\ref{tip_angle}. But because of inhomogeneities and other factors, the calculation serves as only an estimate in practice and it was often more accurate and convenient to measure the tip angle directly. We took several PNMR measurements in quick succession with the same RF pulse settings. After every pulse, the transverse component of the spins quickly decayed and dephased, leaving only the longitudinal component which was equal to $\cos{\alpha}$ times the original magnetization. The intervals between measurements were short enough so that T$_{1}$ can be safely ignored. The series of measurements also needed to be performed on the same portion of the gas (i.e. the same group of spins tipped by the first pulse), thus it was important to know that the self-diffusion of $^{3}$He was significantly slower than the sampling rate. The self-diffusion coefficient of $^{3}$He at 300K is~\cite{J.Phys.France.35}
 
 \begin{equation}
-D=\frac{1440(80)torr}{P}cm^{2}/s
+D=\frac{1440(80){\rm torr}}{{\rm P}}{\rm cm^{2}/s}
 \end{equation}
 which is roughly 1.89 cm$^{2}$/s at 760 torr (the test cells normally contained around 1 atm of $^{3}$He). The diffusion length is described by
 
