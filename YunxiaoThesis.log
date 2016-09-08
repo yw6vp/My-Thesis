@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  7 SEP 2016 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  8 SEP 2016 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,9 +1283,9 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsaveapp=\count152
 )
 (./YunxiaoThesis.aux (./abstract.aux) (./ack.aux) (./contents.aux)
-(./tables.aux) (./figures.aux) (./chap3.aux
+(./tables.aux) (./figures.aux) (./chap5.aux
 
-LaTeX Warning: Label `AFPSignal' multiply defined.
+LaTeX Warning: Label `metal_end_windows' multiply defined.
 
 ) (./bib.aux) (./apdxa.aux))
 \openout1 = `YunxiaoThesis.aux'.
@@ -1390,61 +1390,39 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `abstract.aux'.
+\openout2 = `ack.aux'.
 
- (./abstract.tex
-LaTeX Font Info:    Try loading font information for U+lasy on input line 6.
+ (./ack.tex) [2
+
+]
+\openout2 = `contents.aux'.
+
+
+(./contents.tex (./YunxiaoThesis.toc
+LaTeX Font Info:    Try loading font information for U+lasy on input line 2.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 6.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 6.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 6.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 2.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-)
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [2
-
-]) [3]
-\openout2 = `ack.aux'.
-
-
-(./ack.tex) [4
-
-
-]
-\openout2 = `contents.aux'.
-
- (./contents.tex (./YunxiaoThesis.toc [5
+) [3
 
 
 
@@ -1452,387 +1430,104 @@ Missing character: There is no ù in font cmr12!
 \tf@toc=\write3
 \openout3 = `YunxiaoThesis.toc'.
 
-) [6]
+) [4]
 \openout2 = `tables.aux'.
 
- (./tables.tex
-(./YunxiaoThesis.lot)
+
+(./tables.tex (./YunxiaoThesis.lot)
 \tf@lot=\write4
 \openout4 = `YunxiaoThesis.lot'.
 
-) [7
+) [5
 
 
 
 ]
 \openout2 = `figures.aux'.
 
- (./figures.tex (./YunxiaoThesis.lof)
+ (./figures.tex (./YunxiaoThesis.lof
+[6
+
+
+
+])
 \tf@lof=\write5
 \openout5 = `YunxiaoThesis.lof'.
 
-) [8
+) [7]
+\openout2 = `chap1.aux'.
 
-
-
-]
-\openout2 = `chap5.aux'.
-
-
-(./chap5.tex
+ (./chap1.tex
 Chapter 1.
+
+LaTeX Warning: Citation `PhysRevLett.71.959' on page 1 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `MRI' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Neutron' on page 1 undefined on input line 6.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page 1 undefined on input line 
+8.
+
 [1
 
 
 
-]
+] <TargetCell.png, id=34, 578.16pt x 362.35374pt>
+File: TargetCell.png Graphic file (type png)
+ <use TargetCell.png>
+Package pdftex.def Info: TargetCell.png used on input line 12.
+(pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
 
-LaTeX Warning: Citation `Schmiedeskamp2006' on page 2 undefined on input line 1
-0.
 
+LaTeX Warning: Citation `PhysRevC.84.065201' on page 2 undefined on input line 
+19.
 
-LaTeX Warning: Citation `PhysRev.179.156' on page 2 undefined on input line 16.
 
+LaTeX Warning: Reference `ConvectionCell' on page 2 undefined on input line 19.
 
-[2]
 
-LaTeX Warning: Citation `Timsit' on page 3 undefined on input line 18.
+[2 <./TargetCell.png>]
 
-[3]
+LaTeX Warning: Citation `metal_end_windows' on page 3 undefined on input line 2
+1.
 
-LaTeX Warning: Citation `Timsit' on page 4 undefined on input line 34.
-
-
-LaTeX Warning: Citation `Kittel' on page 4 undefined on input line 45.
-
-[4]
-
-LaTeX Warning: Citation `Frenkel' on page 5 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Frenkel' on page 5 undefined on input line 58.
-
-
-LaTeX Warning: Reference `residence_time' on page 5 undefined on input line 73.
-
-
-
-LaTeX Warning: Reference `absorption_ng' on page 5 undefined on input line 73.
-
-
-LaTeX Warning: Reference `T_ab' on page 5 undefined on input line 73.
-
-
-LaTeX Warning: Reference `sticking_time' on page 5 undefined on input line 73.
-
-
-LaTeX Warning: Reference `adsorption_ng' on page 5 undefined on input line 73.
-
-
-LaTeX Warning: Reference `T_ad' on page 5 undefined on input line 73.
-
-[5]
-
-LaTeX Warning: Citation `PhysRev.179.156' on page 6 undefined on input line 86.
-
-
-
-LaTeX Warning: Citation `PhysRevA.201.337' on page 6 undefined on input line 86
-.
-
-
-LaTeX Warning: Citation `solgel' on page 6 undefined on input line 86.
-
-
-LaTeX Warning: Citation `barrer' on page 6 undefined on input line 90.
-
-
-LaTeX Warning: Citation `Smythe' on page 6 undefined on input line 90.
-
-
-LaTeX Warning: Citation `Timsit' on page 6 undefined on input line 90.
-
-[6]
-
-LaTeX Warning: Citation `Timsit' on page 7 undefined on input line 94.
-
-
-LaTeX Warning: Citation `Slichter' on page 7 undefined on input line 96.
-
-[7]
-
-LaTeX Warning: Citation `NelsonThesis' on page 8 undefined on input line 101.
-
-[8]
-
-LaTeX Warning: Citation `Larson' on page 9 undefined on input line 117.
-
-
-LaTeX Warning: Citation `Able' on page 9 undefined on input line 121.
-
-
-LaTeX Warning: Citation `Epner' on page 9 undefined on input line 123.
-
-
-LaTeX Warning: Citation `Cates1993' on page 9 undefined on input line 125.
-
-[9]
-
-LaTeX Warning: Reference `metal_tube' on page 10 undefined on input line 131.
-
-
-LaTeX Warning: Citation `Houskeeper' on page 10 undefined on input line 131.
-
-
-LaTeX Warning: Reference `metal_tube' on page 10 undefined on input line 131.
-
-<metal_tube.png, id=67, 604.2575pt x 449.68pt>
-File: metal_tube.png Graphic file (type png)
- <use metal_tube.png>
-Package pdftex.def Info: metal_tube.png used on input line 135.
-(pdftex.def)             Requested size: 604.25603pt x 449.6789pt.
-
-<pressure_test.png, id=69, 1235.61626pt x 460.72125pt>
-File: pressure_test.png Graphic file (type png)
- <use pressure_test.png>
-Package pdftex.def Info: pressure_test.png used on input line 142.
-(pdftex.def)             Requested size: 1235.61325pt x 460.72012pt.
-
-[10]
-
-LaTeX Warning: Text page 11 contains only floats.
-
-[11 <./metal_tube.png> <./pressure_test.png>]
-
-LaTeX Warning: Reference `Electropolishing' on page 12 undefined on input line 
-153.
-
-<Electropolishing.png, id=79, 553.06625pt x 463.7325pt>
-File: Electropolishing.png Graphic file (type png)
-
-<use Electropolishing.png>
-Package pdftex.def Info: Electropolishing.png used on input line 157.
-(pdftex.def)             Requested size: 553.0649pt x 463.73135pt.
- [12]
-
-LaTeX Warning: Citation `Deninger2006' on page 13 undefined on input line 164.
-
-
-LaTeX Warning: Reference `gold_coating' on page 13 undefined on input line 164.
-
-
-[13 <./Electropolishing.png>]
-<gold_coating.png, id=87, 478.78876pt x 322.20375pt>
-File: gold_coating.png Graphic file (type png)
- <use gold_coating.png>
-Package pdftex.def Info: gold_coating.png used on input line 168.
-(pdftex.def)             Requested size: 478.78758pt x 322.20296pt.
-
-
-LaTeX Warning: Reference `ultrasonic_cleaner' on page 14 undefined on input lin
-e 175.
-
-[14 <./gold_coating.png>]
-<ultrasonic_cleaner.png, id=92, 220.825pt x 316.18124pt>
-File: ultrasonic_cleaner.png Graphic file (type png)
-
-<use ultrasonic_cleaner.png>
-Package pdftex.def Info: ultrasonic_cleaner.png used on input line 179.
-(pdftex.def)             Requested size: 220.82445pt x 316.18047pt.
-
-
-LaTeX Warning: Reference `string' on page 15 undefined on input line 184.
-
-[15 <./ultrasonic_cleaner.png>] <string.png, id=97, 1239.63126pt x 702.625pt>
-File: string.png Graphic file (type png)
-
-<use string.png>
-Package pdftex.def Info: string.png used on input line 188.
-(pdftex.def)             Requested size: 1239.62823pt x 702.62328pt.
-
-
-LaTeX Warning: Reference `cell_gas_system' on page 16 undefined on input line 1
-99.
-
-[16 <./string.png>] <cell_gas_system.png, id=102, 761.84625pt x 512.91624pt>
-File: cell_gas_system.png Graphic file (type png)
-
-<use cell_gas_system.png>
-Package pdftex.def Info: cell_gas_system.png used on input line 203.
-(pdftex.def)             Requested size: 761.84439pt x 512.915pt.
- [17 <./cell_gas_system.png>] [18] [19]
-
-LaTeX Warning: Citation `Callaghan' on page 20 undefined on input line 230.
-
-
-LaTeX Warning: Reference `gradient_coils' on page 20 undefined on input line 23
-0.
-
-[20] <gradient_coils.png, id=117, 539.01375pt x 438.63875pt>
-File: gradient_coils.png Graphic file (type png)
-
-<use gradient_coils.png>
-Package pdftex.def Info: gradient_coils.png used on input line 234.
-(pdftex.def)             Requested size: 539.01242pt x 438.63766pt.
- [21 <./gradient_coils.png>]
-
-LaTeX Warning: Reference `gradient' on page 22 undefined on input line 263.
-
-[22]
-
-LaTeX Warning: Reference `gradient_coils_table' on page 23 undefined on input l
-ine 302.
-
-
-LaTeX Warning: Reference `optics' on page 23 undefined on input line 319.
-
-[23] <optics.png, id=130, 717.68124pt x 466.74374pt>
-File: optics.png Graphic file (type png)
- <use optics.png>
-Package pdftex.def Info: optics.png used on input line 323.
-(pdftex.def)             Requested size: 717.67949pt x 466.7426pt.
- [24]
-<PNMR_setup.png, id=134, 556.0775pt x 523.9575pt>
-File: PNMR_setup.png Graphic file (type png)
- <use PNMR_setup.png>
-Package pdftex.def Info: PNMR_setup.png used on input line 336.
-(pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
- [25 <./optics.png>] [26 <./PNMR_setup.png>]
-
-LaTeX Warning: Reference `gradient_coils' on page 27 undefined on input line 34
-3.
-
-<FID.png, id=143, 626.34pt x 270.00874pt>
-File: FID.png Graphic file (type png)
- <use FID.png>
-Package pdftex.def Info: FID.png used on input line 347.
-(pdftex.def)             Requested size: 626.33846pt x 270.00807pt.
-
-
-LaTeX Warning: Reference `3spindowns' on page 27 undefined on input line 352.
-
-[27 <./FID.png>] <3spindowns.png, id=148, 926.46124pt x 293.095pt>
-File: 3spindowns.png Graphic file (type png)
-
-<use 3spindowns.png>
-Package pdftex.def Info: 3spindowns.png used on input line 361.
-(pdftex.def)             Requested size: 926.45897pt x 293.09427pt.
- <corrected_T1.png, id=149, 429.605pt x 293.095pt>
-File: corrected_T1.png Graphic file (type png)
-
-<use corrected_T1.png>
-Package pdftex.def Info: corrected_T1.png used on input line 368.
-(pdftex.def)             Requested size: 429.60394pt x 293.09427pt.
-
-
-LaTeX Warning: Reference `corrected_T1' on page 28 undefined on input line 373.
-
-
-[28 <./3spindowns.png>]
-<metal_end_windows.png, id=154, 549.05125pt x 276.03125pt>
+[3] <metal_end_windows.png, id=43, 549.05125pt x 276.03125pt>
 File: metal_end_windows.png Graphic file (type png)
 
 <use metal_end_windows.png>
-Package pdftex.def Info: metal_end_windows.png used on input line 383.
+Package pdftex.def Info: metal_end_windows.png used on input line 25.
 (pdftex.def)             Requested size: 549.04991pt x 276.03056pt.
-
-
-LaTeX Warning: Reference `metal_end_windows' on page 29 undefined on input line
- 388.
-
-
-LaTeX Warning: Reference `test_cells' on page 29 undefined on input line 388.
-
-[29 <./corrected_T1.png>] [30 <./metal_end_windows.png>]
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 395.
-
-
-LaTeX Warning: Reference `spool_piece' on page 31 undefined on input line 430.
-
-[31] <spool_piece.png, id=170, 207.77625pt x 759.83875pt>
-File: spool_piece.png Graphic file (type png)
-
-<use spool_piece.png>
-Package pdftex.def Info: spool_piece.png used on input line 434.
-(pdftex.def)             Requested size: 207.77573pt x 759.83688pt.
- [32 <./spool_piece.png>]
-
-LaTeX Warning: Reference `goldfinger' on page 33 undefined on input line 443.
-
-<goldfinger.png, id=175, 374.39874pt x 356.33125pt>
-File: goldfinger.png Graphic file (type png)
- <use goldfinger.png>
-Package pdftex.def Info: goldfinger.png used on input line 447.
-(pdftex.def)             Requested size: 374.39783pt x 356.33037pt.
-
-
-LaTeX Warning: Reference `T1_degradation' on page 33 undefined on input line 45
-2.
-
-<T1_degradation.png, id=176, 850.17625pt x 425.59pt>
-File: T1_degradation.png Graphic file (type png)
- <use T1_degradation.png>
-Package pdftex.def Info: T1_degradation.png used on input line 456.
-(pdftex.def)             Requested size: 850.17418pt x 425.58894pt.
-
-[33]
-
-LaTeX Warning: Reference `goldeneye' on page 34 undefined on input line 461.
-
-<goldeneye.png, id=180, 161.60374pt x 587.19376pt>
-File: goldeneye.png Graphic file (type png)
- <use goldeneye.png>
-Package pdftex.def Info: goldeneye.png used on input line 465.
-(pdftex.def)             Requested size: 161.60335pt x 587.19232pt.
- [34 <./goldfinger.png>]
-
-LaTeX Warning: Reference `goldrush' on page 35 undefined on input line 470.
-
-<goldrush.png, id=185, 778.91pt x 562.1pt>
-File: goldrush.png Graphic file (type png)
- <use goldrush.png>
-Package pdftex.def Info: goldrush.png used on input line 474.
-(pdftex.def)             Requested size: 778.90811pt x 562.09863pt.
-
-
-LaTeX Warning: Reference `goldrush_inhomogeneities' on page 35 undefined on inp
-ut line 479.
-
-[35 <./T1_degradation.png>]
-<goldrush_inhomogeneities.png, id=191, 567.11874pt x 281.05pt>
-File: goldrush_inhomogeneities.png Graphic file (type png)
-
-<use goldrush_inhomogeneities.png>
-Package pdftex.def Info: goldrush_inhomogeneities.png used on input line 483.
-(pdftex.def)             Requested size: 567.11736pt x 281.0493pt.
-
-
-LaTeX Warning: Reference `goldenvec' on page 36 undefined on input line 492.
-
-[36 <./goldeneye.png>] <goldenvec.png, id=196, 308.15125pt x 248.93pt>
-File: goldenvec.png Graphic file (type png)
-
-<use goldenvec.png>
-Package pdftex.def Info: goldenvec.png used on input line 496.
-(pdftex.def)             Requested size: 308.15048pt x 248.92938pt.
- [37 <./goldrush.png>] [38 <./goldrush_inhomogeneities.png> <./goldenvec.png>]
-
-LaTeX Warning: Reference `goldenvec' on page 39 undefined on input line 505.
-
-[39] [40]) [41]
+ [4 <./metal_end_windows.png>]) [5]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./YunxiaoThesis.bbl [42
+ (./bib.tex
+(./YunxiaoThesis.bbl [6
 
 
 
-] [43])) [44]
+] [7])) [8]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [45
+) [9
 
 
 
@@ -1841,8 +1536,8 @@ Appendix A.
 Package caption Warning: Unused \captionsetup[subfloat] on input line 19.
 See the caption package documentation for explanation.
 
-(./YunxiaoThesis.aux (./abstract.aux) (./ack.aux) (./contents.aux)
-(./tables.aux) (./figures.aux) (./chap5.aux) (./bib.aux) (./apdxa.aux))
+(./YunxiaoThesis.aux (./ack.aux) (./contents.aux) (./tables.aux) (./figures.aux
+) (./chap1.aux) (./bib.aux) (./apdxa.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1851,33 +1546,24 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12983 strings out of 493033
- 231011 string characters out of 6134139
- 279064 words of memory out of 5000000
- 16281 multiletter control sequences out of 15000+600000
- 20372 words of font info for 82 fonts, out of 8000000 for 9000
+ 12822 strings out of 493033
+ 228434 string characters out of 6134139
+ 271241 words of memory out of 5000000
+ 16150 multiletter control sequences out of 15000+600000
+ 14154 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,21n,42p,10408b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,7n,42p,10408b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (53 pages, 5352770 bytes).
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on YunxiaoThesis.pdf (16 pages, 669953 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
+ 89 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
