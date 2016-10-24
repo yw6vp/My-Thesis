@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  8 SEP 2016 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  24 OCT 2016 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1282,12 +1282,8 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count151
 \c@@ppsaveapp=\count152
 )
-(./YunxiaoThesis.aux (./abstract.aux) (./ack.aux) (./contents.aux)
-(./tables.aux) (./figures.aux) (./chap5.aux
-
-LaTeX Warning: Label `metal_end_windows' multiply defined.
-
-) (./bib.aux) (./apdxa.aux))
+(./YunxiaoThesis.aux (./ack.aux) (./contents.aux) (./tables.aux) (./figures.aux
+) (./chap1.aux) (./bib.aux) (./apdxa.aux))
 \openout1 = `YunxiaoThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -1399,38 +1395,38 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 
 (./contents.tex (./YunxiaoThesis.toc
-LaTeX Font Info:    Try loading font information for U+lasy on input line 2.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 2.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 2.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 2.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 5.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 5.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+))
+\tf@toc=\write3
+\openout3 = `YunxiaoThesis.toc'.
+
 ) [3
 
 
 
-])
-\tf@toc=\write3
-\openout3 = `YunxiaoThesis.toc'.
-
-) [4]
+]
 \openout2 = `tables.aux'.
 
 
@@ -1438,96 +1434,75 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 \tf@lot=\write4
 \openout4 = `YunxiaoThesis.lot'.
 
-) [5
+) [4
 
 
 
 ]
 \openout2 = `figures.aux'.
 
- (./figures.tex (./YunxiaoThesis.lof
-[6
-
-
-
-])
+ (./figures.tex (./YunxiaoThesis.lof)
 \tf@lof=\write5
 \openout5 = `YunxiaoThesis.lof'.
 
-) [7]
+)
+[5
+
+
+
+]
 \openout2 = `chap1.aux'.
 
  (./chap1.tex
 Chapter 1.
-
-LaTeX Warning: Citation `PhysRevLett.71.959' on page 1 undefined on input line 
-6.
-
-
-LaTeX Warning: Citation `MRI' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `Neutron' on page 1 undefined on input line 6.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-LaTeX Warning: Citation `PhysRevC.91.055205' on page 1 undefined on input line 
-8.
-
 [1
 
 
 
-] <TargetCell.png, id=34, 578.16pt x 362.35374pt>
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ <TargetCell.png, id=26, 578.16pt x 362.35374pt>
 File: TargetCell.png Graphic file (type png)
  <use TargetCell.png>
-Package pdftex.def Info: TargetCell.png used on input line 12.
+Package pdftex.def Info: TargetCell.png used on input line 14.
 (pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
 
+[2] [3 <./TargetCell.png>]
 
-LaTeX Warning: Citation `PhysRevC.84.065201' on page 2 undefined on input line 
-19.
+LaTeX Warning: Citation `metal_end_windows' on page 4 undefined on input line 2
+3.
 
-
-LaTeX Warning: Reference `ConvectionCell' on page 2 undefined on input line 19.
-
-
-[2 <./TargetCell.png>]
-
-LaTeX Warning: Citation `metal_end_windows' on page 3 undefined on input line 2
-1.
-
-[3] <metal_end_windows.png, id=43, 549.05125pt x 276.03125pt>
+[4] <metal_end_windows.png, id=41, 549.05125pt x 276.03125pt>
 File: metal_end_windows.png Graphic file (type png)
 
 <use metal_end_windows.png>
-Package pdftex.def Info: metal_end_windows.png used on input line 25.
+Package pdftex.def Info: metal_end_windows.png used on input line 27.
 (pdftex.def)             Requested size: 549.04991pt x 276.03056pt.
- [4 <./metal_end_windows.png>]) [5]
+) [5 <./metal_end_windows.png>] [6]
 \openout2 = `bib.aux'.
 
  (./bib.tex
-(./YunxiaoThesis.bbl [6
+(./YunxiaoThesis.bbl [7
 
 
 
-] [7])) [8]
+] [8])) [9]
 \openout2 = `apdxa.aux'.
 
  (./apdxa.tex
 Appendix A.
-) [9
+) [10
 
 
 
@@ -1541,29 +1516,29 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 12822 strings out of 493033
- 228434 string characters out of 6134139
- 271241 words of memory out of 5000000
- 16150 multiletter control sequences out of 15000+600000
+ 12773 strings out of 493033
+ 227759 string characters out of 6134139
+ 272301 words of memory out of 5000000
+ 16104 multiletter control sequences out of 15000+600000
  14154 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,7n,42p,10408b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on YunxiaoThesis.pdf (16 pages, 669953 bytes).
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on YunxiaoThesis.pdf (15 pages, 692150 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,99 +1,83 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
-\bibitem{PeterThesis}
-High-performance nuclear-polarized $^{3}\mathrm{He}$ targets for electron
-  scattering based on spin-exchange optical pumping.
-\newblock {\em PhD thesis, University of Virginia}, 2010.
+\bibitem{MRI}
+M.~S. Albert, G.~D. Cates, B.~Driehuys, W.~Happer, B.~Saam, C.~S. Springer, and
+  A.~Wishnia.
+\newblock Biological magnetic resonance imaging using laser-polarized
+  $^{129}$xe.
+\newblock {\em Nature}, 370.
 
-\bibitem{Abragam}
-A.~Abragam.
-\newblock {\em Principles of Nuclear Magnetism}.
+\bibitem{PhysRevLett.71.959}
+P.~L. Anthony, R.~G. Arnold, H.~R. Band, H.~Borel, P.~E. Bosted, V.~Breton,
+  G.~D. Cates, T.~E. Chupp, F.~S. Dietrich, J.~Dunne, R.~Erbacher, J.~Fellbaum,
+  H.~Fonvieille, R.~Gearhart, R.~Holmes, E.~W. Hughes, J.~R. Johnson,
+  D.~Kawall, C.~Keppel, S.~E. Kuhn, R.~M. Lombard-Nelsen, J.~Marroncle,
+  T.~Maruyama, W.~Meyer, Z.-E. Meziani, H.~Middleton, J.~Morgenstern, N.~R.
+  Newbury, G.~G. Petratos, R.~Pitthan, R.~Prepost, Y.~Roblin, S.~E. Rock, S.~H.
+  Rokni, G.~Shapiro, T.~Smith, P.~A. Souder, M.~Spengos, F.~Staley, L.~M.
+  Stuart, Z.~M. Szalata, Y.~Terrien, A.~K. Thompson, J.~L. White, M.~Woods,
+  J.~Xu, C.~C. Young, and G.~Zapalac.
+\newblock Determination of the neutron spin structure function.
+\newblock {\em Phys. Rev. Lett.}, 71:959--962, Aug 1993.
 
-\bibitem{PhysRevA.71.013414}
-E.~Babcock, I.~A. Nelson, S.~Kadlecek, and T.~G. Walker.
-\newblock $^{3}\mathrm{He}$ polarization-dependent epr frequency shifts of
-  alkali-metal\char21{}$^{3}\mathrm{He}$ pairs.
-\newblock {\em Phys. Rev. A}, 71:013414, Jan 2005.
+\bibitem{Coulter}
+K.~Coulter, A.~McDonald, W.~Happer, T.~Chupp, and M.~Wagshul.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 270:90--94,
+  1988.
 
-\bibitem{PhysRev.70.460}
-F.~Bloch.
-\newblock Nuclear induction.
-\newblock {\em Phys. Rev.}, 70:460--474, Oct 1946.
+\bibitem{PhysRevC.84.065201}
+P.~A.~M. Dolph, J.~Singh, T.~Averett, A.~Kelleher, K.~E. Mooney, V.~Nelyubin,
+  W.~A. Tobias, B.~Wojtsekhowski, and G.~D. Cates.
+\newblock Gas dynamics in high-luminosity polarized ${}^{3}$he targets using
+  diffusion and convection.
+\newblock {\em Phys. Rev. C}, 84:065201, Dec 2011.
 
-\bibitem{PhysRev.38.2082.2}
-G.~Breit and I.~I. Rabi.
-\newblock Measurement of nuclear spin.
-\newblock {\em Phys. Rev.}, 38:2082--2083, Dec 1931.
+\bibitem{Houskeeper}
+W.~G. Houskeeper.
+\newblock The art of sealing base metals through glass.
+\newblock {\em Transactions of the American Institute of Electrical Engineers},
+  XLII:870--877, 1923.
 
-\bibitem{PhysRevA.37.2877}
-G.~D. Cates, S.~R. Schaefer, and W.~Happer.
-\newblock Relaxation of spins due to field inhomogeneities in gaseous samples
-  at low magnetic fields and low pressures.
-\newblock {\em Phys. Rev. A}, 37:2877--2885, Apr 1988.
+\bibitem{Neutron}
+M.~G. Huber, M.~Arif, T.~C. Black, W.~C. Chen, T.~R. Gentile, D.~S. Hussey,
+  D.~A. Pushin, F.~E. Wietfeldt, and L.~Yang.
+\newblock Precision measurement of the n-$^3$he incoherent scattering length
+  using neutron interferometry.
+\newblock 102, 2009.
 
-\bibitem{PhysRevA.38.5092}
-G.~D. Cates, D.~J. White, T.-R. Chien, S.~R. Schaefer, and W.~Happer.
-\newblock Spin relaxation in gases due to inhomogeneous static and oscillating
-  magnetic fields.
-\newblock {\em Phys. Rev. A}, 38:5092--5106, Nov 1988.
+\bibitem{PhysRevLett.105.262302}
+S.~Riordan, S.~Abrahamyan, B.~Craver, A.~Kelleher, A.~Kolarkar, J.~Miller,
+  G.~D. Cates, N.~Liyanage, B.~Wojtsekhowski, A.~Acha, K.~Allada, B.~Anderson,
+  K.~A. Aniol, J.~R.~M. Annand, J.~Arrington, T.~Averett, A.~Beck, M.~Bellis,
+  W.~Boeglin, H.~Breuer, J.~R. Calarco, A.~Camsonne, J.~P. Chen, E.~Chudakov,
+  L.~Coman, B.~Crowe, F.~Cusanno, D.~Day, P.~Degtyarenko, P.~A.~M. Dolph,
+  C.~Dutta, C.~Ferdi, C.~Fern\'andez-Ram\'{\i}rez, R.~Feuerbach, L.~M. Fraile,
+  G.~Franklin, S.~Frullani, S.~Fuchs, F.~Garibaldi, N.~Gevorgyan, R.~Gilman,
+  A.~Glamazdin, J.~Gomez, K.~Grimm, J.-O. Hansen, J.~L. Herraiz, D.~W.
+  Higinbotham, R.~Holmes, T.~Holmstrom, D.~Howell, C.~W. de~Jager, X.~Jiang,
+  M.~K. Jones, J.~Katich, L.~J. Kaufman, M.~Khandaker, J.~J. Kelly, D.~Kiselev,
+  W.~Korsch, J.~LeRose, R.~Lindgren, P.~Markowitz, D.~J. Margaziotis, S.~M.-T.
+  Beck, S.~Mayilyan, K.~McCormick, Z.-E. Meziani, R.~Michaels, B.~Moffit,
+  S.~Nanda, V.~Nelyubin, T.~Ngo, D.~M. Nikolenko, B.~Norum, L.~Pentchev, C.~F.
+  Perdrisat, E.~Piasetzky, R.~Pomatsalyuk, D.~Protopopescu, A.~J.~R. Puckett,
+  V.~A. Punjabi, X.~Qian, Y.~Qiang, B.~Quinn, I.~Rachek, R.~D. Ransome, P.~E.
+  Reimer, B.~Reitz, J.~Roche, G.~Ron, O.~Rondon, G.~Rosner, A.~Saha, M.~M.
+  Sargsian, B.~Sawatzky, J.~Segal, M.~Shabestari, A.~Shahinyan, Y.~Shestakov,
+  J.~Singh, S.~\ifmmode~\check{S}\else \v{S}\fi{}irca, P.~Souder, S.~Stepanyan,
+  V.~Stibunov, V.~Sulkosky, S.~Tajima, W.~A. Tobias, J.~M. Udias, G.~M.
+  Urciuoli, B.~Vlahovic, H.~Voskanyan, K.~Wang, F.~R. Wesselmann, J.~R.
+  Vignote, S.~A. Wood, J.~Wright, H.~Yao, and X.~Zhu.
+\newblock Measurements of the electric form factor of the neutron up to
+  ${Q}^{2}=3.4\text{ }\text{ }{\mathrm{gev}}^{2}$ using the reaction
+  ${}^{3}\stackrel{\ensuremath{\rightarrow}}{\mathrm{he}}(\stackrel{\ensuremath{\rightarrow}}{e},{e}^{\ensuremath{'}}n)pp$.
+\newblock {\em Phys. Rev. Lett.}, 105:262302, Dec 2010.
 
-\bibitem{Electropolishing}
-I.~Delstar Metal~Finishing.
-\newblock {\em https://www.delstar.com/electropolishing}.
-
-\bibitem{PhysRev.138.A946}
-R.~L. Gamblin and T.~R. Carver.
-\newblock Polarization and relaxation processes in ${\mathrm{he}}^{3}$ gas.
-\newblock {\em Phys. Rev.}, 138:A946--A960, May 1965.
-
-\bibitem{Jackson}
-J.~Jackson.
-\newblock {\em Classical Electrodynamics}.
-
-\bibitem{DanThesis}
-D.~Matyas.
-\newblock Characterizing $^{3}$he nuclear spin relaxation in vessels of glass
-  and metal.
-\newblock {\em Master thesis, University of Virginia}, 2016.
-
-\bibitem{RevModPhys.26.167}
-I.~I. Rabi, N.~F. Ramsey, and J.~Schwinger.
-\newblock Use of rotating coordinates in magnetic resonance problems.
-\newblock {\em Rev. Mod. Phys.}, 26:167--171, Apr 1954.
-
-\bibitem{J.Phys.France.35}
-M.~L. R.Barbe and F.~Laloe.
-\newblock Experimental verifications - measurement of the he3 self-diffusion
-  coefficient.
-\newblock 35:935--951, 1974.
-
-\bibitem{PhysRevA.58.3004}
-M.~V. Romalis and G.~D. Cates.
-\newblock Accurate ${}^{3}\mathrm{He}$ polarimetry using the rb zeeman
-  frequency shift due to the $\mathrm{Rb}{-}^{3}\mathrm{He}$ spin-exchange
-  collisions.
-\newblock {\em Phys. Rev. A}, 58:3004--3011, Oct 1998.
-
-\bibitem{Romalis1997}
-M.~V. Romalis, E.~Miron, and G.~D. Cates.
-\newblock Pressure broadening of rb d$_{1}$ and d$_{2}$ lines by $^{3}$he,
-  $^{4}$he, n$_{2}$, and xe: line cores and near wings.
-\newblock {\em Phys. Rev. A}, 56(6), 1997.
-
-\bibitem{PhysRev.139.A1398}
-L.~D. Schearer and G.~K. Walters.
-\newblock Nuclear spin-lattice relaxation in the presence of magnetic-field
-  gradients.
-\newblock {\em Phys. Rev.}, 139:A1398--A1402, Aug 1965.
-
-\bibitem{WalkerHapper}
-T.~G. Walker and W.~Happer.
-\newblock Spin-exchange optical pumping of noble-gas nuclei.
-\newblock {\em Rev. Mod. Phys.}, 69:629--642, Apr 1997.
-
-\bibitem{YuanThesis}
-Y.~Zheng.
-\newblock Low field mri and the development of polarized nuclear imaging
-  (pni)-a new imaging modality, 2015.
+\bibitem{PhysRevC.91.055205}
+J.~T. Singh, P.~A.~M. Dolph, W.~A. Tobias, T.~D. Averett, A.~Kelleher, K.~E.
+  Mooney, V.~V. Nelyubin, Y.~Wang, Y.~Zheng, and G.~D. Cates.
+\newblock Development of high-performance alkali-hybrid polarized
+  $^{3}\mathrm{He}$ targets for electron scattering.
+\newblock {\em Phys. Rev. C}, 91:055205, May 2015.
 
 \end{thebibliography}

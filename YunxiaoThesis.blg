@@ -2,65 +2,61 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: YunxiaoThesis.aux
 The style file: abbrv.bst
-A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: ack.aux
 A level-1 auxiliary file: contents.aux
 A level-1 auxiliary file: tables.aux
 A level-1 auxiliary file: figures.aux
-A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap1.aux
 A level-1 auxiliary file: bib.aux
 A level-1 auxiliary file: apdxa.aux
 Database file #1: ref.bib
-Warning--entry type for "YuanThesis" isn't style-file defined
---line 401 of file ref.bib
-Warning--to sort, need author or key in PeterThesis
-Warning--empty author in PeterThesis
-Warning--empty publisher in Abragam
-Warning--empty year in Abragam
-Warning--empty publisher in Electropolishing
-Warning--empty year in Electropolishing
-Warning--empty publisher in Jackson
-Warning--empty year in Jackson
-Warning--empty journal in J.Phys.France.35
-You've used 18 entries,
+Warning--I didn't find a database entry for "metal_end_windows"
+Name 6 in "Huber, M. G. and Arif, M. and Black, T. C. and Chen, W. C. and Gentile, T. R. and Hussey, D. S., and Pushin, D. A. and Wietfeldt, F. E. and Yang, L." has a comma at the end for entry Neutron
+while executing---line 1049 of file abbrv.bst
+Warning--empty year in MRI
+Warning--empty title in Coulter
+Name 6 in "Huber, M. G. and Arif, M. and Black, T. C. and Chen, W. C. and Gentile, T. R. and Hussey, D. S., and Pushin, D. A. and Wietfeldt, F. E. and Yang, L." has a comma at the end for entry Neutron
+while executing---line 1090 of file abbrv.bst
+Warning--empty journal in Neutron
+You've used 8 entries,
             2118 wiz_defined-function locations,
-            625 strings with 6551 characters,
-and the built_in function-call counts, 5405 in all, are:
-= -- 528
-> -- 226
+            565 strings with 8560 characters,
+and the built_in function-call counts, 8313 in all, are:
+= -- 618
+> -- 1058
 < -- 0
-+ -- 90
-- -- 72
-* -- 399
-:= -- 912
-add.period$ -- 49
-call.type$ -- 18
-change.case$ -- 87
++ -- 423
+- -- 414
+* -- 942
+:= -- 1565
+add.period$ -- 23
+call.type$ -- 8
+change.case$ -- 230
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 194
-empty$ -- 441
-format.name$ -- 72
-if$ -- 1093
+cite$ -- 11
+duplicate$ -- 86
+empty$ -- 186
+format.name$ -- 414
+if$ -- 1434
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 20
-newline$ -- 88
-num.names$ -- 34
-pop$ -- 95
+int.to.str$ -- 8
+missing$ -- 8
+newline$ -- 42
+num.names$ -- 16
+pop$ -- 221
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 223
 quote$ -- 0
-skip$ -- 127
+skip$ -- 56
 stack$ -- 0
-substring$ -- 396
-swap$ -- 17
+substring$ -- 164
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
-warning$ -- 9
-while$ -- 54
-width$ -- 20
-write$ -- 180
-(There were 10 warnings)
+type$ -- 32
+warning$ -- 3
+while$ -- 25
+width$ -- 9
+write$ -- 86
+(There were 2 error messages)
