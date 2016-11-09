@@ -7,56 +7,99 @@ A level-1 auxiliary file: contents.aux
 A level-1 auxiliary file: tables.aux
 A level-1 auxiliary file: figures.aux
 A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: chap5.aux
 A level-1 auxiliary file: bib.aux
-A level-1 auxiliary file: apdxa.aux
 Database file #1: ref.bib
-Warning--I didn't find a database entry for "metal_end_windows"
+Warning--entry type for "YuanThesis" isn't style-file defined
+--line 416 of file ref.bib
+Warning--to sort, need author or key in PeterThesis
 Name 6 in "Huber, M. G. and Arif, M. and Black, T. C. and Chen, W. C. and Gentile, T. R. and Hussey, D. S., and Pushin, D. A. and Wietfeldt, F. E. and Yang, L." has a comma at the end for entry Neutron
 while executing---line 1049 of file abbrv.bst
+Warning--to sort, need author or key in BabcockThesis
+Warning--to sort, need author or key in JaideepThesis
+Warning--to sort, need author or key in Timsit
+Warning--to sort, need author or key in NelsonThesis
+Warning--empty author in Timsit
+Warning--empty author in NelsonThesis
+Warning--empty author in BabcockThesis
+Warning--empty author in JaideepThesis
+Warning--empty author in PeterThesis
+Warning--empty publisher in Abragam
+Warning--empty year in Abragam
 Warning--empty year in MRI
+Warning--empty publisher in barrer
+Warning--empty year in barrer
+Warning--empty title in Alcock
+Warning--empty publisher in Callaghan
+Warning--empty year in Callaghan
+Warning--empty year in JAP.94.6908
 Warning--empty title in Coulter
+Warning--empty publisher in Electropolishing
+Warning--empty year in Electropolishing
+Warning--empty publisher in Frenkel
+Warning--empty year in Frenkel
+Warning--empty publisher in Larson
+Warning--empty year in Larson
+Warning--empty journal in HapperPatent
 Name 6 in "Huber, M. G. and Arif, M. and Black, T. C. and Chen, W. C. and Gentile, T. R. and Hussey, D. S., and Pushin, D. A. and Wietfeldt, F. E. and Yang, L." has a comma at the end for entry Neutron
 while executing---line 1090 of file abbrv.bst
 Warning--empty journal in Neutron
-You've used 8 entries,
+Warning--empty publisher in Epner
+Warning--empty year in Epner
+Warning--empty publisher in Jackson
+Warning--empty year in Jackson
+Warning--empty publisher in Kittle
+Warning--empty year in Kittle
+Warning--empty publisher in Merzbacher
+Warning--empty journal in J.Phys.France.35
+Warning--empty publisher in Slichter
+Warning--empty year in Slichter
+Warning--empty publisher in Smythe
+Warning--empty year in Smythe
+Warning--empty publisher in Able
+Warning--empty year in Able
+You've used 71 entries,
             2118 wiz_defined-function locations,
-            565 strings with 8560 characters,
-and the built_in function-call counts, 8313 in all, are:
-= -- 618
-> -- 1058
+            935 strings with 21901 characters,
+and the built_in function-call counts, 35161 in all, are:
+= -- 2956
+> -- 3174
 < -- 0
-+ -- 423
-- -- 414
-* -- 942
-:= -- 1565
-add.period$ -- 23
-call.type$ -- 8
-change.case$ -- 230
++ -- 1268
+- -- 1196
+* -- 3405
+:= -- 6278
+add.period$ -- 193
+call.type$ -- 71
+change.case$ -- 796
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 86
-empty$ -- 186
-format.name$ -- 414
-if$ -- 1434
+cite$ -- 113
+duplicate$ -- 777
+empty$ -- 1707
+format.name$ -- 1196
+if$ -- 6532
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 8
-newline$ -- 42
-num.names$ -- 16
-pop$ -- 221
+int.to.str$ -- 71
+missing$ -- 83
+newline$ -- 338
+num.names$ -- 132
+pop$ -- 824
 preamble$ -- 1
-purify$ -- 223
+purify$ -- 740
 quote$ -- 0
-skip$ -- 56
+skip$ -- 482
 stack$ -- 0
-substring$ -- 164
-swap$ -- 7
+substring$ -- 1476
+swap$ -- 68
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
-warning$ -- 3
-while$ -- 25
-width$ -- 9
-write$ -- 86
+type$ -- 258
+warning$ -- 42
+while$ -- 207
+width$ -- 73
+write$ -- 704
 (There were 2 error messages)
