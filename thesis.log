@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  5 MAY 2016 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  8 NOV 2016 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -71,8 +71,35 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \c@thm=\count90
  (./thesis.aux
 (./abstract.aux) (./ack.aux) (./contents.aux) (./tables.aux) (./figures.aux)
-(./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux)
-(./chap6.aux) (./bib.aux) (./apdxa.aux))
+(./chap1.aux
+
+LaTeX Warning: Label `chap:chap1' multiply defined.
+
+
+LaTeX Warning: Label `TargetCell' multiply defined.
+
+
+LaTeX Warning: Label `metal_end_windows' multiply defined.
+
+) (./chap2.aux) (./chap3.aux
+
+LaTeX Warning: Label `AFPSignal' multiply defined.
+
+) (./chap4.aux
+
+LaTeX Warning: Label `TargetCell' multiply defined.
+
+) (./chap5.aux
+
+LaTeX Warning: Label `PNMR_setup' multiply defined.
+
+
+LaTeX Warning: Label `FID' multiply defined.
+
+
+LaTeX Warning: Label `metal_end_windows' multiply defined.
+
+) (./chap6.aux) (./bib.aux) (./apdxa.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -158,157 +185,4341 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 \openout2 = `abstract.aux'.
 
  (./abstract.tex
+Chapter 1.
+
+LaTeX Warning: Citation `PhysRevLett.71.959' on page ii undefined on input line
+ 6.
+
+
+LaTeX Warning: Citation `MRI' on page ii undefined on input line 6.
+
+
+LaTeX Warning: Citation `Neutron' on page ii undefined on input line 6.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
-)
+(Font)              <6> on input line 6.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page ii undefined on input line
+ 8.
+
 [2
 
+
 ]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \begin{figure}[H]
+                      
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in TargetCell.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...idth}{!}{\includegraphics{TargetCell.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: TargetCell.png Graphic file (type eps)
+<TargetCell.png>
+
+LaTeX Warning: Citation `PhysRevC.84.065201' on page iii undefined on input lin
+e 19.
+
+
+LaTeX Warning: Reference `ConvectionCell' on page iii undefined on input line 1
+9.
+
+
+LaTeX Warning: Citation `metal_end_windows' on page iii undefined on input line
+ 21.
+
+[3] [4
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+! LaTeX Error: Cannot determine size of graphic in metal_end_windows.png (no Bo
+undingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...}{\includegraphics{metal_end_windows.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: metal_end_windows.png Graphic file (type eps)
+<metal_end_windows.png> [5]) [6
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
 \openout2 = `ack.aux'.
 
- (./ack.tex) [3
+ (./ack.tex) [7
 
 
 ]
 \openout2 = `contents.aux'.
 
- (./contents.tex (./thesis.toc [4
+ (./contents.tex (./thesis.toc
+[8
+
+
+
+] [9] [10] [11])
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
+
+) [12]
+\openout2 = `tables.aux'.
+
+ (./tables.tex (./thesis.lot [13
 
 
 
 ])
-\tf@toc=\write3
-\openout3 = `thesis.toc'.
-
-) [5]
-\openout2 = `tables.aux'.
-
- (./tables.tex
-(./thesis.lot)
 \tf@lot=\write4
 \openout4 = `thesis.lot'.
 
-) [6
+) [14] [15]
+\openout2 = `figures.aux'.
+
+
+(./figures.tex (./thesis.lof
+Overfull \hbox (8.00165pt too wide) in paragraph at lines 9--9
+ [][] []\OT1/cmr/bx/n/12 Level Di-a-gram of $[]$Rb. The split-tings are not to 
+scale. Adapted 
+ []
+
+
+LaTeX Warning: Citation `WalkerHapper' on page xvi undefined on input line 10.
+
+
+LaTeX Warning: Citation `Romalis1997' on page xvi undefined on input line 11.
+
+
+LaTeX Warning: Citation `Romalis1997' on page xvi undefined on input line 12.
+
+
+LaTeX Warning: Citation `WalkerHapper' on page xvi undefined on input line 13.
+
+[16
 
 
 
 ]
-\openout2 = `figures.aux'.
 
- (./figures.tex (./thesis.lof)
+LaTeX Warning: Citation `WalkerHapper' on page xvii undefined on input line 14.
+
+
+
+LaTeX Warning: Citation `PeterThesis' on page xvii undefined on input line 21.
+
+[17] [18]
+
+LaTeX Warning: Citation `Electropolishing' on page xix undefined on input line 
+36.
+
+
+LaTeX Warning: Citation `DanThesis' on page xix undefined on input line 40.
+
+
+LaTeX Warning: Citation `YuanThesis' on page xix undefined on input line 41.
+
+
+LaTeX Warning: Citation `YuanThesis' on page xix undefined on input line 42.
+
+[19])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
-) [7
-
-
-
-]
+) [20]
 \openout2 = `chap1.aux'.
 
  (./chap1.tex
-Chapter 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
+Chapter 2.
+
+LaTeX Warning: Citation `PhysRevLett.71.959' on page 1 undefined on input line 
+4.
+
+
+LaTeX Warning: Citation `MRI' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Neutron' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `PhysRevLett.71.959' on page 1 undefined on input line 
+8.
+
+
+LaTeX Warning: Citation `PhysRevLett.105.262302' on page 1 undefined on input l
+ine 8.
+
+
+LaTeX Warning: Citation `Coulter' on page 1 undefined on input line 8.
+
 [1
 
 
 
-] [2]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 84.
- [3] [4] [5]) [6]
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page 2 undefined on input line 
+10.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \begin{figure}[H]
+                      
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in TargetCell.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...idth}{!}{\includegraphics{TargetCell.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: TargetCell.png Graphic file (type eps)
+<TargetCell.png>
+
+LaTeX Warning: Citation `PhysRevC.84.065201' on page 2 undefined on input line 
+21.
+
+[2] [3
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `Houskeeper' on page 4 undefined on input line 23.
+
+[4]
+
+! LaTeX Error: Cannot determine size of graphic in metal_end_windows.png (no Bo
+undingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...}{\includegraphics{metal_end_windows.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: metal_end_windows.png Graphic file (type eps)
+<metal_end_windows.png> [5
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]) [6]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
-Chapter 2.
-File: figures/MUN_Logo_Pantone.eps Graphic file (type eps)
-<figures/MUN_Logo_Pantone.eps>
-File: figures/enrollment.eps Graphic file (type eps)
- <figures/enrollment.eps> [7
+Chapter 3.
+
+LaTeX Warning: Citation `PhysRevLett.71.959' on page 7 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `PhysRevLett.89.242301' on page 7 undefined on input li
+ne 6.
+
+
+LaTeX Warning: Citation `PhysRevLett.105.262302' on page 7 undefined on input l
+ine 6.
+
+
+LaTeX Warning: Citation `PhysRevLett.107.072003' on page 7 undefined on input l
+ine 6.
+
+
+LaTeX Warning: Citation `PhysRev.132.2561' on page 7 undefined on input line 8.
 
 
 
+LaTeX Warning: Citation `PhysRevC.36.2244' on page 7 undefined on input line 8.
 
-Non-PDF special ignored!]
-File: figures/enrollment-landscape.eps Graphic file (type eps)
- <figures/enrollment-landscape.eps>
-File: figures/enrollment-rotate.eps Graphic file (type eps)
 
-<figures/enrollment-rotate.eps> [8
-Non-PDF special ignored!] [9
+
+LaTeX Warning: Citation `PhysRevA.44.3108' on page 7 undefined on input line 8.
+
+
+
+LaTeX Warning: Citation `PhysRevLett.67.3219' on page 7 undefined on input line
+ 8.
+
+
+LaTeX Warning: Citation `PhysRevLett.5.373' on page 7 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation `HapperPatent' on page 7 undefined on input line 10.
+
+
+LaTeX Warning: Citation `PhysRevLett.91.123003' on page 7 undefined on input li
+ne 10.
+
+[7
+
+
+
+]
+
+LaTeX Warning: Citation `WalkerHapper' on page 8 undefined on input line 16.
+
+[8]
+
+LaTeX Warning: Citation `Alcock' on page 9 undefined on input line 27.
+
+
+! LaTeX Error: Cannot determine size of graphic in AlkaliVaporDensity.png (no B
+oundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...{\includegraphics{AlkaliVaporDensity.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: AlkaliVaporDensity.png Graphic file (type eps)
+<AlkaliVaporDensity.png>
+
+LaTeX Warning: Citation `PhysRevA.58.1412' on page 9 undefined on input line 63
+.
+
+[9] [10
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!]
-File: figures/db-deadlock.eps Graphic file (type eps)
- <figures/db-deadlock.eps>
-Overfull \hbox (18.96304pt too wide) in paragraph at lines 46--51
-[]\OT1/cmr/m/n/12 Figure 2.5[] shows a Petri net cre-ated us-ing the \OT1/cmtt/
-m/n/12 xfig \OT1/cmr/m/n/12 pro-gram (\OT1/cmtt/m/n/12 http://www.xfig.org/\OT1
-/cmr/m/n/12 )
- []
+
+! LaTeX Error: Cannot determine size of graphic in RbEnergyLevels.png (no Bound
+ingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...}{!}{\includegraphics{RbEnergyLevels.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: RbEnergyLevels.png Graphic file (type eps)
+<RbEnergyLevels.png>
+
+LaTeX Warning: Citation `WalkerHapper' on page 11 undefined on input line 76.
 
 
-Overfull \hbox (6.92888pt too wide) in paragraph at lines 52--65
-[]\OT1/cmr/m/n/12 We can also cre-ate fig-ures of text (such as short code snip
--pets) us-ing the []\OT1/cmtt/m/n/12 \muntxtfig
- []
+! LaTeX Error: Cannot determine size of graphic in OpticalPumping.png (no Bound
+ingBox).
 
-[10
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 ...}{!}{\includegraphics{OpticalPumping.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: OpticalPumping.png Graphic file (type eps)
+<OpticalPumping.png>
+
+LaTeX Warning: Citation `WalkerHapper' on page 11 undefined on input line 81.
+
+
+LaTeX Warning: Citation `WalkerHapper' on page 11 undefined on input line 81.
+
+[11]
+
+LaTeX Warning: Citation `Wagshul' on page 12 undefined on input line 87.
+
+[12
 Non-PDF special ignored!
 Non-PDF special ignored!
+Non-PDF special ignored!] [13
 Non-PDF special ignored!
-Non-PDF special ignored!] [11]
-Overfull \hbox (17.51135pt too wide) in paragraph at lines 108--151
- [][] 
- []
-
-) [12] [13
 Non-PDF special ignored!
 Non-PDF special ignored!]
+
+! LaTeX Error: Cannot determine size of graphic in AbsorptionLine.png (no Bound
+ingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 ...{!}{\includegraphics{AbsorptionLine.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: AbsorptionLine.png Graphic file (type eps)
+<AbsorptionLine.png>
+
+LaTeX Warning: Citation `Romalis1997' on page 14 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Romalis1997' on page 14 undefined on input line 117.
+
+
+! LaTeX Error: Cannot determine size of graphic in PressureBroadening.png (no B
+oundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...\includegraphics{PressureBroadening.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: PressureBroadening.png Graphic file (type eps)
+<PressureBroadening.png>
+
+LaTeX Warning: Citation `Romalis1997' on page 14 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Romalis1997' on page 14 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Merzbacher' on page 14 undefined on input line 128.
+
+[14]
+
+LaTeX Warning: Citation `PhysRevA.44.3108' on page 15 undefined on input line 1
+33.
+
+[15
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [16
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.146 	\phi
+           _{0}(\vec{r})=\frac{P}{h\nu}\frac{2}{\omega^{2}\pi}e^{2r^{2}/\ome...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.148 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[17] [18]
+
+LaTeX Warning: Citation `WalkerHapper' on page 19 undefined on input line 206.
+
+
+LaTeX Warning: Citation `Wagshul1994' on page 19 undefined on input line 211.
+
+
+LaTeX Warning: Citation `PhysRevLett.10.108' on page 19 undefined on input line
+ 211.
+
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.214 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.215 	k_
+         {Rb-^{3}He}(T)=55.9(9)\left(\frac{T}{473.15K}\right)^{3.31(12)} {\r...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.218 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.225 	[^
+         {3}He] \approx 8.0 {\rm amg}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   N
+l.226 	[N_{2}]
+               \approx 0.08 {\rm amg}\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   N
+l.226 	[N_{2}]
+               \approx 0.08 {\rm amg}\\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.226 	[N_{2}]
+               \approx 0.08 {\rm amg}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\@gnewline ...\unskip \reserved@e {\reserved@f #1}
+                                                  \nobreak \hfil \break \fi 
+l.226 	[N_{2}]
+               \approx 0.08 {\rm amg}\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   R
+l.227 	[Rb]
+            \approx 6.0 \times 10^{14} {\rm cm^{-3}}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   R
+l.227 	[Rb]
+            \approx 6.0 \times 10^{14} {\rm cm^{-3}}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.228 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.228 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.228 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[19]
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.235 	\Gamma
+             _{Rb-^{3}He} \approx 360Hz\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.238 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `WalkerHapper' on page 20 undefined on input line 260.
+
+[20]
+
+! LaTeX Error: Cannot determine size of graphic in SpinExchange.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 ...h}{!}{\includegraphics{SpinExchange.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: SpinExchange.png Graphic file (type eps)
+<SpinExchange.png>
+
+LaTeX Warning: Citation `WalkerHapper' on page 21 undefined on input line 265.
+
+
+LaTeX Warning: Citation `WalkerHapper' on page 21 undefined on input line 265.
+
+[21]
+Overfull \hbox (12.0226pt too wide) in paragraph at lines 277--278
+[]\OT1/cmr/m/n/12 An alkali-metal atom and a noble-gas atom in-ter-act via both
+ a large spin-independent
+ []
+
+[22
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `WalkerHapper' on page 23 undefined on input line 279.
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{equation} on input line 281 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.286 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (2.08112pt too wide) detected at line 287
+\OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 ([]) = \OML/cmm/m/it/12 ^^M\OT1/cmr/m/n/12 
+(\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12 ^^A [] \OT1/cmr/m/n/12 
++ [] \OML/cmm/m/it/12 A[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 )[]
+ \OMS/cmsy/m/n/12 ^^A [][]  \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 B[]\OT1/cmr/m
+/n/12 (\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/
+12 (3[][] \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 1) \OMS/cmsy/m/n/12 ^^A [][]  \O
+T1/cmr/m/n/12 + [] \OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 R\OT1/
+cmr/m/n/12 )[] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (3[][] \OMS/cmsy/m/n/12 ^^@
+ \OT1/cmr/m/n/12 1) \OMS/cmsy/m/n/12 ^^A []
+ []
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in V1.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.291 ...1\textwidth}{!}{\includegraphics{V1.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: V1.png Graphic file (type eps)
+<V1.png>
+
+LaTeX Warning: Citation `WalkerHapper' on page 23 undefined on input line 292.
+
+
+LaTeX Warning: Citation `WalkerHapper' on page 23 undefined on input line 292.
+
+[23] [24
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.304 ...as nucleus at a displacement $\boldsymbol
+                                                  {r}_b$ from the nucleus is...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevA.58.3642' on page 25 undefined on input line 3
+04.
+
+! Undefined control sequence.
+l.307 \boldsymbol
+                 {H}_b(\boldsymbol{r}_b)=\frac{8\pi \mu_b}{3I_b}\boldsymbol{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.307 \boldsymbol{H}_b(\boldsymbol
+                                  {r}_b)=\frac{8\pi \mu_b}{3I_b}\boldsymbol{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.307 ...{r}_b)=\frac{8\pi \mu_b}{3I_b}\boldsymbol
+                                                  {I}_b\delta(\boldsymbol{r}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.307 ...}{3I_b}\boldsymbol{I}_b\delta(\boldsymbol
+                                                  {r}_b) + \frac{\mu_b}{I_b}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.307 ...mbol{r}_b) + \frac{\mu_b}{I_b}\boldsymbol
+                                                  {I}_b\cdot \frac{3\boldsym...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> 3\boldsymbol 
+                        {r}_b \boldsymbol {r}_b-3r_b^2\boldsymbol {1}
+l.307 ...dsymbol{r}_b-3r_b^2\boldsymbol{1}}{r_b^5}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> 3\boldsymbol {r}_b \boldsymbol 
+                                          {r}_b-3r_b^2\boldsymbol {1}
+l.307 ...dsymbol{r}_b-3r_b^2\boldsymbol{1}}{r_b^5}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...\boldsymbol {r}_b-3r_b^2\boldsymbol 
+                                                  {1}
+l.307 ...dsymbol{r}_b-3r_b^2\boldsymbol{1}}{r_b^5}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.309 where $\boldsymbol
+                        {I}_b$ is the spin of noble gas nucleus. The first t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevA.58.3642' on page 25 undefined on input line 3
+09.
+
+
+LaTeX Warning: Citation `PhysRevLett.80.2801' on page 25 undefined on input lin
+e 318.
+
+[25] [26]
+
+LaTeX Warning: Citation `PhysRevLett.67.3219' on page 27 undefined on input lin
+e 357.
+
+
+LaTeX Warning: Citation `PhysRev.138.A946' on page 27 undefined on input line 3
+64.
+
+
+LaTeX Warning: Citation `PhysRev.139.A1398' on page 27 undefined on input line 
+364.
+
+
+LaTeX Warning: Citation `PhysRevA.37.2877' on page 27 undefined on input line 3
+64.
+
+[27]
+
+LaTeX Warning: Citation `PhysRevLett.96.083003' on page 28 undefined on input l
+ine 380.
+
+) [28]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
-Chapter 3.
-) [14
+Chapter 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 1.
+
+LaTeX Warning: Citation `Abragam' on page 29 undefined on input line 6.
+
+
+LaTeX Warning: Citation `PhysRevA.58.3004' on page 29 undefined on input line 6
+.
+
+[29
 
 
 
 ]
+
+LaTeX Warning: Citation `RevModPhys.26.167' on page 30 undefined on input line 
+32.
+
+[30] [31]
+
+LaTeX Warning: Citation `RevModPhys.26.167' on page 32 undefined on input line 
+65.
+
+
+Overfull \hbox (11.60413pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/12 The above con-clu-sion can be eas-ily reached with quan-tum me-
+chan-ics [[]]. The Shr$[]$dinger
+ []
+
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \begin{subequations}
+                         \label{eq4}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 	\begin{gather}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.74 	\psi
+          =e^{-i\vec{\omega}\cdot \vec{I}t}\psi_{r} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 	\end{gather}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.76 	\end{gather}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \end{subequations}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[32]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \begin{figure}[H]
+                      
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in AFPandEPRsetup.png (no Bound
+ingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...}{!}{\includegraphics{AFPandEPRsetup.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: AFPandEPRsetup.png Graphic file (type eps)
+<AFPandEPRsetup.png> [33] [34
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `PhysRevA.38.5092' on page 35 undefined on input line 1
+10.
+
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.125 	\dot
+            B = 1.3G/s\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.130 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--132
+$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--132
+
+ []
+
+[35]
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.137 	D\frac{|\nabla B_{z}|^{2}}{B_{1}^{2}}
+                                             \approx 1.6mHz\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.137 	D\frac{|\nabla B_{z}|^{2}}{B_{1}^{2}}
+                                             \approx 1.6mHz\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.137 	D\frac{|\nabla B_{z}|^{2}}{B_{1}^{2}}
+                                             \approx 1.6mHz\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac #1#2->{\begingroup #1\endgroup \over #2}
+                                              
+l.137 	D\frac{|\nabla B_{z}|^{2}}{B_{1}^{2}}
+                                             \approx 1.6mHz\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.140 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.140 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in AFP.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...\textwidth}{!}{\includegraphics{AFP.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: AFP.png Graphic file (type eps)
+<AFP.png>
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 \begin{figure}[H]
+                       \label{AFPSignal}
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in AFPSignal.png (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ...idth}{!}{\includegraphics{AFPSignal.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: AFPSignal.png Graphic file (type eps)
+<AFPSignal.png>
+
+LaTeX Warning: Citation `PhysRev.138.A946' on page 36 undefined on input line 1
+68.
+
+
+LaTeX Warning: Citation `PhysRev.139.A1398' on page 36 undefined on input line 
+168.
+
+
+LaTeX Warning: Citation `PhysRevA.37.2877' on page 36 undefined on input line 1
+68.
+
+[36] [37
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [38
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `PhysRevA.38.5092' on page 39 undefined on input line 1
+73.
+
+
+LaTeX Warning: Citation `PhysRevA.37.2877' on page 39 undefined on input line 1
+84.
+
+[39]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in AFPLossvsGradient.png (no Bo
+undingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...{\includegraphics{AFPLossvsGradient.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: AFPLossvsGradient.png Graphic file (type eps)
+<AFPLossvsGradient.png>
+
+LaTeX Warning: Citation `PhysRevA.71.013414' on page 40 undefined on input line
+ 222.
+
+
+LaTeX Warning: Citation `PhysRevA.58.3004' on page 40 undefined on input line 2
+22.
+
+[40] [41
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `PhysRev.38.2082.2' on page 42 undefined on input line 
+228.
+
+[42]
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.243 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.244 \nu_{m_{F}\rightarrow m_{F-1}} &
+                                      =\frac{E_{F,m_{F}}-E_{F,m_{F}-1}}{h} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.245 &
+       = -\frac{g_{I}\mu_{N}B}{h}\pm \frac{\Delta \nu_{hfs}}{2}\left(\sqrt{1...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 242 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (68.48882pt too wide) detected at line 247
+\OML/cmm/m/it/12 ^^W[] \OT1/cmr/m/n/12 = [][]  = \OMS/cmsy/m/n/12 ^^@[] ^^F [] 
+[]
+ []
+
+[43]
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.261 \nu_{m_{F}\rightarrow m_{F-1}}=&
+                                      -\frac{g_{I}\mu_{N}B}{h}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.262 &
+       +\frac{\Delta\nu_{hfs}}{2}\left(\frac{2x}{2I+1}-\frac{2(2m_{F}-1)x^{2...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 259 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (90.99866pt too wide) detected at line 264
+[]\OML/cmm/m/it/12 ^^W[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[][]  \OT1/cmr/m
+/n/12 + [] []
+ []
+
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.269 	g_
+         {s}\mu_{B} \gg g_{I}\mu_{N}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.271 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.277 \Delta \nu_{m_{F}\rightarrow m_{F-1}} = &
+                                               -\frac{g_{s}\mu_{B}}{h(2I+1)}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.278 &
+       \left.+6\left(-\frac{(2I+1)^{2}}{4}+1-3m+3m^{2}\right)\left(\frac{g_{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 275 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (205.26625pt too wide) detected at line 280
+\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 ^^W[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^
+@[]\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 B [] []  []
+ []
+
+
+LaTeX Warning: Citation `Jackson' on page 44 undefined on input line 282.
+
+! Undefined control sequence.
+l.285 \Delta \boldsymbol
+                        {B}=\frac{2}{3}\mu_{0}\boldsymbol{M}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.285 ...ldsymbol{B}=\frac{2}{3}\mu_{0}\boldsymbol
+                                                  {M}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.287 ... is the vacuum permeability, $\boldsymbol
+                                                  {M}$ is the magnetization ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.290 \boldsymbol
+                 {M}=\boldsymbol{\mu_{K}}[{\rm He}]P,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.290 \boldsymbol{M}=\boldsymbol
+                                {\mu_{K}}[{\rm He}]P,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevA.58.3004' on page 44 undefined on input line 2
+92.
+
+[44]
+! Undefined control sequence.
+l.295 \boldsymbol
+                 {\Delta B}=\frac{2}{3} \kappa_{0}\mu_{0}\boldsymbol{\mu_{K}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.295 ...=\frac{2}{3} \kappa_{0}\mu_{0}\boldsymbol
+                                                  {\mu_{K}}[{\rm He}]P
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevA.58.3004' on page 45 undefined on input line 2
+98.
+
+
+LaTeX Warning: Citation `PhysRevA.71.013414' on page 45 undefined on input line
+ 303.
+
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.305 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.306 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.307 	\kappa
+             _{0}^{Rb}=6.39+0.00914[T-200(^{\circ}C)]\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.310 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.310 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.311 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[45] [46] [47]
+
+! LaTeX Error: Cannot determine size of graphic in fmsweep.png (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.354 ...twidth}{!}{\includegraphics{fmsweep.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: fmsweep.png Graphic file (type eps)
+<fmsweep.png>
+
+! LaTeX Error: Cannot determine size of graphic in PIBox.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.365 ...extwidth}{!}{\includegraphics{PIBox.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: PIBox.png Graphic file (type eps)
+<PIBox.png>
+
+LaTeX Warning: Citation `PeterThesis' on page 48 undefined on input line 366.
+
+
+LaTeX Warning: Citation `PeterThesis' on page 48 undefined on input line 366.
+
+
+! LaTeX Error: Cannot determine size of graphic in epr.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376 ...\textwidth}{!}{\includegraphics{epr.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: epr.png Graphic file (type eps)
+<epr.png> [48]
+
+LaTeX Warning: Citation `PeterThesis' on page 49 undefined on input line 381.
+
+[49
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [50
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [51
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [52]
+
+! LaTeX Error: Cannot determine size of graphic in PNMR_setup.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 ...dth}{!}{\includegraphics{PNMR_setup.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: PNMR_setup.png Graphic file (type eps)
+<PNMR_setup.png> [53] [54
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `PhysRev.70.460' on page 55 undefined on input line 429
+.
+
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.431 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.432 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.433 	\frac{\partial M_{x}(t)}{\partial t}
+                                           =\gamma\left(\boldsymbol{M(t)}\ti...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.433 	\frac{\partial M_{x}(t)}{\partial t}
+                                           =\gamma\left(\boldsymbol{M(t)}\ti...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.433 	\frac{\partial M_{x}(t)}{\partial t}
+                                           =\gamma\left(\boldsymbol{M(t)}\ti...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac #1#2->{\begingroup #1\endgroup \over #2}
+                                              
+l.433 	\frac{\partial M_{x}(t)}{\partial t}
+                                           =\gamma\left(\boldsymbol{M(t)}\ti...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.433 ...}(t)}{\partial t}=\gamma\left(\boldsymbol
+                                                  {M(t)}\times \boldsymbol{B...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.433 ...\left(\boldsymbol{M(t)}\times \boldsymbol
+                                                  {B(t)}\right)_{x}-\frac{M_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.434 ...}(t)}{\partial t}=\gamma\left(\boldsymbol
+                                                  {M(t)}\times \boldsymbol{B...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.434 ...\left(\boldsymbol{M(t)}\times \boldsymbol
+                                                  {B(t)}\right)_{y}-\frac{M_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.435 ...}(t)}{\partial t}=\gamma\left(\boldsymbol
+                                                  {M(t)}\times \boldsymbol{B...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.435 ...\left(\boldsymbol{M(t)}\times \boldsymbol
+                                                  {B(t)}\right)_{z}-\frac{M_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.436 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.436 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.437 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.57263pt too wide) in paragraph at lines 433--439
+[]$\OML/cmm/m/it/12 @M[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )$$[
+]$  where
+ []
+
+[55] [56]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.458 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in FID.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.460 ...\textwidth}{!}{\includegraphics{FID.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: FID.png Graphic file (type eps)
+<FID.png>
+
+LaTeX Warning: Citation `J.Phys.France.35' on page 57 undefined on input line 4
+65.
+
+[57] [58
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]) [59]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex
-Chapter 4.
-[15
-
-
-
-] [16]) [17]
-\openout2 = `chap5.aux'.
-
- (./chap5.tex
 Chapter 5.
-) [18
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page 60 undefined on input line
+ 6.
+
+
+LaTeX Warning: Citation `PhysRevC.91.055205' on page 60 undefined on input line
+ 6.
+
+[60
 
 
 
 ]
+
+LaTeX Warning: Citation `WalkerHapper' on page 61 undefined on input line 10.
+
+
+LaTeX Warning: Citation `PhysRevLett.80.2801' on page 61 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Citation `PhysRevA.75.013416' on page 61 undefined on input line
+ 10.
+
+
+LaTeX Warning: Citation `PhysRevA.56.2090' on page 61 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation `PhysRevLett.80.2801' on page 61 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Citation `PhysRevLett.91.123003' on page 61 undefined on input l
+ine 10.
+
+
+LaTeX Warning: Citation `JAP.94.6908' on page 61 undefined on input line 12.
+
+[61]
+
+LaTeX Warning: Citation `PhysRevC.84.065201' on page 62 undefined on input line
+ 16.
+
+
+! LaTeX Error: Cannot determine size of graphic in target_performance.png (no B
+oundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...{\includegraphics{target_performance.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: target_performance.png Graphic file (type eps)
+<target_performance.png> [62]
+
+LaTeX Warning: Text page 63 contains only floats.
+
+
+Overfull \vbox (8.40128pt too high) has occurred while \output is active []
+
+
+[63
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \begin{figure}[H]
+                      
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in TargetCell.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...idth}{!}{\includegraphics{TargetCell.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: TargetCell.png Graphic file (type eps)
+<TargetCell.png>
+
+LaTeX Warning: Citation `Romalis1997' on page 64 undefined on input line 42.
+
+[64] [65
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 46.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.48 			\multirow
+                 {2}{*}{\begin{sideways}{EXP}\end{sideways}}&\multirow{2}{*}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.48 ...in{sideways}{EXP}\end{sideways}}&\multirow
+                                                  {2}{*}{Cell} & Total & PC ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.48 ...tirow{2}{*}{Cell} & Total & PC & \multirow
+                                                  {2}{*}Fill & TC   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.52 			\multirow
+                 {5}{*}{\begin{sideways}saGDH\end{sideways}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.64 			\multirow
+                 {9}{*}{\begin{sideways}GEN\end{sideways}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.74 			\multirow
+                 {10}{*}{\begin{sideways}Transversity and $d_{2}^{n}$\end{si...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Float too large for page by 37.46062pt on input line 89.
+
+
+LaTeX Warning: Citation `Abragam' on page 66 undefined on input line 93.
+
+
+LaTeX Warning: Citation `PhysRevC.84.065201' on page 66 undefined on input line
+ 93.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 \begin{figure}[H]
+                      
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in Spinup.png (no BoundingBox).
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...extwidth}{!}{\includegraphics{Spinup.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Spinup.png Graphic file (type eps)
+<Spinup.png> [66] [67
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [68
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \begin{subequations}
+                          \label{DoubleChamber}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 	\frac{dP_{pc}}{dt}
+                         =\Gamma_{se}(P_{A}-P_{pc})-\Gamma_{pc}P_{pc}-d_{pc}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 	\frac{dP_{pc}}{dt}
+                         =\Gamma_{se}(P_{A}-P_{pc})-\Gamma_{pc}P_{pc}-d_{pc}...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 	\frac{dP_{pc}}{dt}
+                         =\Gamma_{se}(P_{A}-P_{pc})-\Gamma_{pc}P_{pc}-d_{pc}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac #1#2->{\begingroup #1\endgroup \over #2}
+                                              
+l.120 	\frac{dP_{pc}}{dt}
+                         =\Gamma_{se}(P_{A}-P_{pc})-\Gamma_{pc}P_{pc}-d_{pc}...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.122 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.122 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 \begin{subequations}
+                          \label{DoubleChamberSolution}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.133 	P_
+         {pc}(t)=C_{pc}e^{-\Gamma_{f}t}+(P_{pc}^{0}-P_{pc}^{\infty}-C_{pc})e...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.135 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[69]
+
+LaTeX Warning: Citation `PhysRevC.84.065201' on page 70 undefined on input line
+ 142.
+
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no ö in font cmr12!
+
+LaTeX Warning: Citation `PhysRevC.84.065201' on page 70 undefined on input line
+ 156.
+
+[70]
+
+! LaTeX Error: Cannot determine size of graphic in BradySpinup.png (no Bounding
+Box).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...th}{!}{\includegraphics{BradySpinup.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: BradySpinup.png Graphic file (type eps)
+<BradySpinup.png>
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 \begin{subequations}
+                          \label{InitialSpinup}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.167 	P_
+         {pc}(t)=\gamma_{se}P_{A}t-\frac{1}{2}\gamma_{se}P_{A}(\gamma_{se}+\...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[71] [72
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [73]
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \begin{subequations}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `PeterThesis' on page 74 undefined on input line 220.
+
+[74]
+
+! LaTeX Error: Environment subequations undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 \begin{subequations}
+                          \label{fs}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment gather undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 	\begin{gather}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.230 	f_
+         1 = \frac{1}{\omega_{D2}}\frac{\Delta_{D2}}{\Delta_{D2}^2+\frac{\ga...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{gather}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 	\end{gather}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.232 	\end{gather}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{subequations}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 \end{subequations}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[75]
+
+LaTeX Warning: Citation `PhysRevLett.80.2801' on page 76 undefined on input lin
+e 244.
+
+
+LaTeX Warning: Citation `PhysRevA.66.032703' on page 76 undefined on input line
+ 244.
+
+
+LaTeX Warning: Citation `BabcockThesis' on page 76 undefined on input line 250.
+
+
+[76]
+
+! LaTeX Error: Cannot determine size of graphic in m_ratio.png (no BoundingBox)
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258 ...twidth}{!}{\includegraphics{m_ratio.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: m_ratio.png Graphic file (type eps)
+<m_ratio.png> [77
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `PhysRevLett.96.083003' on page 78 undefined on input l
+ine 269.
+
+[78]
+! Undefined control sequence.
+l.280 	\captionsetup
+                    {font=scriptsize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.286 			\multirow
+                  {2}{*}{\begin{sideways}{EXP}\end{sideways}}&\multirow{2}{*...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.286 ...n{sideways}{EXP}\end{sideways}}&\multirow
+                                                  {2}{*}{Cell} & \multirow{2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.286 ...eways}}&\multirow{2}{*}{Cell} & \multirow
+                                                  {2}{*}{Lasers} & $I_0$ & T...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.286 ... T$_\mathrm{pc}^\mathrm{set}$ & \multirow
+                                                  {2}{*}{$P_\mathrm{He}^\inf...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.286 ...& $\langle\Gamma\rangle^{-1}$ & \multirow
+                                                  {2}{*}{$\langle P^\mathrm{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.286 ...langle P^\mathrm{A} \rangle$} & \multirow
+                                                  {2}{*}{$P_\mathrm{line}^\m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.286 ...$P_\mathrm{line}^\mathrm{A}$} & \multirow
+                                                  {2}{*}{$D_\mathrm{fr}$} & ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.286 ...ltirow{2}{*}{$D_\mathrm{fr}$} & \multirow
+                                                  {2}{*}{$D_\mathrm{pb}$} & ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.286 ...b}$ & $\Delta$T$_\mathrm{He}$ & \multirow
+                                                  {2}{*}{X}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.290 			\multirow
+                  {5}{*}{\begin{sideways}saGDH\end{sideways}} & Proteus & 3B...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.301 			\multirow
+                  {20}{*}{\begin{sideways}GEN\end{sideways}} & \multirow{2}{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.301 ...n{sideways}GEN\end{sideways}} & \multirow
+                                                  {2}{*}{Al} & 2.5B & 3.2 & ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.304 			& \multirow
+                    {2}{*}{Barbara} & 2.5B & 1.6 & 235 & 0.37(02) & 5.5(08) ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.309 			& \multirow
+                    {2}{*}{Anna} & 1B & 0.6 & 235 & 0.33(02) & 5.60(34) & 11...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.312 			& \multirow
+                    {2}{*}{Dexter} & 1.5B & 1.5 & 235 & 0.47(02) & 7.58(17) ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.317 			& \multirow
+                    {2}{*}{Dolly} & 3B & 1.0 & 235 & 0.43(02) & 6.16(03) & 3...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.320 			& \multirow
+                    {3}{*}{Simone} & 2N1B & 3.8 & 215 & 0.31(01) & 14.08(06)...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.324 			& \multirow
+                    {5}{*}{Sosa} & 2N1B & 1.9 & 160 & 0.57(02) & 16.69(09) &...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.336 			\multirow
+                  {12}{*}{\begin{sideways}Transversity\end{sideways}} & Bori...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.338 			& \multirow
+                    {2}{*}{Samantha} & 3B & 1.8 & 235 & 0.50(02) & 6.30(13) ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.351 			& \multirow
+                    {3}{*}{Brady} & 1N & 0.9 & 235 & 0.62(03) & 4.82(1.08) &...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (18.7097pt too wide) in paragraph at lines 284--363
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 335.84209pt on input line 366.
+
+
+LaTeX Warning: Citation `PhysRevA.48.4411' on page 79 undefined on input line 3
+74.
+
+
+LaTeX Warning: Citation `JaideepThesis' on page 79 undefined on input line 374.
+
+
+[79] [80
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `PhysRevLett.96.083003' on page 81 undefined on input l
+ine 382.
+
+[81]
+
+! LaTeX Error: Cannot determine size of graphic in hotrelaxation.png (no Boundi
+ngBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.398 ...}{!}{\includegraphics{hotrelaxation.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: hotrelaxation.png Graphic file (type eps)
+<hotrelaxation.png> [82
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `PhysRevLett.96.083003' on page 83 undefined on input l
+ine 405.
+
+[83] [84]
+! Undefined control sequence.
+l.465 	\captionsetup
+                    {font=small}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.472 			\multirow
+                  {2}{*}{Simone} & 215 & -0.02(12) & -0.10(14) & - & - & -0....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.475 			\multirow
+                  {4}{*}{Sosa} & 160 & 0.22(07) & 0.28(09) & 0.32(15) & 0.18...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.493 			\multirow
+                  {3}{*}{Antoinette} & 215 & 0.27(09) & 0.44(17) & 0.30(19) ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `PhysRevLett.96.083003' on page 85 undefined on input l
+ine 506.
+
+[85]
+
+! LaTeX Error: Cannot determine size of graphic in XvsT.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.512 ...textwidth}{!}{\includegraphics{XvsT.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: XvsT.png Graphic file (type eps)
+<XvsT.png>
+
+LaTeX Warning: Citation `PhysRevA.81.032709' on page 86 undefined on input line
+ 521.
+
+
+LaTeX Warning: Citation `PhysRevLett.107.023204' on page 86 undefined on input 
+line 521.
+
+[86] [87
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]) [88]
+\openout2 = `chap5.aux'.
+
+ (./chap5.tex
+Chapter 6.
+[89
+
+
+
+]
+
+LaTeX Warning: Citation `Schmiedeskamp2006' on page 90 undefined on input line 
+10.
+
+
+LaTeX Warning: Citation `PhysRev.179.156' on page 90 undefined on input line 16
+.
+
+[90]
+
+LaTeX Warning: Citation `Timsit' on page 91 undefined on input line 18.
+
+[91]
+
+LaTeX Warning: Citation `Timsit' on page 92 undefined on input line 34.
+
+
+LaTeX Warning: Citation `Abragam' on page 92 undefined on input line 40.
+
+
+LaTeX Warning: Citation `Kittle' on page 92 undefined on input line 45.
+
+[92]
+
+LaTeX Warning: Citation `Frenkel' on page 93 undefined on input line 54.
+
+
+LaTeX Warning: Citation `Frenkel' on page 93 undefined on input line 58.
+
+[93]
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 \begin{split}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.76 \frac{1}{T_{wall}}=&
+                         \frac{\beta N_{impurity}kT\langle\Delta r\rangle S}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.77 &
+      +\frac{3N_{impurity}\bar{v}\tau_{s0}}{2dT_i'}e^{E_{ad}/kT}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 74 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \end{split}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `PhysRev.179.156' on page 94 undefined on input line 86
+.
+
+
+LaTeX Warning: Citation `PhysRevA.201.337' on page 94 undefined on input line 8
+6.
+
+
+LaTeX Warning: Citation `solgel' on page 94 undefined on input line 86.
+
+
+LaTeX Warning: Citation `barrer' on page 94 undefined on input line 90.
+
+
+LaTeX Warning: Citation `Smythe' on page 94 undefined on input line 90.
+
+
+LaTeX Warning: Citation `Timsit' on page 94 undefined on input line 90.
+
+[94]
+
+LaTeX Warning: Citation `Timsit' on page 95 undefined on input line 94.
+
+
+LaTeX Warning: Citation `Korringa' on page 95 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Slichter' on page 95 undefined on input line 96.
+
+[95]
+
+LaTeX Warning: Citation `NelsonThesis' on page 96 undefined on input line 101.
+
+[96]
+
+LaTeX Warning: Citation `Houskeeper' on page 97 undefined on input line 113.
+
+
+! LaTeX Error: Cannot determine size of graphic in metal_tube.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ...dth}{!}{\includegraphics{metal_tube.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: metal_tube.png Graphic file (type eps)
+<metal_tube.png>
+
+LaTeX Warning: Citation `Larson' on page 97 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Able' on page 97 undefined on input line 128.
+
+
+LaTeX Warning: Citation `Epner' on page 97 undefined on input line 130.
+
+[97]
+
+LaTeX Warning: Citation `Cates1993' on page 98 undefined on input line 132.
+
+[98
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `Houskeeper' on page 99 undefined on input line 138.
+
+
+! LaTeX Error: Cannot determine size of graphic in pressure_test.png (no Boundi
+ngBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 ...}{!}{\includegraphics{pressure_test.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: pressure_test.png Graphic file (type eps)
+<pressure_test.png> [99] [100
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Citation `Electropolishing' on page 101 undefined on input line 
+153.
+
+
+! LaTeX Error: Cannot determine size of graphic in Electropolishing.png (no Bou
+ndingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...}{\includegraphics{Electropolishing.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Electropolishing.png Graphic file (type eps)
+<Electropolishing.png>
+
+LaTeX Warning: Citation `Electropolishing' on page 101 undefined on input line 
+158.
+
+
+LaTeX Warning: Citation `Deninger2006' on page 101 undefined on input line 164.
+
+
+[101]
+
+! LaTeX Error: Cannot determine size of graphic in gold_coating.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 ...h}{!}{\includegraphics{gold_coating.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gold_coating.png Graphic file (type eps)
+<gold_coating.png> [102
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [103
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in ultrasonic_cleaner.png (no B
+oundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 ...\includegraphics{ultrasonic_cleaner.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ultrasonic_cleaner.png Graphic file (type eps)
+<ultrasonic_cleaner.png>
+
+LaTeX Warning: Citation `DanThesis' on page 104 undefined on input line 184.
+
+
+! LaTeX Error: Cannot determine size of graphic in string.png (no BoundingBox).
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 ...xtwidth}{!}{\includegraphics{string.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: string.png Graphic file (type eps)
+<string.png>
+
+LaTeX Warning: Citation `DanThesis' on page 104 undefined on input line 195.
+
+[104]
+
+! LaTeX Error: Cannot determine size of graphic in cell_gas_system.png (no Boun
+dingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ...!}{\includegraphics{cell_gas_system.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: cell_gas_system.png Graphic file (type eps)
+<cell_gas_system.png>
+
+LaTeX Warning: Citation `DanThesis' on page 105 undefined on input line 204.
+
+
+LaTeX Warning: Citation `DanThesis' on page 105 undefined on input line 204.
+
+[105] [106] [107]
+
+LaTeX Warning: Citation `Callaghan' on page 108 undefined on input line 230.
+
+
+! LaTeX Error: Cannot determine size of graphic in gradient_coils.png (no Bound
+ingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 ...{!}{\includegraphics{gradient_coils.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: gradient_coils.png Graphic file (type eps)
+<gradient_coils.png>
+
+LaTeX Warning: Citation `YuanThesis' on page 108 undefined on input line 235.
+
+
+LaTeX Warning: Citation `PhysRevA.37.2877' on page 108 undefined on input line 
+239.
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.243 \nabla\boldsymbol
+                       {B}(\theta, \phi)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.244 &
+       =\begin{bmatrix}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.244 &=\begin{bmatrix}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.245 \partial B_x/\partial x &
+                                \partial B_y/\partial x & \partial B_z/\part...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.245 ..._x/\partial x & \partial B_y/\partial x &
+                                                   \partial B_z/\partial x \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.246 \partial B_x/\partial y &
+                                \partial B_y/\partial y & \partial B_z/\part...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.246 ..._x/\partial y & \partial B_y/\partial y &
+                                                   \partial B_z/\partial y \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.247 \partial B_x/\partial z &
+                                \partial B_y/\partial z & \partial B_z/\part...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.247 ..._x/\partial z & \partial B_y/\partial z &
+                                                   \partial B_z/\partial z
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 241 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 \end{bmatrix}
+                   \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.249 &
+       =3\kappa I
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \begin{bmatrix}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.251 \sin^2\theta \cos^2\phi-\frac{1}{3} &
+                                            \sin^2\theta \sin\phi \cos\phi &...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.251 ...{1}{3} & \sin^2\theta \sin\phi \cos\phi &
+                                                   \sin\theta \cos\theta \co...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.252 \sin^2\theta \sin\phi \cos\phi &
+                                       \sin^2\theta \sin^2\phi-\frac{1}{3} &...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.252 ...i & \sin^2\theta \sin^2\phi-\frac{1}{3} &
+                                                   \sin\theta \cos\theta \si...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.253 \sin\theta \cos\theta \cos\phi &
+                                       \sin\theta \cos\theta \sin\phi & \cos...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.253 ...os\phi & \sin\theta \cos\theta \sin\phi &
+                                                   \cos^2\theta-\frac{1}{3}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 241 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 \end{bmatrix}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{equation} on input line 241 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (689.63904pt too wide) detected at line 256
+[]\OMS/cmsy/m/n/12 r\OML/cmm/m/it/12 B\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R; ^^
+^\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 @B[]=@x@B[]=@x@B[]=@x[] @B[]=@y@B[]=@y@B[
+]=@y[] @B[]=@z@B[]=@z@B[]=@z[]  \OT1/cmr/m/n/12 = 3\OML/cmm/m/it/12 ^^TI [][] ^
+^R [][] ^^^ \OMS/cmsy/m/n/12 ^^@ [] [][] \OML/cmm/m/it/12 ^^R [] ^^^ [] ^^^ [] 
+^^R [] ^^R [] ^^^[]  [][] ^^R [] ^^^ [] ^^^ [][] ^^R [][] ^^^ \OMS/cmsy/m/n/12 
+^^@ [] [] \OML/cmm/m/it/12 ^^R [] ^^R [] ^^^[]  [] ^^R [] ^^R [] ^^^ [] ^^R [] 
+^^R [] ^^^ [][] ^^R \OMS/cmsy/m/n/12 ^^@ []
+ []
+
+[108]
+! Undefined control sequence.
+l.272 \nabla\boldsymbol
+                       {B}(\theta_m, 0)=\kappa I
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 \begin{bmatrix}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.274 1 &
+          0 & \sqrt{2}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.274 1 & 0 &
+              \sqrt{2}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.275 0 &
+          -1 & 0 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.275 0 & -1 &
+               0 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.276 \sqrt{2} &
+                 0 & 0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.276 \sqrt{2} & 0 &
+                     0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 271 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 \end{bmatrix}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.283 \nabla\boldsymbol
+                       {B}(\theta_m, \pi/2)=\kappa I
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284 \begin{bmatrix}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.285 -1 &
+           0 & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.285 -1 & 0 &
+               0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.286 0 &
+          1 & \sqrt{2}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.286 0 & 1 &
+              \sqrt{2}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.287 0 &
+          \sqrt{2} & 0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.287 0 & \sqrt{2} &
+                     0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 282 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.288 \end{bmatrix}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.294 \nabla\boldsymbol
+                       {B}(0, 0)=\kappa I
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.295 \begin{bmatrix}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.296 -1 &
+           0 & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.296 -1 & 0 &
+               0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.297 0 &
+          -1 & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.297 0 & -1 &
+               0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.298 0 &
+          0 & 2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.298 0 & 0 &
+              2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 293 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 \end{bmatrix}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `YuanThesis' on page 109 undefined on input line 302.
+
+[109] [110]
+
+! LaTeX Error: Cannot determine size of graphic in optics.png (no BoundingBox).
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 ...xtwidth}{!}{\includegraphics{optics.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: optics.png Graphic file (type eps)
+<optics.png>
+
+LaTeX Warning: Citation `YuanThesis' on page 111 undefined on input line 324.
+
+
+! LaTeX Error: Cannot determine size of graphic in PNMR_setup.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 ...dth}{!}{\includegraphics{PNMR_setup.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: PNMR_setup.png Graphic file (type eps)
+<PNMR_setup.png> [111] [112]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.350 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+
+! LaTeX Error: Cannot determine size of graphic in FID.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.352 ...\textwidth}{!}{\includegraphics{FID.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: FID.png Graphic file (type eps)
+<FID.png>
+
+! LaTeX Error: Cannot determine size of graphic in 3spindowns.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.366 ...dth}{!}{\includegraphics{3spindowns.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: 3spindowns.png Graphic file (type eps)
+<3spindowns.png>
+
+! LaTeX Error: Cannot determine size of graphic in corrected_T1.png (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.373 ...h}{!}{\includegraphics{corrected_T1.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: corrected_T1.png Graphic file (type eps)
+<corrected_T1.png> [113]
+
+! LaTeX Error: Cannot determine size of graphic in metal_end_windows.png (no Bo
+undingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.388 ...{\includegraphics{metal_end_windows.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: metal_end_windows.png Graphic file (type eps)
+<metal_end_windows.png>
+! Undefined control sequence.
+l.396 	\captionsetup
+                    {font=scriptsize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[114] [115]
+
+! LaTeX Error: Cannot determine size of graphic in spool_piece.png (no Bounding
+Box).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.441 ...th}{!}{\includegraphics{spool_piece.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: spool_piece.png Graphic file (type eps)
+<spool_piece.png> [116]
+
+! LaTeX Error: Cannot determine size of graphic in goldfinger.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.454 ...dth}{!}{\includegraphics{goldfinger.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: goldfinger.png Graphic file (type eps)
+<goldfinger.png>
+
+! LaTeX Error: Cannot determine size of graphic in T1_degradation.png (no Bound
+ingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.463 ...{!}{\includegraphics{T1_degradation.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: T1_degradation.png Graphic file (type eps)
+<T1_degradation.png> [117]
+
+! LaTeX Error: Cannot determine size of graphic in goldeneye.png (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.472 ...idth}{!}{\includegraphics{goldeneye.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: goldeneye.png Graphic file (type eps)
+<goldeneye.png>
+
+! LaTeX Error: Cannot determine size of graphic in goldrush.png (no BoundingBox
+).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.481 ...width}{!}{\includegraphics{goldrush.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: goldrush.png Graphic file (type eps)
+<goldrush.png>
+
+! LaTeX Error: Cannot determine size of graphic in goldrush_inhomogeneities.png
+ (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.490 ...degraphics{goldrush_inhomogeneities.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: goldrush_inhomogeneities.png Graphic file (type eps)
+<goldrush_inhomogeneities.png> [118]
+
+! LaTeX Error: Cannot determine size of graphic in goldenvec.png (no BoundingBo
+x).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 ...idth}{!}{\includegraphics{goldenvec.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: goldenvec.png Graphic file (type eps)
+<goldenvec.png> [119] [120] [121]) [122] [123
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [124
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [125
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [126
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [127
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [128
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [129
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [130
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [131
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [132
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [133
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [134
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [135
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [136
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] [137
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
-Chapter 6.
-) [19
+Chapter 7.
+) [138
 
 
 
 ]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./thesis.bbl)) [20
+ (./bib.tex (./thesis.bbl)) [139
 
 
 
@@ -317,48 +4528,52 @@ Chapter 6.
 
  (./apdxa.tex
 Appendix A.
-) [21
+) [140
 
 
 
 ] (./thesis.aux (./abstract.aux) (./ack.aux) (./contents.aux)
 (./tables.aux) (./figures.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
-(./chap4.aux) (./chap5.aux) (./chap6.aux) (./bib.aux) (./apdxa.aux)) ) 
+(./chap4.aux) (./chap5.aux) (./chap6.aux) (./bib.aux) (./apdxa.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1408 strings out of 493033
- 19601 string characters out of 6134139
- 94623 words of memory out of 5000000
- 4821 multiletter control sequences out of 15000+600000
- 13855 words of font info for 53 fonts, out of 8000000 for 9000
+ 1618 strings out of 493033
+ 22526 string characters out of 6134139
+ 122005 words of memory out of 5000000
+ 5001 multiletter control sequences out of 15000+600000
+ 14427 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,23p,232b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (28 pages, 275664 bytes).
+ 38i,11n,26p,3566b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (160 pages, 491760 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 601 PDF objects out of 1000 (max. 8388607)
+ 414 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

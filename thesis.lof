@@ -1,13 +1,56 @@
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces {\bf A target cell. The dimensions of different parts of the cell are not to scale.}}}{iv}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces {A diagram of target cell with metal end windows. }}}{vi}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces This is MUN's logo}}{7}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces MUN Fall Enrollment 2005 -- 2009}}{8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces MUN Fall Enrollment 2005 -- 2009 (landscape)}}{9}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces MUN Fall Enrollment 2005 -- 2009 (rotated)}}{10}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces A deadlocked Petri net}}{10}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Hello World}}{11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces {\bf A schematic representation of a target cell. The dimensions of different parts of the cell are not to scale.}}}{3}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces {A diagram of convection style target cell with metal end windows. }}}{5}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rb And K Number Density Curves}}{10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces {\bf Level Diagram of $^{87}$Rb. The splittings are not to scale. Adapted from Dolph's PhD thesis.}}}{12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces {\bf The interaction of alkali-metal atoms with left-circularly ($\sigma ^{+}$) polarized light. (from Ref.\spacefactor \@m {} \cite {WalkerHapper})}}}{13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces {\bf Absorption cross section for Rb $D_{1}$ line in the presence of three different densities of $^{3}$He. (from Ref.\spacefactor \@m {} \cite {Romalis1997})}}}{15}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces {\bf The shift and the broadening due to presence of $^{3}$He for Rb $D_{1}$ and $D_{2}$ lines. (from Ref.\spacefactor \@m {} \cite {Romalis1997})}}}{16}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces {\bf A. Formation and breakup of alkali-metal/noble-gas van der Waals molecule. B. Binary collision between an alkali-metal atom and a noble-gas atom. (from Ref.\spacefactor \@m {} \cite {WalkerHapper})}}}{22}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces {\bf Strengths of various spin-dependent interactions as functions of separation(from Ref.\spacefactor \@m {} \cite {WalkerHapper})}}}{24}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces {\bf EPR (left) and AFP (right) setup. Adapted from Dolph's PhD thesis.}}}{34}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces {\bf Effective field in the rotating frame during an Adiabatic Fast Passage measurement. The $^{3}$He spins follow the direction of the effective field. B$_{1}$ is exaggerated to show different components of effective field clearly.}}}{37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces {\bf A typical AFP signal. y axis is in arbitrary unit.}}}{38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces {\bf Fractional AFP loss (single flip) as a function of field gradient.}}}{41}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces {\bf A typical FM sweep on a hybrid cell. The central region between the minimum and maximum is fitted to a line. The zero crossing point corresponds to the Zeeman transition frequency.}}}{49}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces {\bf The same P.I. circuit that was first used by Romalis in our lab. The drawing was then corrected by Peter Dolph.\cite {PeterThesis}}}}{50}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces {\bf An EPR measurement for a hybrid cell at 235$^{\circ }$C.}}}{51}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces {\bf PNMR setup.}}}{54}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces {\bf A PNMR signal taken with gold coated test cell.}}}{58}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces {Shown are two figures of merit (FOM) for targets built for the indicated experiments. The circles (left axis) indicate the luminosity weighted by the square of polarization. The bars (right axis) represent the total number of spins being polarized per second weighted by the square of polarization. While the right FOM is an indication of the potential of the polarization technique, the left FOM indicates performance achieved during an experiment. The scales have been normalized so that the two FOMs have the same height for the cell marked E142}}}{63}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces {\bf A target cell. The dimensions of different parts of the cell are not to scale.}}}{65}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces {(a) Shown is a spinup of the target Brady. The spinup data has been fit with a 3-parameter and a 5-parameter formalism. (b) The residuals of the two fits. The error for 3-parameter fit is larger because it does not account for diffusion between two chambers.}}}{68}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces {$^{3}$He polarization as a function of time for both the pumping chamber and the target chamber. The top curve is the pumping chamber and the bottom curve is the target chamber. Data was taken at a fast pace so there would be enough points to demonstrate the initial behavior. }}}{72}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces {Plotted is the ratio m$_{pc}^{F}$/m$_{pc}^{s}$ for eight separate measurements. The numbers above the cell names are the oven set temperatures at which the measurements were made. Difference between open and closed points is discussed in the text.}}}{77}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces {The cell-averaged spin-exchange rate $\delimiter "426830A \gamma _{se}\delimiter "526930B $ is calculated using data from Faraday rotation and the spin-exchange constants $k_{se}^{Rb}$ and $k_{se}^{K}$. The three linear fits shown here are constrained to go through zero. The errors quoted in values of X factor include the uncertainty in our determination of $k_{se}^{K}$.}}}{82}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces {Shown are the combined values for X factor (either $X_{12}$ or $X_{1234}$ depending on the availability of data) versus temperature for the cell Sosa, Simone and Antoinette.}}}{87}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces {Shown on the left is a glass-to-metal-to-glass seal. The metal tube is 5'' long by 1'' outer diameter. The glass is wetted onto the knife-edge of copper on both ends. Shown on the right is a finished cell with the glass-to-metal-to-glass tube attached.}}}{98}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces {Glass-to-metal seals survived pressure higher than 20 atm.}}}{100}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces {Electropolishing\nobreakspace {}\cite {Electropolishing}}}}{102}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces {Shown left is the inner surface of a gold coated OFHC copper tube. Shown right is a OFHC copper tube without coating.}}}{103}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces {Ultrasonic cleaner with 3 tubes being cleaned.}}}{123}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces {Shown is the design of a typical string for our test cells.}}}{124}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces {A diagram of a Pyrex string with a cell and a retort attached while connected to the gas system through the bellows. Adapted from Matyas\nobreakspace {}\cite {DanThesis}.}}}{125}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces {Diagram of the coils. Adapted from Zheng\nobreakspace {}\cite {YuanThesis}.}}}{126}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces {Optics for spin-exchange optical pumping. Adapted from Zheng\nobreakspace {}\cite {YuanThesis}.}}}{127}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces {\bf PNMR setup.}}}{128}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces {\bf A PNMR signal taken with gold coated test cell.}}}{129}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces {3 spindowns of the cell GoldenVec1 each with a different sampling rate.}}}{130}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces {A linear fit to extract lifetime corrected for relaxation due to PNMR losses.}}}{131}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces {A diagram of target cell with metal end windows. }}}{132}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces {A picture of Gold Maiden, generally referred to as the ``spool piece". }}}{132}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces {Design and picture of Goldfinger. }}}{133}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces {The observed degradation of lifetime for Goldfinger (left) and Cupid (right). Shown in each of the two plots were several spindowns at different stage during the tests. The initial amplitude of the spindowns were scaled to 1 for better comparison of lifetime.}}}{134}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces {A picture of GoldenEye, the only test cell made with a valve.}}}{135}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces {Four spindowns of Goldrush before elevating the cell. All four measurements display similar lifetime with no obvious sign of degradation.}}}{135}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces {Shown on the right is the inhomogeneities vs. vertical distance from the center of the field. Shown on the left is the cell Goldrush with relaxation time due to field inhomogeneities as displayed on the right.}}}{136}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces {Design of the horizontal cell GoldenVec.}}}{137}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

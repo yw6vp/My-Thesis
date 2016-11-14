@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  7 NOV 2016 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  13 NOV 2016 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1282,8 +1282,8 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count151
 \c@@ppsaveapp=\count152
 )
-(./YunxiaoThesis.aux (./ack.aux) (./contents.aux) (./tables.aux) (./figures.aux
-) (./chap1.aux) (./chap2.aux) (./chap3.aux
+(./YunxiaoThesis.aux (./abstract.aux) (./ack.aux) (./contents.aux)
+(./tables.aux) (./figures.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux
 
 LaTeX Warning: Label `AFPSignal' multiply defined.
 
@@ -1395,7 +1395,33 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+! Text line contains an invalid character.
+l.34 	{Next-Generation Polarized $^3$He Targets
+                                                for Electron Scattering Expe...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+LaTeX Font Info:    Try loading font information for U+lasy on input line 38.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 38.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1404,51 +1430,38 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `ack.aux'.
+\openout2 = `abstract.aux'.
 
- (./ack.tex) [2
+ (./abstract.tex
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 6.
+)
+[2
 
 ]
+\openout2 = `ack.aux'.
+
+ (./ack.tex [3
+
+
+]) [4]
 \openout2 = `contents.aux'.
 
-
-(./contents.tex (./YunxiaoThesis.toc
-LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 5.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-) [3
+ (./contents.tex (./YunxiaoThesis.toc [5
 
 
 
-] [4]
-[5])
+] [6] [7])
 \tf@toc=\write3
 \openout3 = `YunxiaoThesis.toc'.
 
-) [6]
+)
+[8]
 \openout2 = `tables.aux'.
 
- (./tables.tex (./YunxiaoThesis.lot [7
+ (./tables.tex (./YunxiaoThesis.lot [9
 
 
 
@@ -1456,25 +1469,19 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 \tf@lot=\write4
 \openout4 = `YunxiaoThesis.lot'.
 
-) [8] [9]
+) [10] [11]
 \openout2 = `figures.aux'.
 
  (./figures.tex
-(./YunxiaoThesis.lof
-Overfull \hbox (8.00165pt too wide) in paragraph at lines 6--6
- [][] []\OT1/cmr/bx/n/12 Level Di-a-gram of $[]$Rb. The split-tings are not to 
-scale. Adapted 
- []
-
-[10
+(./YunxiaoThesis.lof [12
 
 
 
-] [11] [12] [13])
+] [13] [14] [15])
 \tf@lof=\write5
 \openout5 = `YunxiaoThesis.lof'.
 
-) [14]
+) [16]
 \openout2 = `chap1.aux'.
 
  (./chap1.tex
@@ -1496,14 +1503,14 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- <TargetCell.png, id=58, 578.16pt x 362.35374pt>
+ <TargetCell.png, id=63, 578.16pt x 362.35374pt>
 File: TargetCell.png Graphic file (type png)
  <use TargetCell.png>
 Package pdftex.def Info: TargetCell.png used on input line 14.
 (pdftex.def)             Requested size: 578.15858pt x 362.35286pt.
 
 [2] [3 <./TargetCell.png>] [4]
-<metal_end_windows.png, id=70, 549.05125pt x 276.03125pt>
+<metal_end_windows.png, id=76, 549.05125pt x 276.03125pt>
 File: metal_end_windows.png Graphic file (type png)
 
 <use metal_end_windows.png>
@@ -1518,35 +1525,35 @@ Chapter 2.
 
 
 
-] [8] <AlkaliVaporDensity.png, id=85, 437.635pt x 408.52625pt>
+] [8] <AlkaliVaporDensity.png, id=90, 437.635pt x 408.52625pt>
 File: AlkaliVaporDensity.png Graphic file (type png)
 
 <use AlkaliVaporDensity.png>
 Package pdftex.def Info: AlkaliVaporDensity.png used on input line 49.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
  [9] [10 <./AlkaliVaporDensity.png>]
-<RbEnergyLevels.png, id=93, 516.93124pt x 611.28375pt>
+<RbEnergyLevels.png, id=99, 516.93124pt x 611.28375pt>
 File: RbEnergyLevels.png Graphic file (type png)
 
 <use RbEnergyLevels.png>
 Package pdftex.def Info: RbEnergyLevels.png used on input line 69.
 (pdftex.def)             Requested size: 516.92998pt x 611.28226pt.
 
-<OpticalPumping.png, id=94, 292.09125pt x 245.91875pt>
+<OpticalPumping.png, id=100, 292.09125pt x 245.91875pt>
 File: OpticalPumping.png Graphic file (type png)
 
 <use OpticalPumping.png>
 Package pdftex.def Info: OpticalPumping.png used on input line 80.
 (pdftex.def)             Requested size: 292.09052pt x 245.91814pt.
  [11] [12 <./RbEnergyLevels.png>] [13 <./OpticalPumping.png>] <AbsorptionLine.p
-ng, id=107, 468.75125pt x 342.27875pt>
+ng, id=112, 468.75125pt x 342.27875pt>
 File: AbsorptionLine.png Graphic file (type png)
 
 <use AbsorptionLine.png>
 Package pdftex.def Info: AbsorptionLine.png used on input line 116.
 (pdftex.def)             Requested size: 468.75009pt x 342.2779pt.
 
-<PressureBroadening.png, id=108, 490.83376pt x 339.2675pt>
+<PressureBroadening.png, id=113, 490.83376pt x 339.2675pt>
 File: PressureBroadening.png Graphic file (type png)
 
 <use PressureBroadening.png>
@@ -1554,7 +1561,7 @@ Package pdftex.def Info: PressureBroadening.png used on input line 123.
 (pdftex.def)             Requested size: 490.83255pt x 339.26666pt.
  [14] [15 <./AbsorptionLine.png>] [16 <./PressureBroadening.png>] [17] [18] [19
 ] [20]
-<SpinExchange.png, id=136, 470.75874pt x 372.39125pt>
+<SpinExchange.png, id=141, 470.75874pt x 372.39125pt>
 File: SpinExchange.png Graphic file (type png)
  <use SpinExchange.png>
 Package pdftex.def Info: SpinExchange.png used on input line 264.
@@ -1565,7 +1572,7 @@ Overfull \hbox (12.0226pt too wide) in paragraph at lines 277--278
  a large spin-independent
  []
 
-[21] [22 <./SpinExchange.png>] <V1.png, id=144, 480.79625pt x 340.27126pt>
+[21] [22 <./SpinExchange.png>] <V1.png, id=150, 480.79625pt x 340.27126pt>
 File: V1.png Graphic file (type png)
 
 <use V1.png>
@@ -1580,38 +1587,36 @@ Chapter 3.
 
 
 
-] [30] [31] [32] <AFPandEPRsetup.png, id=181, 1045.9075pt x 636.3775pt>
+] [30] [31] [32] <AFPandEPRsetup.png, id=187, 1045.9075pt x 636.3775pt>
 File: AFPandEPRsetup.png Graphic file (type png)
 
 <use AFPandEPRsetup.png>
 Package pdftex.def Info: AFPandEPRsetup.png used on input line 93.
 (pdftex.def)             Requested size: 1045.90495pt x 636.37595pt.
  [33 <./AFPandEPRsetup.png>] [34] [35]
-<AFP.png, id=193, 597.23125pt x 413.545pt>
+<AFP.png, id=200, 597.23125pt x 413.545pt>
 File: AFP.png Graphic file (type png)
  <use AFP.png>
 Package pdftex.def Info: AFP.png used on input line 147.
 (pdftex.def)             Requested size: 597.22978pt x 413.54398pt.
  [36 <./AFP.png>]
-<AFPSignal.png, id=199, 600.2425pt x 380.42125pt>
+<AFPSignal.png, id=205, 600.2425pt x 380.42125pt>
 File: AFPSignal.png Graphic file (type png)
  <use AFPSignal.png>
 Package pdftex.def Info: AFPSignal.png used on input line 161.
 (pdftex.def)             Requested size: 600.24103pt x 380.4203pt.
- [37]
-[38 <./AFPSignal.png>] [39]
-<AFPLossvsGradient.png, id=211, 451.9284pt x 355.5684pt>
+ [37 <./AFPSignal.png>] [38] <AFPLossvsGradient.png, id=214, 451.9284pt x 355.5
+684pt>
 File: AFPLossvsGradient.png Graphic file (type png)
 
 <use AFPLossvsGradient.png>
 Package pdftex.def Info: AFPLossvsGradient.png used on input line 213.
 (pdftex.def)             Requested size: 451.92729pt x 355.56752pt.
- [40 <./AFPLossvsGradient.png>] [41] [42]
+ [39] [40 <./AFPLossvsGradient.png>] [41] [42]
 Overfull \hbox (49.96259pt too wide) in paragraph at lines 264--264
 [] 
  []
 
-[43]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 290.
@@ -1620,32 +1625,32 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 290.
 
-[44] [45] [46] <fmsweep.png, id=237, 437.635pt x 408.52625pt>
+[43] [44] [45] [46] <fmsweep.png, id=244, 437.635pt x 408.52625pt>
 File: fmsweep.png Graphic file (type png)
 
 <use fmsweep.png>
 Package pdftex.def Info: fmsweep.png used on input line 354.
 (pdftex.def)             Requested size: 437.63393pt x 408.52525pt.
- [47] <PIBox.png, id=242, 867.24pt x 483.8075pt>
+ <PIBox.png, id=245, 867.24pt x 483.8075pt>
 File: PIBox.png Graphic file (type png)
-
-<use PIBox.png>
+ <use PIBox.png>
 Package pdftex.def Info: PIBox.png used on input line 365.
 (pdftex.def)             Requested size: 867.2379pt x 483.80632pt.
- [48 <./fmsweep.png>] <epr.png, id=247, 752.8125pt x 401.5pt>
+
+[47] [48 <./fmsweep.png>] <epr.png, id=253, 752.8125pt x 401.5pt>
 File: epr.png Graphic file (type png)
 
 <use epr.png>
 Package pdftex.def Info: epr.png used on input line 376.
 (pdftex.def)             Requested size: 752.81065pt x 401.49901pt.
  [49 <./PIBox.png>] [50 <./epr.png>] [51]
-<PNMR_setup.png, id=259, 556.0775pt x 523.9575pt>
+<PNMR_setup.png, id=266, 556.0775pt x 523.9575pt>
 File: PNMR_setup.png Graphic file (type png)
  <use PNMR_setup.png>
 Package pdftex.def Info: PNMR_setup.png used on input line 402.
 (pdftex.def)             Requested size: 556.07614pt x 523.95622pt.
- [52]
-[53 <./PNMR_setup.png>] [54] [55] <FID.png, id=274, 626.34pt x 270.00874pt>
+ [52 <./PNMR_setup.png>] [53] [54] [55] <FID.png, id=280, 626.34pt x 270.00874p
+t>
 File: FID.png Graphic file (type png)
 
 <use FID.png>
@@ -1660,7 +1665,7 @@ Chapter 4.
 
 
 
-] [60] <target_performance.png, id=292, 803.0pt x 467.7475pt>
+] [60] <target_performance.png, id=298, 803.0pt x 467.7475pt>
 File: target_performance.png Graphic file (type png)
 
 <use target_performance.png>
@@ -1675,7 +1680,7 @@ Package pdftex.def Info: TargetCell.png used on input line 33.
  [63]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 46.
- <Spinup.png, id=303, 798.985pt x 610.28pt>
+ <Spinup.png, id=310, 798.985pt x 610.28pt>
 File: Spinup.png Graphic file (type png)
 
 <use Spinup.png>
@@ -1692,14 +1697,14 @@ m/n/12 )$
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no º in font cmr12!
 Missing character: There is no ö in font cmr12!
-[68] <BradySpinup.png, id=321, 462.72874pt x 367.3725pt>
+[68] <BradySpinup.png, id=327, 462.72874pt x 367.3725pt>
 File: BradySpinup.png Graphic file (type png)
  <use BradySpinup.png>
 Package pdftex.def Info: BradySpinup.png used on input line 160.
 (pdftex.def)             Requested size: 462.72762pt x 367.37158pt.
 
 [69] [70 <./BradySpinup.png>] [71] [72] [73] [74]
-<m_ratio.png, id=342, 787.94376pt x 390.45876pt>
+<m_ratio.png, id=348, 787.94376pt x 390.45876pt>
 File: m_ratio.png Graphic file (type png)
  <use m_ratio.png>
 Package pdftex.def Info: m_ratio.png used on input line 258.
@@ -1709,7 +1714,7 @@ Package pdftex.def Info: m_ratio.png used on input line 258.
 
 LaTeX Warning: Float too large for page by 18.94162pt on input line 366.
 
-[77] [78] [79] <hotrelaxation.png, id=364, 572.1375pt x 692.5875pt>
+[77] [78] [79] <hotrelaxation.png, id=370, 572.1375pt x 692.5875pt>
 File: hotrelaxation.png Graphic file (type png)
 
 <use hotrelaxation.png>
@@ -1724,7 +1729,7 @@ Overfull \vbox (10.73747pt too high) has occurred while \output is active []
 
 
 [81 <./hotrelaxation.png>] [82] [83] [84]
-<XvsT.png, id=384, 762.85pt x 442.65375pt>
+<XvsT.png, id=391, 762.85pt x 442.65375pt>
 File: XvsT.png Graphic file (type png)
  <use XvsT.png>
 Package pdftex.def Info: XvsT.png used on input line 512.
@@ -1740,34 +1745,34 @@ Chapter 5.
 
 
 ] [88] [89] [90] [91] [92] [93] [94]
-<metal_tube.png, id=418, 422.57875pt x 467.7475pt>
+<metal_tube.png, id=425, 422.57875pt x 467.7475pt>
 File: metal_tube.png Graphic file (type png)
  <use metal_tube.png>
 Package pdftex.def Info: metal_tube.png used on input line 117.
 (pdftex.def)             Requested size: 422.57771pt x 467.74634pt.
 
 [95] [96 <./metal_tube.png>]
-<pressure_test.png, id=427, 1235.61626pt x 460.72125pt>
+<pressure_test.png, id=433, 1235.61626pt x 460.72125pt>
 File: pressure_test.png Graphic file (type png)
 
 <use pressure_test.png>
 Package pdftex.def Info: pressure_test.png used on input line 142.
 (pdftex.def)             Requested size: 1235.61325pt x 460.72012pt.
  [97 <./pressure_test.png>] [98]
-<Electropolishing.png, id=435, 553.06625pt x 463.7325pt>
+<Electropolishing.png, id=441, 553.06625pt x 463.7325pt>
 File: Electropolishing.png Graphic file (type png)
 
 <use Electropolishing.png>
 Package pdftex.def Info: Electropolishing.png used on input line 157.
 (pdftex.def)             Requested size: 553.0649pt x 463.73135pt.
  [99 <./Electropolishing.png>]
-<gold_coating.png, id=440, 478.78876pt x 322.20375pt>
+<gold_coating.png, id=447, 478.78876pt x 322.20375pt>
 File: gold_coating.png Graphic file (type png)
  <use gold_coating.png>
 Package pdftex.def Info: gold_coating.png used on input line 168.
 (pdftex.def)             Requested size: 478.78758pt x 322.20296pt.
 
-<ultrasonic_cleaner.png, id=441, 220.825pt x 316.18124pt>
+<ultrasonic_cleaner.png, id=448, 220.825pt x 316.18124pt>
 File: ultrasonic_cleaner.png Graphic file (type png)
 
 <use ultrasonic_cleaner.png>
@@ -1778,27 +1783,27 @@ Overfull \vbox (18.86131pt too high) has occurred while \output is active []
 
 
 [101 <./gold_coating.png> <./ultrasonic_cleaner.png>]
-<string.png, id=451, 1239.63126pt x 702.625pt>
+<string.png, id=457, 1239.63126pt x 702.625pt>
 File: string.png Graphic file (type png)
  <use string.png>
 Package pdftex.def Info: string.png used on input line 188.
 (pdftex.def)             Requested size: 1239.62823pt x 702.62328pt.
  [102]
-<cell_gas_system.png, id=455, 761.84625pt x 512.91624pt>
+<cell_gas_system.png, id=461, 761.84625pt x 512.91624pt>
 File: cell_gas_system.png Graphic file (type png)
 
 <use cell_gas_system.png>
 Package pdftex.def Info: cell_gas_system.png used on input line 203.
 (pdftex.def)             Requested size: 761.84439pt x 512.915pt.
  [103 <./string.png>] [104 <./cell_gas_system.png>]
-[105] [106] <gradient_coils.png, id=470, 539.01375pt x 438.63875pt>
+[105] [106] <gradient_coils.png, id=477, 539.01375pt x 438.63875pt>
 File: gradient_coils.png Graphic file (type png)
 
 <use gradient_coils.png>
 Package pdftex.def Info: gradient_coils.png used on input line 234.
 (pdftex.def)             Requested size: 539.01242pt x 438.63766pt.
  [107] [108 <./gradient_coils.png>] [109]
-<optics.png, id=482, 717.68124pt x 466.74374pt>
+<optics.png, id=488, 717.68124pt x 466.74374pt>
 File: optics.png Graphic file (type png)
  <use optics.png>
 Package pdftex.def Info: optics.png used on input line 323.
@@ -1815,13 +1820,13 @@ File: FID.png Graphic file (type png)
 Package pdftex.def Info: FID.png used on input line 352.
 (pdftex.def)             Requested size: 626.33846pt x 270.00807pt.
  [114]
-<3spindowns.png, id=500, 926.46124pt x 293.095pt>
+<3spindowns.png, id=506, 926.46124pt x 293.095pt>
 File: 3spindowns.png Graphic file (type png)
  <use 3spindowns.png>
 Package pdftex.def Info: 3spindowns.png used on input line 366.
 (pdftex.def)             Requested size: 926.45897pt x 293.09427pt.
 
-<corrected_T1.png, id=501, 429.605pt x 293.095pt>
+<corrected_T1.png, id=507, 429.605pt x 293.095pt>
 File: corrected_T1.png Graphic file (type png)
  <use corrected_T1.png>
 Package pdftex.def Info: corrected_T1.png used on input line 373.
@@ -1832,38 +1837,38 @@ File: metal_end_windows.png Graphic file (type png)
 Package pdftex.def Info: metal_end_windows.png used on input line 388.
 (pdftex.def)             Requested size: 549.04991pt x 276.03056pt.
  [115 <./3spindowns.png>] [116 <./corrected_T1.png>] [117] [118] <spool_piece.p
-ng, id=516, 207.77625pt x 759.83875pt>
+ng, id=523, 207.77625pt x 759.83875pt>
 File: spool_piece.png Graphic file (type png)
 
 <use spool_piece.png>
 Package pdftex.def Info: spool_piece.png used on input line 441.
 (pdftex.def)             Requested size: 207.77573pt x 759.83688pt.
  [119 <./spool_piece.png>]
-<goldfinger.png, id=522, 374.39874pt x 356.33125pt>
+<goldfinger.png, id=528, 374.39874pt x 356.33125pt>
 File: goldfinger.png Graphic file (type png)
  <use goldfinger.png>
 Package pdftex.def Info: goldfinger.png used on input line 454.
 (pdftex.def)             Requested size: 374.39783pt x 356.33037pt.
 
-[120] <T1_degradation.png, id=526, 850.17625pt x 425.59pt>
+[120] <T1_degradation.png, id=532, 850.17625pt x 425.59pt>
 File: T1_degradation.png Graphic file (type png)
 
 <use T1_degradation.png>
 Package pdftex.def Info: T1_degradation.png used on input line 463.
 (pdftex.def)             Requested size: 850.17418pt x 425.58894pt.
  [121 <./goldfinger.png>]
-<goldeneye.png, id=531, 161.60374pt x 587.19376pt>
+<goldeneye.png, id=537, 161.60374pt x 587.19376pt>
 File: goldeneye.png Graphic file (type png)
  <use goldeneye.png>
 Package pdftex.def Info: goldeneye.png used on input line 472.
 (pdftex.def)             Requested size: 161.60335pt x 587.19232pt.
 
-<goldrush.png, id=532, 778.91pt x 562.1pt>
+<goldrush.png, id=538, 778.91pt x 562.1pt>
 File: goldrush.png Graphic file (type png)
  <use goldrush.png>
 Package pdftex.def Info: goldrush.png used on input line 481.
 (pdftex.def)             Requested size: 778.90811pt x 562.09863pt.
- [122 <./T1_degradation.png>] <goldrush_inhomogeneities.png, id=537, 567.11874p
+ [122 <./T1_degradation.png>] <goldrush_inhomogeneities.png, id=543, 567.11874p
 t x 281.05pt>
 File: goldrush_inhomogeneities.png Graphic file (type png)
 
@@ -1871,7 +1876,7 @@ File: goldrush_inhomogeneities.png Graphic file (type png)
 Package pdftex.def Info: goldrush_inhomogeneities.png used on input line 490.
 (pdftex.def)             Requested size: 567.11736pt x 281.0493pt.
  [123 <./goldeneye.png>]
-<goldenvec.png, id=542, 308.15125pt x 248.93pt>
+<goldenvec.png, id=549, 308.15125pt x 248.93pt>
 File: goldenvec.png Graphic file (type png)
  <use goldenvec.png>
 Package pdftex.def Info: goldenvec.png used on input line 503.
@@ -1891,18 +1896,18 @@ Package pdftex.def Info: goldenvec.png used on input line 503.
 Package caption Warning: Unused \captionsetup[subfloat] on input line 19.
 See the caption package documentation for explanation.
 
-(./YunxiaoThesis.aux (./ack.aux) (./contents.aux) (./tables.aux) (./figures.aux
-) (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux)
-(./bib.aux))
+(./YunxiaoThesis.aux (./abstract.aux) (./ack.aux) (./contents.aux)
+(./tables.aux) (./figures.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
+(./chap4.aux) (./chap5.aux) (./bib.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13213 strings out of 493033
- 234690 string characters out of 6134139
- 318493 words of memory out of 5000000
- 16476 multiletter control sequences out of 15000+600000
+ 13220 strings out of 493033
+ 234779 string characters out of 6134139
+ 318958 words of memory out of 5000000
+ 16477 multiletter control sequences out of 15000+600000
  28487 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,21n,42p,10408b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1929,10 +1934,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YunxiaoThesis.pdf (153 pages, 7249507 bytes).
+Output written on YunxiaoThesis.pdf (155 pages, 7251380 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 409 compressed objects within 5 object streams
+ 682 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,7 @@
-\contentsline {chapter}{Acknowledgements}{ii}
-\contentsline {chapter}{List of Tables}{vii}
-\contentsline {chapter}{List of Figures}{x}
+\contentsline {chapter}{Abstract}{ii}
+\contentsline {chapter}{Acknowledgements}{iii}
+\contentsline {chapter}{List of Tables}{ix}
+\contentsline {chapter}{List of Figures}{xii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Overview of Recent Target Development}{1}
 \contentsline {section}{\numberline {1.2}New Generation Target Cells}{3}
@@ -29,15 +30,15 @@
 \contentsline {subsubsection}{\numberline {3.2.2.2}Quantum Mechanical Formulation}{32}
 \contentsline {subsection}{\numberline {3.2.3}Adiabatic Fast Passage}{33}
 \contentsline {subsection}{\numberline {3.2.4}AFP Loss}{38}
-\contentsline {section}{\numberline {3.3}Electron Paramagnetic Resonance}{41}
-\contentsline {subsection}{\numberline {3.3.1}Overview}{41}
+\contentsline {section}{\numberline {3.3}Electron Paramagnetic Resonance}{40}
+\contentsline {subsection}{\numberline {3.3.1}Overview}{40}
 \contentsline {subsection}{\numberline {3.3.2}The Breit-Rabi Equation}{42}
 \contentsline {subsection}{\numberline {3.3.3}Shift of Zeeman Frequency}{43}
 \contentsline {subsection}{\numberline {3.3.4}Experimental Methods}{45}
 \contentsline {subsubsection}{\numberline {3.3.4.1}Overview}{45}
 \contentsline {subsubsection}{\numberline {3.3.4.2}Locating Zeeman Transition Frequency}{46}
-\contentsline {subsubsection}{\numberline {3.3.4.3}EPR Spin Flip Process}{48}
-\contentsline {section}{\numberline {3.4}Pulsed Nuclear Magnetic Resonance}{51}
+\contentsline {subsubsection}{\numberline {3.3.4.3}EPR Spin Flip Process}{47}
+\contentsline {section}{\numberline {3.4}Pulsed Nuclear Magnetic Resonance}{50}
 \contentsline {subsection}{\numberline {3.4.1}The Rotating Coordinate System}{51}
 \contentsline {subsection}{\numberline {3.4.2}Free Induction Decay}{52}
 \contentsline {subsection}{\numberline {3.4.3}Experimental Methods}{55}
