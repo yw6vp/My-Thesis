@@ -1,80 +1,10 @@
-\contentsline {chapter}{Abstract}{ii}
-\contentsline {chapter}{Acknowledgements}{iii}
-\contentsline {chapter}{List of Tables}{ix}
-\contentsline {chapter}{List of Figures}{xii}
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Overview of Recent Target Development}{1}
-\contentsline {section}{\numberline {1.2}New Generation Target Cells}{3}
-\contentsline {section}{\numberline {1.3}Structure of This Thesis}{5}
-\contentsline {chapter}{\numberline {2}Spin-Exchange Optical Pumping}{7}
-\contentsline {section}{\numberline {2.1}Overview}{7}
-\contentsline {section}{\numberline {2.2}Optical pumping}{8}
-\contentsline {subsection}{\numberline {2.2.1}Rb for SEOP}{8}
-\contentsline {subsection}{\numberline {2.2.2}Vapor Pressure Curves}{9}
-\contentsline {subsection}{\numberline {2.2.3}Energy Levels of Alkali Metal in External Magnetic Field}{9}
-\contentsline {subsection}{\numberline {2.2.4}Optical Pumping Process Overview}{11}
-\contentsline {subsection}{\numberline {2.2.5}Optical Pumping Rate}{13}
-\contentsline {subsection}{\numberline {2.2.6}Polarization Time Evolution}{17}
-\contentsline {subsection}{\numberline {2.2.7}Rb Spin Destruction Rate}{19}
-\contentsline {section}{\numberline {2.3}Spin Exchange}{20}
-\contentsline {subsection}{\numberline {2.3.1}Spin-Dependent Interactions}{20}
-\contentsline {subsection}{\numberline {2.3.2}Spin Exchange Rate}{25}
-\contentsline {section}{\numberline {2.4}$^{3}$He Spinup and Relaxation}{26}
-\contentsline {section}{\numberline {2.5}X Factor}{27}
-\contentsline {chapter}{\numberline {3}$^{3}$He Polarimetry}{29}
-\contentsline {section}{\numberline {3.1}Overview}{29}
-\contentsline {section}{\numberline {3.2}Adiabatic Fast Passage}{30}
-\contentsline {subsection}{\numberline {3.2.1}Nuclear Magnetic Resonance}{30}
-\contentsline {subsection}{\numberline {3.2.2}The Rotating Coordinate System}{31}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Classical Formulation}{31}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Quantum Mechanical Formulation}{32}
-\contentsline {subsection}{\numberline {3.2.3}Adiabatic Fast Passage}{33}
-\contentsline {subsection}{\numberline {3.2.4}AFP Loss}{38}
-\contentsline {section}{\numberline {3.3}Electron Paramagnetic Resonance}{40}
-\contentsline {subsection}{\numberline {3.3.1}Overview}{40}
-\contentsline {subsection}{\numberline {3.3.2}The Breit-Rabi Equation}{42}
-\contentsline {subsection}{\numberline {3.3.3}Shift of Zeeman Frequency}{43}
-\contentsline {subsection}{\numberline {3.3.4}Experimental Methods}{45}
-\contentsline {subsubsection}{\numberline {3.3.4.1}Overview}{45}
-\contentsline {subsubsection}{\numberline {3.3.4.2}Locating Zeeman Transition Frequency}{46}
-\contentsline {subsubsection}{\numberline {3.3.4.3}EPR Spin Flip Process}{47}
-\contentsline {section}{\numberline {3.4}Pulsed Nuclear Magnetic Resonance}{50}
-\contentsline {subsection}{\numberline {3.4.1}The Rotating Coordinate System}{51}
-\contentsline {subsection}{\numberline {3.4.2}Free Induction Decay}{52}
-\contentsline {subsection}{\numberline {3.4.3}Experimental Methods}{55}
-\contentsline {chapter}{\numberline {4}Development of Hybrid Targets}{59}
-\contentsline {section}{\numberline {4.1}Overview}{59}
-\contentsline {section}{\numberline {4.2}Development of Hybrid Targets}{60}
-\contentsline {subsection}{\numberline {4.2.1}Experimental Methods}{62}
-\contentsline {subsubsection}{\numberline {4.2.1.1}The $^{3}$He Targets}{62}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Target Cell Polarization Dynamics}{64}
-\contentsline {subsubsection}{\numberline {4.2.1.3}Initial Spinup}{69}
-\contentsline {section}{\numberline {4.3}The K-$^{3}$He Spin-Exchange Rate Constant}{73}
-\contentsline {section}{\numberline {4.4}The X Factor}{76}
-\contentsline {chapter}{\numberline {5}Development of Cells with Metal End Windows}{87}
-\contentsline {section}{\numberline {5.1}Overview}{87}
-\contentsline {section}{\numberline {5.2}Wall Relaxation of $^{3}$He}{89}
-\contentsline {subsection}{\numberline {5.2.1}Relaxation on Glass Surfaces}{89}
-\contentsline {subsection}{\numberline {5.2.2}Relaxation on Metal Surfaces}{93}
-\contentsline {section}{\numberline {5.3}Test Cell Fabrication}{95}
-\contentsline {subsection}{\numberline {5.3.1}Overview}{95}
-\contentsline {subsection}{\numberline {5.3.2}Glass-Metal Seal}{97}
-\contentsline {subsection}{\numberline {5.3.3}Mechanical Polishing and Electropolishing}{98}
-\contentsline {subsection}{\numberline {5.3.4}Electroplating}{100}
-\contentsline {subsection}{\numberline {5.3.5}Final Assembly of the Cell}{100}
-\contentsline {section}{\numberline {5.4}Cell Fill Procedure}{102}
-\contentsline {subsection}{\numberline {5.4.1}Cell Fill Preparation}{102}
-\contentsline {subsection}{\numberline {5.4.2}Cell Fill}{104}
-\contentsline {section}{\numberline {5.5}Experimental Setup and Procedure}{106}
-\contentsline {subsection}{\numberline {5.5.1}Pickup Coils}{106}
-\contentsline {subsection}{\numberline {5.5.2}Gradient Coils}{107}
-\contentsline {subsection}{\numberline {5.5.3}Laser Setup}{109}
-\contentsline {subsection}{\numberline {5.5.4}PNMR Losses and Corrected Lifetime}{110}
-\contentsline {section}{\numberline {5.6}Relaxation Measurement Results and Discussion}{116}
-\contentsline {subsection}{\numberline {5.6.1}Gold Coated Spherical Cell}{117}
-\contentsline {subsection}{\numberline {5.6.2}Gold Coated Spool Pieces}{119}
-\contentsline {subsection}{\numberline {5.6.3}Vertical Cells}{120}
-\contentsline {subsection}{\numberline {5.6.4}Horizontal Cells}{124}
-\contentsline {subsection}{\numberline {5.6.5}GE180 Cells}{126}
-\contentsline {subsection}{\numberline {5.6.6}Titanium Tubes}{128}
-\contentsline {chapter}{Bibliography}{129}
+\contentsline {chapter}{Abstract}{ii}{Doc-Start}
+\contentsline {chapter}{Acknowledgements}{iii}{Doc-Start}
+\contentsline {chapter}{List of Tables}{vi}{chapter*.1}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation and Approved JLab Experiments}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Overview of Recent Target Development}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}New Generation Target Cells}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Structure of This Thesis}{6}{section.1.4}
+\contentsline {chapter}{Bibliography}{8}{section.1.4}

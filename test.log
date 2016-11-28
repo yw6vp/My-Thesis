@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  7 NOV 2016 21:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.29)  20 NOV 2016 01:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,13 +1402,14 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
 
-<ConvectionCell.png, id=1, 337.7418pt x 243.7908pt>
-File: ConvectionCell.png Graphic file (type png)
- <use ConvectionCell.png>
-Package pdftex.def Info: ConvectionCell.png used on input line 97.
-(pdftex.def)             Requested size: 337.74098pt x 243.7902pt.
+<gen_cell_design_draft_v2.pdf, id=1, 1355.0625pt x 813.0375pt>
+File: gen_cell_design_draft_v2.pdf Graphic file (type pdf)
 
-<corrected_T1.png, id=3, 429.605pt x 293.095pt>
+<use gen_cell_design_draft_v2.pdf>
+Package pdftex.def Info: gen_cell_design_draft_v2.pdf used on input line 97.
+(pdftex.def)             Requested size: 1355.0592pt x 813.03552pt.
+
+<corrected_T1.png, id=2, 429.605pt x 293.095pt>
 File: corrected_T1.png Graphic file (type png)
  <use corrected_T1.png>
 Package pdftex.def Info: corrected_T1.png used on input line 104.
@@ -1423,14 +1424,15 @@ LaTeX Warning: Reference `fig:foms' on page 1 undefined on input line 113.
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3 <./ConvectionCell.png>] [4 <./corrected_T1.png>]
+[2] [3 <./gen_cell_design_draft_v2.pdf> <./corrected_T1.png>]
 \openout2 = `bib.aux'.
 
- (./bib.tex (./test.bbl
+ (./bib.tex
+(./test.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)) [5
+)) [4
 
 
 ]
@@ -1445,8 +1447,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  12699 strings out of 493033
- 226666 string characters out of 6134139
- 278273 words of memory out of 5000000
+ 226717 string characters out of 6134139
+ 278235 words of memory out of 5000000
  16079 multiletter control sequences out of 15000+600000
  14606 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1462,10 +1464,10 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on test.pdf (5 pages, 763278 bytes).
+Output written on test.pdf (4 pages, 2769293 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 683 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
