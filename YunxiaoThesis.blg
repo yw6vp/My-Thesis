@@ -8,51 +8,91 @@ A level-1 auxiliary file: contents.aux
 A level-1 auxiliary file: tables.aux
 A level-1 auxiliary file: figures.aux
 A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: chap5.aux
+A level-1 auxiliary file: chap6.aux
 A level-1 auxiliary file: bib.aux
 Database file #1: ref.bib
+Warning--entry type for "YuanThesis" isn't style-file defined
+--line 515 of file ref.bib
+Warning--empty author in PeterThesis
+Warning--empty publisher in Electropolishing
+Warning--empty year in Electropolishing
 Warning--empty year in MRI
 Warning--empty journal in Neutron
 Warning--empty title in Cloet
-Warning--empty title in Coulter
-You've used 13 entries,
+Warning--empty journal in HapperPatent
+Warning--empty title in Alcock
+Warning--empty publisher in Merzbacher
+Warning--empty publisher in Abragam
+Warning--empty year in Abragam
+Warning--empty publisher in Jackson
+Warning--empty year in Jackson
+Warning--empty journal in J.Phys.France.35
+Warning--empty year in JAP.94.6908
+Warning--empty author in BabcockThesis
+Warning--empty author in JaideepThesis
+Warning--empty author in Timsit
+Warning--empty publisher in Kittle
+Warning--empty year in Kittle
+Warning--empty publisher in Frenkel
+Warning--empty year in Frenkel
+Warning--empty publisher in barrer
+Warning--empty year in barrer
+Warning--empty publisher in Smythe
+Warning--empty year in Smythe
+Warning--empty publisher in Slichter
+Warning--empty year in Slichter
+Warning--empty author in NelsonThesis
+Warning--empty publisher in Larson
+Warning--empty year in Larson
+Warning--empty publisher in Able
+Warning--empty year in Able
+Warning--empty publisher in Epner
+Warning--empty year in Epner
+Warning--empty publisher in Callaghan
+Warning--empty year in Callaghan
+You've used 76 entries,
             1791 wiz_defined-function locations,
-            548 strings with 10875 characters,
-and the built_in function-call counts, 6532 in all, are:
-= -- 240
-> -- 989
+            914 strings with 26318 characters,
+and the built_in function-call counts, 24305 in all, are:
+= -- 1380
+> -- 2604
 < -- 0
-+ -- 335
-- -- 322
-* -- 793
-:= -- 1335
-add.period$ -- 37
-call.type$ -- 13
-change.case$ -- 11
++ -- 902
+- -- 826
+* -- 2500
+:= -- 4478
+add.period$ -- 208
+call.type$ -- 76
+change.case$ -- 61
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 114
-empty$ -- 267
-format.name$ -- 322
-if$ -- 1166
+cite$ -- 113
+duplicate$ -- 679
+empty$ -- 1594
+format.name$ -- 826
+if$ -- 4708
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 13
-newline$ -- 66
-num.names$ -- 13
-pop$ -- 18
+int.to.str$ -- 76
+missing$ -- 88
+newline$ -- 363
+num.names$ -- 71
+pop$ -- 214
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 42
+skip$ -- 236
 stack$ -- 0
-substring$ -- 208
-swap$ -- 12
+substring$ -- 1204
+swap$ -- 73
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 27
-width$ -- 15
-write$ -- 139
-(There were 4 warnings)
+warning$ -- 37
+while$ -- 150
+width$ -- 78
+write$ -- 759
+(There were 38 warnings)
